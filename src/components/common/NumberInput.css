@@ -1,0 +1,58 @@
+.number-input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.number-input-label {
+  font-size: 0.875rem;
+  color: inherit;
+}
+
+.number-input-controls {
+  display: flex;
+  align-items: center;
+  border: 1px solid #444;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.number-input {
+  width: 50px;
+  padding: 0.375rem 0.25rem;
+  border: none;
+  text-align: center;
+  font-size: 0.875rem;
+  background-color: transparent;
+  color: inherit;
+  -moz-appearance: textfield;
+}
+
+.number-input::-webkit-outer-spin-button,
+.number-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.number-input:focus {
+  outline: none;
+}
+
+.number-input-button {
+  padding: 0.375rem 0.75rem;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: inherit;
+  transition: background-color 0.15s ease;
+}
+
+.number-input-button:hover:not(:disabled) {
+  background-color: rgba(100, 108, 255, 0.2);
+}
+
+.number-input-button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}

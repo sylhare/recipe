@@ -1,0 +1,93 @@
+[
+  {
+    "id": "spaghetti-bolognese",
+    "name": "Spaghetti Bolognese",
+    "description": "Classic Italian pasta with rich meat sauce",
+    "imageUrl": "/images/recipes/spaghetti-bolognese.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "sb-1", "name": "Spaghetti", "quantity": 400, "unit": "g", "category": "pantry" },
+      { "id": "sb-2", "name": "Ground Beef", "quantity": 500, "unit": "g", "category": "meat" },
+      { "id": "sb-3", "name": "Onion", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "sb-4", "name": "Garlic", "quantity": 3, "unit": "piece", "category": "produce" },
+      { "id": "sb-5", "name": "Canned Tomatoes", "quantity": 400, "unit": "g", "category": "pantry" },
+      { "id": "sb-6", "name": "Tomato Paste", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "sb-7", "name": "Olive Oil", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "sb-8", "name": "Salt", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "sb-9", "name": "Black Pepper", "quantity": 0.5, "unit": "tsp", "category": "spices" },
+      { "id": "sb-10", "name": "Parmesan Cheese", "quantity": 50, "unit": "g", "category": "dairy" }
+    ],
+    "instructions": [
+      "Bring a large pot of salted water to boil.",
+      "Heat olive oil in a large pan over medium heat.",
+      "Cook onion until translucent, about 5 minutes.",
+      "Add garlic, cook for 1 minute.",
+      "Add ground beef and brown, breaking it up with a spoon.",
+      "Stir in tomato paste and cook for 2 minutes.",
+      "Add canned tomatoes, salt, and pepper. Simmer for 30 minutes.",
+      "Cook pasta according to package directions.",
+      "Serve pasta topped with sauce and parmesan cheese."
+    ]
+  },
+  {
+    "id": "chicken-curry",
+    "name": "Chicken Curry",
+    "description": "Aromatic and creamy Indian-style chicken curry",
+    "imageUrl": "/images/recipes/chicken-curry.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "cc-1", "name": "Chicken Breast", "quantity": 600, "unit": "g", "category": "meat" },
+      { "id": "cc-2", "name": "Onion", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "cc-3", "name": "Garlic", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "cc-4", "name": "Ginger", "quantity": 1, "unit": "tbsp", "category": "produce" },
+      { "id": "cc-5", "name": "Coconut Milk", "quantity": 400, "unit": "ml", "category": "pantry" },
+      { "id": "cc-6", "name": "Curry Powder", "quantity": 2, "unit": "tbsp", "category": "spices" },
+      { "id": "cc-7", "name": "Cumin", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "cc-8", "name": "Turmeric", "quantity": 0.5, "unit": "tsp", "category": "spices" },
+      { "id": "cc-9", "name": "Vegetable Oil", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "cc-10", "name": "Salt", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "cc-11", "name": "Rice", "quantity": 300, "unit": "g", "category": "pantry" }
+    ],
+    "instructions": [
+      "Cut chicken into bite-sized pieces.",
+      "Heat oil in a large pan over medium-high heat.",
+      "Cook onion until golden, about 8 minutes.",
+      "Add garlic and ginger, cook for 1 minute.",
+      "Add curry powder, cumin, and turmeric. Stir for 30 seconds.",
+      "Add chicken and cook until no longer pink on the outside.",
+      "Pour in coconut milk and bring to a simmer.",
+      "Cook for 20 minutes until chicken is cooked through and sauce thickens.",
+      "Season with salt to taste.",
+      "Serve over steamed rice."
+    ]
+  },
+  {
+    "id": "caesar-salad",
+    "name": "Caesar Salad",
+    "description": "Crisp romaine lettuce with classic Caesar dressing and croutons",
+    "imageUrl": "/images/recipes/caesar-salad.png",
+    "defaultServings": 2,
+    "ingredients": [
+      { "id": "cs-1", "name": "Romaine Lettuce", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "cs-2", "name": "Parmesan Cheese", "quantity": 50, "unit": "g", "category": "dairy" },
+      { "id": "cs-3", "name": "Bread", "quantity": 100, "unit": "g", "category": "pantry" },
+      { "id": "cs-4", "name": "Olive Oil", "quantity": 4, "unit": "tbsp", "category": "pantry" },
+      { "id": "cs-5", "name": "Garlic", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "cs-6", "name": "Lemon Juice", "quantity": 2, "unit": "tbsp", "category": "produce" },
+      { "id": "cs-7", "name": "Mayonnaise", "quantity": 3, "unit": "tbsp", "category": "dairy" },
+      { "id": "cs-8", "name": "Dijon Mustard", "quantity": 1, "unit": "tsp", "category": "pantry" },
+      { "id": "cs-9", "name": "Salt", "quantity": 0.5, "unit": "tsp", "category": "spices" },
+      { "id": "cs-10", "name": "Black Pepper", "quantity": 0.25, "unit": "tsp", "category": "spices" }
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C).",
+      "Cut bread into cubes, toss with 2 tbsp olive oil and minced garlic.",
+      "Bake croutons for 10-12 minutes until golden.",
+      "Wash and chop romaine lettuce into bite-sized pieces.",
+      "Make dressing: whisk together mayonnaise, remaining olive oil, lemon juice, mustard, salt, and pepper.",
+      "Toss lettuce with dressing.",
+      "Top with croutons and shaved parmesan.",
+      "Serve immediately."
+    ]
+  }
+]
