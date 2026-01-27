@@ -111,7 +111,7 @@ test.describe('Recipe App Happy Path', () => {
     // Clear localStorage before test
     await page.goto('/')
     await page.evaluate(() => localStorage.clear())
-    await page.goto('/shopping-list')
+    await page.goto('shopping-list')
 
     await expect(page.getByText('No items in your shopping list.')).toBeVisible()
     await expect(page.getByText('Select some recipes to get started.')).toBeVisible()
@@ -125,15 +125,15 @@ test.describe('Recipe App Happy Path', () => {
 
     // Navigate to shopping list
     await page.getByRole('link', { name: /Shopping List/ }).click()
-    await expect(page).toHaveURL('/shopping-list')
+    await expect(page).toHaveURL(/\/shopping-list$/)
 
     // Navigate back to recipes
     await page.getByRole('link', { name: 'Recipes', exact: true }).click()
-    await expect(page).toHaveURL('/')
+    await expect(page).toHaveURL(/\/recipe\/?$/)
 
     // Navigate using logo
     await page.getByRole('link', { name: /Shopping List/ }).click()
     await page.getByRole('link', { name: 'Recipe App' }).click()
-    await expect(page).toHaveURL('/')
+    await expect(page).toHaveURL(/\/recipe\/?$/)
   })
 })
