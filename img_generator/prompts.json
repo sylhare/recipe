@@ -1,0 +1,16 @@
+{
+  "recipes": [
+    {
+      "id": "spaghetti-bolognese",
+      "prompt": "spaghetti bolognese with rich meat sauce, topped with parmesan cheese, fresh basil garnish, served in a white bowl"
+    },
+    {
+      "id": "chicken-curry",
+      "prompt": "creamy chicken curry in a bowl, golden turmeric color, garnished with fresh cilantro, served with basmati rice"
+    },
+    {
+      "id": "caesar-salad",
+      "prompt": "caesar salad with crisp romaine lettuce, golden croutons, shaved parmesan cheese, creamy dressing, in a wooden bowl"
+    }
+  ]
+}
