@@ -1,16 +1,51 @@
 {
   "recipes": [
-    {
-      "id": "spaghetti-bolognese",
-      "prompt": "spaghetti bolognese with rich meat sauce, topped with parmesan cheese, fresh basil garnish, served in a white bowl"
-    },
-    {
-      "id": "chicken-curry",
-      "prompt": "creamy chicken curry in a bowl, golden turmeric color, garnished with fresh cilantro, served with basmati rice"
-    },
-    {
-      "id": "caesar-salad",
-      "prompt": "caesar salad with crisp romaine lettuce, golden croutons, shaved parmesan cheese, creamy dressing, in a wooden bowl"
-    }
+    {"id": "spaghetti-bolognese", "prompt": "spaghetti bolognese with rich meat sauce, topped with parmesan cheese, fresh basil garnish, served in a white bowl"},
+    {"id": "chicken-curry", "prompt": "creamy chicken curry in a bowl, golden turmeric color, garnished with fresh cilantro, served with basmati rice"},
+    {"id": "caesar-salad", "prompt": "caesar salad with crisp romaine lettuce, golden croutons, shaved parmesan cheese, creamy dressing, in a wooden bowl"},
+    {"id": "miso-honey-salmon", "prompt": "glazed salmon fillet with caramelized miso honey glaze, sesame seeds, sliced green onions, served over white rice on a black plate"},
+    {"id": "korean-beef-bowls", "prompt": "korean ground beef bowl with white rice, sliced cucumber, green onions, sesame seeds, glossy brown sauce, served in a ceramic bowl"},
+    {"id": "coconut-shrimp", "prompt": "crispy golden coconut crusted shrimp on a white plate, side of fresh mango salsa with diced mango and cilantro, lime wedge garnish"},
+    {"id": "chicken-tikka-masala", "prompt": "chicken tikka masala in orange-red creamy tomato sauce, garnished with cream swirl and cilantro, served in a black bowl with rice"},
+    {"id": "beef-fajita-bowls", "prompt": "beef fajita bowl with sizzling strips of beef, colorful bell peppers, onions, rice, sour cream, cilantro, lime wedge"},
+    {"id": "teriyaki-chicken", "prompt": "teriyaki chicken thighs with glossy dark brown glaze, sesame seeds, green onions, steamed broccoli, white rice"},
+    {"id": "mushroom-risotto", "prompt": "creamy mushroom risotto in a white bowl, mixed wild mushrooms, shaved parmesan, fresh thyme garnish"},
+    {"id": "fish-tacos", "prompt": "crispy beer-battered fish tacos in soft flour tortillas, purple cabbage slaw, chipotle sauce, lime wedges, cilantro"},
+    {"id": "pork-stir-fry", "prompt": "sweet and spicy pork stir fry with colorful bell peppers, snap peas, glossy sauce, served over steamed rice"},
+    {"id": "greek-chicken-bowls", "prompt": "greek chicken bowl with grilled chicken, cucumber, cherry tomatoes, red onion, feta cheese, tzatziki sauce, rice"},
+    {"id": "shrimp-scampi", "prompt": "garlic shrimp scampi with linguine pasta, buttery white wine sauce, fresh parsley, lemon zest, red pepper flakes"},
+    {"id": "bbq-chicken", "prompt": "bbq glazed chicken thighs with smoky char marks, corn on the cob, creamy coleslaw, rustic wooden board"},
+    {"id": "vegetable-pad-thai", "prompt": "vegetable pad thai with rice noodles, crispy tofu, bean sprouts, crushed peanuts, lime wedge, green onions"},
+    {"id": "lamb-kofta", "prompt": "grilled lamb kofta skewers with char marks, mint yogurt sauce, warm pita bread, cucumber, cherry tomatoes"},
+    {"id": "cajun-shrimp-pasta", "prompt": "cajun shrimp pasta with creamy pink sauce, blackened shrimp, colorful bell peppers, parsley garnish"},
+    {"id": "honey-garlic-pork", "prompt": "honey garlic pork chops with glossy caramelized glaze, mashed potatoes, steamed green beans, fresh thyme"},
+    {"id": "tuscan-chicken", "prompt": "creamy tuscan chicken with sun-dried tomatoes, spinach, parmesan cream sauce, served over pasta"},
+    {"id": "beef-bulgogi", "prompt": "korean beef bulgogi with caramelized thin sliced beef, green onions, sesame seeds, white rice, side of kimchi"},
+    {"id": "lemon-herb-chicken", "prompt": "lemon herb roasted chicken legs with crispy golden skin, roasted potatoes, asparagus, lemon slices, rosemary"},
+    {"id": "thai-basil-chicken", "prompt": "thai basil chicken stir fry with ground chicken, fresh thai basil leaves, red chilies, fried egg on jasmine rice"},
+    {"id": "salmon-teriyaki-bowl", "prompt": "salmon teriyaki bowl with glazed salmon, sushi rice, edamame, avocado slices, pickled ginger, nori strips, sesame seeds"},
+    {"id": "moroccan-chicken", "prompt": "moroccan spiced chicken tagine with preserved lemons, green olives, couscous, cilantro, warm spices"},
+    {"id": "black-bean-tacos", "prompt": "vegetarian black bean tacos in charred corn tortillas, guacamole, queso fresco, salsa verde, cilantro, lime"},
+    {"id": "ginger-beef", "prompt": "crispy ginger beef stir fry with julienned beef strips, colorful bell peppers, ginger, glossy sauce, steamed rice"},
+    {"id": "chicken-parmesan", "prompt": "crispy chicken parmesan with golden breaded cutlet, melted mozzarella, marinara sauce, fresh basil, spaghetti"},
+    {"id": "coconut-curry-soup", "prompt": "coconut curry soup in a white bowl, rice noodles, tofu, mushrooms, bok choy, cilantro, red curry color"},
+    {"id": "mediterranean-bowl", "prompt": "mediterranean grain bowl with quinoa, falafel balls, hummus, cucumber, cherry tomatoes, feta, kalamata olives"},
+    {"id": "sesame-crusted-tuna", "prompt": "sesame crusted ahi tuna steak sliced rare, black and white sesame crust, mixed greens, wasabi aioli"},
+    {"id": "butter-chicken", "prompt": "butter chicken in rich orange-red creamy tomato sauce, naan bread, basmati rice, cilantro garnish"},
+    {"id": "pesto-pasta", "prompt": "creamy pesto pasta with bright green basil pesto, halved cherry tomatoes, pine nuts, shaved parmesan"},
+    {"id": "chicken-shawarma", "prompt": "chicken shawarma wrap in warm pita, sliced spiced chicken, garlic sauce, pickled turnips, tomatoes, lettuce"},
+    {"id": "shrimp-fried-rice", "prompt": "shrimp fried rice in a wok, pink shrimp, scrambled eggs, peas, carrots, green onions, soy sauce"},
+    {"id": "stuffed-peppers", "prompt": "stuffed bell peppers with beef and rice filling, melted mozzarella on top, tomato sauce, colorful peppers"},
+    {"id": "orange-chicken", "prompt": "crispy orange chicken with glossy tangy orange glaze, sesame seeds, green onions, steamed white rice"},
+    {"id": "lamb-chops", "prompt": "herb-crusted lamb chops with rosemary crust, pink medium center, mashed potatoes, green beans, red wine jus"},
+    {"id": "chicken-pot-pie", "prompt": "classic chicken pot pie with golden flaky puff pastry top, creamy filling visible, steam rising"},
+    {"id": "beef-tacos", "prompt": "classic beef tacos in crispy shells, seasoned ground beef, shredded lettuce, diced tomatoes, cheddar cheese, sour cream"},
+    {"id": "ramen-bowl", "prompt": "pork ramen bowl with rich broth, wavy noodles, sliced chashu pork, soft boiled egg, corn, nori, green onions"},
+    {"id": "chicken-alfredo", "prompt": "chicken alfredo with creamy white parmesan sauce, fettuccine pasta, sliced grilled chicken, parsley"},
+    {"id": "bibimbap", "prompt": "korean bibimbap in hot stone bowl, white rice, colorful vegetables arranged, beef, fried egg, gochujang sauce"},
+    {"id": "eggplant-parmesan", "prompt": "eggplant parmesan with layers of breaded eggplant, marinara sauce, melted mozzarella, fresh basil"},
+    {"id": "kung-pao-chicken", "prompt": "kung pao chicken with diced chicken, roasted peanuts, dried red chilies, green onions, glossy sauce"},
+    {"id": "caprese-chicken", "prompt": "caprese stuffed chicken breast sliced open showing mozzarella and tomato, balsamic glaze, mixed greens"},
+    {"id": "beef-stroganoff", "prompt": "beef stroganoff with tender beef strips, creamy mushroom sauce, served over egg noodles, parsley garnish"}
   ]
 }
