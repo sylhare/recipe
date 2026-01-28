@@ -136,4 +136,22 @@ test.describe('Recipe App Happy Path', () => {
     await page.getByRole('link', { name: 'Recipe App' }).click()
     await expect(page).toHaveURL(/\/recipe\/?$/)
   })
+
+  test('recipe images are displayed correctly', async ({ page }) => {
+    await page.goto('/')
+
+    const recipeImages = page.locator('.recipe-card__image')
+    const count = await recipeImages.count()
+    expect(count).toBeGreaterThan(0)
+
+    const imagesToCheck = Math.min(count, 5)
+    for (let i = 0; i < imagesToCheck; i++) {
+      const img = recipeImages.nth(i)
+      await expect(img).toBeVisible()
+      await expect(async () => {
+        const naturalWidth = await img.evaluate((el: HTMLImageElement) => el.naturalWidth)
+        expect(naturalWidth).toBeGreaterThan(0)
+      }).toPass({ timeout: 5000 })
+    }
+  })
 })
