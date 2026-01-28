@@ -41,7 +41,7 @@ export function RecipeCard({
           </div>
         ) : (
           <img
-            src={recipe.imageUrl}
+            src={`${import.meta.env.BASE_URL}${recipe.imageUrl.replace(/^\//, '')}`}
             alt={recipe.name}
             className="recipe-card__image"
             loading="lazy"
