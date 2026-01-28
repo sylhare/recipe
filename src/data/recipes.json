@@ -89,5 +89,1284 @@
       "Top with croutons and shaved parmesan.",
       "Serve immediately."
     ]
+  },
+  {
+    "id": "miso-honey-salmon",
+    "name": "Miso Honey Glazed Salmon",
+    "description": "Tender salmon fillets with a sweet and savory miso glaze",
+    "imageUrl": "/images/recipes/miso-honey-salmon.png",
+    "defaultServings": 2,
+    "ingredients": [
+      { "id": "mhs-1", "name": "Salmon Fillet", "quantity": 400, "unit": "g", "category": "meat" },
+      { "id": "mhs-2", "name": "White Miso Paste", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "mhs-3", "name": "Honey", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "mhs-4", "name": "Soy Sauce", "quantity": 1, "unit": "tbsp", "category": "pantry" },
+      { "id": "mhs-5", "name": "Rice Vinegar", "quantity": 1, "unit": "tbsp", "category": "pantry" },
+      { "id": "mhs-6", "name": "Garlic", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "mhs-7", "name": "Ginger", "quantity": 1, "unit": "tsp", "category": "produce" },
+      { "id": "mhs-8", "name": "Sesame Oil", "quantity": 1, "unit": "tsp", "category": "pantry" },
+      { "id": "mhs-9", "name": "Green Onions", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "mhs-10", "name": "Sesame Seeds", "quantity": 1, "unit": "tbsp", "category": "spices" },
+      { "id": "mhs-11", "name": "Rice", "quantity": 200, "unit": "g", "category": "pantry" }
+    ],
+    "instructions": [
+      "Preheat oven to 400°F (200°C).",
+      "Whisk together miso paste, honey, soy sauce, rice vinegar, minced garlic, ginger, and sesame oil.",
+      "Place salmon fillets on a lined baking sheet.",
+      "Brush half the glaze generously over the salmon.",
+      "Bake for 12-15 minutes until salmon flakes easily.",
+      "Meanwhile, cook rice according to package directions.",
+      "Brush salmon with remaining glaze and broil for 2 minutes until caramelized.",
+      "Serve over rice, garnished with sliced green onions and sesame seeds."
+    ]
+  },
+  {
+    "id": "korean-beef-bowls",
+    "name": "Korean Beef Bowls",
+    "description": "Quick and flavorful ground beef with a sweet-spicy Korean sauce",
+    "imageUrl": "/images/recipes/korean-beef-bowls.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "kbb-1", "name": "Ground Beef", "quantity": 500, "unit": "g", "category": "meat" },
+      { "id": "kbb-2", "name": "Soy Sauce", "quantity": 4, "unit": "tbsp", "category": "pantry" },
+      { "id": "kbb-3", "name": "Brown Sugar", "quantity": 3, "unit": "tbsp", "category": "pantry" },
+      { "id": "kbb-4", "name": "Sesame Oil", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "kbb-5", "name": "Garlic", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "kbb-6", "name": "Ginger", "quantity": 1, "unit": "tbsp", "category": "produce" },
+      { "id": "kbb-7", "name": "Gochujang", "quantity": 1, "unit": "tbsp", "category": "pantry" },
+      { "id": "kbb-8", "name": "Rice", "quantity": 300, "unit": "g", "category": "pantry" },
+      { "id": "kbb-9", "name": "Green Onions", "quantity": 3, "unit": "piece", "category": "produce" },
+      { "id": "kbb-10", "name": "Cucumber", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "kbb-11", "name": "Sesame Seeds", "quantity": 1, "unit": "tbsp", "category": "spices" },
+      { "id": "kbb-12", "name": "Vegetable Oil", "quantity": 1, "unit": "tbsp", "category": "pantry" }
+    ],
+    "instructions": [
+      "Cook rice according to package directions.",
+      "Mix soy sauce, brown sugar, sesame oil, minced garlic, ginger, and gochujang in a bowl.",
+      "Heat vegetable oil in a large skillet over medium-high heat.",
+      "Add ground beef and cook until browned, breaking it up with a spoon.",
+      "Drain excess fat if needed.",
+      "Pour sauce over beef and stir to coat. Simmer for 3-4 minutes.",
+      "Slice cucumber into thin rounds and chop green onions.",
+      "Serve beef over rice, topped with cucumber, green onions, and sesame seeds."
+    ]
+  },
+  {
+    "id": "coconut-shrimp",
+    "name": "Coconut Shrimp with Mango Salsa",
+    "description": "Crispy coconut-crusted shrimp with fresh tropical mango salsa",
+    "imageUrl": "/images/recipes/coconut-shrimp.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "csh-1", "name": "Large Shrimp", "quantity": 500, "unit": "g", "category": "meat" },
+      { "id": "csh-2", "name": "Shredded Coconut", "quantity": 150, "unit": "g", "category": "pantry" },
+      { "id": "csh-3", "name": "Flour", "quantity": 100, "unit": "g", "category": "pantry" },
+      { "id": "csh-4", "name": "Eggs", "quantity": 2, "unit": "piece", "category": "dairy" },
+      { "id": "csh-5", "name": "Mango", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "csh-6", "name": "Red Onion", "quantity": 0.5, "unit": "piece", "category": "produce" },
+      { "id": "csh-7", "name": "Cilantro", "quantity": 1, "unit": "tbsp", "category": "produce" },
+      { "id": "csh-8", "name": "Lime", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "csh-9", "name": "Jalapeno", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "csh-10", "name": "Vegetable Oil", "quantity": 250, "unit": "ml", "category": "pantry" },
+      { "id": "csh-11", "name": "Salt", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "csh-12", "name": "Black Pepper", "quantity": 0.5, "unit": "tsp", "category": "spices" }
+    ],
+    "instructions": [
+      "Dice mango, red onion, jalapeno, and cilantro. Mix with lime juice and a pinch of salt for salsa.",
+      "Set up breading station: flour in one bowl, beaten eggs in another, coconut in a third.",
+      "Season shrimp with salt and pepper.",
+      "Dredge each shrimp in flour, dip in egg, then coat in coconut.",
+      "Heat oil in a deep pan to 350°F (175°C).",
+      "Fry shrimp in batches for 2-3 minutes until golden brown.",
+      "Drain on paper towels.",
+      "Serve crispy shrimp with mango salsa on the side."
+    ]
+  },
+  {
+    "id": "chicken-tikka-masala",
+    "name": "Chicken Tikka Masala",
+    "description": "Tender chicken in a creamy spiced tomato sauce",
+    "imageUrl": "/images/recipes/chicken-tikka-masala.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "ctm-1", "name": "Chicken Breast", "quantity": 600, "unit": "g", "category": "meat" },
+      { "id": "ctm-2", "name": "Yogurt", "quantity": 150, "unit": "ml", "category": "dairy" },
+      { "id": "ctm-3", "name": "Heavy Cream", "quantity": 200, "unit": "ml", "category": "dairy" },
+      { "id": "ctm-4", "name": "Canned Tomatoes", "quantity": 400, "unit": "g", "category": "pantry" },
+      { "id": "ctm-5", "name": "Onion", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "ctm-6", "name": "Garlic", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "ctm-7", "name": "Ginger", "quantity": 1, "unit": "tbsp", "category": "produce" },
+      { "id": "ctm-8", "name": "Garam Masala", "quantity": 2, "unit": "tsp", "category": "spices" },
+      { "id": "ctm-9", "name": "Cumin", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "ctm-10", "name": "Paprika", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "ctm-11", "name": "Butter", "quantity": 30, "unit": "g", "category": "dairy" },
+      { "id": "ctm-12", "name": "Rice", "quantity": 300, "unit": "g", "category": "pantry" }
+    ],
+    "instructions": [
+      "Cut chicken into chunks and marinate in yogurt with half the spices for 30 minutes.",
+      "Cook rice according to package directions.",
+      "Heat butter in a large pan and cook marinated chicken until charred.",
+      "Remove chicken and sauté onion until soft.",
+      "Add garlic, ginger, and remaining spices. Cook for 1 minute.",
+      "Add canned tomatoes and simmer for 15 minutes.",
+      "Stir in heavy cream and return chicken to the pan.",
+      "Simmer for 10 minutes until sauce thickens.",
+      "Serve over rice with fresh cilantro."
+    ]
+  },
+  {
+    "id": "beef-fajita-bowls",
+    "name": "Beef Fajita Bowls",
+    "description": "Sizzling beef strips with peppers and onions over rice",
+    "imageUrl": "/images/recipes/beef-fajita-bowls.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "bfb-1", "name": "Beef Sirloin", "quantity": 500, "unit": "g", "category": "meat" },
+      { "id": "bfb-2", "name": "Bell Peppers", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "bfb-3", "name": "Onion", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "bfb-4", "name": "Lime", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "bfb-5", "name": "Cumin", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "bfb-6", "name": "Chili Powder", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "bfb-7", "name": "Garlic", "quantity": 3, "unit": "piece", "category": "produce" },
+      { "id": "bfb-8", "name": "Rice", "quantity": 300, "unit": "g", "category": "pantry" },
+      { "id": "bfb-9", "name": "Sour Cream", "quantity": 100, "unit": "ml", "category": "dairy" },
+      { "id": "bfb-10", "name": "Cilantro", "quantity": 2, "unit": "tbsp", "category": "produce" },
+      { "id": "bfb-11", "name": "Vegetable Oil", "quantity": 2, "unit": "tbsp", "category": "pantry" }
+    ],
+    "instructions": [
+      "Slice beef into thin strips and season with cumin, chili powder, salt, and pepper.",
+      "Cook rice according to package directions.",
+      "Slice peppers and onion into strips.",
+      "Heat oil in a large skillet over high heat.",
+      "Sear beef strips for 2 minutes per side, then set aside.",
+      "Sauté peppers and onion until slightly charred.",
+      "Return beef to pan with minced garlic and lime juice.",
+      "Serve over rice with sour cream and cilantro."
+    ]
+  },
+  {
+    "id": "teriyaki-chicken",
+    "name": "Teriyaki Chicken",
+    "description": "Glazed chicken thighs with homemade teriyaki sauce",
+    "imageUrl": "/images/recipes/teriyaki-chicken.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "tc-1", "name": "Chicken Thighs", "quantity": 600, "unit": "g", "category": "meat" },
+      { "id": "tc-2", "name": "Soy Sauce", "quantity": 4, "unit": "tbsp", "category": "pantry" },
+      { "id": "tc-3", "name": "Mirin", "quantity": 3, "unit": "tbsp", "category": "pantry" },
+      { "id": "tc-4", "name": "Brown Sugar", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "tc-5", "name": "Garlic", "quantity": 3, "unit": "piece", "category": "produce" },
+      { "id": "tc-6", "name": "Ginger", "quantity": 1, "unit": "tsp", "category": "produce" },
+      { "id": "tc-7", "name": "Rice", "quantity": 300, "unit": "g", "category": "pantry" },
+      { "id": "tc-8", "name": "Broccoli", "quantity": 300, "unit": "g", "category": "produce" },
+      { "id": "tc-9", "name": "Sesame Seeds", "quantity": 1, "unit": "tbsp", "category": "spices" },
+      { "id": "tc-10", "name": "Green Onions", "quantity": 2, "unit": "piece", "category": "produce" }
+    ],
+    "instructions": [
+      "Mix soy sauce, mirin, brown sugar, garlic, and ginger for the sauce.",
+      "Cook rice according to package directions.",
+      "Steam broccoli until tender-crisp.",
+      "Pan-fry chicken thighs skin-side down until crispy.",
+      "Flip and cook through, about 6 minutes per side.",
+      "Pour sauce over chicken and simmer until glazed.",
+      "Serve chicken over rice with broccoli.",
+      "Garnish with sesame seeds and green onions."
+    ]
+  },
+  {
+    "id": "mushroom-risotto",
+    "name": "Creamy Mushroom Risotto",
+    "description": "Rich and creamy Italian rice with sautéed mushrooms",
+    "imageUrl": "/images/recipes/mushroom-risotto.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "mr-1", "name": "Arborio Rice", "quantity": 300, "unit": "g", "category": "pantry" },
+      { "id": "mr-2", "name": "Mixed Mushrooms", "quantity": 400, "unit": "g", "category": "produce" },
+      { "id": "mr-3", "name": "Chicken Stock", "quantity": 1000, "unit": "ml", "category": "pantry" },
+      { "id": "mr-4", "name": "White Wine", "quantity": 150, "unit": "ml", "category": "pantry" },
+      { "id": "mr-5", "name": "Onion", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "mr-6", "name": "Garlic", "quantity": 3, "unit": "piece", "category": "produce" },
+      { "id": "mr-7", "name": "Parmesan Cheese", "quantity": 80, "unit": "g", "category": "dairy" },
+      { "id": "mr-8", "name": "Butter", "quantity": 50, "unit": "g", "category": "dairy" },
+      { "id": "mr-9", "name": "Olive Oil", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "mr-10", "name": "Thyme", "quantity": 1, "unit": "tsp", "category": "spices" }
+    ],
+    "instructions": [
+      "Heat stock in a saucepan and keep warm.",
+      "Sauté mushrooms in butter until golden, set aside.",
+      "In the same pan, cook onion in olive oil until soft.",
+      "Add garlic and rice, toast for 2 minutes.",
+      "Pour in wine and stir until absorbed.",
+      "Add stock one ladle at a time, stirring constantly.",
+      "Continue for 18-20 minutes until rice is creamy.",
+      "Fold in mushrooms, parmesan, and thyme.",
+      "Serve immediately with extra parmesan."
+    ]
+  },
+  {
+    "id": "fish-tacos",
+    "name": "Crispy Fish Tacos",
+    "description": "Beer-battered fish with tangy slaw in soft tortillas",
+    "imageUrl": "/images/recipes/fish-tacos.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "ft-1", "name": "White Fish Fillets", "quantity": 500, "unit": "g", "category": "meat" },
+      { "id": "ft-2", "name": "Flour", "quantity": 150, "unit": "g", "category": "pantry" },
+      { "id": "ft-3", "name": "Beer", "quantity": 200, "unit": "ml", "category": "pantry" },
+      { "id": "ft-4", "name": "Cabbage", "quantity": 200, "unit": "g", "category": "produce" },
+      { "id": "ft-5", "name": "Mayonnaise", "quantity": 4, "unit": "tbsp", "category": "dairy" },
+      { "id": "ft-6", "name": "Lime", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "ft-7", "name": "Flour Tortillas", "quantity": 8, "unit": "piece", "category": "pantry" },
+      { "id": "ft-8", "name": "Chipotle", "quantity": 1, "unit": "tbsp", "category": "spices" },
+      { "id": "ft-9", "name": "Vegetable Oil", "quantity": 300, "unit": "ml", "category": "pantry" },
+      { "id": "ft-10", "name": "Cilantro", "quantity": 2, "unit": "tbsp", "category": "produce" }
+    ],
+    "instructions": [
+      "Make batter by whisking flour and beer until smooth.",
+      "Shred cabbage and mix with mayo, lime juice, and chipotle for slaw.",
+      "Cut fish into strips and season with salt.",
+      "Heat oil to 375°F (190°C).",
+      "Dip fish in batter and fry until golden, about 3 minutes.",
+      "Warm tortillas in a dry pan.",
+      "Assemble tacos with fish, slaw, and cilantro.",
+      "Serve with lime wedges."
+    ]
+  },
+  {
+    "id": "pork-stir-fry",
+    "name": "Sweet and Spicy Pork Stir Fry",
+    "description": "Tender pork with vegetables in a sticky sweet-spicy sauce",
+    "imageUrl": "/images/recipes/pork-stir-fry.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "psf-1", "name": "Pork Tenderloin", "quantity": 500, "unit": "g", "category": "meat" },
+      { "id": "psf-2", "name": "Bell Peppers", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "psf-3", "name": "Snap Peas", "quantity": 200, "unit": "g", "category": "produce" },
+      { "id": "psf-4", "name": "Soy Sauce", "quantity": 3, "unit": "tbsp", "category": "pantry" },
+      { "id": "psf-5", "name": "Honey", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "psf-6", "name": "Sriracha", "quantity": 1, "unit": "tbsp", "category": "pantry" },
+      { "id": "psf-7", "name": "Garlic", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "psf-8", "name": "Rice", "quantity": 300, "unit": "g", "category": "pantry" },
+      { "id": "psf-9", "name": "Vegetable Oil", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "psf-10", "name": "Cornstarch", "quantity": 1, "unit": "tbsp", "category": "pantry" }
+    ],
+    "instructions": [
+      "Slice pork into thin strips and toss with cornstarch.",
+      "Mix soy sauce, honey, and sriracha for the sauce.",
+      "Cook rice according to package directions.",
+      "Heat oil in a wok over high heat.",
+      "Stir-fry pork until browned, set aside.",
+      "Stir-fry peppers and snap peas for 2 minutes.",
+      "Return pork, add garlic and sauce.",
+      "Toss until glossy and serve over rice."
+    ]
+  },
+  {
+    "id": "greek-chicken-bowls",
+    "name": "Greek Chicken Bowls",
+    "description": "Mediterranean chicken with cucumber, tomatoes, and tzatziki",
+    "imageUrl": "/images/recipes/greek-chicken-bowls.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "gcb-1", "name": "Chicken Breast", "quantity": 600, "unit": "g", "category": "meat" },
+      { "id": "gcb-2", "name": "Cucumber", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "gcb-3", "name": "Cherry Tomatoes", "quantity": 200, "unit": "g", "category": "produce" },
+      { "id": "gcb-4", "name": "Red Onion", "quantity": 0.5, "unit": "piece", "category": "produce" },
+      { "id": "gcb-5", "name": "Feta Cheese", "quantity": 100, "unit": "g", "category": "dairy" },
+      { "id": "gcb-6", "name": "Greek Yogurt", "quantity": 150, "unit": "ml", "category": "dairy" },
+      { "id": "gcb-7", "name": "Lemon", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "gcb-8", "name": "Oregano", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "gcb-9", "name": "Rice", "quantity": 300, "unit": "g", "category": "pantry" },
+      { "id": "gcb-10", "name": "Olive Oil", "quantity": 3, "unit": "tbsp", "category": "pantry" },
+      { "id": "gcb-11", "name": "Garlic", "quantity": 2, "unit": "piece", "category": "produce" }
+    ],
+    "instructions": [
+      "Marinate chicken in olive oil, lemon juice, oregano, and garlic.",
+      "Cook rice according to package directions.",
+      "Make tzatziki by mixing yogurt, grated cucumber, garlic, and lemon.",
+      "Grill or pan-fry chicken until cooked through.",
+      "Dice cucumber, halve tomatoes, and slice red onion.",
+      "Slice chicken and arrange over rice.",
+      "Top with vegetables, feta, and tzatziki.",
+      "Drizzle with olive oil and serve."
+    ]
+  },
+  {
+    "id": "shrimp-scampi",
+    "name": "Garlic Shrimp Scampi",
+    "description": "Succulent shrimp in a buttery garlic white wine sauce",
+    "imageUrl": "/images/recipes/shrimp-scampi.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "ss-1", "name": "Large Shrimp", "quantity": 500, "unit": "g", "category": "meat" },
+      { "id": "ss-2", "name": "Linguine", "quantity": 400, "unit": "g", "category": "pantry" },
+      { "id": "ss-3", "name": "Butter", "quantity": 60, "unit": "g", "category": "dairy" },
+      { "id": "ss-4", "name": "Garlic", "quantity": 6, "unit": "piece", "category": "produce" },
+      { "id": "ss-5", "name": "White Wine", "quantity": 150, "unit": "ml", "category": "pantry" },
+      { "id": "ss-6", "name": "Lemon", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "ss-7", "name": "Red Pepper Flakes", "quantity": 0.5, "unit": "tsp", "category": "spices" },
+      { "id": "ss-8", "name": "Parsley", "quantity": 3, "unit": "tbsp", "category": "produce" },
+      { "id": "ss-9", "name": "Olive Oil", "quantity": 2, "unit": "tbsp", "category": "pantry" }
+    ],
+    "instructions": [
+      "Cook linguine according to package directions, reserve pasta water.",
+      "Heat olive oil and half the butter in a large pan.",
+      "Sauté shrimp until pink, about 2 minutes per side, set aside.",
+      "Add garlic and red pepper flakes, cook for 30 seconds.",
+      "Pour in wine and lemon juice, simmer for 2 minutes.",
+      "Add remaining butter and toss with pasta.",
+      "Return shrimp to pan and add pasta water if needed.",
+      "Garnish with parsley and serve immediately."
+    ]
+  },
+  {
+    "id": "bbq-chicken",
+    "name": "BBQ Glazed Chicken",
+    "description": "Juicy chicken with smoky homemade BBQ glaze",
+    "imageUrl": "/images/recipes/bbq-chicken.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "bbq-1", "name": "Chicken Thighs", "quantity": 800, "unit": "g", "category": "meat" },
+      { "id": "bbq-2", "name": "Ketchup", "quantity": 100, "unit": "ml", "category": "pantry" },
+      { "id": "bbq-3", "name": "Brown Sugar", "quantity": 3, "unit": "tbsp", "category": "pantry" },
+      { "id": "bbq-4", "name": "Apple Cider Vinegar", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "bbq-5", "name": "Worcestershire Sauce", "quantity": 1, "unit": "tbsp", "category": "pantry" },
+      { "id": "bbq-6", "name": "Smoked Paprika", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "bbq-7", "name": "Garlic Powder", "quantity": 0.5, "unit": "tsp", "category": "spices" },
+      { "id": "bbq-8", "name": "Corn on the Cob", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "bbq-9", "name": "Coleslaw Mix", "quantity": 300, "unit": "g", "category": "produce" },
+      { "id": "bbq-10", "name": "Mayonnaise", "quantity": 4, "unit": "tbsp", "category": "dairy" }
+    ],
+    "instructions": [
+      "Mix ketchup, brown sugar, vinegar, worcestershire, paprika, and garlic powder for BBQ sauce.",
+      "Season chicken with salt and pepper.",
+      "Grill or bake chicken at 400°F (200°C) for 25 minutes.",
+      "Brush with BBQ sauce and cook 10 more minutes.",
+      "Grill or boil corn until tender.",
+      "Mix coleslaw with mayonnaise.",
+      "Brush chicken with more sauce before serving.",
+      "Serve with corn and coleslaw."
+    ]
+  },
+  {
+    "id": "vegetable-pad-thai",
+    "name": "Vegetable Pad Thai",
+    "description": "Classic Thai noodles with vegetables and tangy sauce",
+    "imageUrl": "/images/recipes/vegetable-pad-thai.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "vpt-1", "name": "Rice Noodles", "quantity": 300, "unit": "g", "category": "pantry" },
+      { "id": "vpt-2", "name": "Tofu", "quantity": 300, "unit": "g", "category": "produce" },
+      { "id": "vpt-3", "name": "Bean Sprouts", "quantity": 200, "unit": "g", "category": "produce" },
+      { "id": "vpt-4", "name": "Eggs", "quantity": 2, "unit": "piece", "category": "dairy" },
+      { "id": "vpt-5", "name": "Tamarind Paste", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "vpt-6", "name": "Fish Sauce", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "vpt-7", "name": "Brown Sugar", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "vpt-8", "name": "Peanuts", "quantity": 50, "unit": "g", "category": "pantry" },
+      { "id": "vpt-9", "name": "Green Onions", "quantity": 3, "unit": "piece", "category": "produce" },
+      { "id": "vpt-10", "name": "Lime", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "vpt-11", "name": "Vegetable Oil", "quantity": 3, "unit": "tbsp", "category": "pantry" }
+    ],
+    "instructions": [
+      "Soak rice noodles in warm water for 30 minutes, drain.",
+      "Mix tamarind, fish sauce, and brown sugar for the sauce.",
+      "Press and cube tofu, then pan-fry until golden.",
+      "Push tofu aside, scramble eggs in the same pan.",
+      "Add noodles and sauce, toss to coat.",
+      "Add bean sprouts and green onions.",
+      "Serve topped with crushed peanuts and lime wedges."
+    ]
+  },
+  {
+    "id": "lamb-kofta",
+    "name": "Lamb Kofta with Mint Yogurt",
+    "description": "Spiced lamb skewers with cool mint yogurt sauce",
+    "imageUrl": "/images/recipes/lamb-kofta.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "lk-1", "name": "Ground Lamb", "quantity": 500, "unit": "g", "category": "meat" },
+      { "id": "lk-2", "name": "Onion", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "lk-3", "name": "Garlic", "quantity": 3, "unit": "piece", "category": "produce" },
+      { "id": "lk-4", "name": "Cumin", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "lk-5", "name": "Coriander", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "lk-6", "name": "Greek Yogurt", "quantity": 200, "unit": "ml", "category": "dairy" },
+      { "id": "lk-7", "name": "Fresh Mint", "quantity": 3, "unit": "tbsp", "category": "produce" },
+      { "id": "lk-8", "name": "Pita Bread", "quantity": 4, "unit": "piece", "category": "pantry" },
+      { "id": "lk-9", "name": "Cucumber", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "lk-10", "name": "Cherry Tomatoes", "quantity": 200, "unit": "g", "category": "produce" }
+    ],
+    "instructions": [
+      "Mix lamb with grated onion, garlic, cumin, coriander, salt, and pepper.",
+      "Form mixture around skewers into oval shapes.",
+      "Mix yogurt with chopped mint and a pinch of salt.",
+      "Grill kofta for 8-10 minutes, turning occasionally.",
+      "Warm pita bread on the grill.",
+      "Slice cucumber and halve tomatoes.",
+      "Serve kofta in pita with vegetables and mint yogurt."
+    ]
+  },
+  {
+    "id": "cajun-shrimp-pasta",
+    "name": "Cajun Shrimp Pasta",
+    "description": "Creamy pasta with spicy Cajun-seasoned shrimp",
+    "imageUrl": "/images/recipes/cajun-shrimp-pasta.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "csp-1", "name": "Large Shrimp", "quantity": 400, "unit": "g", "category": "meat" },
+      { "id": "csp-2", "name": "Penne Pasta", "quantity": 400, "unit": "g", "category": "pantry" },
+      { "id": "csp-3", "name": "Heavy Cream", "quantity": 250, "unit": "ml", "category": "dairy" },
+      { "id": "csp-4", "name": "Parmesan Cheese", "quantity": 50, "unit": "g", "category": "dairy" },
+      { "id": "csp-5", "name": "Cajun Seasoning", "quantity": 2, "unit": "tbsp", "category": "spices" },
+      { "id": "csp-6", "name": "Garlic", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "csp-7", "name": "Bell Pepper", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "csp-8", "name": "Butter", "quantity": 30, "unit": "g", "category": "dairy" },
+      { "id": "csp-9", "name": "Parsley", "quantity": 2, "unit": "tbsp", "category": "produce" }
+    ],
+    "instructions": [
+      "Cook pasta according to package directions.",
+      "Season shrimp with Cajun seasoning.",
+      "Sauté shrimp in butter until pink, set aside.",
+      "Cook diced bell pepper until soft.",
+      "Add garlic, cook for 30 seconds.",
+      "Pour in cream and simmer until slightly thickened.",
+      "Toss with pasta, shrimp, and parmesan.",
+      "Garnish with parsley and serve."
+    ]
+  },
+  {
+    "id": "honey-garlic-pork",
+    "name": "Honey Garlic Pork Chops",
+    "description": "Pan-seared pork chops with sticky honey garlic glaze",
+    "imageUrl": "/images/recipes/honey-garlic-pork.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "hgp-1", "name": "Pork Chops", "quantity": 4, "unit": "piece", "category": "meat" },
+      { "id": "hgp-2", "name": "Honey", "quantity": 4, "unit": "tbsp", "category": "pantry" },
+      { "id": "hgp-3", "name": "Soy Sauce", "quantity": 3, "unit": "tbsp", "category": "pantry" },
+      { "id": "hgp-4", "name": "Garlic", "quantity": 6, "unit": "piece", "category": "produce" },
+      { "id": "hgp-5", "name": "Butter", "quantity": 30, "unit": "g", "category": "dairy" },
+      { "id": "hgp-6", "name": "Mashed Potatoes", "quantity": 600, "unit": "g", "category": "pantry" },
+      { "id": "hgp-7", "name": "Green Beans", "quantity": 300, "unit": "g", "category": "produce" },
+      { "id": "hgp-8", "name": "Olive Oil", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "hgp-9", "name": "Thyme", "quantity": 1, "unit": "tsp", "category": "spices" }
+    ],
+    "instructions": [
+      "Season pork chops with salt and pepper.",
+      "Sear in olive oil for 4 minutes per side, set aside.",
+      "Add butter and minced garlic to the pan.",
+      "Stir in honey and soy sauce, simmer for 2 minutes.",
+      "Return pork chops and coat with glaze.",
+      "Steam green beans until tender.",
+      "Prepare mashed potatoes.",
+      "Serve pork over mash with beans and extra glaze."
+    ]
+  },
+  {
+    "id": "tuscan-chicken",
+    "name": "Creamy Tuscan Chicken",
+    "description": "Chicken in a sun-dried tomato and spinach cream sauce",
+    "imageUrl": "/images/recipes/tuscan-chicken.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "tuc-1", "name": "Chicken Breast", "quantity": 600, "unit": "g", "category": "meat" },
+      { "id": "tuc-2", "name": "Sun-dried Tomatoes", "quantity": 100, "unit": "g", "category": "pantry" },
+      { "id": "tuc-3", "name": "Spinach", "quantity": 150, "unit": "g", "category": "produce" },
+      { "id": "tuc-4", "name": "Heavy Cream", "quantity": 200, "unit": "ml", "category": "dairy" },
+      { "id": "tuc-5", "name": "Parmesan Cheese", "quantity": 50, "unit": "g", "category": "dairy" },
+      { "id": "tuc-6", "name": "Garlic", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "tuc-7", "name": "Italian Seasoning", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "tuc-8", "name": "Olive Oil", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "tuc-9", "name": "Pasta", "quantity": 300, "unit": "g", "category": "pantry" }
+    ],
+    "instructions": [
+      "Cook pasta according to package directions.",
+      "Season and sear chicken until golden, set aside.",
+      "Sauté garlic in the same pan for 30 seconds.",
+      "Add sun-dried tomatoes and Italian seasoning.",
+      "Pour in cream and simmer for 3 minutes.",
+      "Add spinach and stir until wilted.",
+      "Slice chicken and return to sauce.",
+      "Stir in parmesan and serve over pasta."
+    ]
+  },
+  {
+    "id": "beef-bulgogi",
+    "name": "Beef Bulgogi",
+    "description": "Korean marinated beef with sweet and savory flavors",
+    "imageUrl": "/images/recipes/beef-bulgogi.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "bb-1", "name": "Beef Ribeye", "quantity": 500, "unit": "g", "category": "meat" },
+      { "id": "bb-2", "name": "Asian Pear", "quantity": 0.5, "unit": "piece", "category": "produce" },
+      { "id": "bb-3", "name": "Soy Sauce", "quantity": 4, "unit": "tbsp", "category": "pantry" },
+      { "id": "bb-4", "name": "Sesame Oil", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "bb-5", "name": "Brown Sugar", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "bb-6", "name": "Garlic", "quantity": 5, "unit": "piece", "category": "produce" },
+      { "id": "bb-7", "name": "Ginger", "quantity": 1, "unit": "tbsp", "category": "produce" },
+      { "id": "bb-8", "name": "Green Onions", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "bb-9", "name": "Rice", "quantity": 300, "unit": "g", "category": "pantry" },
+      { "id": "bb-10", "name": "Sesame Seeds", "quantity": 1, "unit": "tbsp", "category": "spices" }
+    ],
+    "instructions": [
+      "Slice beef very thin against the grain.",
+      "Blend pear, soy sauce, sesame oil, sugar, garlic, and ginger for marinade.",
+      "Marinate beef for at least 1 hour.",
+      "Cook rice according to package directions.",
+      "Grill or pan-fry beef over high heat until caramelized.",
+      "Garnish with green onions and sesame seeds.",
+      "Serve over rice with kimchi if desired."
+    ]
+  },
+  {
+    "id": "lemon-herb-chicken",
+    "name": "Lemon Herb Roasted Chicken",
+    "description": "Juicy roasted chicken with bright lemon and fresh herbs",
+    "imageUrl": "/images/recipes/lemon-herb-chicken.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "lhc-1", "name": "Chicken Legs", "quantity": 800, "unit": "g", "category": "meat" },
+      { "id": "lhc-2", "name": "Lemon", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "lhc-3", "name": "Rosemary", "quantity": 2, "unit": "tbsp", "category": "produce" },
+      { "id": "lhc-4", "name": "Thyme", "quantity": 1, "unit": "tbsp", "category": "produce" },
+      { "id": "lhc-5", "name": "Garlic", "quantity": 6, "unit": "piece", "category": "produce" },
+      { "id": "lhc-6", "name": "Olive Oil", "quantity": 4, "unit": "tbsp", "category": "pantry" },
+      { "id": "lhc-7", "name": "Potatoes", "quantity": 500, "unit": "g", "category": "produce" },
+      { "id": "lhc-8", "name": "Asparagus", "quantity": 300, "unit": "g", "category": "produce" }
+    ],
+    "instructions": [
+      "Preheat oven to 425°F (220°C).",
+      "Mix olive oil, lemon zest, juice, herbs, and minced garlic.",
+      "Rub chicken with herb mixture and season with salt and pepper.",
+      "Quarter potatoes and toss with olive oil.",
+      "Roast chicken and potatoes for 35 minutes.",
+      "Add asparagus and roast 10 more minutes.",
+      "Rest chicken for 5 minutes before serving.",
+      "Serve with pan juices drizzled over."
+    ]
+  },
+  {
+    "id": "thai-basil-chicken",
+    "name": "Thai Basil Chicken",
+    "description": "Aromatic stir-fried chicken with Thai basil and chilies",
+    "imageUrl": "/images/recipes/thai-basil-chicken.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "tbc-1", "name": "Ground Chicken", "quantity": 500, "unit": "g", "category": "meat" },
+      { "id": "tbc-2", "name": "Thai Basil", "quantity": 1, "unit": "cup", "category": "produce" },
+      { "id": "tbc-3", "name": "Thai Chilies", "quantity": 3, "unit": "piece", "category": "produce" },
+      { "id": "tbc-4", "name": "Garlic", "quantity": 6, "unit": "piece", "category": "produce" },
+      { "id": "tbc-5", "name": "Soy Sauce", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "tbc-6", "name": "Oyster Sauce", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "tbc-7", "name": "Fish Sauce", "quantity": 1, "unit": "tbsp", "category": "pantry" },
+      { "id": "tbc-8", "name": "Sugar", "quantity": 1, "unit": "tsp", "category": "pantry" },
+      { "id": "tbc-9", "name": "Jasmine Rice", "quantity": 300, "unit": "g", "category": "pantry" },
+      { "id": "tbc-10", "name": "Vegetable Oil", "quantity": 2, "unit": "tbsp", "category": "pantry" }
+    ],
+    "instructions": [
+      "Cook jasmine rice according to package directions.",
+      "Mix soy sauce, oyster sauce, fish sauce, and sugar.",
+      "Heat oil in a wok over high heat.",
+      "Fry chilies and garlic for 30 seconds.",
+      "Add chicken and stir-fry until cooked through.",
+      "Pour in sauce and toss to coat.",
+      "Remove from heat and fold in Thai basil.",
+      "Serve immediately over rice."
+    ]
+  },
+  {
+    "id": "salmon-teriyaki-bowl",
+    "name": "Salmon Teriyaki Bowl",
+    "description": "Glazed salmon over rice with edamame and pickled ginger",
+    "imageUrl": "/images/recipes/salmon-teriyaki-bowl.png",
+    "defaultServings": 2,
+    "ingredients": [
+      { "id": "stb-1", "name": "Salmon Fillet", "quantity": 400, "unit": "g", "category": "meat" },
+      { "id": "stb-2", "name": "Soy Sauce", "quantity": 3, "unit": "tbsp", "category": "pantry" },
+      { "id": "stb-3", "name": "Mirin", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "stb-4", "name": "Honey", "quantity": 1, "unit": "tbsp", "category": "pantry" },
+      { "id": "stb-5", "name": "Sushi Rice", "quantity": 200, "unit": "g", "category": "pantry" },
+      { "id": "stb-6", "name": "Edamame", "quantity": 100, "unit": "g", "category": "produce" },
+      { "id": "stb-7", "name": "Pickled Ginger", "quantity": 30, "unit": "g", "category": "pantry" },
+      { "id": "stb-8", "name": "Avocado", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "stb-9", "name": "Sesame Seeds", "quantity": 1, "unit": "tbsp", "category": "spices" },
+      { "id": "stb-10", "name": "Nori", "quantity": 1, "unit": "piece", "category": "pantry" }
+    ],
+    "instructions": [
+      "Cook sushi rice according to package directions.",
+      "Mix soy sauce, mirin, and honey for teriyaki sauce.",
+      "Pan-sear salmon skin-side up for 3 minutes.",
+      "Flip and cook 3 more minutes, then glaze with sauce.",
+      "Cook edamame in salted water.",
+      "Slice avocado and cut nori into strips.",
+      "Assemble bowls with rice, salmon, edamame, avocado, and ginger.",
+      "Top with sesame seeds and nori."
+    ]
+  },
+  {
+    "id": "moroccan-chicken",
+    "name": "Moroccan Spiced Chicken",
+    "description": "Aromatic chicken with preserved lemons and olives",
+    "imageUrl": "/images/recipes/moroccan-chicken.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "mc-1", "name": "Chicken Thighs", "quantity": 800, "unit": "g", "category": "meat" },
+      { "id": "mc-2", "name": "Preserved Lemons", "quantity": 2, "unit": "piece", "category": "pantry" },
+      { "id": "mc-3", "name": "Green Olives", "quantity": 100, "unit": "g", "category": "pantry" },
+      { "id": "mc-4", "name": "Onion", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "mc-5", "name": "Garlic", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "mc-6", "name": "Cumin", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "mc-7", "name": "Cinnamon", "quantity": 0.5, "unit": "tsp", "category": "spices" },
+      { "id": "mc-8", "name": "Saffron", "quantity": 1, "unit": "pinch", "category": "spices" },
+      { "id": "mc-9", "name": "Couscous", "quantity": 300, "unit": "g", "category": "pantry" },
+      { "id": "mc-10", "name": "Cilantro", "quantity": 3, "unit": "tbsp", "category": "produce" },
+      { "id": "mc-11", "name": "Chicken Stock", "quantity": 300, "unit": "ml", "category": "pantry" }
+    ],
+    "instructions": [
+      "Season chicken with cumin, cinnamon, salt, and pepper.",
+      "Brown chicken in a tagine or Dutch oven.",
+      "Sauté onion and garlic until soft.",
+      "Add saffron and stock, bring to simmer.",
+      "Return chicken, add preserved lemons and olives.",
+      "Cover and cook for 30 minutes.",
+      "Prepare couscous according to package directions.",
+      "Serve chicken over couscous with cilantro."
+    ]
+  },
+  {
+    "id": "black-bean-tacos",
+    "name": "Spicy Black Bean Tacos",
+    "description": "Hearty vegetarian tacos with seasoned black beans",
+    "imageUrl": "/images/recipes/black-bean-tacos.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "bbt-1", "name": "Black Beans", "quantity": 400, "unit": "g", "category": "pantry" },
+      { "id": "bbt-2", "name": "Corn Tortillas", "quantity": 8, "unit": "piece", "category": "pantry" },
+      { "id": "bbt-3", "name": "Avocado", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "bbt-4", "name": "Red Onion", "quantity": 0.5, "unit": "piece", "category": "produce" },
+      { "id": "bbt-5", "name": "Lime", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "bbt-6", "name": "Cumin", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "bbt-7", "name": "Chipotle", "quantity": 1, "unit": "tbsp", "category": "spices" },
+      { "id": "bbt-8", "name": "Cilantro", "quantity": 3, "unit": "tbsp", "category": "produce" },
+      { "id": "bbt-9", "name": "Queso Fresco", "quantity": 100, "unit": "g", "category": "dairy" },
+      { "id": "bbt-10", "name": "Salsa Verde", "quantity": 100, "unit": "ml", "category": "pantry" }
+    ],
+    "instructions": [
+      "Drain and rinse black beans.",
+      "Mash half the beans, leave half whole.",
+      "Season beans with cumin, chipotle, salt, and lime juice.",
+      "Warm in a pan until heated through.",
+      "Mash avocado with lime juice and salt.",
+      "Char tortillas over an open flame or in a dry pan.",
+      "Fill tortillas with beans, guacamole, onion, and cheese.",
+      "Top with salsa verde and cilantro."
+    ]
+  },
+  {
+    "id": "ginger-beef",
+    "name": "Ginger Beef Stir Fry",
+    "description": "Crispy beef strips with fresh ginger and vegetables",
+    "imageUrl": "/images/recipes/ginger-beef.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "gb-1", "name": "Beef Flank", "quantity": 500, "unit": "g", "category": "meat" },
+      { "id": "gb-2", "name": "Fresh Ginger", "quantity": 3, "unit": "tbsp", "category": "produce" },
+      { "id": "gb-3", "name": "Garlic", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "gb-4", "name": "Soy Sauce", "quantity": 3, "unit": "tbsp", "category": "pantry" },
+      { "id": "gb-5", "name": "Rice Vinegar", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "gb-6", "name": "Brown Sugar", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "gb-7", "name": "Bell Peppers", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "gb-8", "name": "Cornstarch", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "gb-9", "name": "Rice", "quantity": 300, "unit": "g", "category": "pantry" },
+      { "id": "gb-10", "name": "Vegetable Oil", "quantity": 3, "unit": "tbsp", "category": "pantry" }
+    ],
+    "instructions": [
+      "Slice beef thin and toss with cornstarch.",
+      "Mix soy sauce, vinegar, and brown sugar.",
+      "Cook rice according to package directions.",
+      "Fry beef in batches until crispy, set aside.",
+      "Stir-fry peppers until tender-crisp.",
+      "Add ginger and garlic, cook 30 seconds.",
+      "Return beef and add sauce, toss until glazed.",
+      "Serve immediately over rice."
+    ]
+  },
+  {
+    "id": "chicken-parmesan",
+    "name": "Crispy Chicken Parmesan",
+    "description": "Breaded chicken cutlets with marinara and melted cheese",
+    "imageUrl": "/images/recipes/chicken-parmesan.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "cp-1", "name": "Chicken Breast", "quantity": 600, "unit": "g", "category": "meat" },
+      { "id": "cp-2", "name": "Breadcrumbs", "quantity": 150, "unit": "g", "category": "pantry" },
+      { "id": "cp-3", "name": "Parmesan Cheese", "quantity": 80, "unit": "g", "category": "dairy" },
+      { "id": "cp-4", "name": "Mozzarella", "quantity": 150, "unit": "g", "category": "dairy" },
+      { "id": "cp-5", "name": "Marinara Sauce", "quantity": 400, "unit": "ml", "category": "pantry" },
+      { "id": "cp-6", "name": "Eggs", "quantity": 2, "unit": "piece", "category": "dairy" },
+      { "id": "cp-7", "name": "Flour", "quantity": 100, "unit": "g", "category": "pantry" },
+      { "id": "cp-8", "name": "Spaghetti", "quantity": 400, "unit": "g", "category": "pantry" },
+      { "id": "cp-9", "name": "Basil", "quantity": 2, "unit": "tbsp", "category": "produce" },
+      { "id": "cp-10", "name": "Olive Oil", "quantity": 4, "unit": "tbsp", "category": "pantry" }
+    ],
+    "instructions": [
+      "Pound chicken to even thickness.",
+      "Set up breading: flour, beaten eggs, breadcrumbs mixed with parmesan.",
+      "Bread chicken cutlets.",
+      "Pan-fry in olive oil until golden on both sides.",
+      "Cook spaghetti according to package directions.",
+      "Place chicken in baking dish, top with marinara and mozzarella.",
+      "Broil until cheese is bubbly and golden.",
+      "Serve over spaghetti with fresh basil."
+    ]
+  },
+  {
+    "id": "coconut-curry-soup",
+    "name": "Coconut Curry Soup",
+    "description": "Warming Thai-inspired soup with vegetables and rice noodles",
+    "imageUrl": "/images/recipes/coconut-curry-soup.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "ccs-1", "name": "Coconut Milk", "quantity": 400, "unit": "ml", "category": "pantry" },
+      { "id": "ccs-2", "name": "Vegetable Stock", "quantity": 500, "unit": "ml", "category": "pantry" },
+      { "id": "ccs-3", "name": "Red Curry Paste", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "ccs-4", "name": "Rice Noodles", "quantity": 200, "unit": "g", "category": "pantry" },
+      { "id": "ccs-5", "name": "Tofu", "quantity": 300, "unit": "g", "category": "produce" },
+      { "id": "ccs-6", "name": "Mushrooms", "quantity": 200, "unit": "g", "category": "produce" },
+      { "id": "ccs-7", "name": "Bok Choy", "quantity": 200, "unit": "g", "category": "produce" },
+      { "id": "ccs-8", "name": "Lime", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "ccs-9", "name": "Cilantro", "quantity": 3, "unit": "tbsp", "category": "produce" },
+      { "id": "ccs-10", "name": "Fish Sauce", "quantity": 1, "unit": "tbsp", "category": "pantry" }
+    ],
+    "instructions": [
+      "Cube and pan-fry tofu until golden.",
+      "Sauté curry paste in a pot for 1 minute.",
+      "Add coconut milk and stock, bring to simmer.",
+      "Add sliced mushrooms and cook for 5 minutes.",
+      "Add rice noodles and bok choy.",
+      "Cook until noodles are tender.",
+      "Season with fish sauce and lime juice.",
+      "Serve topped with tofu and cilantro."
+    ]
+  },
+  {
+    "id": "mediterranean-bowl",
+    "name": "Mediterranean Grain Bowl",
+    "description": "Quinoa bowl with hummus, falafel, and fresh vegetables",
+    "imageUrl": "/images/recipes/mediterranean-bowl.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "mgb-1", "name": "Quinoa", "quantity": 200, "unit": "g", "category": "pantry" },
+      { "id": "mgb-2", "name": "Falafel", "quantity": 12, "unit": "piece", "category": "pantry" },
+      { "id": "mgb-3", "name": "Hummus", "quantity": 200, "unit": "g", "category": "dairy" },
+      { "id": "mgb-4", "name": "Cucumber", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "mgb-5", "name": "Cherry Tomatoes", "quantity": 200, "unit": "g", "category": "produce" },
+      { "id": "mgb-6", "name": "Red Onion", "quantity": 0.5, "unit": "piece", "category": "produce" },
+      { "id": "mgb-7", "name": "Feta Cheese", "quantity": 100, "unit": "g", "category": "dairy" },
+      { "id": "mgb-8", "name": "Kalamata Olives", "quantity": 50, "unit": "g", "category": "pantry" },
+      { "id": "mgb-9", "name": "Lemon", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "mgb-10", "name": "Olive Oil", "quantity": 3, "unit": "tbsp", "category": "pantry" }
+    ],
+    "instructions": [
+      "Cook quinoa according to package directions.",
+      "Bake or pan-fry falafel until heated through.",
+      "Dice cucumber and halve tomatoes.",
+      "Slice red onion thinly.",
+      "Fluff quinoa and divide among bowls.",
+      "Top with falafel, vegetables, feta, and olives.",
+      "Add a generous scoop of hummus.",
+      "Drizzle with olive oil and lemon juice."
+    ]
+  },
+  {
+    "id": "sesame-crusted-tuna",
+    "name": "Sesame Crusted Tuna",
+    "description": "Seared ahi tuna with sesame crust and wasabi aioli",
+    "imageUrl": "/images/recipes/sesame-crusted-tuna.png",
+    "defaultServings": 2,
+    "ingredients": [
+      { "id": "sct-1", "name": "Ahi Tuna Steaks", "quantity": 400, "unit": "g", "category": "meat" },
+      { "id": "sct-2", "name": "Sesame Seeds", "quantity": 4, "unit": "tbsp", "category": "spices" },
+      { "id": "sct-3", "name": "Soy Sauce", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "sct-4", "name": "Wasabi Paste", "quantity": 1, "unit": "tsp", "category": "pantry" },
+      { "id": "sct-5", "name": "Mayonnaise", "quantity": 3, "unit": "tbsp", "category": "dairy" },
+      { "id": "sct-6", "name": "Mixed Greens", "quantity": 150, "unit": "g", "category": "produce" },
+      { "id": "sct-7", "name": "Sesame Oil", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "sct-8", "name": "Rice Vinegar", "quantity": 1, "unit": "tbsp", "category": "pantry" },
+      { "id": "sct-9", "name": "Ginger", "quantity": 1, "unit": "tsp", "category": "produce" }
+    ],
+    "instructions": [
+      "Mix wasabi paste with mayonnaise for aioli.",
+      "Press sesame seeds onto all sides of tuna.",
+      "Heat sesame oil in a pan over high heat.",
+      "Sear tuna for 30 seconds per side for rare.",
+      "Whisk soy sauce, rice vinegar, and ginger for dressing.",
+      "Toss greens with dressing.",
+      "Slice tuna and arrange over greens.",
+      "Drizzle with wasabi aioli."
+    ]
+  },
+  {
+    "id": "butter-chicken",
+    "name": "Butter Chicken",
+    "description": "Rich and creamy Indian chicken in tomato-butter sauce",
+    "imageUrl": "/images/recipes/butter-chicken.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "bc-1", "name": "Chicken Thighs", "quantity": 600, "unit": "g", "category": "meat" },
+      { "id": "bc-2", "name": "Butter", "quantity": 60, "unit": "g", "category": "dairy" },
+      { "id": "bc-3", "name": "Heavy Cream", "quantity": 200, "unit": "ml", "category": "dairy" },
+      { "id": "bc-4", "name": "Tomato Puree", "quantity": 300, "unit": "ml", "category": "pantry" },
+      { "id": "bc-5", "name": "Onion", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "bc-6", "name": "Garlic", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "bc-7", "name": "Garam Masala", "quantity": 2, "unit": "tsp", "category": "spices" },
+      { "id": "bc-8", "name": "Kashmiri Chili", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "bc-9", "name": "Basmati Rice", "quantity": 300, "unit": "g", "category": "pantry" },
+      { "id": "bc-10", "name": "Naan Bread", "quantity": 4, "unit": "piece", "category": "pantry" },
+      { "id": "bc-11", "name": "Cilantro", "quantity": 2, "unit": "tbsp", "category": "produce" }
+    ],
+    "instructions": [
+      "Cut chicken into chunks and season with spices.",
+      "Cook rice according to package directions.",
+      "Brown chicken in butter, set aside.",
+      "Sauté onion until golden, add garlic.",
+      "Add tomato puree and spices, simmer 15 minutes.",
+      "Stir in cream and return chicken.",
+      "Simmer until chicken is cooked through.",
+      "Serve with rice and warm naan, garnished with cilantro."
+    ]
+  },
+  {
+    "id": "pesto-pasta",
+    "name": "Creamy Pesto Pasta",
+    "description": "Pasta tossed with fresh basil pesto and cherry tomatoes",
+    "imageUrl": "/images/recipes/pesto-pasta.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "pp-1", "name": "Penne Pasta", "quantity": 400, "unit": "g", "category": "pantry" },
+      { "id": "pp-2", "name": "Fresh Basil", "quantity": 2, "unit": "cup", "category": "produce" },
+      { "id": "pp-3", "name": "Pine Nuts", "quantity": 50, "unit": "g", "category": "pantry" },
+      { "id": "pp-4", "name": "Parmesan Cheese", "quantity": 80, "unit": "g", "category": "dairy" },
+      { "id": "pp-5", "name": "Garlic", "quantity": 3, "unit": "piece", "category": "produce" },
+      { "id": "pp-6", "name": "Olive Oil", "quantity": 100, "unit": "ml", "category": "pantry" },
+      { "id": "pp-7", "name": "Cherry Tomatoes", "quantity": 200, "unit": "g", "category": "produce" },
+      { "id": "pp-8", "name": "Heavy Cream", "quantity": 100, "unit": "ml", "category": "dairy" },
+      { "id": "pp-9", "name": "Lemon", "quantity": 0.5, "unit": "piece", "category": "produce" }
+    ],
+    "instructions": [
+      "Cook pasta according to package directions, reserve pasta water.",
+      "Blend basil, pine nuts, parmesan, garlic, and olive oil for pesto.",
+      "Halve cherry tomatoes.",
+      "Toss hot pasta with pesto and cream.",
+      "Add pasta water to loosen if needed.",
+      "Fold in cherry tomatoes and lemon juice.",
+      "Top with extra parmesan and basil.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "id": "chicken-shawarma",
+    "name": "Chicken Shawarma Wraps",
+    "description": "Spiced chicken with garlic sauce in warm pita",
+    "imageUrl": "/images/recipes/chicken-shawarma.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "csw-1", "name": "Chicken Thighs", "quantity": 600, "unit": "g", "category": "meat" },
+      { "id": "csw-2", "name": "Cumin", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "csw-3", "name": "Coriander", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "csw-4", "name": "Paprika", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "csw-5", "name": "Turmeric", "quantity": 0.5, "unit": "tsp", "category": "spices" },
+      { "id": "csw-6", "name": "Greek Yogurt", "quantity": 150, "unit": "ml", "category": "dairy" },
+      { "id": "csw-7", "name": "Garlic", "quantity": 6, "unit": "piece", "category": "produce" },
+      { "id": "csw-8", "name": "Pita Bread", "quantity": 4, "unit": "piece", "category": "pantry" },
+      { "id": "csw-9", "name": "Pickled Turnips", "quantity": 100, "unit": "g", "category": "pantry" },
+      { "id": "csw-10", "name": "Tomato", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "csw-11", "name": "Lettuce", "quantity": 100, "unit": "g", "category": "produce" }
+    ],
+    "instructions": [
+      "Mix spices with olive oil and marinate chicken for 1 hour.",
+      "Blend yogurt with half the garlic and lemon juice for sauce.",
+      "Grill or pan-fry chicken until charred and cooked through.",
+      "Slice chicken into strips.",
+      "Warm pita bread.",
+      "Layer chicken, lettuce, tomato, and pickled turnips in pita.",
+      "Drizzle generously with garlic sauce.",
+      "Wrap and serve immediately."
+    ]
+  },
+  {
+    "id": "shrimp-fried-rice",
+    "name": "Shrimp Fried Rice",
+    "description": "Classic Chinese-style fried rice with shrimp and vegetables",
+    "imageUrl": "/images/recipes/shrimp-fried-rice.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "sfr-1", "name": "Large Shrimp", "quantity": 300, "unit": "g", "category": "meat" },
+      { "id": "sfr-2", "name": "Day-old Rice", "quantity": 500, "unit": "g", "category": "pantry" },
+      { "id": "sfr-3", "name": "Eggs", "quantity": 3, "unit": "piece", "category": "dairy" },
+      { "id": "sfr-4", "name": "Peas", "quantity": 100, "unit": "g", "category": "produce" },
+      { "id": "sfr-5", "name": "Carrots", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "sfr-6", "name": "Green Onions", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "sfr-7", "name": "Soy Sauce", "quantity": 3, "unit": "tbsp", "category": "pantry" },
+      { "id": "sfr-8", "name": "Sesame Oil", "quantity": 1, "unit": "tbsp", "category": "pantry" },
+      { "id": "sfr-9", "name": "Garlic", "quantity": 3, "unit": "piece", "category": "produce" },
+      { "id": "sfr-10", "name": "Vegetable Oil", "quantity": 3, "unit": "tbsp", "category": "pantry" }
+    ],
+    "instructions": [
+      "Dice carrots and slice green onions.",
+      "Scramble eggs in a wok, set aside.",
+      "Stir-fry shrimp until pink, set aside.",
+      "Add oil, stir-fry carrots and peas.",
+      "Add cold rice and break up clumps.",
+      "Push rice aside, cook garlic briefly.",
+      "Add soy sauce and toss everything together.",
+      "Return eggs and shrimp, add sesame oil and green onions."
+    ]
+  },
+  {
+    "id": "stuffed-peppers",
+    "name": "Stuffed Bell Peppers",
+    "description": "Bell peppers filled with seasoned beef and rice",
+    "imageUrl": "/images/recipes/stuffed-peppers.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "sp-1", "name": "Bell Peppers", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "sp-2", "name": "Ground Beef", "quantity": 400, "unit": "g", "category": "meat" },
+      { "id": "sp-3", "name": "Rice", "quantity": 150, "unit": "g", "category": "pantry" },
+      { "id": "sp-4", "name": "Canned Tomatoes", "quantity": 400, "unit": "g", "category": "pantry" },
+      { "id": "sp-5", "name": "Onion", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "sp-6", "name": "Garlic", "quantity": 3, "unit": "piece", "category": "produce" },
+      { "id": "sp-7", "name": "Italian Seasoning", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "sp-8", "name": "Mozzarella", "quantity": 150, "unit": "g", "category": "dairy" },
+      { "id": "sp-9", "name": "Parsley", "quantity": 2, "unit": "tbsp", "category": "produce" }
+    ],
+    "instructions": [
+      "Cook rice according to package directions.",
+      "Cut tops off peppers and remove seeds.",
+      "Brown beef with onion and garlic.",
+      "Add half the tomatoes, seasoning, and cooked rice.",
+      "Stuff peppers with beef mixture.",
+      "Place in baking dish, pour remaining tomatoes around.",
+      "Cover and bake at 375°F (190°C) for 40 minutes.",
+      "Top with mozzarella and bake until melted."
+    ]
+  },
+  {
+    "id": "orange-chicken",
+    "name": "Crispy Orange Chicken",
+    "description": "Crispy fried chicken pieces in tangy orange glaze",
+    "imageUrl": "/images/recipes/orange-chicken.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "oc-1", "name": "Chicken Breast", "quantity": 600, "unit": "g", "category": "meat" },
+      { "id": "oc-2", "name": "Orange Juice", "quantity": 150, "unit": "ml", "category": "produce" },
+      { "id": "oc-3", "name": "Soy Sauce", "quantity": 3, "unit": "tbsp", "category": "pantry" },
+      { "id": "oc-4", "name": "Brown Sugar", "quantity": 3, "unit": "tbsp", "category": "pantry" },
+      { "id": "oc-5", "name": "Rice Vinegar", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "oc-6", "name": "Orange Zest", "quantity": 1, "unit": "tbsp", "category": "produce" },
+      { "id": "oc-7", "name": "Cornstarch", "quantity": 100, "unit": "g", "category": "pantry" },
+      { "id": "oc-8", "name": "Garlic", "quantity": 3, "unit": "piece", "category": "produce" },
+      { "id": "oc-9", "name": "Rice", "quantity": 300, "unit": "g", "category": "pantry" },
+      { "id": "oc-10", "name": "Vegetable Oil", "quantity": 300, "unit": "ml", "category": "pantry" },
+      { "id": "oc-11", "name": "Green Onions", "quantity": 2, "unit": "piece", "category": "produce" }
+    ],
+    "instructions": [
+      "Cut chicken into bite-sized pieces.",
+      "Toss chicken with cornstarch.",
+      "Mix orange juice, soy sauce, sugar, vinegar, and zest for sauce.",
+      "Cook rice according to package directions.",
+      "Deep fry chicken until golden and crispy.",
+      "Heat sauce in a wok with garlic until thickened.",
+      "Toss chicken in sauce until coated.",
+      "Serve over rice with green onions."
+    ]
+  },
+  {
+    "id": "lamb-chops",
+    "name": "Herb-Crusted Lamb Chops",
+    "description": "Tender lamb chops with rosemary and garlic crust",
+    "imageUrl": "/images/recipes/lamb-chops.png",
+    "defaultServings": 2,
+    "ingredients": [
+      { "id": "lc-1", "name": "Lamb Chops", "quantity": 6, "unit": "piece", "category": "meat" },
+      { "id": "lc-2", "name": "Rosemary", "quantity": 2, "unit": "tbsp", "category": "produce" },
+      { "id": "lc-3", "name": "Garlic", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "lc-4", "name": "Dijon Mustard", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "lc-5", "name": "Breadcrumbs", "quantity": 50, "unit": "g", "category": "pantry" },
+      { "id": "lc-6", "name": "Olive Oil", "quantity": 4, "unit": "tbsp", "category": "pantry" },
+      { "id": "lc-7", "name": "Green Beans", "quantity": 300, "unit": "g", "category": "produce" },
+      { "id": "lc-8", "name": "Potatoes", "quantity": 400, "unit": "g", "category": "produce" },
+      { "id": "lc-9", "name": "Butter", "quantity": 30, "unit": "g", "category": "dairy" }
+    ],
+    "instructions": [
+      "Mix breadcrumbs with rosemary, garlic, and olive oil.",
+      "Sear lamb chops for 2 minutes per side.",
+      "Brush with mustard and press herb crust on top.",
+      "Roast at 400°F (200°C) for 10-12 minutes for medium.",
+      "Boil potatoes and mash with butter.",
+      "Steam green beans until tender.",
+      "Rest lamb for 5 minutes.",
+      "Serve with mash and green beans."
+    ]
+  },
+  {
+    "id": "chicken-pot-pie",
+    "name": "Classic Chicken Pot Pie",
+    "description": "Creamy chicken and vegetables under flaky pastry",
+    "imageUrl": "/images/recipes/chicken-pot-pie.png",
+    "defaultServings": 6,
+    "ingredients": [
+      { "id": "cpp-1", "name": "Chicken Breast", "quantity": 500, "unit": "g", "category": "meat" },
+      { "id": "cpp-2", "name": "Puff Pastry", "quantity": 1, "unit": "piece", "category": "pantry" },
+      { "id": "cpp-3", "name": "Carrots", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "cpp-4", "name": "Peas", "quantity": 150, "unit": "g", "category": "produce" },
+      { "id": "cpp-5", "name": "Celery", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "cpp-6", "name": "Onion", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "cpp-7", "name": "Butter", "quantity": 50, "unit": "g", "category": "dairy" },
+      { "id": "cpp-8", "name": "Flour", "quantity": 50, "unit": "g", "category": "pantry" },
+      { "id": "cpp-9", "name": "Chicken Stock", "quantity": 400, "unit": "ml", "category": "pantry" },
+      { "id": "cpp-10", "name": "Heavy Cream", "quantity": 100, "unit": "ml", "category": "dairy" },
+      { "id": "cpp-11", "name": "Thyme", "quantity": 1, "unit": "tsp", "category": "spices" }
+    ],
+    "instructions": [
+      "Poach chicken in stock, then shred.",
+      "Dice carrots, celery, and onion.",
+      "Make roux with butter and flour.",
+      "Add stock and cream, cook until thickened.",
+      "Add vegetables and cook for 5 minutes.",
+      "Fold in chicken and thyme, season to taste.",
+      "Pour into baking dish, top with pastry.",
+      "Bake at 400°F (200°C) for 25-30 minutes until golden."
+    ]
+  },
+  {
+    "id": "beef-tacos",
+    "name": "Classic Beef Tacos",
+    "description": "Seasoned ground beef in crispy shells with fresh toppings",
+    "imageUrl": "/images/recipes/beef-tacos.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "bt-1", "name": "Ground Beef", "quantity": 500, "unit": "g", "category": "meat" },
+      { "id": "bt-2", "name": "Taco Shells", "quantity": 12, "unit": "piece", "category": "pantry" },
+      { "id": "bt-3", "name": "Cumin", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "bt-4", "name": "Chili Powder", "quantity": 1, "unit": "tbsp", "category": "spices" },
+      { "id": "bt-5", "name": "Lettuce", "quantity": 150, "unit": "g", "category": "produce" },
+      { "id": "bt-6", "name": "Tomato", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "bt-7", "name": "Cheddar Cheese", "quantity": 150, "unit": "g", "category": "dairy" },
+      { "id": "bt-8", "name": "Sour Cream", "quantity": 100, "unit": "ml", "category": "dairy" },
+      { "id": "bt-9", "name": "Salsa", "quantity": 150, "unit": "ml", "category": "pantry" },
+      { "id": "bt-10", "name": "Onion", "quantity": 1, "unit": "piece", "category": "produce" }
+    ],
+    "instructions": [
+      "Brown ground beef with diced onion.",
+      "Add cumin, chili powder, salt, and a splash of water.",
+      "Simmer until liquid evaporates.",
+      "Warm taco shells according to package.",
+      "Shred lettuce, dice tomatoes, grate cheese.",
+      "Fill shells with beef.",
+      "Top with lettuce, tomato, cheese, sour cream, and salsa.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "id": "ramen-bowl",
+    "name": "Pork Ramen Bowl",
+    "description": "Rich pork broth with noodles, egg, and toppings",
+    "imageUrl": "/images/recipes/ramen-bowl.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "rb-1", "name": "Pork Belly", "quantity": 300, "unit": "g", "category": "meat" },
+      { "id": "rb-2", "name": "Ramen Noodles", "quantity": 400, "unit": "g", "category": "pantry" },
+      { "id": "rb-3", "name": "Chicken Stock", "quantity": 1000, "unit": "ml", "category": "pantry" },
+      { "id": "rb-4", "name": "Soy Sauce", "quantity": 4, "unit": "tbsp", "category": "pantry" },
+      { "id": "rb-5", "name": "Miso Paste", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "rb-6", "name": "Eggs", "quantity": 4, "unit": "piece", "category": "dairy" },
+      { "id": "rb-7", "name": "Green Onions", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "rb-8", "name": "Nori", "quantity": 4, "unit": "piece", "category": "pantry" },
+      { "id": "rb-9", "name": "Corn", "quantity": 100, "unit": "g", "category": "produce" },
+      { "id": "rb-10", "name": "Garlic", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "rb-11", "name": "Ginger", "quantity": 1, "unit": "tbsp", "category": "produce" }
+    ],
+    "instructions": [
+      "Roast pork belly at 400°F (200°C) for 30 minutes, then slice.",
+      "Soft-boil eggs for 6 minutes, then peel.",
+      "Simmer stock with garlic, ginger, soy sauce, and miso.",
+      "Cook noodles according to package directions.",
+      "Divide noodles among bowls.",
+      "Ladle hot broth over noodles.",
+      "Top with pork, halved eggs, corn, green onions, and nori.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "id": "chicken-alfredo",
+    "name": "Chicken Alfredo",
+    "description": "Creamy parmesan pasta with grilled chicken",
+    "imageUrl": "/images/recipes/chicken-alfredo.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "ca-1", "name": "Chicken Breast", "quantity": 500, "unit": "g", "category": "meat" },
+      { "id": "ca-2", "name": "Fettuccine", "quantity": 400, "unit": "g", "category": "pantry" },
+      { "id": "ca-3", "name": "Heavy Cream", "quantity": 300, "unit": "ml", "category": "dairy" },
+      { "id": "ca-4", "name": "Parmesan Cheese", "quantity": 100, "unit": "g", "category": "dairy" },
+      { "id": "ca-5", "name": "Butter", "quantity": 50, "unit": "g", "category": "dairy" },
+      { "id": "ca-6", "name": "Garlic", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "ca-7", "name": "Italian Seasoning", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "ca-8", "name": "Parsley", "quantity": 2, "unit": "tbsp", "category": "produce" },
+      { "id": "ca-9", "name": "Black Pepper", "quantity": 0.5, "unit": "tsp", "category": "spices" }
+    ],
+    "instructions": [
+      "Season chicken with Italian seasoning and grill until cooked.",
+      "Cook fettuccine according to package directions.",
+      "Melt butter in a large pan, sauté garlic.",
+      "Add cream and bring to a simmer.",
+      "Stir in parmesan until melted and smooth.",
+      "Toss pasta in sauce.",
+      "Slice chicken and place on top.",
+      "Garnish with parsley and black pepper."
+    ]
+  },
+  {
+    "id": "bibimbap",
+    "name": "Korean Bibimbap",
+    "description": "Rice bowl with vegetables, beef, and gochujang sauce",
+    "imageUrl": "/images/recipes/bibimbap.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "bib-1", "name": "Rice", "quantity": 400, "unit": "g", "category": "pantry" },
+      { "id": "bib-2", "name": "Beef Sirloin", "quantity": 300, "unit": "g", "category": "meat" },
+      { "id": "bib-3", "name": "Spinach", "quantity": 150, "unit": "g", "category": "produce" },
+      { "id": "bib-4", "name": "Bean Sprouts", "quantity": 150, "unit": "g", "category": "produce" },
+      { "id": "bib-5", "name": "Carrots", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "bib-6", "name": "Zucchini", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "bib-7", "name": "Eggs", "quantity": 4, "unit": "piece", "category": "dairy" },
+      { "id": "bib-8", "name": "Gochujang", "quantity": 4, "unit": "tbsp", "category": "pantry" },
+      { "id": "bib-9", "name": "Sesame Oil", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "bib-10", "name": "Soy Sauce", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "bib-11", "name": "Sesame Seeds", "quantity": 1, "unit": "tbsp", "category": "spices" }
+    ],
+    "instructions": [
+      "Cook rice according to package directions.",
+      "Julienne carrots and zucchini, sauté separately with sesame oil.",
+      "Blanch spinach and bean sprouts, season with sesame oil.",
+      "Slice and stir-fry beef with soy sauce.",
+      "Fry eggs sunny-side up.",
+      "Arrange rice in bowls, top with vegetables and beef.",
+      "Place egg on top and add gochujang.",
+      "Mix everything together before eating."
+    ]
+  },
+  {
+    "id": "eggplant-parmesan",
+    "name": "Eggplant Parmesan",
+    "description": "Breaded eggplant slices baked with marinara and cheese",
+    "imageUrl": "/images/recipes/eggplant-parmesan.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "ep-1", "name": "Eggplant", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "ep-2", "name": "Breadcrumbs", "quantity": 200, "unit": "g", "category": "pantry" },
+      { "id": "ep-3", "name": "Parmesan Cheese", "quantity": 100, "unit": "g", "category": "dairy" },
+      { "id": "ep-4", "name": "Mozzarella", "quantity": 200, "unit": "g", "category": "dairy" },
+      { "id": "ep-5", "name": "Marinara Sauce", "quantity": 500, "unit": "ml", "category": "pantry" },
+      { "id": "ep-6", "name": "Eggs", "quantity": 3, "unit": "piece", "category": "dairy" },
+      { "id": "ep-7", "name": "Flour", "quantity": 100, "unit": "g", "category": "pantry" },
+      { "id": "ep-8", "name": "Basil", "quantity": 3, "unit": "tbsp", "category": "produce" },
+      { "id": "ep-9", "name": "Olive Oil", "quantity": 100, "unit": "ml", "category": "pantry" }
+    ],
+    "instructions": [
+      "Slice eggplant into rounds, salt and let drain for 30 minutes.",
+      "Set up breading: flour, beaten eggs, breadcrumbs with parmesan.",
+      "Bread eggplant slices.",
+      "Pan-fry until golden on both sides.",
+      "Spread some marinara in a baking dish.",
+      "Layer eggplant, marinara, and mozzarella.",
+      "Repeat layers and top with cheese.",
+      "Bake at 375°F (190°C) for 30 minutes until bubbly."
+    ]
+  },
+  {
+    "id": "kung-pao-chicken",
+    "name": "Kung Pao Chicken",
+    "description": "Spicy stir-fried chicken with peanuts and chilies",
+    "imageUrl": "/images/recipes/kung-pao-chicken.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "kpc-1", "name": "Chicken Breast", "quantity": 500, "unit": "g", "category": "meat" },
+      { "id": "kpc-2", "name": "Peanuts", "quantity": 80, "unit": "g", "category": "pantry" },
+      { "id": "kpc-3", "name": "Dried Chilies", "quantity": 8, "unit": "piece", "category": "spices" },
+      { "id": "kpc-4", "name": "Soy Sauce", "quantity": 3, "unit": "tbsp", "category": "pantry" },
+      { "id": "kpc-5", "name": "Rice Vinegar", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "kpc-6", "name": "Hoisin Sauce", "quantity": 1, "unit": "tbsp", "category": "pantry" },
+      { "id": "kpc-7", "name": "Garlic", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "kpc-8", "name": "Ginger", "quantity": 1, "unit": "tbsp", "category": "produce" },
+      { "id": "kpc-9", "name": "Green Onions", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "kpc-10", "name": "Rice", "quantity": 300, "unit": "g", "category": "pantry" },
+      { "id": "kpc-11", "name": "Cornstarch", "quantity": 1, "unit": "tbsp", "category": "pantry" }
+    ],
+    "instructions": [
+      "Cube chicken and toss with cornstarch.",
+      "Mix soy sauce, vinegar, and hoisin for sauce.",
+      "Cook rice according to package directions.",
+      "Toast peanuts in a dry wok, set aside.",
+      "Stir-fry chicken until cooked, set aside.",
+      "Fry chilies until fragrant.",
+      "Add garlic and ginger, then return chicken.",
+      "Add sauce and peanuts, toss with green onions."
+    ]
+  },
+  {
+    "id": "caprese-chicken",
+    "name": "Caprese Stuffed Chicken",
+    "description": "Chicken breast stuffed with mozzarella, tomato, and basil",
+    "imageUrl": "/images/recipes/caprese-chicken.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "cpc-1", "name": "Chicken Breast", "quantity": 4, "unit": "piece", "category": "meat" },
+      { "id": "cpc-2", "name": "Fresh Mozzarella", "quantity": 200, "unit": "g", "category": "dairy" },
+      { "id": "cpc-3", "name": "Roma Tomatoes", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "cpc-4", "name": "Fresh Basil", "quantity": 12, "unit": "piece", "category": "produce" },
+      { "id": "cpc-5", "name": "Balsamic Glaze", "quantity": 3, "unit": "tbsp", "category": "pantry" },
+      { "id": "cpc-6", "name": "Olive Oil", "quantity": 3, "unit": "tbsp", "category": "pantry" },
+      { "id": "cpc-7", "name": "Garlic Powder", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "cpc-8", "name": "Mixed Greens", "quantity": 200, "unit": "g", "category": "produce" }
+    ],
+    "instructions": [
+      "Cut a pocket in each chicken breast.",
+      "Season inside and out with garlic powder, salt, and pepper.",
+      "Stuff with mozzarella slices, tomato, and basil.",
+      "Secure with toothpicks if needed.",
+      "Sear chicken in olive oil for 4 minutes per side.",
+      "Bake at 375°F (190°C) for 15 minutes until cooked through.",
+      "Rest for 5 minutes.",
+      "Serve over greens with balsamic glaze drizzled on top."
+    ]
+  },
+  {
+    "id": "beef-stroganoff",
+    "name": "Beef Stroganoff",
+    "description": "Tender beef in creamy mushroom sauce over egg noodles",
+    "imageUrl": "/images/recipes/beef-stroganoff.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "bs-1", "name": "Beef Sirloin", "quantity": 500, "unit": "g", "category": "meat" },
+      { "id": "bs-2", "name": "Mushrooms", "quantity": 300, "unit": "g", "category": "produce" },
+      { "id": "bs-3", "name": "Egg Noodles", "quantity": 400, "unit": "g", "category": "pantry" },
+      { "id": "bs-4", "name": "Sour Cream", "quantity": 200, "unit": "ml", "category": "dairy" },
+      { "id": "bs-5", "name": "Beef Stock", "quantity": 200, "unit": "ml", "category": "pantry" },
+      { "id": "bs-6", "name": "Onion", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "bs-7", "name": "Garlic", "quantity": 3, "unit": "piece", "category": "produce" },
+      { "id": "bs-8", "name": "Dijon Mustard", "quantity": 1, "unit": "tbsp", "category": "pantry" },
+      { "id": "bs-9", "name": "Butter", "quantity": 40, "unit": "g", "category": "dairy" },
+      { "id": "bs-10", "name": "Parsley", "quantity": 2, "unit": "tbsp", "category": "produce" }
+    ],
+    "instructions": [
+      "Slice beef into thin strips.",
+      "Cook noodles according to package directions.",
+      "Brown beef in batches, set aside.",
+      "Sauté mushrooms and onion in butter.",
+      "Add garlic and cook briefly.",
+      "Pour in stock and mustard, simmer for 5 minutes.",
+      "Stir in sour cream and return beef.",
+      "Serve over noodles with parsley."
+    ]
   }
 ]
