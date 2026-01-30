@@ -27,7 +27,36 @@
       "Add canned tomatoes, salt, and pepper. Simmer for 30 minutes.",
       "Cook pasta according to package directions.",
       "Serve pasta topped with sauce and parmesan cheese."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Finely dice the Onion into small pieces for even cooking.",
+        "Mince the Garlic cloves - the finer the mince, the more flavor you'll release.",
+        "Grate the Parmesan Cheese and set aside for serving."
+      ],
+      "cooking": [
+        "Bring a large pot of generously salted water to a rolling boil for the Spaghetti.",
+        "Heat the Olive Oil in a large, deep skillet or Dutch oven over medium-high heat until shimmering.",
+        "Add the diced Onion and sauté for 4-5 minutes until softened and translucent, stirring occasionally.",
+        "Add the minced Garlic and cook for 30-60 seconds until fragrant - be careful not to burn it.",
+        "Add the Ground Beef, breaking it into small pieces with a wooden spoon. Season with Salt and Black Pepper. Cook for 6-8 minutes until browned and no longer pink.",
+        "Stir in the Tomato Paste and cook for 2 minutes, coating the meat - this deepens the flavor.",
+        "Pour in the Canned Tomatoes, breaking them up with your spoon. Reduce heat to low and simmer uncovered for 25-30 minutes, stirring occasionally.",
+        "Meanwhile, cook the Spaghetti according to package directions until al dente. Reserve 1 cup of pasta water before draining.",
+        "If the sauce is too thick, add splashes of the reserved pasta water to reach your desired consistency."
+      ],
+      "serving": [
+        "Toss the drained Spaghetti directly into the sauce, mixing well to coat each strand.",
+        "Divide among warm bowls and top generously with the grated Parmesan Cheese.",
+        "Finish with a crack of fresh Black Pepper and serve immediately while hot."
+      ],
+      "tips": [
+        "Reserve pasta water before draining - the starchy water helps sauce cling to the pasta and adds silkiness.",
+        "Don't overcrowd the beef when browning - work in batches if needed for better caramelization.",
+        "For extra depth, add a splash of red wine after browning the meat and let it reduce before adding tomatoes.",
+        "Fresh basil leaves make a beautiful and flavorful garnish if you have them on hand."
+      ]
+    }
   },
   {
     "id": "chicken-curry",
@@ -59,7 +88,38 @@
       "Cook for 20 minutes until chicken is cooked through and sauce thickens.",
       "Season with salt to taste.",
       "Serve over steamed rice."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Cut the Chicken Breast into 2cm bite-sized cubes, patting dry with paper towels for better browning.",
+        "Finely dice the Onion into small, even pieces.",
+        "Mince the Garlic cloves and grate the fresh Ginger - or use a microplane for extra-fine ginger.",
+        "Measure out the Curry Powder, Cumin, and Turmeric into a small bowl for easy adding.",
+        "Rinse the Rice under cold water until the water runs clear - this removes excess starch for fluffier rice."
+      ],
+      "cooking": [
+        "Start the Rice: combine Rice with 450ml water in a pot, bring to boil, then reduce to low, cover, and cook for 15-18 minutes until water is absorbed.",
+        "Heat the Vegetable Oil in a large skillet or wok over medium-high heat until shimmering.",
+        "Add the diced Onion and cook for 6-8 minutes until golden brown and caramelized, stirring occasionally.",
+        "Add the minced Garlic and grated Ginger, stirring constantly for 30-60 seconds until very fragrant.",
+        "Add the Curry Powder, Cumin, and Turmeric to the aromatics. Stir for 30 seconds to toast the spices and release their oils - this blooms the spices for maximum flavor.",
+        "Add the Chicken Breast pieces in a single layer. Let them sear undisturbed for 2 minutes, then stir and cook until no longer pink on the outside, about 3-4 minutes total.",
+        "Shake the can of Coconut Milk well, then pour it into the pan. Stir to combine and bring to a gentle simmer.",
+        "Reduce heat to medium-low and cook uncovered for 18-20 minutes, stirring occasionally, until the Chicken is cooked through and the sauce has thickened.",
+        "Season with Salt to taste - start with less as you can always add more."
+      ],
+      "serving": [
+        "Fluff the Rice with a fork and divide among serving bowls.",
+        "Ladle the curry generously over the rice, making sure to include plenty of sauce.",
+        "Garnish with fresh cilantro leaves if desired and serve immediately."
+      ],
+      "tips": [
+        "For richer flavor, use full-fat Coconut Milk rather than light versions.",
+        "Toasting the spices in oil before adding liquid releases their essential oils and intensifies the curry flavor.",
+        "If you like it spicier, add a diced fresh chili or a pinch of cayenne with the spices.",
+        "This curry tastes even better the next day as the flavors continue to meld together."
+      ]
+    }
   },
   {
     "id": "caesar-salad",
@@ -88,7 +148,36 @@
       "Toss lettuce with dressing.",
       "Top with croutons and shaved parmesan.",
       "Serve immediately."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Cut the Bread into 2cm cubes for perfect croutons.",
+        "Mince the Garlic finely - half for the croutons, half for the dressing.",
+        "Wash the Romaine Lettuce leaves thoroughly and dry completely in a salad spinner or with paper towels - wet lettuce will make the dressing slide off.",
+        "Use a vegetable peeler to shave thin ribbons of Parmesan Cheese for garnish.",
+        "Squeeze fresh Lemon Juice if using fresh lemons."
+      ],
+      "cooking": [
+        "Preheat your oven to 375°F (190°C).",
+        "Toss the Bread cubes with half the Olive Oil and half the minced Garlic in a bowl until evenly coated.",
+        "Spread the croutons in a single layer on a baking sheet - don't overcrowd or they won't crisp properly.",
+        "Bake for 10-12 minutes, tossing halfway through, until golden brown and crispy. Let cool slightly.",
+        "Make the dressing: In a bowl, whisk together the Mayonnaise, remaining Olive Oil, Lemon Juice, Dijon Mustard, remaining minced Garlic, Salt, and Black Pepper until smooth and emulsified."
+      ],
+      "serving": [
+        "Tear or chop the Romaine Lettuce into bite-sized pieces and place in a large salad bowl.",
+        "Drizzle the dressing over the lettuce and toss gently but thoroughly to coat every leaf.",
+        "Add the warm croutons and toss again briefly.",
+        "Top with generous shavings of Parmesan Cheese and a final crack of Black Pepper.",
+        "Serve immediately while the croutons are still crispy."
+      ],
+      "tips": [
+        "Dry lettuce is crucial - dressing clings to dry leaves but slides off wet ones.",
+        "For extra flavor, rub your salad bowl with a cut garlic clove before adding the lettuce.",
+        "Add the croutons just before serving to keep them crispy.",
+        "For a more authentic Caesar, add a few anchovy fillets to the dressing and blend until smooth."
+      ]
+    }
   },
   {
     "id": "miso-honey-salmon",
@@ -118,7 +207,37 @@
       "Meanwhile, cook rice according to package directions.",
       "Brush salmon with remaining glaze and broil for 2 minutes until caramelized.",
       "Serve over rice, garnished with sliced green onions and sesame seeds."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Remove the Salmon Fillet from the refrigerator 20 minutes before cooking to bring to room temperature for more even cooking.",
+        "Pat the Salmon Fillet dry with paper towels - this helps the glaze stick and promotes better caramelization.",
+        "Mince the Garlic cloves finely and grate the fresh Ginger.",
+        "Thinly slice the Green Onions on a bias, separating the white and green parts.",
+        "Rinse the Rice under cold water until clear, then drain well."
+      ],
+      "cooking": [
+        "Start the Rice: combine Rice with 300ml water in a pot, bring to boil, reduce heat to low, cover and cook for 15-18 minutes.",
+        "Preheat your oven to 400°F (200°C) and line a baking sheet with parchment paper.",
+        "Make the glaze: In a small bowl, whisk together the White Miso Paste, Honey, Soy Sauce, Rice Vinegar, minced Garlic, grated Ginger, and Sesame Oil until smooth.",
+        "Place the Salmon Fillet skin-side down on the prepared baking sheet.",
+        "Reserve half the glaze in a separate small bowl. Brush the other half generously over the top and sides of the salmon.",
+        "Bake for 12-15 minutes until the salmon is just cooked through and flakes easily with a fork. The internal temperature should reach 145°F (63°C).",
+        "Switch oven to broil. Brush the reserved glaze over the salmon and broil for 1-2 minutes, watching carefully, until the glaze is caramelized and slightly charred in spots."
+      ],
+      "serving": [
+        "Fluff the cooked Rice and divide between serving bowls.",
+        "Place the glazed Salmon Fillet on top of the rice.",
+        "Sprinkle generously with Sesame Seeds and the sliced Green Onions.",
+        "Serve immediately while the salmon is hot and the glaze is still glistening."
+      ],
+      "tips": [
+        "Don't skip bringing the salmon to room temperature - cold fish cooks unevenly and can end up dry on the outside before the center is done.",
+        "Watch the broiler carefully! The honey in the glaze can go from perfectly caramelized to burnt in seconds.",
+        "For extra umami, add a splash of mirin to the glaze if you have it.",
+        "This glaze also works beautifully on chicken thighs or pork tenderloin."
+      ]
+    }
   },
   {
     "id": "korean-beef-bowls",
@@ -149,7 +268,38 @@
       "Pour sauce over beef and stir to coat. Simmer for 3-4 minutes.",
       "Slice cucumber into thin rounds and chop green onions.",
       "Serve beef over rice, topped with cucumber, green onions, and sesame seeds."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Mince the Garlic finely and grate the fresh Ginger.",
+        "Thinly slice the Green Onions, keeping the white and green parts separate.",
+        "Slice the Cucumber into thin rounds or half-moons.",
+        "Rinse the Rice under cold water until the water runs clear.",
+        "In a small bowl, whisk together the Soy Sauce, Brown Sugar, Sesame Oil, minced Garlic, grated Ginger, and Gochujang until the sugar dissolves."
+      ],
+      "cooking": [
+        "Start the Rice: combine with water in a pot, bring to boil, reduce heat to low, cover and cook for 15-18 minutes.",
+        "Heat the Vegetable Oil in a large skillet or wok over medium-high heat until shimmering.",
+        "Add the Ground Beef in a single layer and let it sear for 2 minutes without stirring for better browning.",
+        "Break up the beef with a wooden spoon and continue cooking for 4-5 minutes until no longer pink.",
+        "If there's excessive fat, carefully drain most of it, leaving about 1 tablespoon in the pan.",
+        "Pour the prepared sauce over the beef and stir well to coat every piece.",
+        "Let the sauce simmer and reduce for 3-4 minutes until it thickens and glazes the meat, stirring occasionally."
+      ],
+      "serving": [
+        "Fluff the cooked Rice with a fork and divide among serving bowls.",
+        "Spoon the saucy Korean beef generously over the rice.",
+        "Arrange the sliced Cucumber alongside the beef.",
+        "Scatter the Green Onions over the top and sprinkle with Sesame Seeds.",
+        "Serve immediately while hot, with extra Gochujang on the side for those who like it spicier."
+      ],
+      "tips": [
+        "Don't stir the beef immediately - letting it sear develops better flavor and texture.",
+        "Gochujang can vary in heat level, so taste the sauce and adjust to your preference.",
+        "For extra authenticity, serve with a fried egg on top - the runny yolk makes an amazing sauce.",
+        "Add a drizzle of extra Sesame Oil just before serving for enhanced aroma."
+      ]
+    }
   },
   {
     "id": "coconut-shrimp",
@@ -180,7 +330,39 @@
       "Fry shrimp in batches for 2-3 minutes until golden brown.",
       "Drain on paper towels.",
       "Serve crispy shrimp with mango salsa on the side."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Peel and devein the Large Shrimp if not already done, leaving the tails on for presentation.",
+        "Pat the shrimp completely dry with paper towels - this is crucial for the breading to stick.",
+        "Dice the Mango into small 1cm cubes.",
+        "Finely dice the Red Onion and Jalapeno (remove seeds for less heat).",
+        "Roughly chop the fresh Cilantro.",
+        "Juice the Lime.",
+        "Set up a breading station: Flour seasoned with Salt and Black Pepper in bowl 1, beaten Eggs in bowl 2, Shredded Coconut in bowl 3."
+      ],
+      "cooking": [
+        "Make the mango salsa: combine the diced Mango, Red Onion, Jalapeno, Cilantro, and Lime juice in a bowl. Season with a pinch of Salt. Refrigerate while you cook the shrimp.",
+        "Bread the shrimp: holding by the tail, dredge in Flour (shake off excess), dip in Eggs (let excess drip off), then press firmly into Shredded Coconut, coating all sides.",
+        "Place breaded shrimp on a wire rack - don't stack them or the coating will fall off.",
+        "Heat the Vegetable Oil in a deep pan or Dutch oven to 350°F (175°C). Use a thermometer for accuracy.",
+        "Fry the shrimp in small batches (4-5 at a time) for 2-3 minutes, turning once, until golden brown and the shrimp are pink and cooked through.",
+        "Don't overcrowd the pan - this drops the oil temperature and makes shrimp greasy instead of crispy.",
+        "Transfer to a paper towel-lined plate to drain. Season with a light sprinkle of Salt immediately."
+      ],
+      "serving": [
+        "Arrange the crispy coconut shrimp on a serving platter.",
+        "Place the fresh mango salsa in a bowl alongside.",
+        "Garnish with extra Cilantro and Lime wedges.",
+        "Serve immediately while the shrimp are hot and crispy."
+      ],
+      "tips": [
+        "The key to crispy shrimp is dry shrimp and hot oil - wet shrimp will make the breading soggy.",
+        "If you don't have a thermometer, test the oil by dropping in a small piece of coconut - it should sizzle immediately.",
+        "For extra crunch, add panko breadcrumbs to the coconut mixture.",
+        "The salsa can be made up to 4 hours ahead and refrigerated - the flavors will meld beautifully."
+      ]
+    }
   },
   {
     "id": "chicken-tikka-masala",
@@ -212,7 +394,39 @@
       "Stir in heavy cream and return chicken to the pan.",
       "Simmer for 10 minutes until sauce thickens.",
       "Serve over rice with fresh cilantro."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Cut the Chicken Breast into 3cm chunks.",
+        "In a bowl, combine half the Garam Masala, half the Cumin, half the Paprika with the Yogurt. Add the chicken and mix well. Marinate for at least 30 minutes (or up to overnight in the fridge).",
+        "Finely dice the Onion.",
+        "Mince the Garlic and grate the fresh Ginger.",
+        "Grate the Parmesan Cheese for finishing.",
+        "Rinse the Rice until water runs clear."
+      ],
+      "cooking": [
+        "Start the Rice: combine with water, bring to boil, reduce heat to low, cover and cook for 15-18 minutes.",
+        "Heat the Butter in a large, deep skillet over medium-high heat until foaming.",
+        "Remove the Chicken Breast from the marinade and cook in batches for 3-4 minutes per side until charred and caramelized. Don't overcrowd the pan. Set aside.",
+        "In the same pan, add a splash of oil if needed and sauté the Onion for 5-6 minutes until softened and golden.",
+        "Add the minced Garlic, grated Ginger, and the remaining Garam Masala, Cumin, and Paprika. Stir for 1 minute until fragrant.",
+        "Pour in the Canned Tomatoes, breaking them up with a wooden spoon. Simmer for 15 minutes until reduced and thickened.",
+        "Reduce heat to low and stir in the Heavy Cream. Let it simmer gently for 2 minutes.",
+        "Return the charred Chicken to the sauce and simmer for another 8-10 minutes until the chicken is cooked through and the sauce is rich and creamy."
+      ],
+      "serving": [
+        "Taste and adjust seasoning with salt as needed.",
+        "Fluff the Rice and divide among bowls.",
+        "Spoon the creamy Chicken Tikka Masala over the rice.",
+        "Garnish with fresh cilantro leaves and serve immediately."
+      ],
+      "tips": [
+        "Marinating the chicken in Yogurt tenderizes it and helps the spices penetrate deeply.",
+        "The charred bits on the chicken add incredible flavor - don't skip this step.",
+        "For a richer sauce, add another tablespoon of Butter at the end and swirl until melted.",
+        "This dish tastes even better the next day once the flavors have melded."
+      ]
+    }
   },
   {
     "id": "beef-fajita-bowls",
@@ -242,7 +456,38 @@
       "Sauté peppers and onion until slightly charred.",
       "Return beef to pan with minced garlic and lime juice.",
       "Serve over rice with sour cream and cilantro."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Slice the Beef Sirloin against the grain into thin 5mm strips for tenderness.",
+        "In a bowl, combine the Cumin, Chili Powder, salt, and pepper. Toss the beef strips in the spice mixture until evenly coated.",
+        "Slice the Bell Peppers into thin strips, removing seeds and membranes.",
+        "Slice the Onion into thin half-moon strips.",
+        "Mince the Garlic cloves finely.",
+        "Juice the Lime and roughly chop the fresh Cilantro.",
+        "Rinse the Rice until water runs clear."
+      ],
+      "cooking": [
+        "Start the Rice: combine with water, bring to boil, reduce heat to low, cover and cook for 15-18 minutes.",
+        "Heat a large cast-iron skillet or wok with the Vegetable Oil over high heat until smoking - this is key for that sizzling fajita char.",
+        "Working in batches to avoid crowding, sear the seasoned Beef Sirloin strips for 1-2 minutes per side until nicely charred but still pink inside. Transfer to a plate.",
+        "In the same hot pan, add the Bell Peppers and Onion. Let them char without stirring for 1-2 minutes, then toss and cook for another 3-4 minutes until tender-crisp with good color.",
+        "Add the minced Garlic and cook for 30 seconds until fragrant.",
+        "Return the beef to the pan, squeeze the Lime juice over everything, and toss to combine. Cook for 1 minute more."
+      ],
+      "serving": [
+        "Fluff the Rice and divide among serving bowls.",
+        "Pile the sizzling fajita beef and peppers over the rice.",
+        "Top with a generous dollop of Sour Cream.",
+        "Scatter fresh Cilantro over the top and serve with extra lime wedges."
+      ],
+      "tips": [
+        "A screaming hot pan is essential for that authentic fajita char - don't be afraid of a little smoke.",
+        "Slicing beef against the grain is crucial for tender bites.",
+        "For extra flavor, add a splash of tequila or beer when the beef goes back in the pan.",
+        "Warm your bowls in the oven briefly before serving for restaurant-style presentation."
+      ]
+    }
   },
   {
     "id": "teriyaki-chicken",
@@ -271,7 +516,40 @@
       "Pour sauce over chicken and simmer until glazed.",
       "Serve chicken over rice with broccoli.",
       "Garnish with sesame seeds and green onions."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Remove the Chicken Thighs from the refrigerator 20 minutes before cooking to bring to room temperature.",
+        "Pat the chicken dry with paper towels and score the skin lightly for crispier results.",
+        "Mince the Garlic and grate the fresh Ginger.",
+        "In a small bowl, whisk together the Soy Sauce, Mirin, Brown Sugar, minced Garlic, and grated Ginger until the sugar dissolves.",
+        "Cut the Broccoli into bite-sized florets.",
+        "Thinly slice the Green Onions on a bias.",
+        "Rinse the Rice until water runs clear."
+      ],
+      "cooking": [
+        "Start the Rice: combine with water, bring to boil, reduce heat to low, cover and cook for 15-18 minutes.",
+        "Place the Chicken Thighs skin-side down in a cold pan, then turn heat to medium. This renders the fat slowly for extra crispy skin.",
+        "Cook without moving for 8-10 minutes until the skin is deeply golden and crispy.",
+        "Flip the chicken and cook for another 5-6 minutes until cooked through (internal temp 165°F/74°C).",
+        "Meanwhile, steam the Broccoli florets for 3-4 minutes until bright green and tender-crisp. Set aside.",
+        "Drain excess fat from the chicken pan, leaving about 1 tablespoon.",
+        "Pour the teriyaki sauce over the chicken and let it simmer for 2-3 minutes, spooning the sauce over the chicken until it's glossy and glazed."
+      ],
+      "serving": [
+        "Slice the glazed Chicken Thighs into strips.",
+        "Fluff the Rice and divide among serving bowls.",
+        "Arrange the sliced chicken and steamed Broccoli over the rice.",
+        "Drizzle any remaining sauce from the pan over the top.",
+        "Sprinkle with Sesame Seeds and sliced Green Onions."
+      ],
+      "tips": [
+        "Starting chicken in a cold pan is the secret to restaurant-quality crispy skin.",
+        "Don't move the chicken while the skin crisps - let it render undisturbed.",
+        "If the sauce gets too thick, add a splash of water to loosen it up.",
+        "For extra umami, add a teaspoon of toasted sesame oil to the finished sauce."
+      ]
+    }
   },
   {
     "id": "mushroom-risotto",
@@ -301,7 +579,38 @@
       "Continue for 18-20 minutes until rice is creamy.",
       "Fold in mushrooms, parmesan, and thyme.",
       "Serve immediately with extra parmesan."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Slice the Mixed Mushrooms into even pieces - quarter larger mushrooms, halve smaller ones.",
+        "Finely dice the Onion into small pieces.",
+        "Mince the Garlic cloves.",
+        "Finely grate the Parmesan Cheese.",
+        "Heat the Chicken Stock in a saucepan and keep it warm over low heat - adding cold stock will shock the rice and affect the texture."
+      ],
+      "cooking": [
+        "Heat half the Butter in a large pan over medium-high heat. Add the Mixed Mushrooms and sauté for 5-6 minutes until golden brown. Season with salt and Thyme. Transfer to a plate and set aside.",
+        "In the same pan, heat the Olive Oil and remaining Butter over medium heat.",
+        "Add the diced Onion and cook for 4-5 minutes until soft and translucent.",
+        "Add the minced Garlic and cook for 30 seconds until fragrant.",
+        "Add the Arborio Rice and stir for 2 minutes until the grains are toasted and slightly translucent at the edges - this is called 'toasting' and is essential for creamy risotto.",
+        "Pour in the White Wine and stir until completely absorbed - this adds acidity and depth.",
+        "Add the warm Chicken Stock one ladle at a time (about 125ml), stirring frequently. Wait until each addition is almost absorbed before adding the next.",
+        "Continue this process for 18-20 minutes until the rice is al dente - creamy on the outside with a slight bite in the center."
+      ],
+      "serving": [
+        "Remove from heat and fold in the sautéed mushrooms, grated Parmesan Cheese, and a final knob of butter.",
+        "Let the risotto rest for 1-2 minutes - it should flow slowly when plated (this is called 'all'onda' or wavy).",
+        "Divide among warm plates and top with extra Parmesan and a crack of black pepper.",
+        "Serve immediately - risotto waits for no one!"
+      ],
+      "tips": [
+        "Never rinse Arborio Rice - the starch is what makes risotto creamy.",
+        "Keep the stock warm - adding cold liquid shocks the rice and affects the final texture.",
+        "The stirring isn't about being constant, but about ensuring the rice doesn't stick and the starch releases evenly.",
+        "A proper risotto should spread slightly on the plate, not sit in a mound."
+      ]
+    }
   },
   {
     "id": "fish-tacos",
@@ -330,7 +639,37 @@
       "Warm tortillas in a dry pan.",
       "Assemble tacos with fish, slaw, and cilantro.",
       "Serve with lime wedges."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Cut the White Fish Fillets into strips about 3cm wide.",
+        "Pat the fish completely dry with paper towels and season with salt.",
+        "Finely shred the Cabbage using a sharp knife or mandoline.",
+        "Juice the Lime, reserving some wedges for serving.",
+        "Roughly chop the fresh Cilantro."
+      ],
+      "cooking": [
+        "Make the chipotle slaw: In a bowl, mix the shredded Cabbage with Mayonnaise, half the Lime juice, and Chipotle. Season with salt and refrigerate until serving.",
+        "Make the batter: Whisk the Flour with the Beer until smooth - the consistency should be like thick cream. Season with a pinch of salt.",
+        "Heat the Vegetable Oil in a deep pan or Dutch oven to 375°F (190°C). Use a thermometer for accuracy.",
+        "Working in batches, dip the fish strips into the batter, letting excess drip off, then carefully lower into the hot oil.",
+        "Fry for 3-4 minutes, turning once, until the batter is golden and crispy and the fish is cooked through.",
+        "Transfer to a paper towel-lined plate and season immediately with a light sprinkle of salt.",
+        "Warm the Flour Tortillas in a dry skillet for 30 seconds per side until pliable and slightly charred."
+      ],
+      "serving": [
+        "Place a generous portion of crispy fish on each warm Flour Tortilla.",
+        "Top with a heap of the chipotle slaw.",
+        "Sprinkle with fresh Cilantro and a squeeze of remaining Lime juice.",
+        "Serve immediately with extra lime wedges on the side."
+      ],
+      "tips": [
+        "The key to crispy batter is cold beer - keep it refrigerated until you're ready to mix.",
+        "Don't overcrowd the oil - frying too many pieces at once drops the temperature and makes fish greasy.",
+        "If you don't have a thermometer, test the oil by dropping a tiny bit of batter in - it should sizzle immediately and float.",
+        "For extra crunch, add a tablespoon of cornstarch to the batter."
+      ]
+    }
   },
   {
     "id": "pork-stir-fry",
@@ -359,7 +698,39 @@
       "Stir-fry peppers and snap peas for 2 minutes.",
       "Return pork, add garlic and sauce.",
       "Toss until glossy and serve over rice."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Slice the Pork Tenderloin against the grain into thin 5mm strips for maximum tenderness.",
+        "Toss the pork strips with the Cornstarch until evenly coated - this creates a velvety texture.",
+        "Slice the Bell Peppers into thin strips, removing seeds.",
+        "Trim the ends off the Snap Peas and leave whole.",
+        "Mince the Garlic finely.",
+        "In a small bowl, whisk together the Soy Sauce, Honey, and Sriracha until combined.",
+        "Rinse the Rice until water runs clear."
+      ],
+      "cooking": [
+        "Start the Rice: combine with water, bring to boil, reduce heat to low, cover and cook for 15-18 minutes.",
+        "Heat half the Vegetable Oil in a wok or large skillet over high heat until smoking.",
+        "Add the cornstarch-coated Pork Tenderloin in a single layer. Let it sear undisturbed for 1 minute, then stir-fry for 2-3 minutes until browned and just cooked through. Transfer to a plate.",
+        "Add the remaining oil to the wok. Add the Bell Peppers and stir-fry for 1 minute.",
+        "Add the Snap Peas and continue stir-frying for another 1-2 minutes until vegetables are crisp-tender and have a bit of char.",
+        "Add the minced Garlic and cook for 30 seconds until fragrant.",
+        "Return the pork to the wok, pour in the sauce, and toss everything together for 1 minute until the sauce is glossy and coats everything evenly."
+      ],
+      "serving": [
+        "Fluff the Rice and divide among serving bowls.",
+        "Spoon the sweet and spicy pork and vegetables over the rice.",
+        "Garnish with sesame seeds and sliced green onions if desired.",
+        "Serve immediately while hot and glossy."
+      ],
+      "tips": [
+        "The cornstarch coating is key - it creates a protective barrier that keeps the pork juicy and gives the sauce something to cling to.",
+        "A smoking hot wok is essential for proper stir-frying - don't be afraid of high heat.",
+        "Work in batches if needed - overcrowding the wok will steam the meat instead of searing it.",
+        "Adjust the Sriracha to your heat preference - start with less and add more at the end if needed."
+      ]
+    }
   },
   {
     "id": "greek-chicken-bowls",
@@ -389,7 +760,38 @@
       "Slice chicken and arrange over rice.",
       "Top with vegetables, feta, and tzatziki.",
       "Drizzle with olive oil and serve."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Cut the Chicken Breast into 3cm chunks.",
+        "In a bowl, whisk together half the Olive Oil, juice from half the Lemon, the Oregano, and one minced Garlic clove. Add the chicken and marinate for at least 30 minutes (or up to 4 hours in the fridge).",
+        "Dice the Cucumber into 1cm cubes. Halve the Cherry Tomatoes. Thinly slice the Red Onion.",
+        "Crumble the Feta Cheese into chunks.",
+        "Mince the remaining Garlic for the tzatziki.",
+        "Rinse the Rice until water runs clear."
+      ],
+      "cooking": [
+        "Make the tzatziki: Grate half the Cucumber, squeeze out excess moisture. Mix with Greek Yogurt, remaining minced Garlic, remaining Lemon juice, and a pinch of salt. Refrigerate until serving.",
+        "Start the Rice: combine with water, bring to boil, reduce heat to low, cover and cook for 15-18 minutes.",
+        "Heat the remaining Olive Oil in a grill pan or skillet over medium-high heat.",
+        "Remove the Chicken Breast from the marinade and cook for 5-6 minutes per side until nicely charred and cooked through (internal temp 165°F/74°C).",
+        "Let the chicken rest for 5 minutes before slicing into strips."
+      ],
+      "serving": [
+        "Fluff the Rice and divide among serving bowls.",
+        "Arrange the sliced grilled chicken on one side of each bowl.",
+        "Add the diced Cucumber, halved Cherry Tomatoes, and sliced Red Onion in sections around the bowl.",
+        "Crumble the Feta Cheese generously over the top.",
+        "Add a generous dollop of tzatziki.",
+        "Drizzle with extra Olive Oil and sprinkle with Oregano."
+      ],
+      "tips": [
+        "Marinating the chicken in lemon and oregano is essential for authentic Greek flavor.",
+        "Squeezing moisture from the grated cucumber prevents watery tzatziki.",
+        "Let the chicken rest before slicing to keep it juicy.",
+        "For extra authenticity, add kalamata olives and a sprinkle of sumac."
+      ]
+    }
   },
   {
     "id": "shrimp-scampi",
@@ -417,7 +819,38 @@
       "Add remaining butter and toss with pasta.",
       "Return shrimp to pan and add pasta water if needed.",
       "Garnish with parsley and serve immediately."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Peel and devein the Large Shrimp if not already done, patting completely dry with paper towels.",
+        "Mince the Garlic finely - you'll want plenty for this dish.",
+        "Zest the Lemon, then juice it, keeping zest and juice separate.",
+        "Roughly chop the fresh Parsley.",
+        "Bring a large pot of heavily salted water to boil for the Linguine."
+      ],
+      "cooking": [
+        "Cook the Linguine according to package directions until al dente. Before draining, reserve 1 cup of pasta cooking water - this starchy water is liquid gold for the sauce.",
+        "While pasta cooks, heat the Olive Oil and half the Butter in a large skillet over medium-high heat.",
+        "Add the Large Shrimp in a single layer and cook for 1-2 minutes per side until pink and just cooked through. Transfer to a plate immediately - overcooked shrimp is rubbery.",
+        "Reduce heat to medium. Add the remaining Butter to the pan.",
+        "Add the minced Garlic and Red Pepper Flakes, stirring for 30 seconds until fragrant - don't let the garlic brown.",
+        "Pour in the White Wine and Lemon juice. Let it bubble and reduce by half, about 2 minutes.",
+        "Add the drained Linguine to the pan and toss to coat. Add splashes of reserved pasta water as needed to create a silky sauce that clings to the pasta.",
+        "Return the shrimp to the pan and toss gently to combine and warm through."
+      ],
+      "serving": [
+        "Remove from heat and add the Parsley and Lemon zest, tossing to distribute.",
+        "Divide among warm bowls, making sure each portion gets plenty of shrimp.",
+        "Finish with extra Red Pepper Flakes for those who like heat.",
+        "Serve immediately while the sauce is glossy and the pasta is hot."
+      ],
+      "tips": [
+        "Reserve pasta water BEFORE draining - you can't get it back, and it's essential for the sauce.",
+        "Don't overcook the shrimp - they continue cooking from residual heat when added back to the pasta.",
+        "The wine should be something you'd drink - cooking wine has poor flavor.",
+        "A splash of extra butter at the very end adds restaurant-quality richness."
+      ]
+    }
   },
   {
     "id": "bbq-chicken",
@@ -446,7 +879,35 @@
       "Mix coleslaw with mayonnaise.",
       "Brush chicken with more sauce before serving.",
       "Serve with corn and coleslaw."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Remove the Chicken Thighs from the refrigerator 20 minutes before cooking to bring to room temperature.",
+        "Season the chicken generously on both sides with salt and pepper.",
+        "In a small saucepan, whisk together the Ketchup, Brown Sugar, Apple Cider Vinegar, Worcestershire Sauce, Smoked Paprika, and Garlic Powder.",
+        "Shuck the Corn on the Cob and remove all silk."
+      ],
+      "cooking": [
+        "Make the BBQ sauce: Bring the sauce mixture to a simmer over medium heat, stirring occasionally. Cook for 5 minutes until slightly thickened, then set aside.",
+        "Preheat oven to 400°F (200°C) or prepare your grill for medium-high heat.",
+        "Place the seasoned Chicken Thighs on a baking sheet (skin-side up if applicable). Bake for 25 minutes.",
+        "Brush the chicken generously with BBQ sauce and return to oven for another 10 minutes until glazed and internal temp reaches 165°F (74°C).",
+        "Grill or boil the Corn on the Cob for 8-10 minutes until tender and slightly charred.",
+        "Make the coleslaw: Mix the Coleslaw Mix with Mayonnaise and season with salt, pepper, and a splash of Apple Cider Vinegar."
+      ],
+      "serving": [
+        "Brush the Chicken Thighs with another layer of BBQ sauce while hot.",
+        "Serve the glazed chicken alongside the grilled corn and creamy coleslaw.",
+        "Provide extra BBQ sauce on the side for dipping.",
+        "Napkins are essential - this is a hands-on meal!"
+      ],
+      "tips": [
+        "Don't add the BBQ sauce too early - the sugars will burn before the chicken is cooked through.",
+        "For smokier flavor, add a teaspoon of liquid smoke to the sauce.",
+        "Let the corn rest for 2 minutes after grilling, then brush with butter.",
+        "For crispy chicken skin, broil for the last 2 minutes of cooking."
+      ]
+    }
   },
   {
     "id": "vegetable-pad-thai",
@@ -475,7 +936,37 @@
       "Add noodles and sauce, toss to coat.",
       "Add bean sprouts and green onions.",
       "Serve topped with crushed peanuts and lime wedges."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Soak the Rice Noodles in warm (not boiling) water for 30 minutes until pliable but still slightly firm - they'll finish cooking in the wok.",
+        "Press the Tofu: wrap in paper towels, place a heavy object on top, and let drain for 15 minutes. Then cut into 2cm cubes.",
+        "Slice the Green Onions, separating whites and greens.",
+        "Roughly crush the Peanuts with a knife or in a bag.",
+        "Juice the Lime.",
+        "Make the pad thai sauce: whisk together the Tamarind Paste, Fish Sauce, and Brown Sugar until the sugar dissolves."
+      ],
+      "cooking": [
+        "Heat 2 tablespoons of the Vegetable Oil in a wok over high heat until smoking.",
+        "Add the Tofu cubes and fry without stirring for 2 minutes until golden on the bottom. Flip and cook another 2 minutes. Transfer to a plate.",
+        "Add remaining oil to the wok. Push any tofu bits aside and crack in the Eggs. Let them set for 30 seconds, then scramble into large pieces. Push to the side of the wok.",
+        "Add the drained Rice Noodles and the pad thai sauce. Toss vigorously with tongs for 2-3 minutes until noodles are coated and softened.",
+        "Add half the Bean Sprouts and the white parts of the Green Onions. Toss for another minute.",
+        "Return the tofu to the wok and toss everything together."
+      ],
+      "serving": [
+        "Divide among plates and top with remaining fresh Bean Sprouts.",
+        "Sprinkle generously with crushed Peanuts and sliced Green Onion greens.",
+        "Serve with Lime wedges for squeezing over - the acid brightens everything.",
+        "Add extra Fish Sauce or chili flakes to taste."
+      ],
+      "tips": [
+        "Don't over-soak the noodles - they should be pliable but not mushy. They finish cooking in the wok.",
+        "A smoking hot wok is essential for that authentic 'wok hei' (breath of the wok) flavor.",
+        "Adding some bean sprouts raw at the end provides textural contrast.",
+        "For a vegan version, use soy sauce instead of fish sauce and skip the eggs."
+      ]
+    }
   },
   {
     "id": "lamb-kofta",
@@ -503,7 +994,37 @@
       "Warm pita bread on the grill.",
       "Slice cucumber and halve tomatoes.",
       "Serve kofta in pita with vegetables and mint yogurt."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Grate the Onion on the large holes of a box grater - this creates a paste that binds the meat.",
+        "Mince the Garlic finely.",
+        "Finely chop the Fresh Mint, reserving some whole leaves for garnish.",
+        "Slice the Cucumber into rounds. Halve the Cherry Tomatoes.",
+        "If using wooden skewers, soak them in water for 30 minutes to prevent burning."
+      ],
+      "cooking": [
+        "In a large bowl, combine the Ground Lamb with the grated Onion, minced Garlic, Cumin, Coriander, 1 tsp salt, and a good crack of pepper. Mix thoroughly with your hands.",
+        "Divide the mixture into 8 portions. Wet your hands and form each portion around a skewer into an oval sausage shape about 15cm long.",
+        "Make the mint yogurt: mix the Greek Yogurt with most of the chopped Fresh Mint and a pinch of salt. Refrigerate until serving.",
+        "Preheat grill or grill pan to medium-high heat.",
+        "Grill the kofta for 4-5 minutes per side, turning carefully, until charred outside and cooked through (internal temp 160°F/71°C).",
+        "Warm the Pita Bread on the grill for 30 seconds per side until soft and pliable."
+      ],
+      "serving": [
+        "Slide the kofta off the skewers into warm Pita Bread.",
+        "Add sliced Cucumber and halved Cherry Tomatoes.",
+        "Drizzle generously with the mint yogurt.",
+        "Scatter with reserved Fresh Mint leaves.",
+        "Serve immediately with extra yogurt on the side."
+      ],
+      "tips": [
+        "Grating the onion rather than chopping ensures even distribution and helps bind the meat.",
+        "Wet hands prevent the meat from sticking while forming kofta.",
+        "Don't press or flatten the kofta while grilling - let them cook undisturbed for proper browning.",
+        "For extra flavor, add a pinch of cinnamon or sumac to the lamb mixture."
+      ]
+    }
   },
   {
     "id": "cajun-shrimp-pasta",
@@ -531,7 +1052,40 @@
       "Pour in cream and simmer until slightly thickened.",
       "Toss with pasta, shrimp, and parmesan.",
       "Garnish with parsley and serve."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Peel and devein the Large Shrimp, patting completely dry with paper towels.",
+        "Toss the shrimp with half the Cajun Seasoning until evenly coated.",
+        "Dice the Bell Pepper into small pieces, removing seeds.",
+        "Mince the Garlic finely.",
+        "Grate the Parmesan Cheese.",
+        "Roughly chop the fresh Parsley.",
+        "Bring a large pot of salted water to boil for the pasta."
+      ],
+      "cooking": [
+        "Cook the Penne Pasta according to package directions until al dente. Reserve 1 cup pasta water before draining.",
+        "While pasta cooks, heat the Butter in a large skillet over medium-high heat.",
+        "Add the seasoned Large Shrimp and cook for 2-3 minutes per side until pink and slightly charred. Transfer to a plate.",
+        "In the same pan, add the diced Bell Pepper and remaining Cajun Seasoning. Cook for 3-4 minutes until the pepper is softened.",
+        "Add the minced Garlic and cook for 30 seconds until fragrant.",
+        "Pour in the Heavy Cream and bring to a simmer. Cook for 3-4 minutes until the sauce has thickened slightly.",
+        "Add the drained pasta and toss to coat. Add splashes of pasta water if the sauce is too thick.",
+        "Stir in the grated Parmesan Cheese until melted and smooth. Return the shrimp to the pan and toss to combine."
+      ],
+      "serving": [
+        "Divide the creamy Cajun pasta among warm bowls, making sure each serving gets plenty of shrimp.",
+        "Garnish with fresh Parsley and extra Parmesan.",
+        "Add a sprinkle of extra Cajun Seasoning for those who like more heat.",
+        "Serve immediately while hot and creamy."
+      ],
+      "tips": [
+        "Cajun seasoning varies by brand - taste before adding more, some are much spicier than others.",
+        "Don't overcook the shrimp initially - they'll finish cooking when tossed back into the sauce.",
+        "The starchy pasta water is essential for a silky, clingy sauce.",
+        "For extra richness, add a splash of white wine when cooking the bell pepper."
+      ]
+    }
   },
   {
     "id": "honey-garlic-pork",
@@ -559,7 +1113,38 @@
       "Steam green beans until tender.",
       "Prepare mashed potatoes.",
       "Serve pork over mash with beans and extra glaze."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Remove the Pork Chops from the refrigerator 20 minutes before cooking to bring to room temperature for even cooking.",
+        "Pat the pork chops completely dry with paper towels and season generously with salt and pepper.",
+        "Mince the Garlic finely - use plenty, as it's the star of this dish.",
+        "Trim the ends off the Green Beans.",
+        "If making fresh Mashed Potatoes, peel and quarter your potatoes and put them on to boil in salted water."
+      ],
+      "cooking": [
+        "Heat the Olive Oil in a large skillet over medium-high heat until shimmering.",
+        "Add the Pork Chops and sear without moving for 4 minutes until a golden crust forms. Flip and cook another 4 minutes. Transfer to a plate to rest.",
+        "Reduce heat to medium. Add the Butter to the same pan.",
+        "Add the minced Garlic and cook for 1 minute until fragrant and just starting to turn golden - don't let it burn.",
+        "Add the Honey, Soy Sauce, and Thyme. Stir and let it bubble for 2 minutes until slightly thickened into a glaze.",
+        "Return the Pork Chops to the pan and spoon the glaze over them repeatedly, cooking for another 2 minutes to coat and finish cooking through.",
+        "Steam or blanch the Green Beans for 3-4 minutes until bright green and tender-crisp.",
+        "Drain mashed potatoes and mash with butter and cream until smooth (or heat prepared Mashed Potatoes)."
+      ],
+      "serving": [
+        "Create a bed of creamy Mashed Potatoes on each plate.",
+        "Place a glazed Pork Chop on top, spooning extra glaze from the pan over it.",
+        "Arrange the Green Beans alongside.",
+        "Scatter with fresh Thyme leaves if desired."
+      ],
+      "tips": [
+        "The key to the glaze is letting the honey caramelize without burning - watch the heat.",
+        "Resting the pork before returning it to the glaze keeps it juicy.",
+        "For thicker pork chops, finish them in a 400°F oven after searing.",
+        "Add a splash of apple cider vinegar at the end to cut the sweetness and add brightness."
+      ]
+    }
   },
   {
     "id": "tuscan-chicken",
@@ -587,7 +1172,40 @@
       "Add spinach and stir until wilted.",
       "Slice chicken and return to sauce.",
       "Stir in parmesan and serve over pasta."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Slice the Chicken Breast horizontally to create two thinner cutlets (this ensures even, quick cooking).",
+        "Season the chicken on both sides with salt, pepper, and half the Italian Seasoning.",
+        "Slice the Sun-dried Tomatoes into strips if they aren't already.",
+        "Mince the Garlic finely.",
+        "Grate the Parmesan Cheese.",
+        "Bring a large pot of salted water to boil for the Pasta."
+      ],
+      "cooking": [
+        "Cook the Pasta according to package directions until al dente. Reserve 1 cup pasta water before draining.",
+        "Heat the Olive Oil in a large skillet over medium-high heat.",
+        "Add the Chicken Breast cutlets and cook for 4-5 minutes per side until golden brown and cooked through (internal temp 165°F/74°C). Transfer to a plate and let rest.",
+        "In the same pan, add the minced Garlic and remaining Italian Seasoning. Cook for 30 seconds until fragrant.",
+        "Add the Sun-dried Tomatoes and cook for 1 minute.",
+        "Pour in the Heavy Cream and bring to a gentle simmer. Cook for 3-4 minutes until slightly thickened.",
+        "Add the Spinach in handfuls, stirring until each batch wilts before adding more.",
+        "Stir in the grated Parmesan Cheese until melted and smooth.",
+        "Slice the rested chicken and return it to the sauce, spooning the creamy mixture over the chicken."
+      ],
+      "serving": [
+        "Divide the drained Pasta among plates.",
+        "Top with the creamy Tuscan chicken and plenty of sauce.",
+        "Spoon extra sauce over the top.",
+        "Garnish with additional Parmesan and a crack of black pepper."
+      ],
+      "tips": [
+        "Butterflying or pounding the chicken ensures even cooking and more surface area for the sauce.",
+        "Sun-dried tomatoes packed in oil have more flavor than dry-packed ones.",
+        "The spinach will seem like too much at first but wilts down significantly.",
+        "A splash of the sun-dried tomato oil adds extra depth to the sauce."
+      ]
+    }
   },
   {
     "id": "beef-bulgogi",
@@ -615,7 +1233,38 @@
       "Grill or pan-fry beef over high heat until caramelized.",
       "Garnish with green onions and sesame seeds.",
       "Serve over rice with kimchi if desired."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Freeze the Beef Ribeye for 30 minutes - this makes it much easier to slice paper-thin.",
+        "Slice the beef against the grain as thinly as possible (2-3mm).",
+        "Core and grate the Asian Pear - it acts as a natural tenderizer.",
+        "Mince the Garlic and grate the fresh Ginger.",
+        "Thinly slice the Green Onions on a bias.",
+        "Rinse the Rice until water runs clear."
+      ],
+      "cooking": [
+        "Make the marinade: blend or whisk together the grated Asian Pear, Soy Sauce, Sesame Oil, Brown Sugar, minced Garlic, and grated Ginger until smooth.",
+        "Place the sliced Beef Ribeye in a shallow dish and pour the marinade over. Mix to coat every piece. Cover and refrigerate for at least 1 hour (or up to overnight for best results).",
+        "Start the Rice: combine with water, bring to boil, reduce heat to low, cover and cook for 15-18 minutes.",
+        "Heat a large cast-iron skillet or grill pan over high heat until smoking.",
+        "Working in batches to avoid overcrowding, add the marinated beef in a single layer. Let it sear without moving for 1-2 minutes until caramelized.",
+        "Flip and cook another 1-2 minutes until the edges are slightly charred and the meat is just cooked through.",
+        "Transfer to a plate. The residual heat will finish cooking the thin slices."
+      ],
+      "serving": [
+        "Fluff the Rice and divide among serving bowls.",
+        "Pile the caramelized Beef Bulgogi over the rice.",
+        "Scatter generously with sliced Green Onions and Sesame Seeds.",
+        "Serve with kimchi, pickled vegetables, and lettuce leaves for wrapping."
+      ],
+      "tips": [
+        "The Asian Pear contains enzymes that naturally tenderize the beef - don't skip this step.",
+        "Paper-thin slices are essential - if your butcher can slice it for you, even better.",
+        "A screaming hot pan is key for that caramelized, slightly charred exterior.",
+        "Bulgogi is traditionally wrapped in lettuce with rice and condiments for a perfect bite."
+      ]
+    }
   },
   {
     "id": "lemon-herb-chicken",
@@ -642,7 +1291,39 @@
       "Add asparagus and roast 10 more minutes.",
       "Rest chicken for 5 minutes before serving.",
       "Serve with pan juices drizzled over."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Remove the Chicken Legs from the refrigerator 30 minutes before cooking to bring to room temperature.",
+        "Zest both Lemons, then juice them.",
+        "Mince or thinly slice the Garlic cloves.",
+        "Strip the fresh Rosemary leaves from the stems and roughly chop. Strip the Thyme leaves.",
+        "Quarter the Potatoes into even pieces (or halve if small).",
+        "Trim the woody ends from the Asparagus."
+      ],
+      "cooking": [
+        "Preheat oven to 425°F (220°C).",
+        "In a bowl, whisk together most of the Olive Oil, Lemon zest, half the Lemon juice, the Rosemary, Thyme, and minced Garlic. Season with salt and pepper.",
+        "Rub the herb mixture generously all over the Chicken Legs, getting under the skin where possible.",
+        "Toss the Potatoes with the remaining Olive Oil, salt, and pepper.",
+        "Arrange the Potatoes in a single layer on a large baking sheet. Nestle the chicken legs among them.",
+        "Roast for 35 minutes, basting the chicken with pan juices halfway through.",
+        "Add the Asparagus to the pan around the edges, drizzle with a little oil.",
+        "Roast for another 10 minutes until the chicken skin is crispy and golden (internal temp 165°F/74°C), potatoes are tender, and asparagus is bright green."
+      ],
+      "serving": [
+        "Let the Chicken Legs rest for 5 minutes - this redistributes the juices.",
+        "Arrange the chicken on a platter with the roasted Potatoes and Asparagus.",
+        "Drizzle the remaining Lemon juice and all the delicious pan juices over everything.",
+        "Scatter with extra fresh herbs if desired."
+      ],
+      "tips": [
+        "Getting the herb butter under the skin keeps the chicken incredibly moist.",
+        "Cut potatoes evenly so they cook at the same rate.",
+        "Don't skip the resting time - cutting too early lets all the juices run out.",
+        "Save the pan drippings - they're liquid gold for the final drizzle."
+      ]
+    }
   },
   {
     "id": "thai-basil-chicken",
@@ -671,7 +1352,37 @@
       "Pour in sauce and toss to coat.",
       "Remove from heat and fold in Thai basil.",
       "Serve immediately over rice."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Rinse the Jasmine Rice until water runs clear - this removes excess starch for fluffy grains.",
+        "Thinly slice the Thai Chilies (remove seeds for less heat).",
+        "Roughly chop the Garlic - it doesn't need to be fine since it will cook down.",
+        "Pick the Thai Basil leaves from the stems, keeping them whole.",
+        "In a small bowl, mix the Soy Sauce, Oyster Sauce, Fish Sauce, and Sugar until the sugar dissolves."
+      ],
+      "cooking": [
+        "Start the Jasmine Rice: combine with water in a pot, bring to boil, reduce heat to low, cover and cook for 12-15 minutes until fluffy.",
+        "Heat the Vegetable Oil in a wok or large skillet over high heat until smoking.",
+        "Add the sliced Thai Chilies and chopped Garlic. Stir-fry for 30 seconds until fragrant - the garlic should turn golden but not burn.",
+        "Add the Ground Chicken, breaking it up with a spatula. Let it sear without stirring for 1 minute to get some color.",
+        "Continue stir-frying for 3-4 minutes until the chicken is cooked through and starting to get crispy edges.",
+        "Pour in the sauce mixture and toss to coat. Let it bubble for 1-2 minutes until the sauce reduces slightly and coats the chicken.",
+        "Remove from heat immediately and fold in the Thai Basil leaves - they should just wilt from the residual heat, not cook."
+      ],
+      "serving": [
+        "Divide the fluffy Jasmine Rice among serving plates.",
+        "Spoon the Thai basil chicken over the rice.",
+        "Top with a fried egg if desired - traditional Thai style.",
+        "Serve immediately while the basil is still bright and aromatic."
+      ],
+      "tips": [
+        "Don't cook the basil - it should be added off heat and just wilted. Cooking turns it black and bitter.",
+        "Thai holy basil (bai gaprao) is traditional, but Thai sweet basil works well too.",
+        "The sauce should reduce to a coating consistency, not pooling at the bottom.",
+        "For authentic presentation, serve with a fried egg on top - the runny yolk becomes part of the sauce."
+      ]
+    }
   },
   {
     "id": "salmon-teriyaki-bowl",
@@ -700,7 +1411,39 @@
       "Slice avocado and cut nori into strips.",
       "Assemble bowls with rice, salmon, edamame, avocado, and ginger.",
       "Top with sesame seeds and nori."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Remove the Salmon Fillet from the refrigerator 20 minutes before cooking.",
+        "Pat the salmon completely dry with paper towels.",
+        "Rinse the Sushi Rice until water runs clear (this is essential for proper texture).",
+        "Slice the Avocado and drizzle with a little lemon or lime juice to prevent browning.",
+        "Cut the Nori into thin strips using scissors.",
+        "Make the teriyaki sauce: whisk together the Soy Sauce, Mirin, and Honey until combined."
+      ],
+      "cooking": [
+        "Cook the Sushi Rice according to package directions - typically 1:1.1 rice to water ratio, bring to boil, reduce heat, cover and cook 15 minutes, then rest 10 minutes.",
+        "Cook the Edamame in salted boiling water for 3-4 minutes until tender. Drain and shell if needed.",
+        "Heat a non-stick skillet over medium-high heat. No oil needed if skin-on.",
+        "Place the Salmon Fillet skin-side up (flesh down first) and sear for 3 minutes until a nice crust forms.",
+        "Flip to skin-side down and cook another 3 minutes until the skin is crispy.",
+        "Pour the teriyaki sauce over the salmon and let it bubble and reduce for 1-2 minutes, spooning the glaze over the fish.",
+        "The salmon should be glazed and slightly caramelized, cooked to medium (still slightly translucent in the center)."
+      ],
+      "serving": [
+        "Divide the Sushi Rice between bowls, pressing gently to form a bed.",
+        "Place the glazed Salmon Fillet on top of the rice.",
+        "Arrange the sliced Avocado, shelled Edamame, and Pickled Ginger in sections around the bowl.",
+        "Sprinkle with Sesame Seeds and Nori strips.",
+        "Drizzle any remaining teriyaki sauce from the pan over the top."
+      ],
+      "tips": [
+        "Good sushi rice should be slightly sticky but not mushy - don't skip the rinsing step.",
+        "For the best texture, cook salmon to medium rather than well-done - it should flake but still be moist.",
+        "Fan the rice as it cools slightly for the traditional glossy finish.",
+        "Add a drizzle of sriracha mayo for extra flavor if desired."
+      ]
+    }
   },
   {
     "id": "moroccan-chicken",
@@ -730,7 +1473,39 @@
       "Cover and cook for 30 minutes.",
       "Prepare couscous according to package directions.",
       "Serve chicken over couscous with cilantro."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Remove the Chicken Thighs from the refrigerator 30 minutes before cooking.",
+        "Mix the Cumin and Cinnamon with salt and pepper. Rub generously over the chicken.",
+        "Rinse the Preserved Lemons, discard the pulp, and slice the rind into thin strips.",
+        "Thinly slice the Onion. Mince the Garlic.",
+        "Roughly chop the fresh Cilantro.",
+        "Bloom the Saffron in 2 tablespoons of warm Chicken Stock."
+      ],
+      "cooking": [
+        "Heat oil in a tagine or Dutch oven over medium-high heat.",
+        "Brown the Chicken Thighs skin-side down for 4-5 minutes until golden. Flip and brown the other side. Transfer to a plate.",
+        "In the same pot, sauté the sliced Onion for 5-6 minutes until softened and lightly golden.",
+        "Add the minced Garlic and cook for 30 seconds until fragrant.",
+        "Pour in the remaining Chicken Stock and the saffron-infused liquid. Scrape up any browned bits from the bottom.",
+        "Return the Chicken Thighs to the pot. Add the sliced Preserved Lemons and Green Olives, tucking them around the chicken.",
+        "Cover and simmer on low for 30-35 minutes until the chicken is cooked through and tender.",
+        "Prepare the Couscous: pour boiling stock or water over the couscous (1:1 ratio), cover and let stand 5 minutes, then fluff with a fork."
+      ],
+      "serving": [
+        "Fluff the Couscous and spread on a serving platter.",
+        "Arrange the Chicken Thighs on top with the Preserved Lemons and Green Olives.",
+        "Spoon the aromatic sauce generously over everything.",
+        "Scatter with fresh Cilantro and serve family-style."
+      ],
+      "tips": [
+        "Preserved lemons are salty, so go easy on additional salt.",
+        "If you don't have a tagine, a Dutch oven works perfectly and creates the same braised effect.",
+        "The saffron is expensive but essential for authentic Moroccan flavor - a little goes a long way.",
+        "This dish is even better the next day after the flavors have melded."
+      ]
+    }
   },
   {
     "id": "black-bean-tacos",
@@ -759,7 +1534,39 @@
       "Char tortillas over an open flame or in a dry pan.",
       "Fill tortillas with beans, guacamole, onion, and cheese.",
       "Top with salsa verde and cilantro."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Drain and rinse the Black Beans thoroughly.",
+        "Finely dice the Red Onion and place in a small bowl with a squeeze of Lime juice to pickle slightly.",
+        "Cut the Avocado in half, remove the pit, and scoop out the flesh.",
+        "Juice the Lime.",
+        "Roughly chop the fresh Cilantro.",
+        "Crumble the Queso Fresco."
+      ],
+      "cooking": [
+        "Place half the Black Beans in a bowl and mash with a fork until mostly smooth but still textured.",
+        "Combine the mashed beans with the whole beans in a saucepan.",
+        "Add the Cumin, Chipotle, juice of one Lime, and a pinch of salt.",
+        "Warm over medium heat for 5-7 minutes, stirring occasionally, until heated through and slightly thickened.",
+        "Make the guacamole: mash the Avocado with remaining Lime juice and salt to taste. Keep it chunky for better texture.",
+        "Char the Corn Tortillas: hold each over an open gas flame for 10-15 seconds per side until lightly charred, or heat in a dry skillet until pliable and spotted."
+      ],
+      "serving": [
+        "Lay out the charred Corn Tortillas on plates (2 per person).",
+        "Spread a generous layer of guacamole on each tortilla.",
+        "Spoon the warm, seasoned Black Beans on top.",
+        "Add pickled Red Onion and crumbled Queso Fresco.",
+        "Drizzle with Salsa Verde and scatter with fresh Cilantro.",
+        "Serve with extra lime wedges for squeezing."
+      ],
+      "tips": [
+        "Mashing half the beans creates a creamy base that holds the tacos together better.",
+        "Pickling the onion in lime juice tames its sharpness and adds brightness.",
+        "Double-stack the tortillas if they're thin - it prevents tearing and adds more corn flavor.",
+        "For extra heat, add more chipotle or fresh jalapeño to the beans."
+      ]
+    }
   },
   {
     "id": "ginger-beef",
@@ -788,7 +1595,38 @@
       "Add ginger and garlic, cook 30 seconds.",
       "Return beef and add sauce, toss until glazed.",
       "Serve immediately over rice."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Slice the Beef Flank against the grain into thin 5mm strips.",
+        "Toss the beef strips with the Cornstarch until evenly coated - this is the secret to crispy beef.",
+        "Peel and julienne the Fresh Ginger into matchstick-sized pieces.",
+        "Mince the Garlic.",
+        "Slice the Bell Peppers into thin strips.",
+        "Mix the Soy Sauce, Rice Vinegar, and Brown Sugar until the sugar dissolves.",
+        "Rinse the Rice until water runs clear."
+      ],
+      "cooking": [
+        "Start the Rice: combine with water, bring to boil, reduce heat to low, cover and cook for 15-18 minutes.",
+        "Heat half the Vegetable Oil in a wok or large skillet over high heat until smoking.",
+        "Working in batches to avoid crowding, fry the cornstarch-coated Beef Flank strips for 2-3 minutes until crispy and golden. Transfer to a plate.",
+        "Add the remaining oil to the wok. Stir-fry the Bell Peppers for 2 minutes until slightly charred but still crisp.",
+        "Add the julienned Fresh Ginger and minced Garlic. Stir-fry for 30 seconds until very fragrant.",
+        "Return all the crispy beef to the wok. Pour in the sauce and toss vigorously for 1 minute until the sauce glazes everything and becomes slightly sticky."
+      ],
+      "serving": [
+        "Fluff the Rice and divide among plates or bowls.",
+        "Pile the ginger beef and peppers over the rice.",
+        "Garnish with sliced green onions and sesame seeds if desired.",
+        "Serve immediately while the beef is still crispy."
+      ],
+      "tips": [
+        "The cornstarch coating must be even - shake off excess for crispier results.",
+        "A screaming hot wok is essential - the beef should sizzle immediately on contact.",
+        "Don't skip the ginger - it's the star of this dish. Fresh ginger is mandatory.",
+        "Serve immediately - the crispy coating will soften if it sits too long."
+      ]
+    }
   },
   {
     "id": "chicken-parmesan",
@@ -817,7 +1655,38 @@
       "Place chicken in baking dish, top with marinara and mozzarella.",
       "Broil until cheese is bubbly and golden.",
       "Serve over spaghetti with fresh basil."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Butterfly the Chicken Breast and pound to even 1cm thickness between plastic wrap.",
+        "Set up breading station: Flour seasoned with salt and pepper in bowl 1, beaten Eggs in bowl 2, Breadcrumbs mixed with half the grated Parmesan Cheese in bowl 3.",
+        "Slice the Mozzarella into thin rounds or shred it.",
+        "Grate the remaining Parmesan Cheese.",
+        "Bring a large pot of salted water to boil for the Spaghetti."
+      ],
+      "cooking": [
+        "Dredge each Chicken Breast cutlet in Flour (shake off excess), dip in Eggs (let excess drip), then press firmly into the Breadcrumb mixture, coating both sides.",
+        "Heat the Olive Oil in a large oven-safe skillet over medium-high heat until shimmering.",
+        "Pan-fry the breaded chicken for 3-4 minutes per side until golden brown and crispy. Transfer to a plate lined with paper towels.",
+        "While chicken fries, cook the Spaghetti according to package directions until al dente.",
+        "Preheat your broiler.",
+        "Spoon some Marinara Sauce into a baking dish. Place the fried chicken on top.",
+        "Spoon more Marinara over each piece, then layer with Mozzarella and remaining grated Parmesan.",
+        "Broil for 2-3 minutes until the cheese is bubbly, golden, and slightly charred in spots."
+      ],
+      "serving": [
+        "Divide the Spaghetti among plates and spoon extra Marinara Sauce over it.",
+        "Place a chicken parmesan cutlet on top of each portion.",
+        "Garnish with fresh basil leaves and extra Parmesan.",
+        "Serve immediately while the cheese is still melty."
+      ],
+      "tips": [
+        "Pounding the chicken ensures even cooking and prevents the outside from burning before the inside is done.",
+        "The breading station order (flour-egg-crumb) is important - flour helps the egg stick, egg helps the crumbs stick.",
+        "Don't move the chicken while the first side is browning - a good crust needs undisturbed contact with the pan.",
+        "For extra crispy breading, add grated parmesan directly to the breadcrumbs."
+      ]
+    }
   },
   {
     "id": "coconut-curry-soup",
@@ -846,7 +1715,38 @@
       "Cook until noodles are tender.",
       "Season with fish sauce and lime juice.",
       "Serve topped with tofu and cilantro."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Press the Tofu: wrap in paper towels, place a heavy object on top, and let drain for 15 minutes. Then cut into 2cm cubes.",
+        "Soak the Rice Noodles in warm water for 20 minutes until pliable but not fully soft.",
+        "Slice the Mushrooms into thin strips.",
+        "Trim the Bok Choy and quarter lengthwise.",
+        "Juice the Lime.",
+        "Roughly chop the fresh Cilantro."
+      ],
+      "cooking": [
+        "Heat oil in a large pot over medium-high heat. Fry the Tofu cubes for 2-3 minutes per side until golden. Transfer to a plate.",
+        "In the same pot, add the Red Curry Paste and sauté for 1 minute until fragrant and the color deepens.",
+        "Pour in the Coconut Milk and Vegetable Stock, stirring to combine with the curry paste.",
+        "Bring to a gentle simmer. Add the sliced Mushrooms and cook for 5 minutes until softened.",
+        "Drain the Rice Noodles and add them to the pot along with the Bok Choy.",
+        "Simmer for 3-4 minutes until the noodles are tender and the bok choy is wilted but still bright green.",
+        "Season with Fish Sauce and Lime juice to taste - it should be a balance of salty, sour, and rich."
+      ],
+      "serving": [
+        "Ladle the soup into deep bowls, making sure each portion gets noodles, vegetables, and plenty of broth.",
+        "Top each bowl with the crispy Tofu cubes.",
+        "Scatter with fresh Cilantro and serve with extra lime wedges.",
+        "Add chili flakes or sriracha for those who like extra heat."
+      ],
+      "tips": [
+        "Pressing the tofu removes excess moisture for better browning and texture.",
+        "Don't fully cook the rice noodles before adding - they'll finish in the hot broth.",
+        "Taste and adjust the fish sauce carefully - it's potent stuff.",
+        "For a vegan version, use soy sauce instead of fish sauce."
+      ]
+    }
   },
   {
     "id": "mediterranean-bowl",
@@ -875,7 +1775,37 @@
       "Top with falafel, vegetables, feta, and olives.",
       "Add a generous scoop of hummus.",
       "Drizzle with olive oil and lemon juice."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Rinse the Quinoa under cold water to remove the bitter coating.",
+        "Dice the Cucumber into 1cm cubes.",
+        "Halve the Cherry Tomatoes.",
+        "Thinly slice the Red Onion.",
+        "Crumble the Feta Cheese.",
+        "Juice the Lemon."
+      ],
+      "cooking": [
+        "Cook the Quinoa: combine with water (1:2 ratio), bring to boil, reduce heat, cover and simmer for 15 minutes until fluffy. Let rest 5 minutes, then fluff with a fork.",
+        "Prepare the Falafel according to package directions - either bake at 375°F (190°C) for 15 minutes or pan-fry in a little oil until golden and heated through.",
+        "While everything cooks, make a simple dressing by whisking together the Olive Oil, Lemon juice, salt, and pepper."
+      ],
+      "serving": [
+        "Divide the cooked Quinoa among serving bowls as a base.",
+        "Arrange 3 Falafel on each bowl.",
+        "Create sections with diced Cucumber, halved Cherry Tomatoes, sliced Red Onion, and Kalamata Olives.",
+        "Add a generous scoop of Hummus to each bowl.",
+        "Crumble Feta Cheese over the top.",
+        "Drizzle with the lemon-olive oil dressing.",
+        "Serve with warm pita bread if desired."
+      ],
+      "tips": [
+        "Rinsing quinoa is essential - the natural coating can make it taste bitter or soapy.",
+        "Baked falafel is healthier, but pan-fried gives a crispier exterior.",
+        "Let diners mix everything together at the table - the hummus becomes part of the dressing.",
+        "Add a sprinkle of za'atar or sumac for authentic Middle Eastern flavor."
+      ]
+    }
   },
   {
     "id": "sesame-crusted-tuna",
@@ -903,7 +1833,37 @@
       "Toss greens with dressing.",
       "Slice tuna and arrange over greens.",
       "Drizzle with wasabi aioli."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Remove the Ahi Tuna Steaks from the refrigerator 20 minutes before cooking - room temperature fish sears better.",
+        "Pat the tuna completely dry with paper towels.",
+        "Spread the Sesame Seeds on a plate (use a mix of black and white seeds for visual appeal).",
+        "Grate the fresh Ginger.",
+        "Make the wasabi aioli: mix the Mayonnaise with the Wasabi Paste until smooth. Start with less wasabi - you can always add more."
+      ],
+      "cooking": [
+        "Press the Ahi Tuna Steaks firmly into the Sesame Seeds on all sides until completely coated.",
+        "Heat the Sesame Oil in a heavy skillet over high heat until smoking - this is crucial for a good sear.",
+        "Carefully place the tuna in the pan. Sear for exactly 30-45 seconds per side for rare (the inside should remain red).",
+        "Remove immediately to a cutting board - the tuna will continue cooking from residual heat.",
+        "Make the dressing: whisk together the Soy Sauce, Rice Vinegar, and grated Ginger.",
+        "Toss the Mixed Greens with the dressing."
+      ],
+      "serving": [
+        "Divide the dressed Mixed Greens among plates.",
+        "Slice the seared tuna against the grain into 1cm slices - it should be beautifully red inside.",
+        "Fan the tuna slices over the greens.",
+        "Drizzle with the wasabi aioli.",
+        "Serve immediately while the tuna is still warm on the outside but cool in the center."
+      ],
+      "tips": [
+        "Sushi-grade tuna is essential for this dish since it's served rare.",
+        "The pan must be smoking hot - a too-cool pan will cook the tuna through before getting a good sear.",
+        "Use a timer - even 10 extra seconds can overcook rare tuna.",
+        "For extra crunch, toast the sesame seeds briefly in a dry pan before coating the tuna."
+      ]
+    }
   },
   {
     "id": "butter-chicken",
@@ -933,7 +1893,39 @@
       "Stir in cream and return chicken.",
       "Simmer until chicken is cooked through.",
       "Serve with rice and warm naan, garnished with cilantro."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Cut the Chicken Thighs into 3cm chunks.",
+        "Mix 1 tsp of Garam Masala with a pinch of Kashmiri Chili and rub over the chicken.",
+        "Finely dice the Onion. Mince the Garlic.",
+        "Roughly chop the fresh Cilantro.",
+        "Rinse the Basmati Rice until water runs clear."
+      ],
+      "cooking": [
+        "Start the Basmati Rice: combine with water (1:1.5 ratio), bring to boil, reduce heat to low, cover and cook for 15 minutes. Let rest with lid on.",
+        "Heat half the Butter in a large heavy-bottomed pan over medium-high heat.",
+        "Add the seasoned Chicken Thighs and cook for 3-4 minutes per side until golden and slightly charred. Transfer to a plate.",
+        "In the same pan, add the remaining Butter and sauté the Onion for 6-8 minutes until deeply golden and caramelized.",
+        "Add the minced Garlic and cook for 30 seconds until fragrant.",
+        "Pour in the Tomato Puree, remaining Garam Masala, and remaining Kashmiri Chili. Simmer for 15 minutes, stirring occasionally.",
+        "Stir in the Heavy Cream and let it simmer for 2-3 minutes until the sauce is rich and velvety.",
+        "Return the chicken to the sauce and simmer for 8-10 minutes until cooked through and the flavors meld.",
+        "Warm the Naan Bread in a dry pan or under the broiler."
+      ],
+      "serving": [
+        "Fluff the Basmati Rice and divide among plates.",
+        "Ladle the creamy butter chicken over the rice.",
+        "Drizzle with a little extra cream if desired.",
+        "Garnish with fresh Cilantro and serve with warm Naan Bread on the side."
+      ],
+      "tips": [
+        "Kashmiri chili provides color without intense heat - paprika is a good substitute if needed.",
+        "The butter is key - don't substitute with oil, it's what makes this dish rich and luxurious.",
+        "Letting the tomato sauce simmer before adding cream develops deeper flavor.",
+        "For restaurant-style richness, add an extra tablespoon of butter when finishing the sauce."
+      ]
+    }
   },
   {
     "id": "pesto-pasta",
@@ -961,7 +1953,39 @@
       "Fold in cherry tomatoes and lemon juice.",
       "Top with extra parmesan and basil.",
       "Serve immediately."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Toast the Pine Nuts in a dry pan over medium heat, stirring constantly until golden - watch carefully as they burn quickly. Let cool.",
+        "Wash and dry the Fresh Basil leaves thoroughly - wet basil will turn dark in the pesto.",
+        "Peel the Garlic cloves.",
+        "Grate the Parmesan Cheese.",
+        "Halve the Cherry Tomatoes.",
+        "Juice the Lemon."
+      ],
+      "cooking": [
+        "Make the pesto: In a food processor, pulse the toasted Pine Nuts and Garlic until coarsely chopped.",
+        "Add the Fresh Basil and pulse until chopped.",
+        "With the processor running, slowly drizzle in the Olive Oil until you reach a smooth but still textured consistency.",
+        "Pulse in most of the Parmesan Cheese. Season with salt and pepper.",
+        "Bring a large pot of salted water to boil. Cook the Penne Pasta until al dente. Reserve 1 cup pasta water before draining.",
+        "In a large bowl or the still-warm pasta pot, combine the hot pasta with the pesto and Heavy Cream.",
+        "Toss vigorously, adding pasta water as needed to create a creamy, clingy sauce.",
+        "Fold in the halved Cherry Tomatoes and a squeeze of Lemon juice."
+      ],
+      "serving": [
+        "Divide the pesto pasta among warm bowls.",
+        "Top with extra grated Parmesan Cheese and a few whole basil leaves.",
+        "Drizzle with a little extra Olive Oil.",
+        "Serve immediately - pesto pasta is best eaten right away."
+      ],
+      "tips": [
+        "Don't over-process the pesto - some texture makes it more interesting.",
+        "Adding the cream to fresh pesto makes it clingier and more luxurious.",
+        "The lemon juice brightens everything and prevents the basil from oxidizing.",
+        "Never heat pesto for too long - it can turn bitter and lose its vibrant green color."
+      ]
+    }
   },
   {
     "id": "chicken-shawarma",
@@ -991,7 +2015,37 @@
       "Layer chicken, lettuce, tomato, and pickled turnips in pita.",
       "Drizzle generously with garlic sauce.",
       "Wrap and serve immediately."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Cut the Chicken Thighs into 2cm strips or leave whole if grilling.",
+        "Mix the Cumin, Coriander, Paprika, and Turmeric with 2 tablespoons of olive oil, salt, and pepper for the marinade.",
+        "Coat the chicken thoroughly in the spice marinade. Refrigerate for at least 1 hour (overnight is even better).",
+        "Mince the Garlic - half for the chicken, half for the sauce.",
+        "Slice the Tomato. Shred the Lettuce."
+      ],
+      "cooking": [
+        "Make the garlic sauce (toum): In a food processor, blend half the Garlic with a pinch of salt until pasty. With the motor running, very slowly drizzle in a few tablespoons of oil, alternating with lemon juice, until you have a thick, creamy white sauce. Fold in the Greek Yogurt for a lighter version.",
+        "Heat a grill pan or skillet over high heat.",
+        "Cook the marinated Chicken Thighs for 5-6 minutes per side until charred and cooked through (internal temp 165°F/74°C).",
+        "Let the chicken rest for 5 minutes, then slice into strips.",
+        "Warm the Pita Bread on the grill or in a dry pan until soft and pliable."
+      ],
+      "serving": [
+        "Lay out the warm Pita Bread.",
+        "Spread a generous layer of garlic sauce on each pita.",
+        "Layer with shredded Lettuce and sliced Tomato.",
+        "Pile the sliced Chicken on top.",
+        "Add Pickled Turnips for color and tang.",
+        "Drizzle with more garlic sauce, fold into a wrap, and serve immediately."
+      ],
+      "tips": [
+        "The longer you marinate, the more flavorful and tender the chicken becomes.",
+        "Traditional toum (garlic sauce) is made with just garlic and oil - the yogurt makes it easier and lighter.",
+        "Charring is important for authentic shawarma flavor - don't be afraid of high heat.",
+        "Pickled turnips are traditional and add a beautiful pink color plus essential acidity."
+      ]
+    }
   },
   {
     "id": "shrimp-fried-rice",
@@ -1020,7 +2074,39 @@
       "Push rice aside, cook garlic briefly.",
       "Add soy sauce and toss everything together.",
       "Return eggs and shrimp, add sesame oil and green onions."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Peel and devein the Large Shrimp if needed, patting completely dry.",
+        "Break up any clumps in the Day-old Rice - it should be cold and dry for best results.",
+        "Dice the Carrots into small 5mm cubes.",
+        "Thinly slice the Green Onions, separating whites and greens.",
+        "Mince the Garlic.",
+        "Beat the Eggs lightly in a bowl."
+      ],
+      "cooking": [
+        "Heat a wok over high heat until smoking. Add 1 tablespoon Vegetable Oil.",
+        "Pour in the beaten Eggs and let them set for 30 seconds, then scramble into large curds. Transfer to a plate.",
+        "Add another tablespoon of oil. Stir-fry the Large Shrimp for 2-3 minutes until pink and curled. Transfer to the plate with the eggs.",
+        "Add the remaining oil. Stir-fry the diced Carrots for 2 minutes until slightly softened.",
+        "Add the Peas and the white parts of the Green Onions. Stir-fry for 1 minute.",
+        "Add the cold Day-old Rice, breaking up any clumps. Press the rice against the hot wok to get some char - this is the secret to great fried rice.",
+        "Push the rice to the side and add the minced Garlic to the bare wok. Cook for 20 seconds until fragrant, then mix into the rice.",
+        "Drizzle the Soy Sauce around the edges of the wok (not directly on the rice) and toss everything together.",
+        "Return the scrambled eggs and shrimp to the wok. Drizzle with Sesame Oil and toss to combine."
+      ],
+      "serving": [
+        "Divide the fried rice among plates.",
+        "Scatter with the green parts of the sliced Green Onions.",
+        "Serve immediately while hot and fragrant."
+      ],
+      "tips": [
+        "Day-old rice is essential - fresh rice is too moist and will become mushy. Spread fresh rice on a sheet pan and refrigerate uncovered overnight if needed.",
+        "The wok must be screaming hot throughout - this gives the smoky 'wok hei' flavor.",
+        "Adding soy sauce to the pan edges allows it to caramelize before hitting the rice.",
+        "Don't stir constantly - letting the rice sit against the hot wok creates crispy bits."
+      ]
+    }
   },
   {
     "id": "stuffed-peppers",
@@ -1048,7 +2134,40 @@
       "Place in baking dish, pour remaining tomatoes around.",
       "Cover and bake at 375°F (190°C) for 40 minutes.",
       "Top with mozzarella and bake until melted."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Cut the tops off the Bell Peppers and carefully remove the seeds and membranes. Keep the tops if you want to use them as lids.",
+        "Finely dice the Onion. Mince the Garlic.",
+        "Grate or shred the Mozzarella.",
+        "Roughly chop the fresh Parsley.",
+        "Rinse the Rice until water runs clear."
+      ],
+      "cooking": [
+        "Preheat oven to 375°F (190°C).",
+        "Cook the Rice until just slightly underdone (it will continue cooking in the oven).",
+        "In a large skillet, brown the Ground Beef over medium-high heat, breaking it up into small pieces.",
+        "Add the diced Onion and cook for 4-5 minutes until softened.",
+        "Add the minced Garlic and Italian Seasoning. Cook for 30 seconds until fragrant.",
+        "Stir in half the Canned Tomatoes. Fold in the partially cooked Rice. Season with salt and pepper.",
+        "Stand the hollowed Bell Peppers upright in a baking dish. Spoon the beef-rice mixture into each pepper, packing gently.",
+        "Pour the remaining Canned Tomatoes around the base of the peppers.",
+        "Cover with foil and bake for 40 minutes until peppers are tender.",
+        "Remove foil, top each pepper generously with Mozzarella, and bake uncovered for 10 more minutes until cheese is melted and bubbly."
+      ],
+      "serving": [
+        "Carefully transfer each stuffed pepper to a plate.",
+        "Spoon some of the tomato sauce from the baking dish around each pepper.",
+        "Garnish with fresh Parsley.",
+        "Serve with crusty bread to soak up the sauce."
+      ],
+      "tips": [
+        "If the peppers don't stand upright, trim a tiny bit off the bottom (without making a hole).",
+        "Slightly undercook the rice initially - it absorbs moisture from the tomatoes while baking.",
+        "The tomato sauce around the peppers keeps them moist and creates a built-in side dish.",
+        "For a colorful presentation, use a mix of red, yellow, and orange peppers."
+      ]
+    }
   },
   {
     "id": "orange-chicken",
@@ -1078,7 +2197,40 @@
       "Heat sauce in a wok with garlic until thickened.",
       "Toss chicken in sauce until coated.",
       "Serve over rice with green onions."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Cut the Chicken Breast into 3cm bite-sized pieces.",
+        "Place the Cornstarch in a bowl and toss the chicken pieces until evenly coated.",
+        "Zest the orange to get the Orange Zest, then juice it to get the Orange Juice.",
+        "Mince the Garlic.",
+        "Thinly slice the Green Onions.",
+        "Make the orange sauce: whisk together the Orange Juice, Orange Zest, Soy Sauce, Brown Sugar, and Rice Vinegar until the sugar dissolves.",
+        "Rinse the Rice until water runs clear."
+      ],
+      "cooking": [
+        "Start the Rice: combine with water, bring to boil, reduce heat to low, cover and cook for 15-18 minutes.",
+        "Heat the Vegetable Oil in a deep pot or wok to 350°F (175°C). Use a thermometer for accuracy.",
+        "Working in batches to avoid crowding, carefully add the cornstarch-coated Chicken pieces to the hot oil.",
+        "Fry for 4-5 minutes until golden brown, crispy, and cooked through. Drain on a paper towel-lined plate.",
+        "Drain all but 1 tablespoon of oil from the wok. Heat over medium-high.",
+        "Add the minced Garlic and cook for 30 seconds until fragrant.",
+        "Pour in the orange sauce and bring to a boil. Let it reduce and thicken for 2-3 minutes until glossy and syrupy.",
+        "Add all the crispy chicken to the wok and toss vigorously to coat every piece in the sticky sauce."
+      ],
+      "serving": [
+        "Fluff the Rice and divide among plates or bowls.",
+        "Pile the glazed orange chicken on top.",
+        "Scatter with sliced Green Onions.",
+        "Serve immediately while the coating is still crispy."
+      ],
+      "tips": [
+        "The chicken must be completely dry and evenly coated with cornstarch for crispy results.",
+        "Don't overcrowd the oil - frying in batches keeps the temperature high for crispier chicken.",
+        "Serve immediately - the sauce will soften the crispy coating over time.",
+        "For extra citrus punch, add some fresh orange zest to the finished dish."
+      ]
+    }
   },
   {
     "id": "lamb-chops",
@@ -1106,7 +2258,41 @@
       "Steam green beans until tender.",
       "Rest lamb for 5 minutes.",
       "Serve with mash and green beans."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Remove the Lamb Chops from the refrigerator 30 minutes before cooking to bring to room temperature.",
+        "Strip the fresh Rosemary leaves and finely chop them.",
+        "Mince the Garlic finely.",
+        "Mix the Breadcrumbs with chopped Rosemary, minced Garlic, 2 tablespoons of the Olive Oil, salt, and pepper.",
+        "Trim the Green Beans.",
+        "Peel and quarter the Potatoes."
+      ],
+      "cooking": [
+        "Preheat oven to 400°F (200°C).",
+        "Put the Potatoes in a pot of salted water. Bring to boil and cook for 15-20 minutes until fork-tender.",
+        "Season the Lamb Chops generously with salt and pepper.",
+        "Heat the remaining Olive Oil in an oven-safe skillet over high heat until smoking.",
+        "Sear the lamb chops for 2 minutes on each side until well browned.",
+        "Remove from heat. Brush the top of each chop with Dijon Mustard, then press the herb-breadcrumb mixture firmly onto the mustard to create a crust.",
+        "Transfer the skillet to the oven and roast for 10-12 minutes for medium-rare (internal temp 135°F/57°C).",
+        "Steam or blanch the Green Beans for 3-4 minutes until bright green and tender-crisp.",
+        "Drain the Potatoes and mash with the Butter and a splash of cream. Season with salt and pepper."
+      ],
+      "serving": [
+        "Let the Lamb Chops rest for 5 minutes - this is essential for juicy meat.",
+        "Divide the creamy mashed Potatoes among plates.",
+        "Arrange 2-3 lamb chops per person, leaning against the mash.",
+        "Add a portion of Green Beans alongside.",
+        "Drizzle any pan juices over the lamb."
+      ],
+      "tips": [
+        "Room temperature meat is crucial for even cooking - cold lamb will be overcooked outside and raw inside.",
+        "The mustard helps the crust adhere and adds flavor without being overpowering.",
+        "Don't skip the resting time - cut too early and all the juices will run out.",
+        "For a perfect medium-rare, use an instant-read thermometer."
+      ]
+    }
   },
   {
     "id": "chicken-pot-pie",
@@ -1136,7 +2322,38 @@
       "Fold in chicken and thyme, season to taste.",
       "Pour into baking dish, top with pastry.",
       "Bake at 400°F (200°C) for 25-30 minutes until golden."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Cut the Chicken Breast into 3cm chunks.",
+        "Dice the Carrots into 1cm cubes. Slice the Celery. Dice the Onion.",
+        "Thaw the Puff Pastry according to package directions.",
+        "Strip the Thyme leaves from the stems."
+      ],
+      "cooking": [
+        "Bring the Chicken Stock to a simmer. Add the Chicken Breast chunks and poach for 12-15 minutes until cooked through. Remove chicken and shred with two forks. Reserve the stock.",
+        "Preheat oven to 400°F (200°C).",
+        "In a large pot, melt the Butter over medium heat. Add the diced Onion and cook for 4-5 minutes until softened.",
+        "Add the diced Carrots and sliced Celery. Cook for 5 minutes until slightly softened.",
+        "Sprinkle the Flour over the vegetables and stir to coat. Cook for 1 minute to remove the raw flour taste.",
+        "Gradually pour in the reserved Chicken Stock, whisking constantly to prevent lumps.",
+        "Add the Heavy Cream and Thyme. Bring to a simmer and cook for 5-7 minutes until the sauce thickens enough to coat a spoon.",
+        "Stir in the Peas and shredded chicken. Season with salt and pepper. Pour into a baking dish.",
+        "Roll out the Puff Pastry and drape over the filling, tucking edges under or crimping against the dish. Cut a few slits for steam to escape.",
+        "Bake for 25-30 minutes until the pastry is puffed and deeply golden brown."
+      ],
+      "serving": [
+        "Let the pot pie cool for 10 minutes - the filling will be molten hot.",
+        "Serve generous portions, making sure to crack through the crispy pastry top to reveal the creamy filling.",
+        "A simple green salad makes a perfect accompaniment."
+      ],
+      "tips": [
+        "Poaching the chicken in stock keeps it moist and adds flavor to the sauce.",
+        "The roux must cook for a minute before adding liquid to avoid a floury taste.",
+        "Don't skip the steam vents in the pastry - they prevent the top from getting soggy.",
+        "Brush the pastry with beaten egg before baking for an extra golden, shiny crust."
+      ]
+    }
   },
   {
     "id": "beef-tacos",
@@ -1165,7 +2382,35 @@
       "Fill shells with beef.",
       "Top with lettuce, tomato, cheese, sour cream, and salsa.",
       "Serve immediately."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Finely dice the Onion.",
+        "Shred the Lettuce into thin strips.",
+        "Dice the Tomato into small cubes.",
+        "Grate the Cheddar Cheese."
+      ],
+      "cooking": [
+        "Heat a large skillet over medium-high heat.",
+        "Add the Ground Beef and diced Onion. Cook for 6-8 minutes, breaking the meat into small crumbles with a wooden spoon.",
+        "Drain excess fat, leaving about 1 tablespoon in the pan.",
+        "Add the Cumin, Chili Powder, 1/2 teaspoon salt, and 1/4 cup water.",
+        "Stir to combine and let simmer for 3-4 minutes until the liquid evaporates and the spices coat the meat.",
+        "Warm the Taco Shells according to package directions - typically 3-4 minutes in a 350°F oven or briefly in a dry skillet."
+      ],
+      "serving": [
+        "Set up a taco bar: place the seasoned beef in a serving dish alongside bowls of shredded Lettuce, diced Tomato, grated Cheddar Cheese, Sour Cream, and Salsa.",
+        "Let everyone build their own tacos, starting with beef, then layering with fresh toppings.",
+        "Don't overfill - a common mistake! Less filling means easier eating.",
+        "Serve immediately while the shells are still crispy."
+      ],
+      "tips": [
+        "Don't skip the water - it helps the spices bloom and creates a more flavorful, saucier meat.",
+        "Warming the taco shells makes them more pliable and less likely to crack.",
+        "For softer tacos, wrap flour tortillas in damp paper towels and microwave for 30 seconds.",
+        "For extra kick, add a diced jalapeño to the meat while cooking."
+      ]
+    }
   },
   {
     "id": "ramen-bowl",
@@ -1195,7 +2440,36 @@
       "Ladle hot broth over noodles.",
       "Top with pork, halved eggs, corn, green onions, and nori.",
       "Serve immediately."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Score the Pork Belly skin in a crosshatch pattern for crispy crackling.",
+        "Mince the Garlic and grate the fresh Ginger.",
+        "Thinly slice the Green Onions, separating whites and greens.",
+        "Drain the Corn if using canned."
+      ],
+      "cooking": [
+        "Preheat oven to 400°F (200°C). Season the Pork Belly with salt and roast for 30-35 minutes until the skin is crispy and the meat is cooked through. Let rest, then slice into 1cm pieces.",
+        "Prepare the soft-boiled Eggs: Bring water to a boil, gently lower in the eggs, cook for exactly 6 minutes for jammy yolks. Transfer to ice water immediately, then peel.",
+        "Make the broth: In a large pot, combine the Chicken Stock, minced Garlic, grated Ginger, Soy Sauce, and white parts of the Green Onions. Bring to a simmer.",
+        "Whisk the Miso Paste with a ladleful of hot broth until smooth, then stir back into the pot. Keep warm over low heat - don't boil the miso.",
+        "Cook the Ramen Noodles according to package directions. Drain and divide among deep bowls."
+      ],
+      "serving": [
+        "Ladle the hot miso broth over the noodles - use plenty of broth.",
+        "Arrange the sliced Pork Belly on one side of each bowl.",
+        "Halve the soft-boiled Eggs and place them in the bowl, yolk-side up.",
+        "Add a small pile of Corn and scatter with the green parts of the Green Onions.",
+        "Tuck a sheet of Nori into the side of each bowl.",
+        "Serve immediately while piping hot."
+      ],
+      "tips": [
+        "The 6-minute egg is crucial - even 30 seconds more will firm up the yolk.",
+        "Never boil miso - it kills the beneficial bacteria and dulls the flavor.",
+        "The nori should be added last and eaten quickly before it gets soggy.",
+        "For extra richness, drizzle with chili oil or add a pat of butter (the 'secret' at many ramen shops)."
+      ]
+    }
   },
   {
     "id": "chicken-alfredo",
@@ -1223,7 +2497,40 @@
       "Toss pasta in sauce.",
       "Slice chicken and place on top.",
       "Garnish with parsley and black pepper."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Butterfly the Chicken Breast and pound to even thickness.",
+        "Season with Italian Seasoning, salt, and pepper.",
+        "Mince the Garlic.",
+        "Grate the Parmesan Cheese.",
+        "Roughly chop the fresh Parsley."
+      ],
+      "cooking": [
+        "Bring a large pot of salted water to boil. Cook the Fettuccine until al dente. Reserve 1 cup pasta water before draining.",
+        "While pasta cooks, heat a grill pan or skillet over medium-high heat.",
+        "Grill the seasoned Chicken Breast for 5-6 minutes per side until charred and cooked through (internal temp 165°F/74°C). Let rest for 5 minutes.",
+        "In a large saucepan, melt the Butter over medium heat.",
+        "Add the minced Garlic and cook for 30 seconds until fragrant - don't let it brown.",
+        "Pour in the Heavy Cream and bring to a gentle simmer. Cook for 3-4 minutes until slightly reduced.",
+        "Remove from heat and stir in most of the grated Parmesan Cheese until melted and smooth.",
+        "Add the drained Fettuccine to the sauce and toss to coat. Add splashes of pasta water if needed to loosen.",
+        "Season with Black Pepper to taste."
+      ],
+      "serving": [
+        "Slice the rested Chicken Breast diagonally.",
+        "Divide the creamy Fettuccine among plates.",
+        "Arrange the sliced chicken on top.",
+        "Sprinkle with remaining Parmesan Cheese and fresh Parsley.",
+        "Finish with a generous crack of Black Pepper."
+      ],
+      "tips": [
+        "Don't bring the cream to a rolling boil - gentle simmering prevents it from breaking.",
+        "Add the parmesan off the heat for the smoothest sauce - high heat can make it grainy.",
+        "The pasta water is your friend - use it to adjust sauce consistency.",
+        "This sauce is rich - don't over-sauce the pasta. Less is more."
+      ]
+    }
   },
   {
     "id": "bibimbap",
@@ -1253,7 +2560,38 @@
       "Arrange rice in bowls, top with vegetables and beef.",
       "Place egg on top and add gochujang.",
       "Mix everything together before eating."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Rinse the Rice until water runs clear.",
+        "Slice the Beef Sirloin into thin strips and marinate briefly with a splash of Soy Sauce and Sesame Oil.",
+        "Julienne the Carrots and Zucchini into thin matchsticks.",
+        "Wash and dry the Spinach and Bean Sprouts."
+      ],
+      "cooking": [
+        "Cook the Rice: combine with water, bring to boil, reduce heat to low, cover and cook for 15-18 minutes. Keep warm.",
+        "Prepare each vegetable separately (this is traditional): Sauté the julienned Carrots in a little Sesame Oil with a pinch of salt for 2 minutes until slightly softened. Set aside.",
+        "Sauté the julienned Zucchini the same way for 2 minutes. Set aside.",
+        "Blanch the Spinach in boiling water for 30 seconds, then squeeze out all water. Season with Sesame Oil and salt.",
+        "Blanch the Bean Sprouts for 1 minute, drain, and season the same way.",
+        "Stir-fry the marinated Beef Sirloin over high heat for 2-3 minutes until just cooked. Set aside.",
+        "Fry the Eggs sunny-side up, leaving the yolks runny."
+      ],
+      "serving": [
+        "Divide the hot Rice among large bowls.",
+        "Arrange the vegetables and beef in separate sections around the bowl - each topping should have its own spot, creating a colorful wheel pattern.",
+        "Place a fried Egg in the center with the runny yolk facing up.",
+        "Add a generous dollop of Gochujang on the side.",
+        "Sprinkle with Sesame Seeds.",
+        "Serve with a long spoon - diners should mix everything together before eating, breaking the yolk to create a sauce."
+      ],
+      "tips": [
+        "Each component is seasoned and cooked separately to maintain distinct flavors and textures.",
+        "The runny egg yolk is essential - it mixes with the gochujang to create a creamy sauce.",
+        "For extra crunch, use a stone bowl and heat it before adding rice - this creates a crispy rice crust called 'nurungji'.",
+        "Mixing is part of the experience - encourage thorough mixing for the best flavor in every bite."
+      ]
+    }
   },
   {
     "id": "eggplant-parmesan",
@@ -1281,7 +2619,38 @@
       "Layer eggplant, marinara, and mozzarella.",
       "Repeat layers and top with cheese.",
       "Bake at 375°F (190°C) for 30 minutes until bubbly."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Slice the Eggplant into 1cm rounds.",
+        "Salt the eggplant slices generously and let them sit in a colander for 30 minutes - this draws out moisture and bitterness. Pat completely dry.",
+        "Set up breading station: Flour in bowl 1, beaten Eggs in bowl 2, Breadcrumbs mixed with half the grated Parmesan Cheese in bowl 3.",
+        "Shred or slice the Mozzarella.",
+        "Tear the fresh Basil into pieces."
+      ],
+      "cooking": [
+        "Preheat oven to 375°F (190°C).",
+        "Dredge each dried Eggplant slice in Flour (shake off excess), dip in Eggs, then press into the Breadcrumb-parmesan mixture, coating both sides.",
+        "Heat the Olive Oil in a large skillet over medium-high heat.",
+        "Pan-fry the breaded eggplant in batches for 2-3 minutes per side until golden brown. Add more oil as needed. Drain on paper towels.",
+        "Spread a thin layer of Marinara Sauce on the bottom of a baking dish.",
+        "Layer half the fried eggplant slices, overlapping slightly. Top with 1/3 of the remaining Marinara, 1/3 of the Mozzarella, and some torn Basil.",
+        "Repeat with remaining eggplant, Marinara, Mozzarella, and Basil, ending with cheese on top.",
+        "Cover with foil and bake for 20 minutes. Remove foil and bake another 10-15 minutes until bubbly and golden."
+      ],
+      "serving": [
+        "Let the dish rest for 10 minutes before cutting - this helps it hold together.",
+        "Cut into portions and carefully transfer to plates.",
+        "Garnish with fresh Basil leaves and extra Parmesan.",
+        "Serve with crusty bread or over spaghetti."
+      ],
+      "tips": [
+        "Don't skip the salting step - it's essential for removing bitterness and excess moisture.",
+        "Pat the eggplant very dry after salting - wet eggplant won't crisp properly.",
+        "Let the dish rest before cutting to help the layers set up.",
+        "For a lighter version, brush the breaded eggplant with oil and bake instead of frying."
+      ]
+    }
   },
   {
     "id": "kung-pao-chicken",
@@ -1311,7 +2680,39 @@
       "Fry chilies until fragrant.",
       "Add garlic and ginger, then return chicken.",
       "Add sauce and peanuts, toss with green onions."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Cut the Chicken Breast into 2cm cubes.",
+        "Toss the chicken with the Cornstarch until evenly coated.",
+        "Mince the Garlic and grate the fresh Ginger.",
+        "Cut the Green Onions into 3cm pieces, separating whites and greens.",
+        "Snip the Dried Chilies in half and shake out some seeds (for less heat, remove all seeds).",
+        "Make the sauce: whisk together the Soy Sauce, Rice Vinegar, and Hoisin Sauce.",
+        "Rinse the Rice until water runs clear."
+      ],
+      "cooking": [
+        "Start the Rice: combine with water, bring to boil, reduce heat to low, cover and cook for 15-18 minutes.",
+        "Toast the Peanuts in a dry wok over medium heat for 2-3 minutes until fragrant and golden. Set aside.",
+        "Heat oil in the wok over high heat until smoking.",
+        "Stir-fry the cornstarch-coated Chicken Breast in batches for 3-4 minutes until golden and cooked through. Set aside.",
+        "Add a splash more oil to the wok. Fry the Dried Chilies for 30 seconds until darkened and fragrant - don't burn them!",
+        "Add the minced Garlic, grated Ginger, and the white parts of the Green Onions. Stir-fry for 30 seconds.",
+        "Return the chicken to the wok. Pour in the sauce and toss vigorously.",
+        "Add the toasted Peanuts and the green parts of the Green Onions. Toss until everything is coated and glossy."
+      ],
+      "serving": [
+        "Fluff the Rice and divide among plates or bowls.",
+        "Spoon the Kung Pao chicken over the rice, making sure everyone gets plenty of peanuts and chilies.",
+        "Serve immediately while hot and glossy."
+      ],
+      "tips": [
+        "The dried chilies are mainly for flavor and aroma - they're not meant to be eaten (unless you're brave).",
+        "Control the heat by removing more or fewer seeds from the chilies.",
+        "Toasting the peanuts first is essential - raw peanuts won't have the same nutty depth.",
+        "Have all ingredients ready before you start - kung pao comes together very fast."
+      ]
+    }
   },
   {
     "id": "caprese-chicken",
@@ -1338,7 +2739,41 @@
       "Bake at 375°F (190°C) for 15 minutes until cooked through.",
       "Rest for 5 minutes.",
       "Serve over greens with balsamic glaze drizzled on top."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Pat the Chicken Breast dry and lay flat on a cutting board.",
+        "Using a sharp knife, cut a horizontal pocket into each breast, being careful not to cut all the way through.",
+        "Slice the Fresh Mozzarella into thin rounds.",
+        "Slice the Roma Tomatoes into thin rounds and pat dry with paper towels.",
+        "Wash and dry the Fresh Basil leaves.",
+        "Wash and dry the Mixed Greens."
+      ],
+      "cooking": [
+        "Preheat oven to 375°F (190°C).",
+        "Season the inside of each chicken pocket with Garlic Powder, salt, and pepper.",
+        "Layer the filling inside each pocket: start with Fresh Mozzarella slices, then Roma Tomatoes, then Fresh Basil leaves. Don't overstuff.",
+        "Secure the opening with 1-2 toothpicks if needed to prevent the filling from escaping.",
+        "Season the outside of the chicken with more salt and pepper.",
+        "Heat the Olive Oil in an oven-safe skillet over medium-high heat.",
+        "Sear the stuffed Chicken Breast for 4 minutes per side until golden brown.",
+        "Transfer the skillet to the oven and bake for 15-18 minutes until the chicken is cooked through (internal temp 165°F/74°C).",
+        "Let the chicken rest for 5 minutes before removing the toothpicks."
+      ],
+      "serving": [
+        "Spread the Mixed Greens on a serving platter or individual plates.",
+        "Slice each stuffed chicken breast diagonally to reveal the beautiful filling.",
+        "Arrange the sliced chicken over the greens.",
+        "Drizzle generously with Balsamic Glaze.",
+        "Garnish with any remaining Fresh Basil leaves."
+      ],
+      "tips": [
+        "Pat the tomato slices dry to prevent the filling from becoming watery.",
+        "Don't overstuff - the chicken needs to close around the filling.",
+        "The rest time is crucial - it lets the juices redistribute and the cheese firm up slightly for cleaner slices.",
+        "If your balsamic glaze is too thick, warm it briefly before drizzling."
+      ]
+    }
   },
   {
     "id": "beef-stroganoff",
@@ -1367,6 +2802,641 @@
       "Pour in stock and mustard, simmer for 5 minutes.",
       "Stir in sour cream and return beef.",
       "Serve over noodles with parsley."
-    ]
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Slice the Beef Sirloin against the grain into thin 5mm strips.",
+        "Slice the Mushrooms into thick slices.",
+        "Dice the Onion. Mince the Garlic.",
+        "Roughly chop the fresh Parsley.",
+        "Bring the Sour Cream to room temperature - this prevents curdling when added to the hot sauce."
+      ],
+      "cooking": [
+        "Bring a large pot of salted water to boil. Cook the Egg Noodles according to package directions. Drain and toss with a little butter to prevent sticking.",
+        "Season the Beef Sirloin strips with salt and pepper.",
+        "Heat half the Butter in a large skillet over high heat until smoking.",
+        "Working in batches to avoid crowding, sear the beef for 1-2 minutes until browned but still pink inside. Transfer to a plate.",
+        "Add the remaining Butter to the pan. Reduce heat to medium-high.",
+        "Add the sliced Mushrooms and cook without stirring for 3 minutes to get good browning, then stir and cook for another 3 minutes until golden.",
+        "Add the diced Onion and cook for 4-5 minutes until softened.",
+        "Add the minced Garlic and cook for 30 seconds until fragrant.",
+        "Pour in the Beef Stock and Dijon Mustard. Bring to a simmer and cook for 5 minutes until slightly reduced.",
+        "Remove from heat and stir in the room-temperature Sour Cream until smooth.",
+        "Return the beef and any accumulated juices to the pan. Gently stir to combine - don't boil or the sour cream will curdle."
+      ],
+      "serving": [
+        "Divide the buttered Egg Noodles among warm plates.",
+        "Spoon the creamy beef stroganoff over the noodles.",
+        "Garnish generously with fresh Parsley.",
+        "Serve immediately while hot and creamy."
+      ],
+      "tips": [
+        "Don't overcook the beef - it should be pink in the middle after searing, as it will finish cooking in the sauce.",
+        "Room temperature sour cream is essential to prevent curdling - take it out of the fridge 30 minutes before cooking.",
+        "Don't boil the sauce after adding sour cream - just warm it gently.",
+        "The Dijon mustard adds depth without making the dish taste like mustard."
+      ]
+    }
+  },
+  {
+    "id": "cheesy-pork-quesadillas",
+    "name": "Cheesy Pork Quesadillas",
+    "description": "Crispy tortillas stuffed with seasoned pork, melted cheese, and peppers",
+    "imageUrl": "/images/recipes/cheesy-pork-quesadillas.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "cpq-1", "name": "Ground Pork", "quantity": 400, "unit": "g", "category": "meat" },
+      { "id": "cpq-2", "name": "Flour Tortillas", "quantity": 8, "unit": "piece", "category": "pantry" },
+      { "id": "cpq-3", "name": "Cheddar Cheese", "quantity": 200, "unit": "g", "category": "dairy" },
+      { "id": "cpq-4", "name": "Monterey Jack", "quantity": 100, "unit": "g", "category": "dairy" },
+      { "id": "cpq-5", "name": "Bell Pepper", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "cpq-6", "name": "Onion", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "cpq-7", "name": "Cumin", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "cpq-8", "name": "Chili Powder", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "cpq-9", "name": "Sour Cream", "quantity": 100, "unit": "ml", "category": "dairy" },
+      { "id": "cpq-10", "name": "Salsa", "quantity": 100, "unit": "ml", "category": "pantry" },
+      { "id": "cpq-11", "name": "Cilantro", "quantity": 2, "unit": "tbsp", "category": "produce" },
+      { "id": "cpq-12", "name": "Vegetable Oil", "quantity": 2, "unit": "tbsp", "category": "pantry" }
+    ],
+    "instructions": [
+      "Cook ground pork with onion, bell pepper, and spices.",
+      "Grate both cheeses and mix together.",
+      "Place tortilla in a dry pan, add cheese and pork filling.",
+      "Fold tortilla in half and cook until golden on both sides.",
+      "Repeat with remaining tortillas.",
+      "Cut into wedges and serve with sour cream and salsa."
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Finely dice the Onion and Bell Pepper.",
+        "Grate the Cheddar Cheese and Monterey Jack, then mix together.",
+        "Roughly chop the fresh Cilantro.",
+        "Mix the Cumin and Chili Powder together with a pinch of salt."
+      ],
+      "cooking": [
+        "Heat the Vegetable Oil in a large skillet over medium-high heat.",
+        "Add the Ground Pork, breaking it up into small crumbles. Cook for 4-5 minutes until starting to brown.",
+        "Add the diced Onion and Bell Pepper. Continue cooking for 4-5 minutes until vegetables are softened and pork is cooked through.",
+        "Sprinkle with the Cumin and Chili Powder mixture. Stir to combine and cook for 1 more minute. Transfer to a bowl.",
+        "Wipe out the skillet and return to medium heat.",
+        "Place one Flour Tortilla in the pan. Quickly spread a generous handful of the mixed cheese on one half of the tortilla.",
+        "Spoon some of the pork filling over the cheese, then fold the tortilla in half to create a half-moon shape.",
+        "Cook for 2-3 minutes until the bottom is golden and crispy. Carefully flip and cook another 2 minutes until the cheese is fully melted.",
+        "Transfer to a cutting board and repeat with remaining tortillas."
+      ],
+      "serving": [
+        "Cut each quesadilla into 3 wedges.",
+        "Arrange on a platter or individual plates.",
+        "Serve with Sour Cream and Salsa on the side for dipping.",
+        "Garnish with fresh Cilantro."
+      ],
+      "tips": [
+        "Don't overfill the quesadillas - too much filling makes them hard to flip and the cheese won't hold everything together.",
+        "Medium heat is key - too hot and the tortilla burns before the cheese melts.",
+        "Press gently with a spatula while cooking to help the cheese melt and bind everything.",
+        "For extra crispy quesadillas, brush the outside of the tortilla with a little oil before cooking."
+      ]
+    }
+  },
+  {
+    "id": "greek-beef-gnocchi",
+    "name": "Greek-Inspired Beef Gnocchi Skillet",
+    "description": "Pan-fried gnocchi with seasoned beef, feta, and Mediterranean flavors",
+    "imageUrl": "/images/recipes/greek-beef-gnocchi.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "gbg-1", "name": "Potato Gnocchi", "quantity": 500, "unit": "g", "category": "pantry" },
+      { "id": "gbg-2", "name": "Ground Beef", "quantity": 400, "unit": "g", "category": "meat" },
+      { "id": "gbg-3", "name": "Feta Cheese", "quantity": 150, "unit": "g", "category": "dairy" },
+      { "id": "gbg-4", "name": "Cherry Tomatoes", "quantity": 250, "unit": "g", "category": "produce" },
+      { "id": "gbg-5", "name": "Spinach", "quantity": 150, "unit": "g", "category": "produce" },
+      { "id": "gbg-6", "name": "Kalamata Olives", "quantity": 50, "unit": "g", "category": "pantry" },
+      { "id": "gbg-7", "name": "Garlic", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "gbg-8", "name": "Oregano", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "gbg-9", "name": "Olive Oil", "quantity": 3, "unit": "tbsp", "category": "pantry" },
+      { "id": "gbg-10", "name": "Lemon", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "gbg-11", "name": "Red Onion", "quantity": 0.5, "unit": "piece", "category": "produce" }
+    ],
+    "instructions": [
+      "Cook gnocchi according to package, then pan-fry until golden.",
+      "Brown ground beef with onion and garlic.",
+      "Add oregano, tomatoes, and olives.",
+      "Toss in gnocchi and spinach.",
+      "Top with crumbled feta and lemon juice.",
+      "Serve immediately."
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Halve the Cherry Tomatoes.",
+        "Roughly chop the Kalamata Olives.",
+        "Thinly slice the Red Onion.",
+        "Mince the Garlic.",
+        "Crumble the Feta Cheese.",
+        "Zest and juice the Lemon."
+      ],
+      "cooking": [
+        "Bring a large pot of salted water to boil. Cook the Potato Gnocchi according to package directions until they float. Drain well.",
+        "Heat 2 tablespoons of Olive Oil in a large skillet over medium-high heat.",
+        "Add the cooked gnocchi in a single layer and cook without stirring for 3-4 minutes until golden and crispy on the bottom. Toss and cook another 2 minutes. Transfer to a plate.",
+        "Add the remaining Olive Oil to the skillet. Add the Ground Beef and cook for 5-6 minutes, breaking into crumbles, until browned.",
+        "Add the sliced Red Onion and cook for 2-3 minutes until softened.",
+        "Add the minced Garlic and Oregano. Cook for 30 seconds until fragrant.",
+        "Add the halved Cherry Tomatoes and chopped Kalamata Olives. Cook for 2-3 minutes until tomatoes start to soften and release their juices.",
+        "Return the crispy gnocchi to the pan. Add the Spinach in handfuls, tossing until wilted.",
+        "Squeeze the Lemon juice over everything and toss to combine."
+      ],
+      "serving": [
+        "Divide the gnocchi skillet among plates.",
+        "Crumble the Feta Cheese generously over the top.",
+        "Sprinkle with Lemon zest and a drizzle of extra Olive Oil.",
+        "Serve immediately while the gnocchi is still crispy."
+      ],
+      "tips": [
+        "Don't skip pan-frying the gnocchi - it transforms them from soft pillows to crispy, golden bites.",
+        "Let the gnocchi sit undisturbed in the pan to develop a proper crust.",
+        "Add the spinach last so it just wilts and stays vibrant green.",
+        "The lemon juice at the end brightens all the Mediterranean flavors."
+      ]
+    }
+  },
+  {
+    "id": "butternut-squash-orzotto",
+    "name": "Butternut Squash and Sage Orzotto",
+    "description": "Creamy orzo cooked risotto-style with roasted squash and crispy sage",
+    "imageUrl": "/images/recipes/butternut-squash-orzotto.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "bso-1", "name": "Orzo Pasta", "quantity": 300, "unit": "g", "category": "pantry" },
+      { "id": "bso-2", "name": "Butternut Squash", "quantity": 400, "unit": "g", "category": "produce" },
+      { "id": "bso-3", "name": "Vegetable Stock", "quantity": 800, "unit": "ml", "category": "pantry" },
+      { "id": "bso-4", "name": "Fresh Sage", "quantity": 12, "unit": "piece", "category": "produce" },
+      { "id": "bso-5", "name": "Parmesan Cheese", "quantity": 80, "unit": "g", "category": "dairy" },
+      { "id": "bso-6", "name": "Butter", "quantity": 60, "unit": "g", "category": "dairy" },
+      { "id": "bso-7", "name": "Onion", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "bso-8", "name": "Garlic", "quantity": 3, "unit": "piece", "category": "produce" },
+      { "id": "bso-9", "name": "White Wine", "quantity": 100, "unit": "ml", "category": "pantry" },
+      { "id": "bso-10", "name": "Olive Oil", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "bso-11", "name": "Nutmeg", "quantity": 0.25, "unit": "tsp", "category": "spices" }
+    ],
+    "instructions": [
+      "Roast cubed butternut squash until tender.",
+      "Fry sage leaves in butter until crispy.",
+      "Sauté onion and garlic in the sage butter.",
+      "Toast orzo, then add wine and stock gradually.",
+      "Stir until creamy, fold in squash and parmesan.",
+      "Top with crispy sage and serve."
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Peel the Butternut Squash and cut into 2cm cubes.",
+        "Finely dice the Onion. Mince the Garlic.",
+        "Finely grate the Parmesan Cheese.",
+        "Pick the Fresh Sage leaves from their stems.",
+        "Heat the Vegetable Stock in a saucepan and keep warm over low heat."
+      ],
+      "cooking": [
+        "Preheat oven to 400°F (200°C). Toss the Butternut Squash cubes with the Olive Oil, salt, and pepper. Roast for 25-30 minutes until tender and caramelized at the edges.",
+        "While squash roasts, make crispy sage: melt half the Butter in a large, deep skillet over medium heat. Add the Fresh Sage leaves and fry for 1-2 minutes until crispy and the butter is lightly browned. Transfer sage to a paper towel, leaving the butter in the pan.",
+        "Add the diced Onion to the sage butter and cook for 4-5 minutes until softened.",
+        "Add the minced Garlic and cook for 30 seconds until fragrant.",
+        "Add the Orzo Pasta and stir for 2 minutes until lightly toasted and coated in butter.",
+        "Pour in the White Wine and stir until absorbed.",
+        "Add the warm Vegetable Stock one ladle at a time, stirring frequently. Wait until each addition is mostly absorbed before adding the next. Continue for 15-18 minutes until orzo is al dente and creamy.",
+        "Remove from heat. Stir in the remaining Butter, the grated Parmesan Cheese, and Nutmeg. Gently fold in most of the roasted Butternut Squash, reserving some for garnish."
+      ],
+      "serving": [
+        "Divide the orzotto among warm bowls.",
+        "Top with the reserved roasted Butternut Squash.",
+        "Crumble the crispy Fresh Sage over each portion.",
+        "Finish with extra Parmesan and a crack of black pepper."
+      ],
+      "tips": [
+        "Keep the stock warm - adding cold liquid will slow cooking and affect the creamy texture.",
+        "Orzotto is more forgiving than risotto - you don't need to stir constantly, just frequently.",
+        "The crispy sage is a game-changer - don't skip this step.",
+        "For extra richness, stir in a splash of cream with the parmesan."
+      ]
+    }
+  },
+  {
+    "id": "bacon-mac-and-cheese",
+    "name": "Creamy Bacon Mac and Cheese",
+    "description": "Ultimate comfort food with crispy bacon and a rich three-cheese sauce",
+    "imageUrl": "/images/recipes/bacon-mac-and-cheese.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "bmc-1", "name": "Elbow Macaroni", "quantity": 400, "unit": "g", "category": "pantry" },
+      { "id": "bmc-2", "name": "Bacon", "quantity": 200, "unit": "g", "category": "meat" },
+      { "id": "bmc-3", "name": "Sharp Cheddar", "quantity": 200, "unit": "g", "category": "dairy" },
+      { "id": "bmc-4", "name": "Gruyere Cheese", "quantity": 100, "unit": "g", "category": "dairy" },
+      { "id": "bmc-5", "name": "Parmesan Cheese", "quantity": 50, "unit": "g", "category": "dairy" },
+      { "id": "bmc-6", "name": "Whole Milk", "quantity": 500, "unit": "ml", "category": "dairy" },
+      { "id": "bmc-7", "name": "Butter", "quantity": 45, "unit": "g", "category": "dairy" },
+      { "id": "bmc-8", "name": "Flour", "quantity": 45, "unit": "g", "category": "pantry" },
+      { "id": "bmc-9", "name": "Dijon Mustard", "quantity": 1, "unit": "tsp", "category": "pantry" },
+      { "id": "bmc-10", "name": "Garlic Powder", "quantity": 0.5, "unit": "tsp", "category": "spices" },
+      { "id": "bmc-11", "name": "Paprika", "quantity": 0.5, "unit": "tsp", "category": "spices" },
+      { "id": "bmc-12", "name": "Chives", "quantity": 2, "unit": "tbsp", "category": "produce" }
+    ],
+    "instructions": [
+      "Cook macaroni until al dente.",
+      "Fry bacon until crispy, set aside.",
+      "Make roux with butter and flour.",
+      "Gradually whisk in milk to make béchamel.",
+      "Stir in cheeses until melted and smooth.",
+      "Fold in pasta and most of the bacon.",
+      "Top with remaining bacon and serve."
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Cut the Bacon into 1cm pieces.",
+        "Grate all three cheeses: Sharp Cheddar, Gruyere Cheese, and Parmesan Cheese. Keep them separate or mix together.",
+        "Finely chop the fresh Chives.",
+        "Measure out the Whole Milk and let it come to room temperature for a smoother sauce."
+      ],
+      "cooking": [
+        "Bring a large pot of salted water to boil. Cook the Elbow Macaroni until just al dente (1 minute less than package directions). Drain and set aside.",
+        "In a large Dutch oven or deep skillet, cook the Bacon pieces over medium heat for 6-8 minutes until crispy. Transfer to a paper towel-lined plate, leaving the bacon fat in the pan.",
+        "Reduce heat to medium-low. Add the Butter to the bacon fat and let it melt.",
+        "Whisk in the Flour and cook for 1-2 minutes, stirring constantly, until the roux turns slightly golden and smells nutty.",
+        "Gradually pour in the Whole Milk, whisking constantly to prevent lumps. Continue whisking for 5-7 minutes until the sauce thickens enough to coat the back of a spoon.",
+        "Remove from heat. Stir in the Dijon Mustard, Garlic Powder, and a pinch of Paprika.",
+        "Add the grated cheeses in three additions, stirring until each is fully melted before adding more. The sauce should be silky smooth.",
+        "Fold in the cooked Elbow Macaroni and most of the crispy Bacon (reserve some for topping). Stir until the pasta is evenly coated."
+      ],
+      "serving": [
+        "Divide the mac and cheese among bowls.",
+        "Top with the reserved crispy Bacon.",
+        "Sprinkle with fresh Chives and a dusting of Paprika.",
+        "Serve immediately while hot and gooey."
+      ],
+      "tips": [
+        "Undercook the pasta slightly - it will continue cooking in the hot cheese sauce.",
+        "Low heat is essential when adding cheese - too hot and it becomes grainy instead of smooth.",
+        "The combination of cheddar (flavor), gruyere (meltiness), and parmesan (sharpness) creates the ultimate cheese sauce.",
+        "For a baked version, transfer to a baking dish, top with breadcrumbs and extra cheese, and broil until golden."
+      ]
+    }
+  },
+  {
+    "id": "teppanyaki-beef-udon",
+    "name": "Teppanyaki-Style Beef Udon",
+    "description": "Thick udon noodles stir-fried with shaved beef, mushrooms, and vegetables in honey-garlic teriyaki sauce",
+    "imageUrl": "/images/recipes/teppanyaki-beef-udon.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "tbu-1", "name": "Udon Noodles", "quantity": 400, "unit": "g", "category": "pantry" },
+      { "id": "tbu-2", "name": "Shaved Beef", "quantity": 500, "unit": "g", "category": "meat" },
+      { "id": "tbu-3", "name": "Mushrooms", "quantity": 200, "unit": "g", "category": "produce" },
+      { "id": "tbu-4", "name": "Cabbage", "quantity": 150, "unit": "g", "category": "produce" },
+      { "id": "tbu-5", "name": "Carrots", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "tbu-6", "name": "Spinach", "quantity": 60, "unit": "g", "category": "produce" },
+      { "id": "tbu-7", "name": "Green Onions", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "tbu-8", "name": "Honey", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "tbu-9", "name": "Soy Sauce", "quantity": 3, "unit": "tbsp", "category": "pantry" },
+      { "id": "tbu-10", "name": "Oyster Sauce", "quantity": 4, "unit": "tbsp", "category": "pantry" },
+      { "id": "tbu-11", "name": "Garlic", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "tbu-12", "name": "Ginger", "quantity": 1, "unit": "tbsp", "category": "produce" },
+      { "id": "tbu-13", "name": "Butter", "quantity": 30, "unit": "g", "category": "dairy" },
+      { "id": "tbu-14", "name": "Vegetable Oil", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "tbu-15", "name": "Sesame Seeds", "quantity": 1, "unit": "tbsp", "category": "spices" }
+    ],
+    "instructions": [
+      "Cook udon noodles according to package, drain and toss with oil.",
+      "Make sauce by combining honey, soy sauce, and oyster sauce.",
+      "Stir-fry mushrooms, cabbage, and carrots with ginger and garlic.",
+      "Cook shaved beef in butter until just done.",
+      "Combine noodles, vegetables, spinach, and sauce.",
+      "Garnish with green onions and sesame seeds."
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Drain the Shaved Beef and pat very dry with paper towels - this is crucial for good browning.",
+        "Thinly slice the Mushrooms.",
+        "Shred the Cabbage into thin strips.",
+        "Julienne the Carrots into thin matchsticks.",
+        "Thinly slice the Green Onions.",
+        "Mince the Garlic and grate the fresh Ginger (or combine into a paste).",
+        "Make the sauce: whisk together the Honey, Soy Sauce, and Oyster Sauce in a small bowl."
+      ],
+      "cooking": [
+        "Bring a large pot of salted water to a boil. Cook the Udon Noodles for 1-3 minutes until tender but still firm. Drain, rinse with warm water, and toss with a drizzle of Vegetable Oil to prevent sticking.",
+        "Heat a large non-stick pan or wok over high heat.",
+        "Add 1 tablespoon Vegetable Oil, the Mushrooms, Cabbage, Carrots, and the Garlic-Ginger mixture. Season with salt and pepper.",
+        "Stir-fry for 2-4 minutes until vegetables are tender-crisp. Transfer to a plate.",
+        "Return the pan to medium-high heat. Add the Butter and let it melt and foam.",
+        "Add the Shaved Beef, separating the layers. Cook for 1-3 minutes, stirring often, until just cooked through - don't overcook!",
+        "Add the udon noodles, cooked vegetables, Spinach, and the sauce mixture to the pan.",
+        "Toss everything together for 1-2 minutes until the spinach wilts and everything is well combined and glossy."
+      ],
+      "serving": [
+        "Divide the beef udon among large bowls.",
+        "Scatter with sliced Green Onions.",
+        "Sprinkle generously with Sesame Seeds.",
+        "Serve immediately while piping hot."
+      ],
+      "tips": [
+        "Shaved Beef cooks very quickly - have everything else ready before you start cooking the meat.",
+        "Patting the beef dry is essential - wet meat will steam instead of sear.",
+        "Fresh or frozen Udon Noodles work best - they have the perfect chewy texture.",
+        "The Butter adds richness that makes this dish special - don't substitute with oil."
+      ]
+    }
+  },
+  {
+    "id": "crispy-beef-taquitos",
+    "name": "Crispy Beef Taquitos",
+    "description": "Rolled tortillas filled with seasoned beef and cheese, baked until golden",
+    "imageUrl": "/images/recipes/crispy-beef-taquitos.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "cbt-1", "name": "Ground Beef", "quantity": 400, "unit": "g", "category": "meat" },
+      { "id": "cbt-2", "name": "Flour Tortillas", "quantity": 12, "unit": "piece", "category": "pantry" },
+      { "id": "cbt-3", "name": "Cheddar Cheese", "quantity": 150, "unit": "g", "category": "dairy" },
+      { "id": "cbt-4", "name": "Cream Cheese", "quantity": 100, "unit": "g", "category": "dairy" },
+      { "id": "cbt-5", "name": "Onion", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "cbt-6", "name": "Garlic", "quantity": 3, "unit": "piece", "category": "produce" },
+      { "id": "cbt-7", "name": "Cumin", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "cbt-8", "name": "Chili Powder", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "cbt-9", "name": "Salsa", "quantity": 100, "unit": "ml", "category": "pantry" },
+      { "id": "cbt-10", "name": "Sour Cream", "quantity": 100, "unit": "ml", "category": "dairy" },
+      { "id": "cbt-11", "name": "Olive Oil", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "cbt-12", "name": "Cilantro", "quantity": 2, "unit": "tbsp", "category": "produce" }
+    ],
+    "instructions": [
+      "Brown ground beef with onion, garlic, and spices.",
+      "Stir in cream cheese until melted and creamy.",
+      "Warm tortillas to make them pliable.",
+      "Fill tortillas with beef mixture and cheese, roll tightly.",
+      "Brush with oil and bake until crispy.",
+      "Serve with salsa and sour cream."
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Preheat oven to 425°F (220°C). Line a baking sheet with parchment paper.",
+        "Finely dice the Onion. Mince the Garlic.",
+        "Grate the Cheddar Cheese.",
+        "Soften the Cream Cheese by leaving it at room temperature.",
+        "Roughly chop the fresh Cilantro."
+      ],
+      "cooking": [
+        "Heat a skillet over medium-high heat. Add the Ground Beef and cook for 5-6 minutes, breaking into crumbles, until browned.",
+        "Add the diced Onion and cook for 3-4 minutes until softened.",
+        "Add the minced Garlic, Cumin, and Chili Powder. Cook for 1 minute until fragrant.",
+        "Reduce heat to low and stir in the softened Cream Cheese until fully melted and the mixture is creamy. Season with salt and pepper. Remove from heat.",
+        "Warm the Flour Tortillas in the microwave for 20 seconds (covered with a damp paper towel) to make them pliable.",
+        "Place 2-3 tablespoons of beef filling along the edge of each tortilla. Sprinkle with Cheddar Cheese.",
+        "Roll each tortilla tightly around the filling and place seam-side down on the prepared baking sheet.",
+        "Brush the tops generously with Olive Oil.",
+        "Bake for 15-18 minutes until golden brown and crispy, flipping halfway through for even browning."
+      ],
+      "serving": [
+        "Arrange the crispy taquitos on a platter.",
+        "Serve with Salsa and Sour Cream for dipping.",
+        "Garnish with fresh Cilantro.",
+        "For extra indulgence, drizzle with more melted cheese."
+      ],
+      "tips": [
+        "The cream cheese is the secret - it makes the filling creamy and helps bind everything together.",
+        "Warming the tortillas is essential - cold tortillas will crack when rolled.",
+        "Roll them tight! Loose taquitos will unroll during baking.",
+        "For air fryer: cook at 400°F for 8-10 minutes, flipping halfway through."
+      ]
+    }
+  },
+  {
+    "id": "french-onion-beef-noodles",
+    "name": "French Onion Beef Noodles",
+    "description": "Tender beef and egg noodles in a rich caramelized onion and mushroom white wine sauce",
+    "imageUrl": "/images/recipes/french-onion-beef-noodles.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "fobn-1", "name": "Egg Noodles", "quantity": 400, "unit": "g", "category": "pantry" },
+      { "id": "fobn-2", "name": "Beef Sirloin", "quantity": 500, "unit": "g", "category": "meat" },
+      { "id": "fobn-3", "name": "Onions", "quantity": 3, "unit": "piece", "category": "produce" },
+      { "id": "fobn-4", "name": "Mushrooms", "quantity": 250, "unit": "g", "category": "produce" },
+      { "id": "fobn-5", "name": "White Wine", "quantity": 150, "unit": "ml", "category": "pantry" },
+      { "id": "fobn-6", "name": "Beef Stock", "quantity": 300, "unit": "ml", "category": "pantry" },
+      { "id": "fobn-7", "name": "Gruyere Cheese", "quantity": 100, "unit": "g", "category": "dairy" },
+      { "id": "fobn-8", "name": "Butter", "quantity": 60, "unit": "g", "category": "dairy" },
+      { "id": "fobn-9", "name": "Garlic", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "fobn-10", "name": "Thyme", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "fobn-11", "name": "Heavy Cream", "quantity": 100, "unit": "ml", "category": "dairy" },
+      { "id": "fobn-12", "name": "Parsley", "quantity": 2, "unit": "tbsp", "category": "produce" }
+    ],
+    "instructions": [
+      "Caramelize onions slowly in butter until deep golden.",
+      "Sear beef strips, set aside.",
+      "Sauté mushrooms until golden.",
+      "Deglaze with white wine, add stock and cream.",
+      "Cook noodles and toss with sauce and beef.",
+      "Top with melted gruyere and serve."
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Slice the Onions into thin half-moons.",
+        "Slice the Mushrooms thickly.",
+        "Slice the Beef Sirloin against the grain into thin strips.",
+        "Mince the Garlic.",
+        "Grate the Gruyere Cheese.",
+        "Roughly chop the fresh Parsley."
+      ],
+      "cooking": [
+        "Melt half the Butter in a large, deep skillet or Dutch oven over medium heat.",
+        "Add the sliced Onions and a pinch of salt. Cook, stirring occasionally, for 25-30 minutes until deeply caramelized and jammy. Don't rush this step - low and slow is key.",
+        "Push onions to the side. Increase heat to high and add the Beef Sirloin strips. Sear for 2 minutes until browned. Transfer beef and onions to a plate.",
+        "Add the remaining Butter. Sauté the Mushrooms for 5-6 minutes until golden brown.",
+        "Add the minced Garlic and Thyme. Cook for 30 seconds until fragrant.",
+        "Pour in the White Wine, scraping up any browned bits from the bottom. Let it reduce by half, about 2 minutes.",
+        "Add the Beef Stock and simmer for 5 minutes until slightly reduced.",
+        "Stir in the Heavy Cream and simmer for another 2-3 minutes until the sauce coats a spoon.",
+        "Meanwhile, cook the Egg Noodles according to package directions. Drain well.",
+        "Return the caramelized onions and beef to the pan. Add the drained noodles and toss to coat everything in the sauce."
+      ],
+      "serving": [
+        "Divide the noodles among bowls or transfer to a baking dish.",
+        "Top generously with grated Gruyere Cheese.",
+        "For extra indulgence, place under the broiler for 2 minutes until the cheese is bubbly and golden.",
+        "Garnish with fresh Parsley and serve immediately."
+      ],
+      "tips": [
+        "Caramelizing onions properly takes time - at least 25 minutes. This is where all the flavor comes from.",
+        "Use a good drinking wine - if you wouldn't drink it, don't cook with it.",
+        "The gruyere adds nuttiness and melts beautifully - don't substitute with cheddar.",
+        "For a soup-ier version, add more beef stock and serve in deep bowls with crusty bread."
+      ]
+    }
+  },
+  {
+    "id": "asian-sesame-chicken-salad",
+    "name": "Asian Sesame Chicken Salad",
+    "description": "Crispy chicken over crunchy vegetables with sesame-ginger dressing",
+    "imageUrl": "/images/recipes/asian-sesame-chicken-salad.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "ascs-1", "name": "Chicken Breast", "quantity": 500, "unit": "g", "category": "meat" },
+      { "id": "ascs-2", "name": "Mixed Greens", "quantity": 200, "unit": "g", "category": "produce" },
+      { "id": "ascs-3", "name": "Red Cabbage", "quantity": 150, "unit": "g", "category": "produce" },
+      { "id": "ascs-4", "name": "Carrots", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "ascs-5", "name": "Edamame", "quantity": 100, "unit": "g", "category": "produce" },
+      { "id": "ascs-6", "name": "Mandarin Oranges", "quantity": 200, "unit": "g", "category": "produce" },
+      { "id": "ascs-7", "name": "Sesame Oil", "quantity": 3, "unit": "tbsp", "category": "pantry" },
+      { "id": "ascs-8", "name": "Rice Vinegar", "quantity": 3, "unit": "tbsp", "category": "pantry" },
+      { "id": "ascs-9", "name": "Soy Sauce", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "ascs-10", "name": "Honey", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "ascs-11", "name": "Ginger", "quantity": 1, "unit": "tbsp", "category": "produce" },
+      { "id": "ascs-12", "name": "Sesame Seeds", "quantity": 2, "unit": "tbsp", "category": "spices" },
+      { "id": "ascs-13", "name": "Wonton Strips", "quantity": 50, "unit": "g", "category": "pantry" }
+    ],
+    "instructions": [
+      "Grill or pan-fry chicken until cooked through.",
+      "Shred cabbage and julienne carrots.",
+      "Make dressing with sesame oil, vinegar, soy sauce, honey, and ginger.",
+      "Toss greens with vegetables and dressing.",
+      "Slice chicken and arrange on top.",
+      "Garnish with sesame seeds and wonton strips."
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Pound the Chicken Breast to even thickness for even cooking.",
+        "Finely shred the Red Cabbage.",
+        "Julienne the Carrots into thin matchsticks.",
+        "Drain the Mandarin Oranges if using canned.",
+        "Grate the fresh Ginger.",
+        "Make the dressing: whisk together the Sesame Oil, Rice Vinegar, Soy Sauce, Honey, and grated Ginger until emulsified."
+      ],
+      "cooking": [
+        "Season the Chicken Breast with salt and pepper.",
+        "Heat a grill pan or skillet over medium-high heat.",
+        "Cook the chicken for 5-6 minutes per side until charred and cooked through (internal temp 165°F/74°C).",
+        "Let the chicken rest for 5 minutes, then slice into strips.",
+        "If the Edamame is frozen, blanch in boiling water for 2-3 minutes, then drain and cool."
+      ],
+      "serving": [
+        "In a large bowl, combine the Mixed Greens, shredded Red Cabbage, julienned Carrots, and Edamame.",
+        "Drizzle with most of the dressing and toss gently to coat.",
+        "Divide among plates and arrange the sliced chicken on top.",
+        "Scatter with Mandarin Oranges and crispy Wonton Strips.",
+        "Sprinkle generously with Sesame Seeds and drizzle with remaining dressing."
+      ],
+      "tips": [
+        "Let the chicken rest before slicing to keep it juicy.",
+        "Add the wonton strips just before serving to keep them crispy.",
+        "For meal prep, keep the dressing separate until ready to eat.",
+        "Swap chicken for crispy tofu for a vegetarian version."
+      ]
+    }
+  },
+  {
+    "id": "spinach-strawberry-salad",
+    "name": "Spinach and Strawberry Salad",
+    "description": "Fresh spinach with sweet strawberries, pecans, and tangy poppy seed dressing",
+    "imageUrl": "/images/recipes/spinach-strawberry-salad.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "sss-1", "name": "Baby Spinach", "quantity": 300, "unit": "g", "category": "produce" },
+      { "id": "sss-2", "name": "Strawberries", "quantity": 300, "unit": "g", "category": "produce" },
+      { "id": "sss-3", "name": "Goat Cheese", "quantity": 100, "unit": "g", "category": "dairy" },
+      { "id": "sss-4", "name": "Pecans", "quantity": 80, "unit": "g", "category": "pantry" },
+      { "id": "sss-5", "name": "Red Onion", "quantity": 0.5, "unit": "piece", "category": "produce" },
+      { "id": "sss-6", "name": "Olive Oil", "quantity": 4, "unit": "tbsp", "category": "pantry" },
+      { "id": "sss-7", "name": "Balsamic Vinegar", "quantity": 2, "unit": "tbsp", "category": "pantry" },
+      { "id": "sss-8", "name": "Honey", "quantity": 1, "unit": "tbsp", "category": "pantry" },
+      { "id": "sss-9", "name": "Poppy Seeds", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "sss-10", "name": "Dijon Mustard", "quantity": 1, "unit": "tsp", "category": "pantry" }
+    ],
+    "instructions": [
+      "Toast pecans until fragrant.",
+      "Hull and slice strawberries.",
+      "Thinly slice red onion.",
+      "Make dressing with oil, vinegar, honey, mustard, and poppy seeds.",
+      "Toss spinach with dressing.",
+      "Top with strawberries, goat cheese, pecans, and onion."
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Wash and thoroughly dry the Baby Spinach - wet leaves will make the salad soggy.",
+        "Hull the Strawberries and slice into quarters or halves depending on size.",
+        "Thinly slice the Red Onion into rings or half-moons.",
+        "Crumble the Goat Cheese into small pieces."
+      ],
+      "cooking": [
+        "Toast the Pecans in a dry skillet over medium heat for 3-4 minutes, stirring frequently, until fragrant and slightly darkened. Let cool, then roughly chop.",
+        "Make the poppy seed dressing: In a jar or bowl, combine the Olive Oil, Balsamic Vinegar, Honey, Dijon Mustard, and Poppy Seeds. Shake or whisk vigorously until emulsified. Season with salt and pepper."
+      ],
+      "serving": [
+        "Place the Baby Spinach in a large salad bowl or divide among individual plates.",
+        "Drizzle with most of the dressing and toss gently.",
+        "Scatter the sliced Strawberries over the spinach.",
+        "Add the sliced Red Onion and toasted Pecans.",
+        "Crumble the Goat Cheese over the top.",
+        "Drizzle with the remaining dressing and serve immediately."
+      ],
+      "tips": [
+        "The key to this salad is contrast - sweet berries, tangy cheese, crunchy nuts.",
+        "Toast the pecans fresh - pre-toasted nuts from the store won't have the same flavor.",
+        "If strawberries aren't in season, use fresh raspberries or blackberries.",
+        "Add grilled chicken to make this a complete meal."
+      ]
+    }
+  },
+  {
+    "id": "classic-cobb-salad",
+    "name": "Classic Cobb Salad",
+    "description": "Rows of chicken, bacon, eggs, avocado, and blue cheese over crisp greens",
+    "imageUrl": "/images/recipes/classic-cobb-salad.png",
+    "defaultServings": 4,
+    "ingredients": [
+      { "id": "ccs-1", "name": "Chicken Breast", "quantity": 400, "unit": "g", "category": "meat" },
+      { "id": "ccs-2", "name": "Romaine Lettuce", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "ccs-3", "name": "Bacon", "quantity": 200, "unit": "g", "category": "meat" },
+      { "id": "ccs-4", "name": "Eggs", "quantity": 4, "unit": "piece", "category": "dairy" },
+      { "id": "ccs-5", "name": "Avocado", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "ccs-6", "name": "Cherry Tomatoes", "quantity": 200, "unit": "g", "category": "produce" },
+      { "id": "ccs-7", "name": "Blue Cheese", "quantity": 100, "unit": "g", "category": "dairy" },
+      { "id": "ccs-8", "name": "Red Wine Vinegar", "quantity": 3, "unit": "tbsp", "category": "pantry" },
+      { "id": "ccs-9", "name": "Olive Oil", "quantity": 6, "unit": "tbsp", "category": "pantry" },
+      { "id": "ccs-10", "name": "Dijon Mustard", "quantity": 1, "unit": "tsp", "category": "pantry" },
+      { "id": "ccs-11", "name": "Garlic", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "ccs-12", "name": "Chives", "quantity": 2, "unit": "tbsp", "category": "produce" }
+    ],
+    "instructions": [
+      "Grill chicken and slice.",
+      "Cook bacon until crispy and crumble.",
+      "Hard-boil eggs and quarter.",
+      "Dice avocado and halve tomatoes.",
+      "Make red wine vinaigrette.",
+      "Arrange all ingredients in rows over lettuce.",
+      "Drizzle with dressing and serve."
+    ],
+    "enhancedInstructions": {
+      "preparation": [
+        "Season the Chicken Breast with salt and pepper.",
+        "Chop the Romaine Lettuce into bite-sized pieces.",
+        "Halve the Cherry Tomatoes.",
+        "Crumble the Blue Cheese.",
+        "Mince the Garlic. Finely chop the Chives.",
+        "Make the dressing: whisk together the Red Wine Vinegar, Olive Oil, Dijon Mustard, minced Garlic, salt, and pepper until emulsified."
+      ],
+      "cooking": [
+        "Place the Eggs in a pot of cold water. Bring to a boil, then cover and remove from heat. Let sit for 10 minutes. Transfer to ice water, then peel and quarter.",
+        "Cook the Bacon in a skillet over medium heat for 6-8 minutes until crispy. Drain on paper towels, then crumble or chop.",
+        "In the same skillet (or a grill pan), cook the Chicken Breast for 5-6 minutes per side until cooked through. Let rest for 5 minutes, then slice.",
+        "Cut the Avocado in half, remove the pit, and dice the flesh. Toss with a little lemon juice to prevent browning."
+      ],
+      "serving": [
+        "Spread the chopped Romaine Lettuce on a large platter or in a wide bowl.",
+        "Arrange all the toppings in neat rows across the lettuce: sliced Chicken, crumbled Bacon, quartered Eggs, diced Avocado, halved Cherry Tomatoes, and crumbled Blue Cheese.",
+        "Sprinkle with fresh Chives.",
+        "Drizzle the dressing over the top or serve on the side.",
+        "Toss at the table just before eating."
+      ],
+      "tips": [
+        "The presentation is key - arrange ingredients in distinct rows for the classic Cobb look.",
+        "Use the bacon fat to cook the chicken for extra flavor.",
+        "If you don't like blue cheese, substitute with feta or goat cheese.",
+        "This salad is a meal - don't skimp on the protein toppings."
+      ]
+    }
   }
 ]

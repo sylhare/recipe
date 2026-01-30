@@ -4,6 +4,7 @@ import { ShoppingListProvider } from './context/ShoppingListContext'
 import Layout from './components/layout/Layout'
 import HomePage from './pages/HomePage'
 import ShoppingListPage from './pages/ShoppingListPage'
+import CookingPage from './pages/CookingPage'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Layout>
             <Routes>
               <Route path="/" element={<HomePage />} />
+              <Route path="/cooking" element={<CookingPage />} />
               <Route path="/shopping-list" element={<ShoppingListPage />} />
             </Routes>
           </Layout>

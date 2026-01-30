@@ -20,13 +20,19 @@ export function Header() {
             Recipes
           </Link>
           <Link
+            to="/cooking"
+            className={`header__link ${location.pathname === '/cooking' ? 'header__link--active' : ''}`}
+          >
+            Cooking
+            {selections.length > 0 && (
+              <span className="header__badge">{selections.length}</span>
+            )}
+          </Link>
+          <Link
             to="/shopping-list"
             className={`header__link ${location.pathname === '/shopping-list' ? 'header__link--active' : ''}`}
           >
             Shopping List
-            {selections.length > 0 && (
-              <span className="header__badge">{selections.length}</span>
-            )}
           </Link>
         </nav>
       </div>
