@@ -4,6 +4,17 @@
   gap: 1.5rem;
 }
 
+.recipe-list__empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--color-text-secondary);
+}
+
+.recipe-list__empty p {
+  margin: 0.5rem 0;
+}
+
 @media (max-width: 640px) {
   .recipe-list {
     grid-template-columns: 1fr;
