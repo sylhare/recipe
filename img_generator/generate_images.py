@@ -42,6 +42,15 @@ GENERATION_SIZE = (1024, 1024)
 NUM_INFERENCE_STEPS = 30
 """Number of denoising steps for image generation."""
 
+INGREDIENT_OUTPUT_SIZE = (128, 128)
+"""Final output size for ingredient images in pixels."""
+
+INGREDIENT_GENERATION_SIZE = (512, 512)
+"""Generation size for ingredient images (faster than 1024x1024)."""
+
+INGREDIENT_NUM_INFERENCE_STEPS = 25
+"""Number of denoising steps for ingredient image generation."""
+
 GUIDANCE_SCALE = 7.5
 """Classifier-free guidance scale for prompt adherence."""
 
@@ -58,6 +67,17 @@ NEGATIVE_PROMPT = (
 
 VISIBLE_INGREDIENTS_CATEGORIES = {"produce", "meat", "dairy"}
 """Ingredient categories that are visible in the final dish."""
+
+VISIBLE_PANTRY_ITEMS = {
+    "spaghetti", "pasta", "linguine", "fettuccine", "penne", "rigatoni",
+    "rice", "jasmine rice", "basmati rice", "brown rice", "arborio rice",
+    "noodles", "rice noodles", "egg noodles", "udon", "ramen noodles",
+    "bread", "tortillas", "pita bread", "naan", "flatbread",
+    "couscous", "quinoa", "orzo", "gnocchi",
+    "beans", "black beans", "kidney beans", "chickpeas", "lentils",
+    "tofu", "tempeh",
+}
+"""Pantry items that are visible in the final dish (starches, grains, legumes)."""
 
 EXCLUDED_INGREDIENTS = {
     "salt", "black pepper", "olive oil", "vegetable oil", "canola oil",
@@ -128,7 +148,11 @@ def build_prompt_from_recipe(recipe: dict) -> str:
         if ing_name in EXCLUDED_INGREDIENTS:
             continue
 
+        # Include produce, meat, dairy categories
         if category in VISIBLE_INGREDIENTS_CATEGORIES:
+            visible_ingredients.append(ing["name"])
+        # Include specific pantry items (pasta, rice, noodles, etc.)
+        elif category == "pantry" and ing_name in VISIBLE_PANTRY_ITEMS:
             visible_ingredients.append(ing["name"])
 
     if len(visible_ingredients) > 6:
@@ -142,6 +166,62 @@ def build_prompt_from_recipe(recipe: dict) -> str:
         prompt = name
 
     return prompt
+
+
+def extract_unique_ingredients(recipes: list[dict]) -> list[str]:
+    """Extract unique ingredient names from all recipes."""
+    ingredients = set()
+    for recipe in recipes:
+        for ing in recipe.get("ingredients", []):
+            ingredients.add(ing["name"])
+    return sorted(ingredients)
+
+
+def build_ingredient_prompt(ingredient: str) -> str:
+    """Build an image generation prompt for a single ingredient."""
+    return (
+        f"RAW photo, photorealistic, single {ingredient}, centered on pure white background, "
+        "professional product photography, soft diffused lighting, isolated ingredient, "
+        "clean minimalist style, high detail, sharp focus, studio lighting"
+    )
+
+
+def generate_ingredient_image(
+    pipeline: StableDiffusionXLPipeline,
+    ingredient: str,
+    device: str,
+    seed: int = SEED,
+) -> Image.Image:
+    """Generate a single ingredient image."""
+    if device == "mps":
+        generator = torch.Generator()
+    else:
+        generator = torch.Generator(device=device)
+    generator.manual_seed(seed)
+
+    prompt = build_ingredient_prompt(ingredient)
+
+    result = pipeline(
+        prompt=prompt,
+        negative_prompt=NEGATIVE_PROMPT,
+        num_inference_steps=INGREDIENT_NUM_INFERENCE_STEPS,
+        guidance_scale=GUIDANCE_SCALE,
+        width=INGREDIENT_GENERATION_SIZE[0],
+        height=INGREDIENT_GENERATION_SIZE[1],
+        generator=generator,
+    )
+
+    image = result.images[0]
+
+    if image.size != INGREDIENT_OUTPUT_SIZE:
+        image = image.resize(INGREDIENT_OUTPUT_SIZE, Image.Resampling.LANCZOS)
+
+    return image
+
+
+def ingredient_name_to_filename(name: str) -> str:
+    """Convert ingredient name to filename format (lowercase, hyphenated)."""
+    return name.lower().replace(" ", "-")
 
 
 def generate_image(
@@ -234,6 +314,21 @@ def main() -> None:
         action="store_true",
         help="Show generated prompts without generating images",
     )
+    parser.add_argument(
+        "--ingredients",
+        action="store_true",
+        help="Generate ingredient images instead of recipe images",
+    )
+    parser.add_argument(
+        "--ingredient-name",
+        type=str,
+        help="Generate image for a specific ingredient only",
+    )
+    parser.add_argument(
+        "--list-ingredients",
+        action="store_true",
+        help="List all unique ingredients from recipes",
+    )
     args = parser.parse_args()
 
     script_dir = Path(__file__).parent
@@ -250,6 +345,57 @@ def main() -> None:
         print("Available recipe IDs:")
         for recipe in recipes:
             print(f"  - {recipe['id']}")
+        return
+
+    # Handle ingredient mode
+    if args.list_ingredients:
+        ingredients = extract_unique_ingredients(recipes)
+        print(f"Unique ingredients ({len(ingredients)}):")
+        for ing in ingredients:
+            print(f"  - {ing}")
+        return
+
+    if args.ingredients or args.ingredient_name:
+        ingredients = extract_unique_ingredients(recipes)
+
+        if args.ingredient_name:
+            # Find matching ingredient (case-insensitive)
+            matching = [i for i in ingredients if i.lower() == args.ingredient_name.lower()]
+            if not matching:
+                print(f"Error: Ingredient '{args.ingredient_name}' not found")
+                print("Use --list-ingredients to see available ingredients")
+                sys.exit(1)
+            ingredients = matching
+
+        ingredient_output_dir = script_dir / "../public/images/ingredients"
+
+        if args.show_prompts:
+            print("Generated prompts:")
+            for ing in ingredients:
+                prompt = build_ingredient_prompt(ing)
+                filename = ingredient_name_to_filename(ing)
+                print(f"\n{filename}:")
+                print(f"  {prompt}")
+            return
+
+        device = get_device()
+        pipeline = load_pipeline(device)
+
+        print(f"\nGenerating {len(ingredients)} ingredient image(s)...")
+        for i, ingredient in enumerate(ingredients, 1):
+            filename = ingredient_name_to_filename(ingredient)
+            output_path = ingredient_output_dir / f"{filename}.png"
+
+            print(f"\n[{i}/{len(ingredients)}] Generating: {ingredient}")
+
+            try:
+                image = generate_ingredient_image(pipeline, ingredient, device, args.seed)
+                save_image(image, output_path)
+            except Exception as e:
+                print(f"Error generating {ingredient}: {e}")
+                continue
+
+        print("\nDone!")
         return
 
     if args.recipe_id:
