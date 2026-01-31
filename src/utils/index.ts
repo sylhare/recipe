@@ -10,3 +10,4 @@ export {
   type DishType,
   type ProteinType,
 } from './recipeFilters'
+export { getIngredientImageUrl } from './ingredientImage'
