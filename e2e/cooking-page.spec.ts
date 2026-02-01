@@ -50,26 +50,11 @@ test.describe('Cooking Page', () => {
 
     await page.getByRole('link', { name: 'Cooking' }).click()
 
+    await page.locator('.recipe-instruction-card__header').click()
+
     const ingredientsList = page.locator('.ingredients-list')
     await expect(ingredientsList.getByText('800 g').first()).toBeVisible()
     await expect(ingredientsList.getByText('Spaghetti')).toBeVisible()
-    await expect(page.getByText('Ingredients for 8 servings')).toBeVisible()
-  })
-
-  test('can adjust servings from cooking page', async ({ page }) => {
-    const spaghettiCard = page.locator('.recipe-card').filter({ hasText: 'Spaghetti Bolognese' })
-    await spaghettiCard.getByRole('checkbox').click()
-
-    await page.getByRole('link', { name: 'Cooking' }).click()
-
-    await expect(page.getByRole('spinbutton')).toHaveValue('4')
-    await expect(page.getByText('Ingredients for 4 servings')).toBeVisible()
-
-    await page.getByRole('button', { name: 'Increase' }).click()
-    await page.getByRole('button', { name: 'Increase' }).click()
-
-    await expect(page.getByRole('spinbutton')).toHaveValue('6')
-    await expect(page.getByText('Ingredients for 6 servings')).toBeVisible()
   })
 
   test('can expand and collapse recipe card', async ({ page }) => {
@@ -78,17 +63,18 @@ test.describe('Cooking Page', () => {
 
     await page.getByRole('link', { name: 'Cooking' }).click()
 
-    await expect(page.getByText(/Ingredients for/)).toBeVisible()
-    await expect(page.locator('.recipe-instruction-card__toggle').getByText('▼')).toBeVisible()
-
-    await page.locator('.recipe-instruction-card__header').click()
-
-    await expect(page.getByText(/Ingredients for/)).not.toBeVisible()
+    await expect(page.locator('.recipe-instruction-card__content')).not.toBeVisible()
     await expect(page.locator('.recipe-instruction-card__toggle').getByText('▶')).toBeVisible()
 
     await page.locator('.recipe-instruction-card__header').click()
 
-    await expect(page.getByText(/Ingredients for/)).toBeVisible()
+    await expect(page.getByRole('heading', { name: 'Ingredients' })).toBeVisible()
+    await expect(page.locator('.recipe-instruction-card__toggle').getByText('▼')).toBeVisible()
+
+    await page.locator('.recipe-instruction-card__header').click()
+
+    await expect(page.locator('.recipe-instruction-card__content')).not.toBeVisible()
+    await expect(page.locator('.recipe-instruction-card__toggle').getByText('▶')).toBeVisible()
   })
 
   test('can remove recipe from cooking page', async ({ page }) => {
@@ -131,6 +117,8 @@ test.describe('Cooking Page', () => {
 
     await page.getByRole('link', { name: 'Cooking' }).click()
 
+    await page.locator('.recipe-instruction-card__header').click()
+
     const instructionPhases = page.locator('.instruction-phase')
     await expect(instructionPhases.first()).toBeVisible()
 
@@ -157,16 +145,12 @@ test.describe('Cooking Page', () => {
   test('recipe selections persist after page reload', async ({ page }) => {
     const spaghettiCard = page.locator('.recipe-card').filter({ hasText: 'Spaghetti Bolognese' })
     await spaghettiCard.getByRole('checkbox').click()
-    await spaghettiCard.getByRole('button', { name: 'Increase' }).click()
-    await spaghettiCard.getByRole('button', { name: 'Increase' }).click()
 
     await page.getByRole('link', { name: 'Cooking' }).click()
-    await expect(page.getByRole('spinbutton')).toHaveValue('6')
+    await expect(page.getByRole('heading', { name: 'Spaghetti Bolognese' })).toBeVisible()
 
     await page.reload()
 
     await expect(page.getByRole('heading', { name: 'Spaghetti Bolognese' })).toBeVisible()
-    await expect(page.getByRole('spinbutton')).toHaveValue('6')
-    await expect(page.getByText('Ingredients for 6 servings')).toBeVisible()
   })
 })

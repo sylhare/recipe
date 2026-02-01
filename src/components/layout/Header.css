@@ -26,6 +26,11 @@
   color: #535bf2;
 }
 
+.header__logo-icon {
+  width: 32px;
+  height: 32px;
+}
+
 .header__nav {
   display: flex;
   gap: 1.5rem;
