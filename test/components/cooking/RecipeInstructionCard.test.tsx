@@ -63,13 +63,6 @@ describe('RecipeInstructionCard', () => {
       expect(image).toHaveAttribute('src', '/test-image.png')
     })
 
-    it('renders servings controls', () => {
-      render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
-
-      expect(screen.getByText('Servings:')).toBeInTheDocument()
-      expect(screen.getByRole('spinbutton')).toHaveValue(4)
-    })
-
     it('renders remove button', () => {
       render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
 
@@ -80,38 +73,41 @@ describe('RecipeInstructionCard', () => {
   })
 
   describe('expand/collapse', () => {
-    it('starts expanded by default', () => {
+    it('starts collapsed by default', () => {
       render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
 
-      expect(screen.getByText('▼')).toBeInTheDocument()
-      expect(screen.getByText(/Ingredients for/)).toBeInTheDocument()
+      expect(screen.getByText('▶')).toBeInTheDocument()
+      expect(screen.queryByText('Ingredients')).not.toBeInTheDocument()
     })
 
-    it('collapses when header is clicked', async () => {
+    it('expands when header is clicked', async () => {
       render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
 
       const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
+      await userEvent.click(header!)
+
+      expect(screen.getByText('▼')).toBeInTheDocument()
+      expect(screen.getByText('Ingredients')).toBeInTheDocument()
+    })
+
+    it('collapses again when header is clicked while expanded', async () => {
+      render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
+
+      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
+      await userEvent.click(header!)
       await userEvent.click(header!)
 
       expect(screen.getByText('▶')).toBeInTheDocument()
-      expect(screen.queryByText(/Ingredients for/)).not.toBeInTheDocument()
-    })
-
-    it('expands again when header is clicked while collapsed', async () => {
-      render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
-
-      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
-      await userEvent.click(header!)
-      await userEvent.click(header!)
-
-      expect(screen.getByText('▼')).toBeInTheDocument()
-      expect(screen.getByText(/Ingredients for/)).toBeInTheDocument()
+      expect(screen.queryByText('Ingredients')).not.toBeInTheDocument()
     })
   })
 
   describe('ingredients', () => {
-    it('renders all ingredients in the ingredients list', () => {
+    it('renders all ingredients in the ingredients list when expanded', async () => {
       render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
+
+      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
+      await userEvent.click(header!)
 
       const ingredientsList = document.querySelector('.ingredients-list')
       expect(ingredientsList).toBeInTheDocument()
@@ -120,30 +116,33 @@ describe('RecipeInstructionCard', () => {
       expect(ingredientsList?.textContent).toContain('eggs')
     })
 
-    it('displays scaled quantities correctly', () => {
+    it('displays scaled quantities correctly', async () => {
       render(<RecipeInstructionCard recipe={mockRecipe} servings={8} />)
+
+      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
+      await userEvent.click(header!)
 
       expect(screen.getByText('4 cup')).toBeInTheDocument()
       expect(screen.getByText('2 cup')).toBeInTheDocument()
       expect(screen.getByText('6 piece')).toBeInTheDocument()
     })
 
-    it('displays singular "serving" for 1 serving', () => {
-      render(<RecipeInstructionCard recipe={mockRecipe} servings={1} />)
-
-      expect(screen.getByText('Ingredients for 1 serving')).toBeInTheDocument()
-    })
-
-    it('displays plural "servings" for multiple servings', () => {
+    it('displays Ingredients header', async () => {
       render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
 
-      expect(screen.getByText('Ingredients for 4 servings')).toBeInTheDocument()
+      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
+      await userEvent.click(header!)
+
+      expect(screen.getByText('Ingredients')).toBeInTheDocument()
     })
   })
 
   describe('basic instructions', () => {
-    it('renders basic instructions when no enhanced instructions', () => {
+    it('renders basic instructions when no enhanced instructions', async () => {
       render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
+
+      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
+      await userEvent.click(header!)
 
       expect(screen.getByText('Instructions')).toBeInTheDocument()
       const instructionSteps = document.querySelectorAll('.instruction-step')
@@ -155,40 +154,55 @@ describe('RecipeInstructionCard', () => {
       expect(instructionSteps[2].textContent).toContain('Bake at 350°F')
     })
 
-    it('renders the instructions icon', () => {
+    it('renders the instructions icon', async () => {
       render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
+
+      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
+      await userEvent.click(header!)
 
       expect(screen.getByText('📝')).toBeInTheDocument()
     })
   })
 
   describe('enhanced instructions', () => {
-    it('renders Preparation section with icon', () => {
+    it('renders Preparation section with icon', async () => {
       render(<RecipeInstructionCard recipe={mockRecipeWithEnhanced} servings={4} />)
+
+      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
+      await userEvent.click(header!)
 
       expect(screen.getByText('Preparation')).toBeInTheDocument()
       expect(screen.getByText('🔪')).toBeInTheDocument()
       expect(screen.getByText(/Preheat oven/)).toBeInTheDocument()
     })
 
-    it('renders Cooking section with icon', () => {
+    it('renders Cooking section with icon', async () => {
       render(<RecipeInstructionCard recipe={mockRecipeWithEnhanced} servings={4} />)
+
+      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
+      await userEvent.click(header!)
 
       expect(screen.getByText('Cooking')).toBeInTheDocument()
       expect(screen.getByText('🍳')).toBeInTheDocument()
       expect(screen.getByText(/Mix ingredients/)).toBeInTheDocument()
     })
 
-    it('renders Serving section with icon', () => {
+    it('renders Serving section with icon', async () => {
       render(<RecipeInstructionCard recipe={mockRecipeWithEnhanced} servings={4} />)
+
+      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
+      await userEvent.click(header!)
 
       expect(screen.getByText('Serving')).toBeInTheDocument()
       expect(screen.getByText('🍽️')).toBeInTheDocument()
       expect(screen.getByText(/Let cool for/)).toBeInTheDocument()
     })
 
-    it('renders Pro Tips section', () => {
+    it('renders Pro Tips section', async () => {
       render(<RecipeInstructionCard recipe={mockRecipeWithEnhanced} servings={4} />)
+
+      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
+      await userEvent.click(header!)
 
       expect(screen.getByText('Pro Tips')).toBeInTheDocument()
       expect(screen.getByText('💡')).toBeInTheDocument()
@@ -196,16 +210,22 @@ describe('RecipeInstructionCard', () => {
       expect(screen.getByText(/Sift the flour/)).toBeInTheDocument()
     })
 
-    it('does not render basic instructions section when enhanced exists', () => {
+    it('does not render basic instructions section when enhanced exists', async () => {
       render(<RecipeInstructionCard recipe={mockRecipeWithEnhanced} servings={4} />)
+
+      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
+      await userEvent.click(header!)
 
       expect(screen.queryByText('📝')).not.toBeInTheDocument()
     })
   })
 
   describe('ingredient highlighting', () => {
-    it('wraps ingredient names in strong tags with quantity annotations', () => {
+    it('wraps ingredient names in strong tags with quantity annotations', async () => {
       render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
+
+      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
+      await userEvent.click(header!)
 
       const highlightedIngredients = screen.getAllByRole('strong')
       expect(highlightedIngredients.length).toBeGreaterThan(0)
@@ -219,14 +239,6 @@ describe('RecipeInstructionCard', () => {
   })
 
   describe('user interactions', () => {
-    it('calls updateServings when NumberInput changes', async () => {
-      render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
-
-      await userEvent.click(screen.getByRole('button', { name: 'Increase' }))
-
-      expect(mockUpdateServings).toHaveBeenCalledWith('test-recipe', 5)
-    })
-
     it('calls deselectRecipe when remove button is clicked', async () => {
       render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
 
@@ -234,19 +246,10 @@ describe('RecipeInstructionCard', () => {
 
       expect(mockDeselectRecipe).toHaveBeenCalledWith('test-recipe')
     })
-
-    it('does not toggle expansion when clicking servings controls', async () => {
-      render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
-
-      await userEvent.click(screen.getByRole('button', { name: 'Increase' }))
-
-      expect(screen.getByText('▼')).toBeInTheDocument()
-      expect(screen.getByText(/Ingredients for/)).toBeInTheDocument()
-    })
   })
 
   describe('image error handling', () => {
-    it('shows fallback emoji when image fails to load', () => {
+    it('shows fallback emoji when image fails to load', async () => {
       render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
 
       const image = screen.getByRole('img', { name: 'Test Recipe' })
@@ -254,6 +257,83 @@ describe('RecipeInstructionCard', () => {
 
       expect(screen.queryByRole('img', { name: 'Test Recipe' })).not.toBeInTheDocument()
       expect(document.querySelector('.recipe-instruction-card__image-placeholder')).toBeInTheDocument()
+    })
+  })
+
+  describe('ingredient merging', () => {
+    const mockRecipeWithDuplicates: Recipe = {
+      ...mockRecipe,
+      id: 'duplicate-recipe',
+      ingredients: [
+        { id: 'ing-1', name: 'flour', quantity: 2, unit: 'cup', category: 'pantry' },
+        { id: 'ing-2', name: 'flour', quantity: 1, unit: 'cup', category: 'pantry' },
+        { id: 'ing-3', name: 'sugar', quantity: 1, unit: 'cup', category: 'pantry' },
+      ],
+      instructions: ['Mix flour and sugar.'],
+    }
+
+    it('merges duplicate ingredients with same name and unit', async () => {
+      render(<RecipeInstructionCard recipe={mockRecipeWithDuplicates} servings={4} />)
+
+      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
+      await userEvent.click(header!)
+
+      const ingredientItems = document.querySelectorAll('.ingredients-list__item')
+      expect(ingredientItems.length).toBe(2)
+
+      expect(screen.getByText('3 cup')).toBeInTheDocument()
+      expect(screen.getByText('1 cup')).toBeInTheDocument()
+    })
+
+    it('does not merge ingredients with different units', async () => {
+      const recipeWithDifferentUnits: Recipe = {
+        ...mockRecipe,
+        id: 'different-units',
+        ingredients: [
+          { id: 'ing-1', name: 'olive oil', quantity: 2, unit: 'tbsp', category: 'pantry' },
+          { id: 'ing-2', name: 'olive oil', quantity: 1, unit: 'cup', category: 'pantry' },
+        ],
+        instructions: ['Add olive oil.'],
+      }
+
+      render(<RecipeInstructionCard recipe={recipeWithDifferentUnits} servings={4} />)
+
+      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
+      await userEvent.click(header!)
+
+      const ingredientItems = document.querySelectorAll('.ingredients-list__item')
+      expect(ingredientItems.length).toBe(2)
+    })
+
+    it('merges ingredients case-insensitively', async () => {
+      const recipeWithMixedCase: Recipe = {
+        ...mockRecipe,
+        id: 'mixed-case',
+        ingredients: [
+          { id: 'ing-1', name: 'Flour', quantity: 2, unit: 'cup', category: 'pantry' },
+          { id: 'ing-2', name: 'flour', quantity: 1, unit: 'cup', category: 'pantry' },
+        ],
+        instructions: ['Mix flour.'],
+      }
+
+      render(<RecipeInstructionCard recipe={recipeWithMixedCase} servings={4} />)
+
+      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
+      await userEvent.click(header!)
+
+      const ingredientItems = document.querySelectorAll('.ingredients-list__item')
+      expect(ingredientItems.length).toBe(1)
+      expect(screen.getByText('3 cup')).toBeInTheDocument()
+    })
+
+    it('scales merged quantities correctly', async () => {
+      render(<RecipeInstructionCard recipe={mockRecipeWithDuplicates} servings={8} />)
+
+      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
+      await userEvent.click(header!)
+
+      expect(screen.getByText('6 cup')).toBeInTheDocument()
+      expect(screen.getByText('2 cup')).toBeInTheDocument()
     })
   })
 })

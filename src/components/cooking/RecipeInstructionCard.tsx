@@ -1,7 +1,6 @@
-import { useState, type ReactNode } from 'react'
-import type { Recipe } from '../../types'
+import { useState, useMemo, type ReactNode } from 'react'
+import type { Recipe, Ingredient } from '../../types'
 import { useRecipeContext } from '../../context/RecipeContext'
-import { NumberInput } from '../common/NumberInput'
 import { formatQuantity } from '../../utils'
 import './RecipeInstructionCard.css'
 
@@ -10,12 +9,38 @@ interface RecipeInstructionCardProps {
   servings: number
 }
 
+interface MergedIngredient extends Ingredient {
+  mergedQuantity: number
+}
+
+function mergeIngredients(ingredients: Ingredient[]): MergedIngredient[] {
+  const merged = new Map<string, MergedIngredient>()
+
+  for (const ingredient of ingredients) {
+    const key = `${ingredient.name.toLowerCase()}|${ingredient.unit}`
+    const existing = merged.get(key)
+
+    if (existing) {
+      existing.mergedQuantity += ingredient.quantity
+    } else {
+      merged.set(key, { ...ingredient, mergedQuantity: ingredient.quantity })
+    }
+  }
+
+  return Array.from(merged.values())
+}
+
 export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCardProps) {
-  const [isExpanded, setIsExpanded] = useState(true)
-  const { deselectRecipe, updateServings } = useRecipeContext()
+  const [isExpanded, setIsExpanded] = useState(false)
+  const { deselectRecipe } = useRecipeContext()
   const [imageError, setImageError] = useState(false)
 
   const scaleFactor = servings / recipe.defaultServings
+
+  const mergedIngredients = useMemo(
+    () => mergeIngredients(recipe.ingredients),
+    [recipe.ingredients]
+  )
 
   const scaleQuantity = (quantity: number): string => {
     const scaled = quantity * scaleFactor
@@ -146,15 +171,6 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
           <p className="recipe-instruction-card__description">{recipe.description}</p>
         </div>
         <div className="recipe-instruction-card__actions" onClick={e => e.stopPropagation()}>
-          <div className="recipe-instruction-card__servings">
-            <label>Servings:</label>
-            <NumberInput
-              value={servings}
-              onChange={(value) => updateServings(recipe.id, value)}
-              min={1}
-              max={20}
-            />
-          </div>
           <button
             className="recipe-instruction-card__remove"
             onClick={() => deselectRecipe(recipe.id)}
@@ -171,12 +187,12 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
       {isExpanded && (
         <div className="recipe-instruction-card__content">
           <div className="recipe-instruction-card__ingredients">
-            <h4>Ingredients for {servings} serving{servings !== 1 ? 's' : ''}</h4>
+            <h4>Ingredients</h4>
             <ul className="ingredients-list">
-              {recipe.ingredients.map(ingredient => (
+              {mergedIngredients.map(ingredient => (
                 <li key={ingredient.id} className="ingredients-list__item">
                   <span className="ingredients-list__quantity">
-                    {scaleQuantity(ingredient.quantity)} {ingredient.unit}
+                    {scaleQuantity(ingredient.mergedQuantity)} {ingredient.unit}
                   </span>
                   <span className="ingredients-list__name">{ingredient.name}</span>
                 </li>
