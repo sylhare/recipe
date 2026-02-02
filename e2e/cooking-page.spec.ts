@@ -64,17 +64,17 @@ test.describe('Cooking Page', () => {
     await page.getByRole('link', { name: 'Cooking' }).click()
 
     await expect(page.locator('.recipe-instruction-card__content')).not.toBeVisible()
-    await expect(page.locator('.recipe-instruction-card__toggle').getByText('▶')).toBeVisible()
+    await expect(page.locator('.recipe-instruction-card')).not.toHaveClass(/recipe-instruction-card--expanded/)
 
     await page.locator('.recipe-instruction-card__header').click()
 
     await expect(page.getByRole('heading', { name: 'Ingredients' })).toBeVisible()
-    await expect(page.locator('.recipe-instruction-card__toggle').getByText('▼')).toBeVisible()
+    await expect(page.locator('.recipe-instruction-card')).toHaveClass(/recipe-instruction-card--expanded/)
 
     await page.locator('.recipe-instruction-card__header').click()
 
     await expect(page.locator('.recipe-instruction-card__content')).not.toBeVisible()
-    await expect(page.locator('.recipe-instruction-card__toggle').getByText('▶')).toBeVisible()
+    await expect(page.locator('.recipe-instruction-card')).not.toHaveClass(/recipe-instruction-card--expanded/)
   })
 
   test('can remove recipe from cooking page', async ({ page }) => {

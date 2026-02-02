@@ -9,7 +9,7 @@ export function Header() {
   return (
     <header className="header">
       <div className="header__container">
-        <Link to="/" className="header__logo">
+        <Link to="/" className="header__logo" aria-label="Recipe App">
           <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="" className="header__logo-icon" />
         </Link>
         <nav className="header__nav">
