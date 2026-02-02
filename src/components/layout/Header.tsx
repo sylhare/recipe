@@ -10,7 +10,7 @@ export function Header() {
     <header className="header">
       <div className="header__container">
         <Link to="/" className="header__logo">
-          <img src="/favicon.svg" alt="Recipe App" className="header__logo-icon" />
+          <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="" className="header__logo-icon" />
         </Link>
         <nav className="header__nav">
           <Link

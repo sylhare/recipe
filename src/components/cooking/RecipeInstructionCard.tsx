@@ -179,9 +179,6 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
             ✕
           </button>
         </div>
-        <div className="recipe-instruction-card__toggle">
-          {isExpanded ? '▼' : '▶'}
-        </div>
       </div>
 
       {isExpanded && (
