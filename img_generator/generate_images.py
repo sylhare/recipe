@@ -85,6 +85,22 @@ EXCLUDED_INGREDIENTS = {
 }
 """Common ingredients that don't need to be prominently featured."""
 
+CUSTOM_INGREDIENT_PROMPTS = {
+    "vegetable stock": (
+        "RAW photo, photorealistic, single carton box of vegetable stock broth, "
+        "tetra pak packaging, supermarket product, centered on pure white background, "
+        "professional product photography, soft diffused lighting, clean minimalist style, "
+        "high detail, sharp focus, studio lighting"
+    ),
+    "chicken stock": (
+        "RAW photo, photorealistic, single carton box of chicken stock broth, "
+        "tetra pak packaging, supermarket product, centered on pure white background, "
+        "professional product photography, soft diffused lighting, clean minimalist style, "
+        "high detail, sharp focus, studio lighting"
+    ),
+}
+"""Custom prompts for specific ingredients that need special handling."""
+
 
 def get_device() -> str:
     """Determine the best available device for inference."""
@@ -179,6 +195,10 @@ def extract_unique_ingredients(recipes: list[dict]) -> list[str]:
 
 def build_ingredient_prompt(ingredient: str) -> str:
     """Build an image generation prompt for a single ingredient."""
+    lower_ingredient = ingredient.lower()
+    if lower_ingredient in CUSTOM_INGREDIENT_PROMPTS:
+        return CUSTOM_INGREDIENT_PROMPTS[lower_ingredient]
+
     return (
         f"RAW photo, photorealistic, single {ingredient}, centered on pure white background, "
         "professional product photography, soft diffused lighting, isolated ingredient, "

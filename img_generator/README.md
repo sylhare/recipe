@@ -56,6 +56,32 @@ uv run python generate_images.py --recipe-id spaghetti-bolognese
 uv run python generate_images.py --seed 123
 ```
 
+### Generate ingredient images
+
+List all unique ingredients:
+
+```bash
+uv run python generate_images.py --list-ingredients
+```
+
+Generate all ingredient images:
+
+```bash
+uv run python generate_images.py --ingredients
+```
+
+Generate a specific ingredient image:
+
+```bash
+uv run python generate_images.py --ingredient-name "Mandarin Oranges"
+```
+
+Preview ingredient prompts:
+
+```bash
+uv run python generate_images.py --ingredients --show-prompts
+```
+
 ## How Prompts Are Generated
 
 The script automatically builds prompts from recipe data:
