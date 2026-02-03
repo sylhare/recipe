@@ -76,7 +76,8 @@ describe('RecipeInstructionCard', () => {
     it('starts collapsed by default', () => {
       render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
 
-      expect(screen.getByText('▶')).toBeInTheDocument()
+      const card = document.querySelector('.recipe-instruction-card')
+      expect(card).not.toHaveClass('recipe-instruction-card--expanded')
       expect(screen.queryByText('Ingredients')).not.toBeInTheDocument()
     })
 
@@ -86,7 +87,8 @@ describe('RecipeInstructionCard', () => {
       const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
       await userEvent.click(header!)
 
-      expect(screen.getByText('▼')).toBeInTheDocument()
+      const card = document.querySelector('.recipe-instruction-card')
+      expect(card).toHaveClass('recipe-instruction-card--expanded')
       expect(screen.getByText('Ingredients')).toBeInTheDocument()
     })
 
@@ -97,7 +99,8 @@ describe('RecipeInstructionCard', () => {
       await userEvent.click(header!)
       await userEvent.click(header!)
 
-      expect(screen.getByText('▶')).toBeInTheDocument()
+      const card = document.querySelector('.recipe-instruction-card')
+      expect(card).not.toHaveClass('recipe-instruction-card--expanded')
       expect(screen.queryByText('Ingredients')).not.toBeInTheDocument()
     })
   })

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { aggregateIngredients, groupByCategory, formatQuantity } from '../../src/utils/ingredientAggregator'
+import { aggregateIngredients, groupByCategory, formatQuantity, convertToMl } from '../../src/utils/ingredientAggregator'
 import type { Recipe, RecipeSelection } from '../../src/types'
 
 const mockRecipes: Recipe[] = [
@@ -127,6 +127,96 @@ describe('ingredientAggregator', () => {
 
     it('handles pieces', () => {
       expect(formatQuantity(3, 'piece')).toBe('3 piece')
+    })
+  })
+
+  describe('convertToMl', () => {
+    it('converts tsp to ml (1 tsp = 5ml)', () => {
+      const result = convertToMl(2, 'tsp')
+      expect(result).toEqual({ quantity: 10, unit: 'ml' })
+    })
+
+    it('converts tbsp to ml (1 tbsp = 15ml)', () => {
+      const result = convertToMl(3, 'tbsp')
+      expect(result).toEqual({ quantity: 45, unit: 'ml' })
+    })
+
+    it('converts cup to ml (1 cup = 240ml)', () => {
+      const result = convertToMl(2, 'cup')
+      expect(result).toEqual({ quantity: 480, unit: 'ml' })
+    })
+
+    it('does not convert g', () => {
+      const result = convertToMl(100, 'g')
+      expect(result).toEqual({ quantity: 100, unit: 'g' })
+    })
+
+    it('does not convert ml', () => {
+      const result = convertToMl(50, 'ml')
+      expect(result).toEqual({ quantity: 50, unit: 'ml' })
+    })
+
+    it('does not convert piece', () => {
+      const result = convertToMl(3, 'piece')
+      expect(result).toEqual({ quantity: 3, unit: 'piece' })
+    })
+  })
+
+  describe('unit conversion in aggregation', () => {
+    const recipesWithMixedUnits: Recipe[] = [
+      {
+        id: 'recipe-a',
+        name: 'Recipe A',
+        description: 'Test',
+        imageUrl: '/test.png',
+        defaultServings: 4,
+        ingredients: [
+          { id: '1', name: 'Ginger', quantity: 1, unit: 'tbsp', category: 'produce' },
+        ],
+        instructions: ['Test'],
+      },
+      {
+        id: 'recipe-b',
+        name: 'Recipe B',
+        description: 'Test',
+        imageUrl: '/test.png',
+        defaultServings: 4,
+        ingredients: [
+          { id: '2', name: 'Ginger', quantity: 2, unit: 'tsp', category: 'produce' },
+        ],
+        instructions: ['Test'],
+      },
+    ]
+
+    it('converts and merges ingredients with tsp and tbsp to ml', () => {
+      const selections: RecipeSelection[] = [
+        { recipeId: 'recipe-a', servings: 4 },
+        { recipeId: 'recipe-b', servings: 4 },
+      ]
+      const result = aggregateIngredients(recipesWithMixedUnits, selections)
+
+      const ginger = result.find(i => i.ingredientName === 'Ginger')
+      expect(ginger).toBeDefined()
+      expect(ginger?.unit).toBe('ml')
+      expect(ginger?.totalQuantity).toBe(25) // 1 tbsp (15ml) + 2 tsp (10ml) = 25ml
+    })
+
+    it('converts tbsp to ml in shopping list', () => {
+      const selections: RecipeSelection[] = [{ recipeId: 'recipe-a', servings: 4 }]
+      const result = aggregateIngredients(recipesWithMixedUnits, selections)
+
+      const ginger = result.find(i => i.ingredientName === 'Ginger')
+      expect(ginger?.unit).toBe('ml')
+      expect(ginger?.totalQuantity).toBe(15)
+    })
+
+    it('converts tsp to ml in shopping list', () => {
+      const selections: RecipeSelection[] = [{ recipeId: 'recipe-b', servings: 4 }]
+      const result = aggregateIngredients(recipesWithMixedUnits, selections)
+
+      const ginger = result.find(i => i.ingredientName === 'Ginger')
+      expect(ginger?.unit).toBe('ml')
+      expect(ginger?.totalQuantity).toBe(10)
     })
   })
 })

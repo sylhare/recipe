@@ -7,8 +7,25 @@ interface AggregationKey {
   category: IngredientCategory
 }
 
+const UNIT_TO_ML: Record<string, number> = {
+  'tsp': 5,
+  'tbsp': 15,
+  'cup': 240,
+}
+
+const CONVERTIBLE_UNITS = new Set(['tsp', 'tbsp', 'cup'])
+
+export function convertToMl(quantity: number, unit: Unit): { quantity: number; unit: Unit } {
+  if (CONVERTIBLE_UNITS.has(unit)) {
+    const factor = UNIT_TO_ML[unit] || 1
+    return { quantity: quantity * factor, unit: 'ml' }
+  }
+  return { quantity, unit }
+}
+
 function createAggregationKey(name: string, unit: Unit, category: IngredientCategory): string {
-  return `${name.toLowerCase()}|${unit}|${category}`
+  const { unit: normalizedUnit } = convertToMl(1, unit)
+  return `${name.toLowerCase()}|${normalizedUnit}|${category}`
 }
 
 function parseAggregationKey(key: string): AggregationKey {
@@ -40,15 +57,17 @@ export function aggregateIngredients(
         selection.servings
       )
 
+      const { quantity: convertedQuantity, unit: convertedUnit } = convertToMl(scaledQuantity, ingredient.unit)
+
       const existing = aggregated.get(key)
       if (existing) {
-        existing.totalQuantity += scaledQuantity
+        existing.totalQuantity += convertedQuantity
         existing.sourceRecipes.add(recipe.id)
       } else {
         aggregated.set(key, {
-          totalQuantity: scaledQuantity,
+          totalQuantity: convertedQuantity,
           displayName: ingredient.name,
-          unit: ingredient.unit,
+          unit: convertedUnit,
           category: ingredient.category,
           sourceRecipes: new Set([recipe.id]),
         })

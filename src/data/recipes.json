@@ -436,7 +436,7 @@
     "defaultServings": 4,
     "ingredients": [
       { "id": "bfb-1", "name": "Beef Sirloin", "quantity": 500, "unit": "g", "category": "meat" },
-      { "id": "bfb-2", "name": "Bell Peppers", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "bfb-2", "name": "Bell Pepper", "quantity": 2, "unit": "piece", "category": "produce" },
       { "id": "bfb-3", "name": "Onion", "quantity": 1, "unit": "piece", "category": "produce" },
       { "id": "bfb-4", "name": "Lime", "quantity": 2, "unit": "piece", "category": "produce" },
       { "id": "bfb-5", "name": "Cumin", "quantity": 1, "unit": "tsp", "category": "spices" },
@@ -679,7 +679,7 @@
     "defaultServings": 4,
     "ingredients": [
       { "id": "psf-1", "name": "Pork Tenderloin", "quantity": 500, "unit": "g", "category": "meat" },
-      { "id": "psf-2", "name": "Bell Peppers", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "psf-2", "name": "Bell Pepper", "quantity": 2, "unit": "piece", "category": "produce" },
       { "id": "psf-3", "name": "Snap Peas", "quantity": 200, "unit": "g", "category": "produce" },
       { "id": "psf-4", "name": "Soy Sauce", "quantity": 3, "unit": "tbsp", "category": "pantry" },
       { "id": "psf-5", "name": "Honey", "quantity": 2, "unit": "tbsp", "category": "pantry" },
@@ -1581,7 +1581,7 @@
       { "id": "gb-4", "name": "Soy Sauce", "quantity": 3, "unit": "tbsp", "category": "pantry" },
       { "id": "gb-5", "name": "Rice Vinegar", "quantity": 2, "unit": "tbsp", "category": "pantry" },
       { "id": "gb-6", "name": "Brown Sugar", "quantity": 2, "unit": "tbsp", "category": "pantry" },
-      { "id": "gb-7", "name": "Bell Peppers", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "gb-7", "name": "Bell Pepper", "quantity": 2, "unit": "piece", "category": "produce" },
       { "id": "gb-8", "name": "Cornstarch", "quantity": 2, "unit": "tbsp", "category": "pantry" },
       { "id": "gb-9", "name": "Rice", "quantity": 300, "unit": "g", "category": "pantry" },
       { "id": "gb-10", "name": "Vegetable Oil", "quantity": 3, "unit": "tbsp", "category": "pantry" }
@@ -1935,7 +1935,7 @@
     "defaultServings": 4,
     "ingredients": [
       { "id": "pp-1", "name": "Penne Pasta", "quantity": 400, "unit": "g", "category": "pantry" },
-      { "id": "pp-2", "name": "Fresh Basil", "quantity": 2, "unit": "cup", "category": "produce" },
+      { "id": "pp-2", "name": "Fresh Basil", "quantity": 50, "unit": "g", "category": "produce" },
       { "id": "pp-3", "name": "Pine Nuts", "quantity": 50, "unit": "g", "category": "pantry" },
       { "id": "pp-4", "name": "Parmesan Cheese", "quantity": 80, "unit": "g", "category": "dairy" },
       { "id": "pp-5", "name": "Garlic", "quantity": 3, "unit": "piece", "category": "produce" },
@@ -2115,7 +2115,7 @@
     "imageUrl": "/images/recipes/stuffed-peppers.png",
     "defaultServings": 4,
     "ingredients": [
-      { "id": "sp-1", "name": "Bell Peppers", "quantity": 4, "unit": "piece", "category": "produce" },
+      { "id": "sp-1", "name": "Bell Pepper", "quantity": 4, "unit": "piece", "category": "produce" },
       { "id": "sp-2", "name": "Ground Beef", "quantity": 400, "unit": "g", "category": "meat" },
       { "id": "sp-3", "name": "Rice", "quantity": 150, "unit": "g", "category": "pantry" },
       { "id": "sp-4", "name": "Canned Tomatoes", "quantity": 400, "unit": "g", "category": "pantry" },
@@ -2723,8 +2723,8 @@
     "ingredients": [
       { "id": "cpc-1", "name": "Chicken Breast", "quantity": 4, "unit": "piece", "category": "meat" },
       { "id": "cpc-2", "name": "Fresh Mozzarella", "quantity": 200, "unit": "g", "category": "dairy" },
-      { "id": "cpc-3", "name": "Roma Tomatoes", "quantity": 2, "unit": "piece", "category": "produce" },
-      { "id": "cpc-4", "name": "Fresh Basil", "quantity": 12, "unit": "piece", "category": "produce" },
+      { "id": "cpc-3", "name": "Roma Tomato", "quantity": 2, "unit": "piece", "category": "produce" },
+      { "id": "cpc-4", "name": "Fresh Basil", "quantity": 15, "unit": "g", "category": "produce" },
       { "id": "cpc-5", "name": "Balsamic Glaze", "quantity": 3, "unit": "tbsp", "category": "pantry" },
       { "id": "cpc-6", "name": "Olive Oil", "quantity": 3, "unit": "tbsp", "category": "pantry" },
       { "id": "cpc-7", "name": "Garlic Powder", "quantity": 1, "unit": "tsp", "category": "spices" },
@@ -3279,7 +3279,7 @@
       { "id": "ascs-3", "name": "Red Cabbage", "quantity": 150, "unit": "g", "category": "produce" },
       { "id": "ascs-4", "name": "Carrots", "quantity": 2, "unit": "piece", "category": "produce" },
       { "id": "ascs-5", "name": "Edamame", "quantity": 100, "unit": "g", "category": "produce" },
-      { "id": "ascs-6", "name": "Mandarin Oranges", "quantity": 200, "unit": "g", "category": "produce" },
+      { "id": "ascs-6", "name": "Mandarin Orange", "quantity": 200, "unit": "g", "category": "produce" },
       { "id": "ascs-7", "name": "Sesame Oil", "quantity": 3, "unit": "tbsp", "category": "pantry" },
       { "id": "ascs-8", "name": "Rice Vinegar", "quantity": 3, "unit": "tbsp", "category": "pantry" },
       { "id": "ascs-9", "name": "Soy Sauce", "quantity": 2, "unit": "tbsp", "category": "pantry" },
@@ -3335,7 +3335,7 @@
     "defaultServings": 4,
     "ingredients": [
       { "id": "sss-1", "name": "Baby Spinach", "quantity": 300, "unit": "g", "category": "produce" },
-      { "id": "sss-2", "name": "Strawberries", "quantity": 300, "unit": "g", "category": "produce" },
+      { "id": "sss-2", "name": "Strawberry", "quantity": 300, "unit": "g", "category": "produce" },
       { "id": "sss-3", "name": "Goat Cheese", "quantity": 100, "unit": "g", "category": "dairy" },
       { "id": "sss-4", "name": "Pecans", "quantity": 80, "unit": "g", "category": "pantry" },
       { "id": "sss-5", "name": "Red Onion", "quantity": 0.5, "unit": "piece", "category": "produce" },
