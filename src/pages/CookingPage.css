@@ -6,9 +6,13 @@
 
 .cooking-page__header {
   margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
 }
 
-.cooking-page__header h1 {
+.cooking-page__header-content h1 {
   margin: 0 0 0.25rem;
   font-size: 1.75rem;
   color: var(--color-text-primary);

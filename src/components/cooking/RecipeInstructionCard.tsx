@@ -1,7 +1,9 @@
 import { useState, useMemo, type ReactNode } from 'react'
+import * as AlertDialog from '@radix-ui/react-alert-dialog'
 import type { Recipe, Ingredient } from '../../types'
 import { useRecipeContext } from '../../context/RecipeContext'
 import { formatQuantity } from '../../utils'
+import { Button } from '../common/Button'
 import './RecipeInstructionCard.css'
 
 interface RecipeInstructionCardProps {
@@ -155,7 +157,7 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
         <div className="recipe-instruction-card__image-container">
           {!imageError ? (
             <img
-              src={recipe.imageUrl}
+              src={`${import.meta.env.BASE_URL}${recipe.imageUrl.replace(/^\//, '')}`}
               alt={recipe.name}
               className="recipe-instruction-card__image"
               onError={() => setImageError(true)}
