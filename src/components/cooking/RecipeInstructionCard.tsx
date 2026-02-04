@@ -1,9 +1,8 @@
 import { useState, useMemo, type ReactNode } from 'react'
-import * as AlertDialog from '@radix-ui/react-alert-dialog'
 import type { Recipe, Ingredient } from '../../types'
 import { useRecipeContext } from '../../context/RecipeContext'
 import { formatQuantity } from '../../utils'
-import { Button } from '../common/Button'
+import { ConfirmDialog } from '../common'
 import './RecipeInstructionCard.css'
 
 interface RecipeInstructionCardProps {
@@ -34,6 +33,7 @@ function mergeIngredients(ingredients: Ingredient[]): MergedIngredient[] {
 
 export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCardProps) {
   const [isExpanded, setIsExpanded] = useState(false)
+  const [showRemoveConfirm, setShowRemoveConfirm] = useState(false)
   const { deselectRecipe } = useRecipeContext()
   const [imageError, setImageError] = useState(false)
 
@@ -175,13 +175,22 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
         <div className="recipe-instruction-card__actions" onClick={e => e.stopPropagation()}>
           <button
             className="recipe-instruction-card__remove"
-            onClick={() => deselectRecipe(recipe.id)}
+            onClick={() => setShowRemoveConfirm(true)}
             title="Remove recipe"
           >
             ✕
           </button>
         </div>
       </div>
+
+      <ConfirmDialog
+        open={showRemoveConfirm}
+        onOpenChange={setShowRemoveConfirm}
+        title="Remove Recipe"
+        description={`Are you sure you want to remove "${recipe.name}" from your cooking list?`}
+        confirmLabel="Yes, Remove"
+        onConfirm={() => deselectRecipe(recipe.id)}
+      />
 
       {isExpanded && (
         <div className="recipe-instruction-card__content">

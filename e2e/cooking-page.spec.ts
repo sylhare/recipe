@@ -77,7 +77,7 @@ test.describe('Cooking Page', () => {
     await expect(page.locator('.recipe-instruction-card')).not.toHaveClass(/recipe-instruction-card--expanded/)
   })
 
-  test('can remove recipe from cooking page', async ({ page }) => {
+  test('can remove recipe from cooking page with confirmation', async ({ page }) => {
     const spaghettiCard = page.locator('.recipe-card').filter({ hasText: 'Spaghetti Bolognese' })
     await spaghettiCard.getByRole('checkbox').click()
 
@@ -93,9 +93,30 @@ test.describe('Cooking Page', () => {
     const spaghettiInstructionCard = page.locator('.recipe-instruction-card').filter({ hasText: 'Spaghetti Bolognese' })
     await spaghettiInstructionCard.getByRole('button', { name: '✕' }).click()
 
+    await expect(page.getByText('Remove Recipe')).toBeVisible()
+    await expect(page.getByText(/Are you sure you want to remove "Spaghetti Bolognese"/)).toBeVisible()
+
+    await page.getByRole('button', { name: 'Yes, Remove' }).click()
+
     await expect(page.getByText('1 recipe selected')).toBeVisible()
     await expect(page.getByRole('heading', { name: 'Spaghetti Bolognese' })).not.toBeVisible()
     await expect(page.getByRole('heading', { name: 'Chicken Curry' })).toBeVisible()
+  })
+
+  test('can cancel remove recipe confirmation', async ({ page }) => {
+    const spaghettiCard = page.locator('.recipe-card').filter({ hasText: 'Spaghetti Bolognese' })
+    await spaghettiCard.getByRole('checkbox').click()
+
+    await page.getByRole('link', { name: 'Cooking' }).click()
+
+    await page.getByRole('button', { name: '✕' }).click()
+
+    await expect(page.getByText('Remove Recipe')).toBeVisible()
+
+    await page.getByRole('button', { name: 'Cancel' }).click()
+
+    await expect(page.getByText('Remove Recipe')).not.toBeVisible()
+    await expect(page.getByRole('heading', { name: 'Spaghetti Bolognese' })).toBeVisible()
   })
 
   test('removing last recipe shows empty state', async ({ page }) => {
@@ -107,8 +128,46 @@ test.describe('Cooking Page', () => {
     await expect(page.getByRole('heading', { name: 'Spaghetti Bolognese' })).toBeVisible()
 
     await page.getByRole('button', { name: '✕' }).click()
+    await page.getByRole('button', { name: 'Yes, Remove' }).click()
 
     await expect(page.getByText('No recipes selected')).toBeVisible()
+  })
+
+  test('clear all button removes all recipes with confirmation', async ({ page }) => {
+    const spaghettiCard = page.locator('.recipe-card').filter({ hasText: 'Spaghetti Bolognese' })
+    await spaghettiCard.getByRole('checkbox').click()
+
+    const curryCard = page.locator('.recipe-card').filter({ hasText: 'Chicken Curry' })
+    await curryCard.getByRole('checkbox').click()
+
+    await page.getByRole('link', { name: 'Cooking' }).click()
+
+    await expect(page.getByText('2 recipes selected')).toBeVisible()
+
+    await page.getByRole('button', { name: 'Clear All' }).click()
+
+    await expect(page.getByText('Clear All Recipes')).toBeVisible()
+    await expect(page.getByText('Are you sure you want to remove all recipes from your cooking list?')).toBeVisible()
+
+    await page.getByRole('button', { name: 'Yes, Clear All' }).click()
+
+    await expect(page.getByText('No recipes selected')).toBeVisible()
+  })
+
+  test('can cancel clear all confirmation', async ({ page }) => {
+    const spaghettiCard = page.locator('.recipe-card').filter({ hasText: 'Spaghetti Bolognese' })
+    await spaghettiCard.getByRole('checkbox').click()
+
+    await page.getByRole('link', { name: 'Cooking' }).click()
+
+    await page.getByRole('button', { name: 'Clear All' }).click()
+
+    await expect(page.getByText('Clear All Recipes')).toBeVisible()
+
+    await page.getByRole('button', { name: 'Cancel' }).click()
+
+    await expect(page.getByText('Clear All Recipes')).not.toBeVisible()
+    await expect(page.getByRole('heading', { name: 'Spaghetti Bolognese' })).toBeVisible()
   })
 
   test('displays instruction sections', async ({ page }) => {

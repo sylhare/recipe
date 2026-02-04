@@ -242,12 +242,32 @@ describe('RecipeInstructionCard', () => {
   })
 
   describe('user interactions', () => {
-    it('calls deselectRecipe when remove button is clicked', async () => {
+    it('shows confirmation dialog when remove button is clicked', async () => {
       render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
 
       await userEvent.click(screen.getByRole('button', { name: '✕' }))
 
+      expect(screen.getByText('Remove Recipe')).toBeInTheDocument()
+      expect(screen.getByText(/Are you sure you want to remove "Test Recipe"/)).toBeInTheDocument()
+    })
+
+    it('calls deselectRecipe when confirm is clicked', async () => {
+      render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
+
+      await userEvent.click(screen.getByRole('button', { name: '✕' }))
+      await userEvent.click(screen.getByRole('button', { name: 'Yes, Remove' }))
+
       expect(mockDeselectRecipe).toHaveBeenCalledWith('test-recipe')
+    })
+
+    it('does not call deselectRecipe when cancel is clicked', async () => {
+      render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
+
+      await userEvent.click(screen.getByRole('button', { name: '✕' }))
+      await userEvent.click(screen.getByRole('button', { name: 'Cancel' }))
+
+      expect(mockDeselectRecipe).not.toHaveBeenCalled()
+      expect(screen.queryByText('Remove Recipe')).not.toBeInTheDocument()
     })
   })
 
