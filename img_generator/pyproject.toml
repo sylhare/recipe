@@ -15,5 +15,5 @@ dependencies = [
 [project.scripts]
 generate-images = "generate_images:main"
 
-[tool.uv]
-dev-dependencies = []
+[dependency-groups]
+dev = []
