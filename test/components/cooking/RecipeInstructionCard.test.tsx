@@ -70,6 +70,20 @@ describe('RecipeInstructionCard', () => {
       expect(removeButton).toBeInTheDocument()
       expect(removeButton).toHaveAttribute('title', 'Remove recipe')
     })
+
+    it('renders expand button with Expand label when collapsed', () => {
+      render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
+
+      expect(screen.getByRole('button', { name: 'Expand' })).toBeInTheDocument()
+    })
+
+    it('expand button label changes to Collapse when expanded', async () => {
+      render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
+
+      await userEvent.click(screen.getByRole('button', { name: 'Expand' }))
+
+      expect(screen.getByRole('button', { name: 'Collapse' })).toBeInTheDocument()
+    })
   })
 
   describe('expand/collapse', () => {
@@ -268,6 +282,41 @@ describe('RecipeInstructionCard', () => {
 
       expect(mockDeselectRecipe).not.toHaveBeenCalled()
       expect(screen.queryByText('Remove Recipe')).not.toBeInTheDocument()
+    })
+  })
+
+  describe('servings control', () => {
+    it('shows servings input when expanded', async () => {
+      render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
+
+      await userEvent.click(screen.getByRole('button', { name: 'Expand' }))
+
+      expect(screen.getByLabelText('Servings')).toBeInTheDocument()
+      expect(screen.getByLabelText('Servings')).toHaveValue(4)
+    })
+
+    it('does not show servings input when collapsed', () => {
+      render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
+
+      expect(screen.queryByLabelText('Servings')).not.toBeInTheDocument()
+    })
+
+    it('calls updateServings when + is clicked', async () => {
+      render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
+
+      await userEvent.click(screen.getByRole('button', { name: 'Expand' }))
+      await userEvent.click(screen.getByRole('button', { name: 'Increase' }))
+
+      expect(mockUpdateServings).toHaveBeenCalledWith('test-recipe', 5)
+    })
+
+    it('calls updateServings when − is clicked', async () => {
+      render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
+
+      await userEvent.click(screen.getByRole('button', { name: 'Expand' }))
+      await userEvent.click(screen.getByRole('button', { name: 'Decrease' }))
+
+      expect(mockUpdateServings).toHaveBeenCalledWith('test-recipe', 3)
     })
   })
 

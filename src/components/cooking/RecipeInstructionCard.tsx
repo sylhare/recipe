@@ -2,7 +2,7 @@ import { useState, useMemo, type ReactNode } from 'react'
 import type { Recipe, Ingredient } from '../../types'
 import { useRecipeContext } from '../../context/RecipeContext'
 import { formatQuantity } from '../../utils'
-import { ConfirmDialog } from '../common'
+import { ConfirmDialog, NumberInput } from '../common'
 import './RecipeInstructionCard.css'
 
 interface RecipeInstructionCardProps {
@@ -34,7 +34,7 @@ function mergeIngredients(ingredients: Ingredient[]): MergedIngredient[] {
 export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCardProps) {
   const [isExpanded, setIsExpanded] = useState(false)
   const [showRemoveConfirm, setShowRemoveConfirm] = useState(false)
-  const { deselectRecipe } = useRecipeContext()
+  const { deselectRecipe, updateServings } = useRecipeContext()
   const [imageError, setImageError] = useState(false)
 
   const scaleFactor = servings / recipe.defaultServings
@@ -174,6 +174,15 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
         </div>
         <div className="recipe-instruction-card__actions" onClick={e => e.stopPropagation()}>
           <button
+            className="recipe-instruction-card__expand"
+            onClick={() => setIsExpanded(!isExpanded)}
+            aria-label={isExpanded ? 'Collapse' : 'Expand'}
+          >
+            <span className={`recipe-instruction-card__chevron ${isExpanded ? 'recipe-instruction-card__chevron--expanded' : ''}`}>
+              ›
+            </span>
+          </button>
+          <button
             className="recipe-instruction-card__remove"
             onClick={() => setShowRemoveConfirm(true)}
             title="Remove recipe"
@@ -194,6 +203,17 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
 
       {isExpanded && (
         <div className="recipe-instruction-card__content">
+          <div className="recipe-instruction-card__servings">
+            <NumberInput
+              id={`servings-${recipe.id}`}
+              label="Servings"
+              value={servings}
+              onChange={v => updateServings(recipe.id, v)}
+              min={1}
+              max={20}
+            />
+          </div>
+
           <div className="recipe-instruction-card__ingredients">
             <h4>Ingredients</h4>
             <ul className="ingredients-list">
