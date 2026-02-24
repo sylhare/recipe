@@ -3451,13 +3451,14 @@
       { "id": "cp-3", "name": "Eggs", "quantity": 3, "unit": "piece", "category": "dairy" },
       { "id": "cp-4", "name": "Parmesan Cheese", "quantity": 60, "unit": "g", "category": "dairy" },
       { "id": "cp-5", "name": "Garlic", "quantity": 2, "unit": "piece", "category": "produce" },
-      { "id": "cp-6", "name": "Black Pepper", "quantity": 1, "unit": "tsp", "category": "spices" },
-      { "id": "cp-7", "name": "Salt", "quantity": 1, "unit": "tsp", "category": "spices" }
+      { "id": "cp-6", "name": "Onion", "quantity": 1, "unit": "piece", "category": "produce" },
+      { "id": "cp-7", "name": "Black Pepper", "quantity": 1, "unit": "tsp", "category": "spices" },
+      { "id": "cp-8", "name": "Salt", "quantity": 1, "unit": "tsp", "category": "spices" }
     ],
     "instructions": [
+      "In a bowl, whisk together the eggs and half the grated parmesan. Season with black pepper. Set aside.",
       "Bring a large pot of salted water to a boil.",
-      "In a bowl, whisk together the eggs and half the grated parmesan. Season with black pepper.",
-      "Cut bacon into small lardons and cook in a cold pan over medium heat until crispy. Add garlic, cook 30 seconds, then remove from heat.",
+      "Cut bacon into small lardons and cook in a cold pan over medium heat until crispy. Add sliced onion, cook until softened, then add garlic and cook 30 seconds. Remove from heat.",
       "Cook spaghetti until al dente. Reserve 1 cup of pasta water before draining.",
       "Add the hot drained pasta to the bacon pan and toss to coat in the rendered fat.",
       "Off the heat, pour the egg and cheese mixture over the pasta, tossing constantly.",
@@ -3467,8 +3468,9 @@
     "enhancedInstructions": {
       "preparation": [
         "Remove the Eggs from the refrigerator 30 minutes before cooking — room-temperature eggs blend more smoothly into a creamy sauce.",
-        "In a small bowl, whisk together the Eggs and half the grated Parmesan Cheese. Season with a pinch of Black Pepper. Set aside.",
+        "In a small bowl, whisk together the Eggs and half the grated Parmesan Cheese. Season generously with Black Pepper. Set aside — this is your sauce.",
         "Cut the Bacon into small lardons (short matchstick pieces) for maximum crispiness.",
+        "Slice the Onion thinly.",
         "Mince the Garlic finely.",
         "Finely grate the remaining Parmesan Cheese — freshly grated melts far better than pre-shredded."
       ],
@@ -3476,10 +3478,11 @@
         "Bring a large pot of generously salted water to a rolling boil.",
         "Add the Spaghetti and cook until al dente — about 1 minute less than the package directions indicate.",
         "While the pasta cooks, place the Bacon lardons in a cold, dry skillet and set over medium heat. Render slowly for 6-8 minutes until the fat has released and the bacon is crispy and golden.",
-        "Add the minced Garlic to the bacon pan, stir for 30 seconds until fragrant, then remove the pan from the heat.",
+        "Add the sliced Onion to the bacon pan and cook for 3-4 minutes until softened and lightly golden.",
+        "Add the minced Garlic, stir for 30 seconds until fragrant, then remove the pan from the heat.",
         "Just before draining, reserve at least 1 cup of the starchy pasta water.",
         "Drain the Spaghetti and immediately transfer it to the bacon pan. Toss vigorously to coat every strand in the rendered fat.",
-        "Working quickly with the pan off the heat, pour the egg-cheese mixture over the pasta, tossing constantly. The residual heat cooks the eggs gently into a silky, creamy sauce — never a scramble.",
+        "Working quickly with the pan off the heat, pour the egg-cheese sauce over the pasta, tossing constantly. The residual heat cooks the eggs gently into a silky, creamy sauce — never a scramble.",
         "Add the reserved pasta water a small splash at a time, tossing continuously, until the sauce is fluid, glossy, and clings to the pasta. You will likely use 1/4 to 1/2 cup."
       ],
       "serving": [
