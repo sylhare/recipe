@@ -9,6 +9,8 @@ describe('RecipeFilters', () => {
     proteinTypeFilter: 'all' as const,
     onDishTypeChange: vi.fn(),
     onProteinTypeChange: vi.fn(),
+    searchQuery: '',
+    onSearchChange: vi.fn(),
     resultCount: 10,
     totalCount: 50,
   }
@@ -121,5 +123,21 @@ describe('RecipeFilters', () => {
     render(<RecipeFilters {...defaultProps} proteinTypeFilter="lamb" />)
 
     expect(screen.getByLabelText('Protein')).toHaveValue('lamb')
+  })
+
+  it('shows clear button and count when only searchQuery is set', () => {
+    render(<RecipeFilters {...defaultProps} searchQuery="garlic" />)
+
+    expect(screen.getByText('Clear Filters')).toBeInTheDocument()
+    expect(screen.getByText('Showing 10 of 50 recipes')).toBeInTheDocument()
+  })
+
+  it('clears search when clear filters button is clicked', async () => {
+    const onSearchChange = vi.fn()
+    render(<RecipeFilters {...defaultProps} searchQuery="garlic" onSearchChange={onSearchChange} />)
+
+    await userEvent.click(screen.getByText('Clear Filters'))
+
+    expect(onSearchChange).toHaveBeenCalledWith('')
   })
 })

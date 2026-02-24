@@ -91,6 +91,37 @@ export const DISH_TYPE_LABELS: Record<DishType, string> = {
   other: 'Other',
 }
 
+export function searchRecipes(recipes: Recipe[], query: string): Recipe[] {
+  const trimmed = query.trim()
+  if (!trimmed) return recipes
+
+  const words = trimmed.toLowerCase().split(/\s+/).filter(w => w.length >= 2)
+  if (words.length === 0) return recipes
+
+  type Scored = { recipe: Recipe; titleScore: number; ingredientScore: number }
+
+  const scored: Scored[] = recipes.map(recipe => {
+    const titleLower = recipe.name.toLowerCase()
+
+    const titleScore = words.filter(w => titleLower.includes(w)).length
+
+    const ingredientScore = words.filter(w =>
+      recipe.ingredients.some(ing => ing.name.toLowerCase().includes(w))
+    ).length
+
+    return { recipe, titleScore, ingredientScore }
+  })
+
+  const matches = scored.filter(s => s.titleScore > 0 || s.ingredientScore > 0)
+
+  matches.sort((a, b) => {
+    if (a.titleScore !== b.titleScore) return b.titleScore - a.titleScore
+    return b.ingredientScore - a.ingredientScore
+  })
+
+  return matches.map(s => s.recipe)
+}
+
 export const PROTEIN_TYPE_LABELS: Record<ProteinType, string> = {
   beef: 'Beef',
   chicken: 'Chicken',

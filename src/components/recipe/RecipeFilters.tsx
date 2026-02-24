@@ -1,5 +1,6 @@
 import type { DishType, ProteinType } from '../../utils/recipeFilters'
 import { DISH_TYPE_LABELS, PROTEIN_TYPE_LABELS } from '../../utils/recipeFilters'
+import { RecipeSearch } from './RecipeSearch'
 import './RecipeFilters.css'
 
 interface RecipeFiltersProps {
@@ -7,6 +8,8 @@ interface RecipeFiltersProps {
   proteinTypeFilter: ProteinType | 'all'
   onDishTypeChange: (value: DishType | 'all') => void
   onProteinTypeChange: (value: ProteinType | 'all') => void
+  searchQuery: string
+  onSearchChange: (value: string) => void
   resultCount: number
   totalCount: number
 }
@@ -16,21 +19,26 @@ export function RecipeFilters({
   proteinTypeFilter,
   onDishTypeChange,
   onProteinTypeChange,
+  searchQuery,
+  onSearchChange,
   resultCount,
   totalCount,
 }: RecipeFiltersProps) {
   const dishTypes = Object.keys(DISH_TYPE_LABELS) as DishType[]
   const proteinTypes = Object.keys(PROTEIN_TYPE_LABELS) as ProteinType[]
 
-  const hasActiveFilters = dishTypeFilter !== 'all' || proteinTypeFilter !== 'all'
+  const hasActiveFilters = dishTypeFilter !== 'all' || proteinTypeFilter !== 'all' || searchQuery !== ''
 
   const handleClearFilters = () => {
     onDishTypeChange('all')
     onProteinTypeChange('all')
+    onSearchChange('')
   }
 
   return (
     <div className="recipe-filters">
+      <RecipeSearch searchQuery={searchQuery} onSearchChange={onSearchChange} />
+
       <div className="recipe-filters__controls">
         <div className="recipe-filters__group">
           <label htmlFor="dish-type-filter" className="recipe-filters__label">
@@ -82,11 +90,11 @@ export function RecipeFilters({
       </div>
 
       <div className="recipe-filters__results">
-        {hasActiveFilters ? (
-          <span>Showing {resultCount} of {totalCount} recipes</span>
-        ) : (
-          <span>{totalCount} recipes</span>
-        )}
+        <span>
+          {hasActiveFilters
+            ? `Showing ${resultCount} of ${totalCount} recipes`
+            : `${totalCount} recipes`}
+        </span>
       </div>
     </div>
   )

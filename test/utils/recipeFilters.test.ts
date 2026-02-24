@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { getDishType, getProteinType, filterRecipes } from '../../src/utils/recipeFilters'
+import { getDishType, getProteinType, filterRecipes, searchRecipes } from '../../src/utils/recipeFilters'
 import type { Recipe } from '../../src/types'
 
 const createMockRecipe = (
@@ -207,6 +207,60 @@ describe('recipeFilters', () => {
       const result = filterRecipes(recipes, 'all', 'fish')
       expect(result).toHaveLength(1)
       expect(result[0].name).toBe('Salmon Rice Bowl')
+    })
+  })
+
+  describe('searchRecipes', () => {
+    const recipes: Recipe[] = [
+      createMockRecipe('1', 'Garlic Pasta', 'Italian pasta dish', ['garlic', 'pasta']),
+      createMockRecipe('2', 'Chicken Soup', 'Comforting soup', ['chicken', 'garlic', 'onion']),
+      createMockRecipe('3', 'Beef Stir Fry', 'Quick Asian dish', ['beef', 'broccoli']),
+      createMockRecipe('4', 'Vegetable Bowl', 'Healthy bowl', ['spinach', 'tomato']),
+    ]
+
+    it('returns all recipes for empty query', () => {
+      const result = searchRecipes(recipes, '')
+      expect(result).toHaveLength(4)
+    })
+
+    it('returns all recipes for whitespace-only query', () => {
+      const result = searchRecipes(recipes, '   ')
+      expect(result).toHaveLength(4)
+    })
+
+    it('matches recipe by title word', () => {
+      const result = searchRecipes(recipes, 'pasta')
+      expect(result).toHaveLength(1)
+      expect(result[0].name).toBe('Garlic Pasta')
+    })
+
+    it('title match comes before ingredient-only match', () => {
+      // 'garlic' appears in title of recipe 1 and as ingredient in recipe 2
+      const result = searchRecipes(recipes, 'garlic')
+      expect(result[0].name).toBe('Garlic Pasta')
+      expect(result[1].name).toBe('Chicken Soup')
+    })
+
+    it('ingredient-only matches sorted by ingredient match count', () => {
+      // recipe 2 has both 'chicken' and 'garlic', recipe 1 only has 'garlic'
+      const result = searchRecipes(recipes, 'chicken garlic')
+      expect(result[0].name).toBe('Chicken Soup')
+    })
+
+    it('returns empty array when no matches', () => {
+      const result = searchRecipes(recipes, 'xyz123')
+      expect(result).toHaveLength(0)
+    })
+
+    it('ignores short words under 2 chars', () => {
+      const result = searchRecipes(recipes, 'a')
+      expect(result).toHaveLength(4)
+    })
+
+    it('is case-insensitive', () => {
+      const result = searchRecipes(recipes, 'GARLIC')
+      expect(result.length).toBeGreaterThan(0)
+      expect(result.some(r => r.name === 'Garlic Pasta')).toBe(true)
     })
   })
 })
