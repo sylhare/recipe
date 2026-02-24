@@ -160,6 +160,7 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
               src={`${import.meta.env.BASE_URL}${recipe.imageUrl.replace(/^\//, '')}`}
               alt={recipe.name}
               className="recipe-instruction-card__image"
+              loading="lazy"
               onError={() => setImageError(true)}
             />
           ) : (
