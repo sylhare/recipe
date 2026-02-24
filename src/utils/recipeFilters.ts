@@ -1,4 +1,4 @@
-import type { Recipe } from '../types'
+import type { Recipe, IngredientCategory } from '../types'
 
 export type DishType = 'salad' | 'pasta' | 'rice' | 'noodles' | 'soup' | 'tacos' | 'sandwich' | 'bowl' | 'other'
 export type ProteinType = 'beef' | 'chicken' | 'pork' | 'lamb' | 'fish' | 'seafood' | 'vegetarian' | 'mixed'
@@ -91,6 +91,14 @@ export const DISH_TYPE_LABELS: Record<DishType, string> = {
   other: 'Other',
 }
 
+const CATEGORY_KEYWORDS: Record<IngredientCategory, string[]> = {
+  meat: ['meat', 'meats', 'protein', 'proteins'],
+  produce: ['veggie', 'veggies', 'vegetable', 'vegetables', 'produce'],
+  dairy: ['dairy'],
+  spices: ['spice', 'spices'],
+  pantry: ['pantry'],
+}
+
 export function searchRecipes(recipes: Recipe[], query: string): Recipe[] {
   const trimmed = query.trim()
   if (!trimmed) return recipes
@@ -105,9 +113,14 @@ export function searchRecipes(recipes: Recipe[], query: string): Recipe[] {
 
     const titleScore = words.filter(w => titleLower.includes(w)).length
 
-    const ingredientScore = words.filter(w =>
-      recipe.ingredients.some(ing => ing.name.toLowerCase().includes(w))
-    ).length
+    const ingredientScore = words.filter(w => {
+      const category = (Object.entries(CATEGORY_KEYWORDS) as [IngredientCategory, string[]][])
+        .find(([, synonyms]) => synonyms.includes(w))?.[0]
+      return recipe.ingredients.some(ing =>
+        ing.name.toLowerCase().includes(w) ||
+        (category !== undefined && ing.category === category)
+      )
+    }).length
 
     return { recipe, titleScore, ingredientScore }
   })

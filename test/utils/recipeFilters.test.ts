@@ -262,5 +262,56 @@ describe('recipeFilters', () => {
       expect(result.length).toBeGreaterThan(0)
       expect(result.some(r => r.name === 'Garlic Pasta')).toBe(true)
     })
+
+    describe('category aliases', () => {
+      const categorised: Recipe[] = [
+        {
+          ...createMockRecipe('a', 'Beef Bowl', 'With meat', []),
+          ingredients: [{ id: 'a1', name: 'Sirloin', quantity: 200, unit: 'g', category: 'meat' }],
+        },
+        {
+          ...createMockRecipe('b', 'Garden Salad', 'Fresh', []),
+          ingredients: [
+            { id: 'b1', name: 'Tomato', quantity: 2, unit: 'piece', category: 'produce' },
+            { id: 'b2', name: 'Cucumber', quantity: 1, unit: 'piece', category: 'produce' },
+          ],
+        },
+        {
+          ...createMockRecipe('c', 'Pasta Bake', 'Italian', []),
+          ingredients: [
+            { id: 'c1', name: 'Pasta', quantity: 200, unit: 'g', category: 'pantry' },
+            { id: 'c2', name: 'Parmesan', quantity: 50, unit: 'g', category: 'dairy' },
+          ],
+        },
+      ]
+
+      it('"meat" matches recipes with meat-category ingredients', () => {
+        const result = searchRecipes(categorised, 'meat')
+        expect(result.some(r => r.name === 'Beef Bowl')).toBe(true)
+        expect(result.some(r => r.name === 'Garden Salad')).toBe(false)
+      })
+
+      it('"protein" matches recipes with meat-category ingredients', () => {
+        const result = searchRecipes(categorised, 'protein')
+        expect(result.some(r => r.name === 'Beef Bowl')).toBe(true)
+      })
+
+      it('"veggies" matches recipes with produce-category ingredients', () => {
+        const result = searchRecipes(categorised, 'veggies')
+        expect(result.some(r => r.name === 'Garden Salad')).toBe(true)
+        expect(result.some(r => r.name === 'Beef Bowl')).toBe(false)
+      })
+
+      it('"vegetables" matches recipes with produce-category ingredients', () => {
+        const result = searchRecipes(categorised, 'vegetables')
+        expect(result.some(r => r.name === 'Garden Salad')).toBe(true)
+      })
+
+      it('"dairy" matches recipes with dairy-category ingredients', () => {
+        const result = searchRecipes(categorised, 'dairy')
+        expect(result.some(r => r.name === 'Pasta Bake')).toBe(true)
+        expect(result.some(r => r.name === 'Garden Salad')).toBe(false)
+      })
+    })
   })
 })
