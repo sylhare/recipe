@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import { RecipeProvider } from './context/RecipeContext'
 import { ShoppingListProvider } from './context/ShoppingListContext'
 import Layout from './components/layout/Layout'
@@ -8,7 +8,7 @@ import CookingPage from './pages/CookingPage'
 
 function App() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <HashRouter>
       <RecipeProvider>
         <ShoppingListProvider>
           <Layout>
@@ -20,7 +20,7 @@ function App() {
           </Layout>
         </ShoppingListProvider>
       </RecipeProvider>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
