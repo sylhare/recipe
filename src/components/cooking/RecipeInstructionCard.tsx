@@ -145,12 +145,6 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
     )
   }
 
-  const hasEnhancedInstructions = recipe.enhancedInstructions && (
-    recipe.enhancedInstructions.preparation.length > 0 ||
-    recipe.enhancedInstructions.cooking.length > 0 ||
-    recipe.enhancedInstructions.serving.length > 0
-  )
-
   return (
     <div className={`recipe-instruction-card ${isExpanded ? 'recipe-instruction-card--expanded' : ''}`}>
       <div className="recipe-instruction-card__header" onClick={() => setIsExpanded(!isExpanded)}>
@@ -230,28 +224,10 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
           </div>
 
           <div className="recipe-instruction-card__instructions">
-            {hasEnhancedInstructions ? (
-              <>
-                {renderInstructionPhase('Preparation', '🔪', recipe.enhancedInstructions!.preparation)}
-                {renderInstructionPhase('Cooking', '🍳', recipe.enhancedInstructions!.cooking)}
-                {renderInstructionPhase('Serving', '🍽️', recipe.enhancedInstructions!.serving)}
-                {renderTips(recipe.enhancedInstructions!.tips || [])}
-              </>
-            ) : (
-              <div className="instruction-phase">
-                <h4 className="instruction-phase__title">
-                  <span className="instruction-phase__icon">📝</span>
-                  Instructions
-                </h4>
-                <ol className="instruction-phase__steps">
-                  {recipe.instructions.map((step, index) => (
-                    <li key={index} className="instruction-step">
-                      {highlightIngredients(step)}
-                    </li>
-                  ))}
-                </ol>
-              </div>
-            )}
+            {renderInstructionPhase('Preparation', '🔪', recipe.instructions.preparation)}
+            {renderInstructionPhase('Cooking', '🍳', recipe.instructions.cooking)}
+            {renderInstructionPhase('Serving', '🍽️', recipe.instructions.serving)}
+            {renderTips(recipe.instructions.tips || [])}
           </div>
         </div>
       )}

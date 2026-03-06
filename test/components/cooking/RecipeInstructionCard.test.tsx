@@ -25,17 +25,7 @@ const mockRecipe: Recipe = {
     { id: 'ing-2', name: 'sugar', quantity: 1, unit: 'cup', category: 'pantry' },
     { id: 'ing-3', name: 'eggs', quantity: 3, unit: 'piece', category: 'dairy' },
   ],
-  instructions: [
-    'Mix flour and sugar together.',
-    'Add eggs and stir well.',
-    'Bake at 350°F for 30 minutes.',
-  ],
-}
-
-const mockRecipeWithEnhanced: Recipe = {
-  ...mockRecipe,
-  id: 'enhanced-recipe',
-  enhancedInstructions: {
+  instructions: {
     preparation: ['Preheat oven to 350°F.', 'Measure out all flour and sugar.'],
     cooking: ['Mix ingredients in a bowl.', 'Pour batter into pan.'],
     serving: ['Let cool for 10 minutes.', 'Serve with fresh fruit.'],
@@ -154,36 +144,9 @@ describe('RecipeInstructionCard', () => {
     })
   })
 
-  describe('basic instructions', () => {
-    it('renders basic instructions when no enhanced instructions', async () => {
-      render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
-
-      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
-      await userEvent.click(header!)
-
-      expect(screen.getByText('Instructions')).toBeInTheDocument()
-      const instructionSteps = document.querySelectorAll('.instruction-step')
-      expect(instructionSteps.length).toBe(3)
-      expect(instructionSteps[0].textContent).toContain('Mix')
-      expect(instructionSteps[0].textContent).toContain('flour')
-      expect(instructionSteps[0].textContent).toContain('sugar')
-      expect(instructionSteps[1].textContent).toContain('eggs')
-      expect(instructionSteps[2].textContent).toContain('Bake at 350°F')
-    })
-
-    it('renders the instructions icon', async () => {
-      render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
-
-      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
-      await userEvent.click(header!)
-
-      expect(screen.getByText('📝')).toBeInTheDocument()
-    })
-  })
-
-  describe('enhanced instructions', () => {
+  describe('instructions', () => {
     it('renders Preparation section with icon', async () => {
-      render(<RecipeInstructionCard recipe={mockRecipeWithEnhanced} servings={4} />)
+      render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
 
       const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
       await userEvent.click(header!)
@@ -194,7 +157,7 @@ describe('RecipeInstructionCard', () => {
     })
 
     it('renders Cooking section with icon', async () => {
-      render(<RecipeInstructionCard recipe={mockRecipeWithEnhanced} servings={4} />)
+      render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
 
       const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
       await userEvent.click(header!)
@@ -205,7 +168,7 @@ describe('RecipeInstructionCard', () => {
     })
 
     it('renders Serving section with icon', async () => {
-      render(<RecipeInstructionCard recipe={mockRecipeWithEnhanced} servings={4} />)
+      render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
 
       const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
       await userEvent.click(header!)
@@ -216,7 +179,7 @@ describe('RecipeInstructionCard', () => {
     })
 
     it('renders Pro Tips section', async () => {
-      render(<RecipeInstructionCard recipe={mockRecipeWithEnhanced} servings={4} />)
+      render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
 
       const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
       await userEvent.click(header!)
@@ -225,15 +188,6 @@ describe('RecipeInstructionCard', () => {
       expect(screen.getByText('💡')).toBeInTheDocument()
       expect(screen.getByText(/room temperature eggs/)).toBeInTheDocument()
       expect(screen.getByText(/Sift the flour/)).toBeInTheDocument()
-    })
-
-    it('does not render basic instructions section when enhanced exists', async () => {
-      render(<RecipeInstructionCard recipe={mockRecipeWithEnhanced} servings={4} />)
-
-      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
-      await userEvent.click(header!)
-
-      expect(screen.queryByText('📝')).not.toBeInTheDocument()
     })
   })
 
@@ -341,7 +295,6 @@ describe('RecipeInstructionCard', () => {
         { id: 'ing-2', name: 'flour', quantity: 1, unit: 'cup', category: 'pantry' },
         { id: 'ing-3', name: 'sugar', quantity: 1, unit: 'cup', category: 'pantry' },
       ],
-      instructions: ['Mix flour and sugar.'],
     }
 
     it('merges duplicate ingredients with same name and unit', async () => {
@@ -365,7 +318,6 @@ describe('RecipeInstructionCard', () => {
           { id: 'ing-1', name: 'olive oil', quantity: 2, unit: 'tbsp', category: 'pantry' },
           { id: 'ing-2', name: 'olive oil', quantity: 1, unit: 'cup', category: 'pantry' },
         ],
-        instructions: ['Add olive oil.'],
       }
 
       render(<RecipeInstructionCard recipe={recipeWithDifferentUnits} servings={4} />)
@@ -385,7 +337,6 @@ describe('RecipeInstructionCard', () => {
           { id: 'ing-1', name: 'Flour', quantity: 2, unit: 'cup', category: 'pantry' },
           { id: 'ing-2', name: 'flour', quantity: 1, unit: 'cup', category: 'pantry' },
         ],
-        instructions: ['Mix flour.'],
       }
 
       render(<RecipeInstructionCard recipe={recipeWithMixedCase} servings={4} />)

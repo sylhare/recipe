@@ -14,7 +14,7 @@ const mockRecipes: Recipe[] = [
       { id: '2', name: 'Onion', quantity: 1, unit: 'piece', category: 'produce' },
       { id: '3', name: 'Garlic', quantity: 2, unit: 'piece', category: 'produce' },
     ],
-    instructions: ['Cook pasta'],
+    instructions: { preparation: [], cooking: [], serving: [] },
   },
   {
     id: 'recipe-2',
@@ -26,7 +26,7 @@ const mockRecipes: Recipe[] = [
       { id: '4', name: 'Onion', quantity: 1, unit: 'piece', category: 'produce' },
       { id: '5', name: 'Lettuce', quantity: 200, unit: 'g', category: 'produce' },
     ],
-    instructions: ['Chop vegetables'],
+    instructions: { preparation: [], cooking: [], serving: [] },
   },
 ]
 
@@ -173,7 +173,7 @@ describe('ingredientAggregator', () => {
         ingredients: [
           { id: '1', name: 'Ginger', quantity: 1, unit: 'tbsp', category: 'produce' },
         ],
-        instructions: ['Test'],
+        instructions: { preparation: [], cooking: [], serving: [] },
       },
       {
         id: 'recipe-b',
@@ -184,7 +184,7 @@ describe('ingredientAggregator', () => {
         ingredients: [
           { id: '2', name: 'Ginger', quantity: 2, unit: 'tsp', category: 'produce' },
         ],
-        instructions: ['Test'],
+        instructions: { preparation: [], cooking: [], serving: [] },
       },
     ]
 

@@ -11,7 +11,7 @@ const mockRecipes: Recipe[] = [
     imageUrl: '/pasta.png',
     defaultServings: 4,
     ingredients: [],
-    instructions: ['Boil pasta', 'Add sauce'],
+    instructions: { preparation: [], cooking: [], serving: [] },
   },
   {
     id: 'recipe-2',
@@ -20,7 +20,7 @@ const mockRecipes: Recipe[] = [
     imageUrl: '/curry.png',
     defaultServings: 4,
     ingredients: [],
-    instructions: ['Cook chicken', 'Add spices'],
+    instructions: { preparation: [], cooking: [], serving: [] },
   },
   {
     id: 'recipe-3',
@@ -29,7 +29,7 @@ const mockRecipes: Recipe[] = [
     imageUrl: '/salad.png',
     defaultServings: 2,
     ingredients: [],
-    instructions: ['Chop lettuce', 'Add dressing'],
+    instructions: { preparation: [], cooking: [], serving: [] },
   },
 ]
 

@@ -9,7 +9,7 @@ const mockRecipe: Recipe = {
   imageUrl: '/test.png',
   defaultServings: 4,
   ingredients: [],
-  instructions: [],
+  instructions: { preparation: [], cooking: [], serving: [] },
 }
 
 describe('recipeReducer', () => {

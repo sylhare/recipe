@@ -82,11 +82,7 @@ Every recipe in `src/data/recipes.json` follows this structure:
       "category": "produce"
     }
   ],
-  "instructions": [
-    "Simple fallback step 1",
-    "Simple fallback step 2"
-  ],
-  "enhancedInstructions": {
+  "instructions": {
     "preparation": ["..."],
     "cooking": ["..."],
     "serving": ["..."],

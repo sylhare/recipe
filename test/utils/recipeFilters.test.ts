@@ -20,7 +20,7 @@ const createMockRecipe = (
     unit: 'piece',
     category: 'other',
   })),
-  instructions: [],
+  instructions: { preparation: [], cooking: [], serving: [] },
 })
 
 describe('recipeFilters', () => {

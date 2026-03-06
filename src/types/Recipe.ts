@@ -14,8 +14,7 @@ export interface Recipe {
   imageUrl: string
   defaultServings: number
   ingredients: Ingredient[]
-  instructions: string[]
-  enhancedInstructions?: EnhancedInstructions
+  instructions: EnhancedInstructions
 }
 
 export interface RecipeSelection {

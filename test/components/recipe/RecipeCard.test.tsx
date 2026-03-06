@@ -11,7 +11,7 @@ const mockRecipe: Recipe = {
   imageUrl: '/test-image.png',
   defaultServings: 4,
   ingredients: [],
-  instructions: [],
+  instructions: { preparation: [], cooking: [], serving: [] },
 }
 
 describe('RecipeCard', () => {
