@@ -77,18 +77,7 @@
         "category": "dairy"
       }
     ],
-    "instructions": [
-      "Bring a large pot of salted water to boil.",
-      "Heat olive oil in a large pan over medium heat.",
-      "Cook onion until translucent, about 5 minutes.",
-      "Add garlic, cook for 1 minute.",
-      "Add ground beef and brown, breaking it up with a spoon.",
-      "Stir in tomato paste and cook for 2 minutes.",
-      "Add canned tomatoes, salt, and pepper. Simmer for 30 minutes.",
-      "Cook pasta according to package directions.",
-      "Serve pasta topped with sauce and parmesan cheese."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Finely dice the Onion into small pieces for even cooking.",
         "Mince the Garlic cloves - the finer the mince, the more flavor you'll release.",
@@ -97,7 +86,7 @@
       "cooking": [
         "Bring a large pot of generously salted water to a rolling boil for the Spaghetti.",
         "Heat the Olive Oil in a large, deep skillet or Dutch oven over medium-high heat until shimmering.",
-        "Add the diced Onion and saut\u00e9 for 4-5 minutes until softened and translucent, stirring occasionally.",
+        "Add the diced Onion and sauté for 4-5 minutes until softened and translucent, stirring occasionally.",
         "Add the minced Garlic and cook for 30-60 seconds until fragrant - be careful not to burn it.",
         "Add the Ground Beef, breaking it into small pieces with a wooden spoon. Season with Salt and Black Pepper. Cook for 6-8 minutes until browned and no longer pink.",
         "Stir in the Tomato Paste and cook for 2 minutes, coating the meat - this deepens the flavor.",
@@ -203,19 +192,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Cut chicken into bite-sized pieces.",
-      "Heat oil in a large pan over medium-high heat.",
-      "Cook onion until golden, about 8 minutes.",
-      "Add garlic and ginger, cook for 1 minute.",
-      "Add curry powder, cumin, and turmeric. Stir for 30 seconds.",
-      "Add chicken and cook until no longer pink on the outside.",
-      "Pour in coconut milk and bring to a simmer.",
-      "Cook for 20 minutes until chicken is cooked through and sauce thickens.",
-      "Season with salt to taste.",
-      "Serve over steamed rice."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Cut the Chicken Breast into 2cm bite-sized cubes, patting dry with paper towels for better browning.",
         "Finely dice the Onion into small, even pieces.",
@@ -325,17 +302,7 @@
         "category": "spices"
       }
     ],
-    "instructions": [
-      "Preheat oven to 375\u00b0F (190\u00b0C).",
-      "Cut bread into cubes, toss with 2 tbsp olive oil and minced garlic.",
-      "Bake croutons for 10-12 minutes until golden.",
-      "Wash and chop romaine lettuce into bite-sized pieces.",
-      "Make dressing: whisk together mayonnaise, remaining olive oil, lemon juice, mustard, salt, and pepper.",
-      "Toss lettuce with dressing.",
-      "Top with croutons and shaved parmesan.",
-      "Serve immediately."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Cut the Bread into 2cm cubes for perfect croutons.",
         "Mince the Garlic finely - half for the croutons, half for the dressing.",
@@ -344,7 +311,7 @@
         "Squeeze fresh Lemon Juice if using fresh lemons."
       ],
       "cooking": [
-        "Preheat your oven to 375\u00b0F (190\u00b0C).",
+        "Preheat your oven to 375°F (190°C).",
         "Toss the Bread cubes with half the Olive Oil and half the minced Garlic in a bowl until evenly coated.",
         "Spread the croutons in a single layer on a baking sheet - don't overcrowd or they won't crisp properly.",
         "Bake for 10-12 minutes, tossing halfway through, until golden brown and crispy. Let cool slightly.",
@@ -450,17 +417,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Preheat oven to 400\u00b0F (200\u00b0C).",
-      "Whisk together miso paste, honey, soy sauce, rice vinegar, minced garlic, ginger, and sesame oil.",
-      "Place salmon fillets on a lined baking sheet.",
-      "Brush half the glaze generously over the salmon.",
-      "Bake for 12-15 minutes until salmon flakes easily.",
-      "Meanwhile, cook rice according to package directions.",
-      "Brush salmon with remaining glaze and broil for 2 minutes until caramelized.",
-      "Serve over rice, garnished with sliced green onions and sesame seeds."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Remove the Salmon Fillet from the refrigerator 20 minutes before cooking to bring to room temperature for more even cooking.",
         "Pat the Salmon Fillet dry with paper towels - this helps the glaze stick and promotes better caramelization.",
@@ -470,11 +427,11 @@
       ],
       "cooking": [
         "Start the Rice: combine Rice with 300ml water in a pot, bring to boil, reduce heat to low, cover and cook for 15-18 minutes.",
-        "Preheat your oven to 400\u00b0F (200\u00b0C) and line a baking sheet with parchment paper.",
+        "Preheat your oven to 400°F (200°C) and line a baking sheet with parchment paper.",
         "Make the glaze: In a small bowl, whisk together the White Miso Paste, Honey, Soy Sauce, Rice Vinegar, minced Garlic, grated Ginger, and Sesame Oil until smooth.",
         "Place the Salmon Fillet skin-side down on the prepared baking sheet.",
         "Reserve half the glaze in a separate small bowl. Brush the other half generously over the top and sides of the salmon.",
-        "Bake for 12-15 minutes until the salmon is just cooked through and flakes easily with a fork. The internal temperature should reach 145\u00b0F (63\u00b0C).",
+        "Bake for 12-15 minutes until the salmon is just cooked through and flakes easily with a fork. The internal temperature should reach 145°F (63°C).",
         "Switch oven to broil. Brush the reserved glaze over the salmon and broil for 1-2 minutes, watching carefully, until the glaze is caramelized and slightly charred in spots."
       ],
       "serving": [
@@ -583,17 +540,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Cook rice according to package directions.",
-      "Mix soy sauce, brown sugar, sesame oil, minced garlic, ginger, and gochujang in a bowl.",
-      "Heat vegetable oil in a large skillet over medium-high heat.",
-      "Add ground beef and cook until browned, breaking it up with a spoon.",
-      "Drain excess fat if needed.",
-      "Pour sauce over beef and stir to coat. Simmer for 3-4 minutes.",
-      "Slice cucumber into thin rounds and chop green onions.",
-      "Serve beef over rice, topped with cucumber, green onions, and sesame seeds."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Mince the Garlic finely and grate the fresh Ginger.",
         "Thinly slice the Green Onions, keeping the white and green parts separate.",
@@ -717,17 +664,7 @@
         "category": "spices"
       }
     ],
-    "instructions": [
-      "Dice mango, red onion, jalapeno, and cilantro. Mix with lime juice and a pinch of salt for salsa.",
-      "Set up breading station: flour in one bowl, beaten eggs in another, coconut in a third.",
-      "Season shrimp with salt and pepper.",
-      "Dredge each shrimp in flour, dip in egg, then coat in coconut.",
-      "Heat oil in a deep pan to 350\u00b0F (175\u00b0C).",
-      "Fry shrimp in batches for 2-3 minutes until golden brown.",
-      "Drain on paper towels.",
-      "Serve crispy shrimp with mango salsa on the side."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Peel and devein the Large Shrimp if not already done, leaving the tails on for presentation.",
         "Pat the shrimp completely dry with paper towels - this is crucial for the breading to stick.",
@@ -741,7 +678,7 @@
         "Place breaded shrimp on a wire rack - don't stack them or the coating will fall off."
       ],
       "cooking": [
-        "Heat the Vegetable Oil in a deep pan or Dutch oven to 350\u00b0F (175\u00b0C). Use a thermometer for accuracy.",
+        "Heat the Vegetable Oil in a deep pan or Dutch oven to 350°F (175°C). Use a thermometer for accuracy.",
         "Fry the shrimp in small batches (4-5 at a time) for 2-3 minutes, turning once, until golden brown and the shrimp are pink and cooked through.",
         "Don't overcrowd the pan - this drops the oil temperature and makes shrimp greasy instead of crispy.",
         "Transfer to a paper towel-lined plate to drain. Season with a light sprinkle of Salt immediately."
@@ -852,18 +789,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Cut chicken into chunks and marinate in yogurt with half the spices for 30 minutes.",
-      "Cook rice according to package directions.",
-      "Heat butter in a large pan and cook marinated chicken until charred.",
-      "Remove chicken and saut\u00e9 onion until soft.",
-      "Add garlic, ginger, and remaining spices. Cook for 1 minute.",
-      "Add canned tomatoes and simmer for 15 minutes.",
-      "Stir in heavy cream and return chicken to the pan.",
-      "Simmer for 10 minutes until sauce thickens.",
-      "Serve over rice with fresh cilantro."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Cut the Chicken Breast into 3cm chunks.",
         "In a bowl, combine half the Garam Masala, half the Cumin, half the Paprika with the Yogurt. Add the chicken and mix well. Marinate for at least 30 minutes (or up to overnight in the fridge).",
@@ -875,7 +801,7 @@
         "Start the Rice: combine with water, bring to boil, reduce heat to low, cover and cook for 15-18 minutes.",
         "Heat the Butter in a large, deep skillet over medium-high heat until foaming.",
         "Remove the Chicken Breast from the marinade and cook in batches for 3-4 minutes per side until charred and caramelized. Don't overcrowd the pan. Set aside.",
-        "In the same pan, add a splash of oil if needed and saut\u00e9 the Onion for 5-6 minutes until softened and golden.",
+        "In the same pan, add a splash of oil if needed and sauté the Onion for 5-6 minutes until softened and golden.",
         "Add the minced Garlic, grated Ginger, and the remaining Garam Masala, Cumin, and Paprika. Stir for 1 minute until fragrant.",
         "Pour in the Canned Tomatoes, breaking them up with a wooden spoon. Simmer for 15 minutes until reduced and thickened.",
         "Reduce heat to low and stir in the Heavy Cream. Let it simmer gently for 2 minutes.",
@@ -980,17 +906,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Slice beef into thin strips and season with cumin, chili powder, salt, and pepper.",
-      "Cook rice according to package directions.",
-      "Slice peppers and onion into strips.",
-      "Heat oil in a large skillet over high heat.",
-      "Sear beef strips for 2 minutes per side, then set aside.",
-      "Saut\u00e9 peppers and onion until slightly charred.",
-      "Return beef to pan with minced garlic and lime juice.",
-      "Serve over rice with sour cream and cilantro."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Slice the Beef Sirloin against the grain into thin 5mm strips for tenderness.",
         "In a bowl, combine the Cumin, Chili Powder, salt, and pepper. Toss the beef strips in the spice mixture until evenly coated.",
@@ -1100,17 +1016,7 @@
         "category": "produce"
       }
     ],
-    "instructions": [
-      "Mix soy sauce, mirin, brown sugar, garlic, and ginger for the sauce.",
-      "Cook rice according to package directions.",
-      "Steam broccoli until tender-crisp.",
-      "Pan-fry chicken thighs skin-side down until crispy.",
-      "Flip and cook through, about 6 minutes per side.",
-      "Pour sauce over chicken and simmer until glazed.",
-      "Serve chicken over rice with broccoli.",
-      "Garnish with sesame seeds and green onions."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Remove the Chicken Thighs from the refrigerator 20 minutes before cooking to bring to room temperature.",
         "Pat the chicken dry with paper towels and score the skin lightly for crispier results.",
@@ -1124,7 +1030,7 @@
         "Start the Rice: combine with water, bring to boil, reduce heat to low, cover and cook for 15-18 minutes.",
         "Place the Chicken Thighs skin-side down in a cold pan, then turn heat to medium. This renders the fat slowly for extra crispy skin.",
         "Cook without moving for 8-10 minutes until the skin is deeply golden and crispy.",
-        "Flip the chicken and cook for another 5-6 minutes until cooked through (internal temp 165\u00b0F/74\u00b0C).",
+        "Flip the chicken and cook for another 5-6 minutes until cooked through (internal temp 165°F/74°C).",
         "Meanwhile, steam the Broccoli florets for 3-4 minutes until bright green and tender-crisp. Set aside.",
         "Drain excess fat from the chicken pan, leaving about 1 tablespoon.",
         "Pour the teriyaki sauce over the chicken and let it simmer for 2-3 minutes, spooning the sauce over the chicken until it's glossy and glazed."
@@ -1147,7 +1053,7 @@
   {
     "id": "mushroom-risotto",
     "name": "Creamy Mushroom Risotto",
-    "description": "Rich and creamy Italian rice with saut\u00e9ed mushrooms",
+    "description": "Rich and creamy Italian rice with sautéed mushrooms",
     "imageUrl": "/images/recipes/mushroom-risotto.png",
     "defaultServings": 4,
     "ingredients": [
@@ -1222,18 +1128,7 @@
         "category": "spices"
       }
     ],
-    "instructions": [
-      "Heat stock in a saucepan and keep warm.",
-      "Saut\u00e9 mushrooms in butter until golden, set aside.",
-      "In the same pan, cook onion in olive oil until soft.",
-      "Add garlic and rice, toast for 2 minutes.",
-      "Pour in wine and stir until absorbed.",
-      "Add stock one ladle at a time, stirring constantly.",
-      "Continue for 18-20 minutes until rice is creamy.",
-      "Fold in mushrooms, parmesan, and thyme.",
-      "Serve immediately with extra parmesan."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Slice the Mixed Mushrooms into even pieces - quarter larger mushrooms, halve smaller ones.",
         "Finely dice the Onion into small pieces.",
@@ -1242,7 +1137,7 @@
       ],
       "cooking": [
         "Heat the Chicken Stock in a saucepan and keep it warm over low heat - adding cold stock will shock the rice and affect the texture.",
-        "Heat half the Butter in a large pan over medium-high heat. Add the Mixed Mushrooms and saut\u00e9 for 5-6 minutes until golden brown. Season with salt and Thyme. Transfer to a plate and set aside.",
+        "Heat half the Butter in a large pan over medium-high heat. Add the Mixed Mushrooms and sauté for 5-6 minutes until golden brown. Season with salt and Thyme. Transfer to a plate and set aside.",
         "In the same pan, heat the Olive Oil and remaining Butter over medium heat.",
         "Add the diced Onion and cook for 4-5 minutes until soft and translucent.",
         "Add the minced Garlic and cook for 30 seconds until fragrant.",
@@ -1252,7 +1147,7 @@
         "Continue this process for 18-20 minutes until the rice is al dente - creamy on the outside with a slight bite in the center."
       ],
       "serving": [
-        "Remove from heat and fold in the saut\u00e9ed mushrooms, grated Parmesan Cheese, and a final knob of butter.",
+        "Remove from heat and fold in the sautéed mushrooms, grated Parmesan Cheese, and a final knob of butter.",
         "Let the risotto rest for 1-2 minutes - it should flow slowly when plated (this is called 'all'onda' or wavy).",
         "Divide among warm plates and top with extra Parmesan and a crack of black pepper.",
         "Serve immediately - risotto waits for no one!"
@@ -1343,17 +1238,7 @@
         "category": "produce"
       }
     ],
-    "instructions": [
-      "Make batter by whisking flour and beer until smooth.",
-      "Shred cabbage and mix with mayo, lime juice, and chipotle for slaw.",
-      "Cut fish into strips and season with salt.",
-      "Heat oil to 375\u00b0F (190\u00b0C).",
-      "Dip fish in batter and fry until golden, about 3 minutes.",
-      "Warm tortillas in a dry pan.",
-      "Assemble tacos with fish, slaw, and cilantro.",
-      "Serve with lime wedges."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Cut the White Fish Fillets into strips about 3cm wide.",
         "Pat the fish completely dry with paper towels and season with salt.",
@@ -1364,7 +1249,7 @@
         "Make the batter: Whisk the Flour with the Beer until smooth - the consistency should be like thick cream. Season with a pinch of salt."
       ],
       "cooking": [
-        "Heat the Vegetable Oil in a deep pan or Dutch oven to 375\u00b0F (190\u00b0C). Use a thermometer for accuracy.",
+        "Heat the Vegetable Oil in a deep pan or Dutch oven to 375°F (190°C). Use a thermometer for accuracy.",
         "Working in batches, dip the fish strips into the batter, letting excess drip off, then carefully lower into the hot oil.",
         "Fry for 3-4 minutes, turning once, until the batter is golden and crispy and the fish is cooked through.",
         "Transfer to a paper towel-lined plate and season immediately with a light sprinkle of salt.",
@@ -1462,17 +1347,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Slice pork into thin strips and toss with cornstarch.",
-      "Mix soy sauce, honey, and sriracha for the sauce.",
-      "Cook rice according to package directions.",
-      "Heat oil in a wok over high heat.",
-      "Stir-fry pork until browned, set aside.",
-      "Stir-fry peppers and snap peas for 2 minutes.",
-      "Return pork, add garlic and sauce.",
-      "Toss until glossy and serve over rice."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Slice the Pork Tenderloin against the grain into thin 5mm strips for maximum tenderness.",
         "Toss the pork strips with the Cornstarch until evenly coated - this creates a velvety texture.",
@@ -1590,17 +1465,7 @@
         "category": "produce"
       }
     ],
-    "instructions": [
-      "Marinate chicken in olive oil, lemon juice, oregano, and garlic.",
-      "Cook rice according to package directions.",
-      "Make tzatziki by mixing yogurt, grated cucumber, garlic, and lemon.",
-      "Grill or pan-fry chicken until cooked through.",
-      "Dice cucumber, halve tomatoes, and slice red onion.",
-      "Slice chicken and arrange over rice.",
-      "Top with vegetables, feta, and tzatziki.",
-      "Drizzle with olive oil and serve."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Cut the Chicken Breast into 3cm chunks.",
         "In a bowl, whisk together half the Olive Oil, juice from half the Lemon, the Oregano, and one minced Garlic clove. Add the chicken and marinate for at least 30 minutes (or up to 4 hours in the fridge).",
@@ -1613,7 +1478,7 @@
         "Make the tzatziki: Grate half the Cucumber, squeeze out excess moisture. Mix with Greek Yogurt, remaining minced Garlic, remaining Lemon juice, and a pinch of salt. Refrigerate until serving.",
         "Start the Rice: combine with water, bring to boil, reduce heat to low, cover and cook for 15-18 minutes.",
         "Heat the remaining Olive Oil in a grill pan or skillet over medium-high heat.",
-        "Remove the Chicken Breast from the marinade and cook for 5-6 minutes per side until nicely charred and cooked through (internal temp 165\u00b0F/74\u00b0C).",
+        "Remove the Chicken Breast from the marinade and cook for 5-6 minutes per side until nicely charred and cooked through (internal temp 165°F/74°C).",
         "Let the chicken rest for 5 minutes before slicing into strips."
       ],
       "serving": [
@@ -1703,17 +1568,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Cook linguine according to package directions, reserve pasta water.",
-      "Heat olive oil and half the butter in a large pan.",
-      "Saut\u00e9 shrimp until pink, about 2 minutes per side, set aside.",
-      "Add garlic and red pepper flakes, cook for 30 seconds.",
-      "Pour in wine and lemon juice, simmer for 2 minutes.",
-      "Add remaining butter and toss with pasta.",
-      "Return shrimp to pan and add pasta water if needed.",
-      "Garnish with parsley and serve immediately."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Peel and devein the Large Shrimp if not already done, patting completely dry with paper towels.",
         "Mince the Garlic finely - you'll want plenty for this dish.",
@@ -1823,17 +1678,7 @@
         "category": "dairy"
       }
     ],
-    "instructions": [
-      "Mix ketchup, brown sugar, vinegar, worcestershire, paprika, and garlic powder for BBQ sauce.",
-      "Season chicken with salt and pepper.",
-      "Grill or bake chicken at 400\u00b0F (200\u00b0C) for 25 minutes.",
-      "Brush with BBQ sauce and cook 10 more minutes.",
-      "Grill or boil corn until tender.",
-      "Mix coleslaw with mayonnaise.",
-      "Brush chicken with more sauce before serving.",
-      "Serve with corn and coleslaw."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Remove the Chicken Thighs from the refrigerator 20 minutes before cooking to bring to room temperature.",
         "Season the chicken generously on both sides with salt and pepper.",
@@ -1842,9 +1687,9 @@
       ],
       "cooking": [
         "Make the BBQ sauce: Bring the sauce mixture to a simmer over medium heat, stirring occasionally. Cook for 5 minutes until slightly thickened, then set aside.",
-        "Preheat oven to 400\u00b0F (200\u00b0C) or prepare your grill for medium-high heat.",
+        "Preheat oven to 400°F (200°C) or prepare your grill for medium-high heat.",
         "Place the seasoned Chicken Thighs on a baking sheet (skin-side up if applicable). Bake for 25 minutes.",
-        "Brush the chicken generously with BBQ sauce and return to oven for another 10 minutes until glazed and internal temp reaches 165\u00b0F (74\u00b0C).",
+        "Brush the chicken generously with BBQ sauce and return to oven for another 10 minutes until glazed and internal temp reaches 165°F (74°C).",
         "Grill or boil the Corn on the Cob for 8-10 minutes until tender and slightly charred.",
         "Make the coleslaw: Mix the Coleslaw Mix with Mayonnaise and season with salt, pepper, and a splash of Apple Cider Vinegar."
       ],
@@ -1947,16 +1792,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Soak rice noodles in warm water for 30 minutes, drain.",
-      "Mix tamarind, fish sauce, and brown sugar for the sauce.",
-      "Press and cube tofu, then pan-fry until golden.",
-      "Push tofu aside, scramble eggs in the same pan.",
-      "Add noodles and sauce, toss to coat.",
-      "Add bean sprouts and green onions.",
-      "Serve topped with crushed peanuts and lime wedges."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Soak the Rice Noodles in warm (not boiling) water for 30 minutes until pliable but still slightly firm - they'll finish cooking in the wok.",
         "Press the Tofu: wrap in paper towels, place a heavy object on top, and let drain for 15 minutes. Then cut into 2cm cubes.",
@@ -2065,16 +1901,7 @@
         "category": "produce"
       }
     ],
-    "instructions": [
-      "Mix lamb with grated onion, garlic, cumin, coriander, salt, and pepper.",
-      "Form mixture around skewers into oval shapes.",
-      "Mix yogurt with chopped mint and a pinch of salt.",
-      "Grill kofta for 8-10 minutes, turning occasionally.",
-      "Warm pita bread on the grill.",
-      "Slice cucumber and halve tomatoes.",
-      "Serve kofta in pita with vegetables and mint yogurt."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Grate the Onion on the large holes of a box grater - this creates a paste that binds the meat.",
         "Mince the Garlic finely.",
@@ -2087,7 +1914,7 @@
         "Divide the mixture into 8 portions. Wet your hands and form each portion around a skewer into an oval sausage shape about 15cm long.",
         "Make the mint yogurt: mix the Greek Yogurt with most of the chopped Fresh Mint and a pinch of salt. Refrigerate until serving.",
         "Preheat grill or grill pan to medium-high heat.",
-        "Grill the kofta for 4-5 minutes per side, turning carefully, until charred outside and cooked through (internal temp 160\u00b0F/71\u00b0C).",
+        "Grill the kofta for 4-5 minutes per side, turning carefully, until charred outside and cooked through (internal temp 160°F/71°C).",
         "Warm the Pita Bread on the grill for 30 seconds per side until soft and pliable."
       ],
       "serving": [
@@ -2176,17 +2003,7 @@
         "category": "produce"
       }
     ],
-    "instructions": [
-      "Cook pasta according to package directions.",
-      "Season shrimp with Cajun seasoning.",
-      "Saut\u00e9 shrimp in butter until pink, set aside.",
-      "Cook diced bell pepper until soft.",
-      "Add garlic, cook for 30 seconds.",
-      "Pour in cream and simmer until slightly thickened.",
-      "Toss with pasta, shrimp, and parmesan.",
-      "Garnish with parsley and serve."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Peel and devein the Large Shrimp, patting completely dry with paper towels.",
         "Toss the shrimp with half the Cajun Seasoning until evenly coated.",
@@ -2291,17 +2108,7 @@
         "category": "spices"
       }
     ],
-    "instructions": [
-      "Season pork chops with salt and pepper.",
-      "Sear in olive oil for 4 minutes per side, set aside.",
-      "Add butter and minced garlic to the pan.",
-      "Stir in honey and soy sauce, simmer for 2 minutes.",
-      "Return pork chops and coat with glaze.",
-      "Steam green beans until tender.",
-      "Prepare mashed potatoes.",
-      "Serve pork over mash with beans and extra glaze."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Remove the Pork Chops from the refrigerator 20 minutes before cooking to bring to room temperature for even cooking.",
         "Pat the pork chops completely dry with paper towels and season generously with salt and pepper.",
@@ -2328,7 +2135,7 @@
       "tips": [
         "The key to the glaze is letting the honey caramelize without burning - watch the heat.",
         "Resting the pork before returning it to the glaze keeps it juicy.",
-        "For thicker pork chops, finish them in a 400\u00b0F oven after searing.",
+        "For thicker pork chops, finish them in a 400°F oven after searing.",
         "Add a splash of apple cider vinegar at the end to cut the sweetness and add brightness."
       ]
     }
@@ -2404,17 +2211,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Cook pasta according to package directions.",
-      "Season and sear chicken until golden, set aside.",
-      "Saut\u00e9 garlic in the same pan for 30 seconds.",
-      "Add sun-dried tomatoes and Italian seasoning.",
-      "Pour in cream and simmer for 3 minutes.",
-      "Add spinach and stir until wilted.",
-      "Slice chicken and return to sauce.",
-      "Stir in parmesan and serve over pasta."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Slice the Chicken Breast horizontally to create two thinner cutlets (this ensures even, quick cooking).",
         "Season the chicken on both sides with salt, pepper, and half the Italian Seasoning.",
@@ -2426,7 +2223,7 @@
       "cooking": [
         "Cook the Pasta according to package directions until al dente. Reserve 1 cup pasta water before draining.",
         "Heat the Olive Oil in a large skillet over medium-high heat.",
-        "Add the Chicken Breast cutlets and cook for 4-5 minutes per side until golden brown and cooked through (internal temp 165\u00b0F/74\u00b0C). Transfer to a plate and let rest.",
+        "Add the Chicken Breast cutlets and cook for 4-5 minutes per side until golden brown and cooked through (internal temp 165°F/74°C). Transfer to a plate and let rest.",
         "In the same pan, add the minced Garlic and remaining Italian Seasoning. Cook for 30 seconds until fragrant.",
         "Add the Sun-dried Tomatoes and cook for 1 minute.",
         "Pour in the Heavy Cream and bring to a gentle simmer. Cook for 3-4 minutes until slightly thickened.",
@@ -2526,16 +2323,7 @@
         "category": "spices"
       }
     ],
-    "instructions": [
-      "Slice beef very thin against the grain.",
-      "Blend pear, soy sauce, sesame oil, sugar, garlic, and ginger for marinade.",
-      "Marinate beef for at least 1 hour.",
-      "Cook rice according to package directions.",
-      "Grill or pan-fry beef over high heat until caramelized.",
-      "Garnish with green onions and sesame seeds.",
-      "Serve over rice with kimchi if desired."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Freeze the Beef Ribeye for 30 minutes - this makes it much easier to slice paper-thin.",
         "Slice the beef against the grain as thinly as possible (2-3mm).",
@@ -2631,17 +2419,7 @@
         "category": "produce"
       }
     ],
-    "instructions": [
-      "Preheat oven to 425\u00b0F (220\u00b0C).",
-      "Mix olive oil, lemon zest, juice, herbs, and minced garlic.",
-      "Rub chicken with herb mixture and season with salt and pepper.",
-      "Quarter potatoes and toss with olive oil.",
-      "Roast chicken and potatoes for 35 minutes.",
-      "Add asparagus and roast 10 more minutes.",
-      "Rest chicken for 5 minutes before serving.",
-      "Serve with pan juices drizzled over."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Remove the Chicken Legs from the refrigerator 30 minutes before cooking to bring to room temperature.",
         "Zest both Lemons, then juice them.",
@@ -2651,14 +2429,14 @@
         "Trim the woody ends from the Asparagus."
       ],
       "cooking": [
-        "Preheat oven to 425\u00b0F (220\u00b0C).",
+        "Preheat oven to 425°F (220°C).",
         "In a bowl, whisk together most of the Olive Oil, Lemon zest, half the Lemon juice, the Rosemary, Thyme, and minced Garlic. Season with salt and pepper.",
         "Rub the herb mixture generously all over the Chicken Legs, getting under the skin where possible.",
         "Toss the Potatoes with the remaining Olive Oil, salt, and pepper.",
         "Arrange the Potatoes in a single layer on a large baking sheet. Nestle the chicken legs among them.",
         "Roast for 35 minutes, basting the chicken with pan juices halfway through.",
         "Add the Asparagus to the pan around the edges, drizzle with a little oil.",
-        "Roast for another 10 minutes until the chicken skin is crispy and golden (internal temp 165\u00b0F/74\u00b0C), potatoes are tender, and asparagus is bright green."
+        "Roast for another 10 minutes until the chicken skin is crispy and golden (internal temp 165°F/74°C), potatoes are tender, and asparagus is bright green."
       ],
       "serving": [
         "Let the Chicken Legs rest for 5 minutes - this redistributes the juices.",
@@ -2752,17 +2530,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Cook jasmine rice according to package directions.",
-      "Mix soy sauce, oyster sauce, fish sauce, and sugar.",
-      "Heat oil in a wok over high heat.",
-      "Fry chilies and garlic for 30 seconds.",
-      "Add chicken and stir-fry until cooked through.",
-      "Pour in sauce and toss to coat.",
-      "Remove from heat and fold in Thai basil.",
-      "Serve immediately over rice."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Rinse the Jasmine Rice until water runs clear - this removes excess starch for fluffy grains.",
         "Thinly slice the Thai Chilies (remove seeds for less heat).",
@@ -2871,17 +2639,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Cook sushi rice according to package directions.",
-      "Mix soy sauce, mirin, and honey for teriyaki sauce.",
-      "Pan-sear salmon skin-side up for 3 minutes.",
-      "Flip and cook 3 more minutes, then glaze with sauce.",
-      "Cook edamame in salted water.",
-      "Slice avocado and cut nori into strips.",
-      "Assemble bowls with rice, salmon, edamame, avocado, and ginger.",
-      "Top with sesame seeds and nori."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Remove the Salmon Fillet from the refrigerator 20 minutes before cooking.",
         "Pat the salmon completely dry with paper towels.",
@@ -2999,17 +2757,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Season chicken with cumin, cinnamon, salt, and pepper.",
-      "Brown chicken in a tagine or Dutch oven.",
-      "Saut\u00e9 onion and garlic until soft.",
-      "Add saffron and stock, bring to simmer.",
-      "Return chicken, add preserved lemons and olives.",
-      "Cover and cook for 30 minutes.",
-      "Prepare couscous according to package directions.",
-      "Serve chicken over couscous with cilantro."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Remove the Chicken Thighs from the refrigerator 30 minutes before cooking.",
         "Mix the Cumin and Cinnamon with salt and pepper. Rub generously over the chicken.",
@@ -3021,7 +2769,7 @@
       "cooking": [
         "Heat oil in a tagine or Dutch oven over medium-high heat.",
         "Brown the Chicken Thighs skin-side down for 4-5 minutes until golden. Flip and brown the other side. Transfer to a plate.",
-        "In the same pot, saut\u00e9 the sliced Onion for 5-6 minutes until softened and lightly golden.",
+        "In the same pot, sauté the sliced Onion for 5-6 minutes until softened and lightly golden.",
         "Add the minced Garlic and cook for 30 seconds until fragrant.",
         "Pour in the remaining Chicken Stock and the saffron-infused liquid. Scrape up any browned bits from the bottom.",
         "Return the Chicken Thighs to the pot. Add the sliced Preserved Lemons and Green Olives, tucking them around the chicken.",
@@ -3120,17 +2868,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Drain and rinse black beans.",
-      "Mash half the beans, leave half whole.",
-      "Season beans with cumin, chipotle, salt, and lime juice.",
-      "Warm in a pan until heated through.",
-      "Mash avocado with lime juice and salt.",
-      "Char tortillas over an open flame or in a dry pan.",
-      "Fill tortillas with beans, guacamole, onion, and cheese.",
-      "Top with salsa verde and cilantro."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Drain and rinse the Black Beans thoroughly.",
         "Finely dice the Red Onion and place in a small bowl with a squeeze of Lime juice to pickle slightly.",
@@ -3159,7 +2897,7 @@
         "Mashing half the beans creates a creamy base that holds the tacos together better.",
         "Pickling the onion in lime juice tames its sharpness and adds brightness.",
         "Double-stack the tortillas if they're thin - it prevents tearing and adds more corn flavor.",
-        "For extra heat, add more chipotle or fresh jalape\u00f1o to the beans."
+        "For extra heat, add more chipotle or fresh jalapeño to the beans."
       ]
     }
   },
@@ -3241,17 +2979,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Slice beef thin and toss with cornstarch.",
-      "Mix soy sauce, vinegar, and brown sugar.",
-      "Cook rice according to package directions.",
-      "Fry beef in batches until crispy, set aside.",
-      "Stir-fry peppers until tender-crisp.",
-      "Add ginger and garlic, cook 30 seconds.",
-      "Return beef and add sauce, toss until glazed.",
-      "Serve immediately over rice."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Slice the Beef Flank against the grain into thin 5mm strips.",
         "Toss the beef strips with the Cornstarch until evenly coated - this is the secret to crispy beef.",
@@ -3361,17 +3089,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Pound chicken to even thickness.",
-      "Set up breading: flour, beaten eggs, breadcrumbs mixed with parmesan.",
-      "Bread chicken cutlets.",
-      "Pan-fry in olive oil until golden on both sides.",
-      "Cook spaghetti according to package directions.",
-      "Place chicken in baking dish, top with marinara and mozzarella.",
-      "Broil until cheese is bubbly and golden.",
-      "Serve over spaghetti with fresh basil."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Butterfly the Chicken Breast and pound to even 1cm thickness between plastic wrap.",
         "Set up breading station: Flour seasoned with salt and pepper in bowl 1, beaten Eggs in bowl 2, Breadcrumbs mixed with half the grated Parmesan Cheese in bowl 3.",
@@ -3481,17 +3199,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Cube and pan-fry tofu until golden.",
-      "Saut\u00e9 curry paste in a pot for 1 minute.",
-      "Add coconut milk and stock, bring to simmer.",
-      "Add sliced mushrooms and cook for 5 minutes.",
-      "Add rice noodles and bok choy.",
-      "Cook until noodles are tender.",
-      "Season with fish sauce and lime juice.",
-      "Serve topped with tofu and cilantro."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Press the Tofu: wrap in paper towels, place a heavy object on top, and let drain for 15 minutes. Then cut into 2cm cubes.",
         "Soak the Rice Noodles in warm water for 20 minutes until pliable but not fully soft.",
@@ -3502,7 +3210,7 @@
       ],
       "cooking": [
         "Heat oil in a large pot over medium-high heat. Fry the Tofu cubes for 2-3 minutes per side until golden. Transfer to a plate.",
-        "In the same pot, add the Red Curry Paste and saut\u00e9 for 1 minute until fragrant and the color deepens.",
+        "In the same pot, add the Red Curry Paste and sauté for 1 minute until fragrant and the color deepens.",
         "Pour in the Coconut Milk and Vegetable Stock, stirring to combine with the curry paste.",
         "Bring to a gentle simmer. Add the sliced Mushrooms and cook for 5 minutes until softened.",
         "Drain the Rice Noodles and add them to the pot along with the Bok Choy.",
@@ -3601,17 +3309,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Cook quinoa according to package directions.",
-      "Bake or pan-fry falafel until heated through.",
-      "Dice cucumber and halve tomatoes.",
-      "Slice red onion thinly.",
-      "Fluff quinoa and divide among bowls.",
-      "Top with falafel, vegetables, feta, and olives.",
-      "Add a generous scoop of hummus.",
-      "Drizzle with olive oil and lemon juice."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Rinse the Quinoa under cold water to remove the bitter coating.",
         "Dice the Cucumber into 1cm cubes.",
@@ -3622,7 +3320,7 @@
       ],
       "cooking": [
         "Cook the Quinoa: combine with water (1:2 ratio), bring to boil, reduce heat, cover and simmer for 15 minutes until fluffy. Let rest 5 minutes, then fluff with a fork.",
-        "Prepare the Falafel according to package directions - either bake at 375\u00b0F (190\u00b0C) for 15 minutes or pan-fry in a little oil until golden and heated through.",
+        "Prepare the Falafel according to package directions - either bake at 375°F (190°C) for 15 minutes or pan-fry in a little oil until golden and heated through.",
         "While everything cooks, make a simple dressing by whisking together the Olive Oil, Lemon juice, salt, and pepper."
       ],
       "serving": [
@@ -3713,17 +3411,7 @@
         "category": "produce"
       }
     ],
-    "instructions": [
-      "Mix wasabi paste with mayonnaise for aioli.",
-      "Press sesame seeds onto all sides of tuna.",
-      "Heat sesame oil in a pan over high heat.",
-      "Sear tuna for 30 seconds per side for rare.",
-      "Whisk soy sauce, rice vinegar, and ginger for dressing.",
-      "Toss greens with dressing.",
-      "Slice tuna and arrange over greens.",
-      "Drizzle with wasabi aioli."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Remove the Ahi Tuna Steaks from the refrigerator 20 minutes before cooking - room temperature fish sears better.",
         "Pat the tuna completely dry with paper towels.",
@@ -3839,17 +3527,7 @@
         "category": "produce"
       }
     ],
-    "instructions": [
-      "Cut chicken into chunks and season with spices.",
-      "Cook rice according to package directions.",
-      "Brown chicken in butter, set aside.",
-      "Saut\u00e9 onion until golden, add garlic.",
-      "Add tomato puree and spices, simmer 15 minutes.",
-      "Stir in cream and return chicken.",
-      "Simmer until chicken is cooked through.",
-      "Serve with rice and warm naan, garnished with cilantro."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Cut the Chicken Thighs into 3cm chunks.",
         "Mix 1 tsp of Garam Masala with a pinch of Kashmiri Chili and rub over the chicken.",
@@ -3861,7 +3539,7 @@
         "Start the Basmati Rice: combine with water (1:1.5 ratio), bring to boil, reduce heat to low, cover and cook for 15 minutes. Let rest with lid on.",
         "Heat half the Butter in a large heavy-bottomed pan over medium-high heat.",
         "Add the seasoned Chicken Thighs and cook for 3-4 minutes per side until golden and slightly charred. Transfer to a plate.",
-        "In the same pan, add the remaining Butter and saut\u00e9 the Onion for 6-8 minutes until deeply golden and caramelized.",
+        "In the same pan, add the remaining Butter and sauté the Onion for 6-8 minutes until deeply golden and caramelized.",
         "Add the minced Garlic and cook for 30 seconds until fragrant.",
         "Pour in the Tomato Puree, remaining Garam Masala, and remaining Kashmiri Chili. Simmer for 15 minutes, stirring occasionally.",
         "Stir in the Heavy Cream and let it simmer for 2-3 minutes until the sauce is rich and velvety.",
@@ -3953,17 +3631,7 @@
         "category": "produce"
       }
     ],
-    "instructions": [
-      "Cook pasta according to package directions, reserve pasta water.",
-      "Blend basil, pine nuts, parmesan, garlic, and olive oil for pesto.",
-      "Halve cherry tomatoes.",
-      "Toss hot pasta with pesto and cream.",
-      "Add pasta water to loosen if needed.",
-      "Fold in cherry tomatoes and lemon juice.",
-      "Top with extra parmesan and basil.",
-      "Serve immediately."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Wash and dry the Fresh Basil leaves thoroughly - wet basil will turn dark in the pesto.",
         "Peel the Garlic cloves.",
@@ -4081,17 +3749,7 @@
         "category": "produce"
       }
     ],
-    "instructions": [
-      "Mix spices with olive oil and marinate chicken for 1 hour.",
-      "Blend yogurt with half the garlic and lemon juice for sauce.",
-      "Grill or pan-fry chicken until charred and cooked through.",
-      "Slice chicken into strips.",
-      "Warm pita bread.",
-      "Layer chicken, lettuce, tomato, and pickled turnips in pita.",
-      "Drizzle generously with garlic sauce.",
-      "Wrap and serve immediately."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Cut the Chicken Thighs into 2cm strips or leave whole if grilling.",
         "Mix the Cumin, Coriander, Paprika, and Turmeric with 2 tablespoons of olive oil, salt, and pepper for the marinade.",
@@ -4102,7 +3760,7 @@
       "cooking": [
         "Make the garlic sauce (toum): In a food processor, blend half the Garlic with a pinch of salt until pasty. With the motor running, very slowly drizzle in a few tablespoons of oil, alternating with lemon juice, until you have a thick, creamy white sauce. Fold in the Greek Yogurt for a lighter version.",
         "Heat a grill pan or skillet over high heat.",
-        "Cook the marinated Chicken Thighs for 5-6 minutes per side until charred and cooked through (internal temp 165\u00b0F/74\u00b0C).",
+        "Cook the marinated Chicken Thighs for 5-6 minutes per side until charred and cooked through (internal temp 165°F/74°C).",
         "Let the chicken rest for 5 minutes, then slice into strips.",
         "Warm the Pita Bread on the grill or in a dry pan until soft and pliable."
       ],
@@ -4200,17 +3858,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Dice carrots and slice green onions.",
-      "Scramble eggs in a wok, set aside.",
-      "Stir-fry shrimp until pink, set aside.",
-      "Add oil, stir-fry carrots and peas.",
-      "Add cold rice and break up clumps.",
-      "Push rice aside, cook garlic briefly.",
-      "Add soy sauce and toss everything together.",
-      "Return eggs and shrimp, add sesame oil and green onions."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Peel and devein the Large Shrimp if needed, patting completely dry.",
         "Break up any clumps in the Day-old Rice - it should be cold and dry for best results.",
@@ -4314,17 +3962,7 @@
         "category": "produce"
       }
     ],
-    "instructions": [
-      "Cook rice according to package directions.",
-      "Cut tops off peppers and remove seeds.",
-      "Brown beef with onion and garlic.",
-      "Add half the tomatoes, seasoning, and cooked rice.",
-      "Stuff peppers with beef mixture.",
-      "Place in baking dish, pour remaining tomatoes around.",
-      "Cover and bake at 375\u00b0F (190\u00b0C) for 40 minutes.",
-      "Top with mozzarella and bake until melted."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Cut the tops off the Bell Peppers and carefully remove the seeds and membranes. Keep the tops if you want to use them as lids.",
         "Finely dice the Onion. Mince the Garlic.",
@@ -4333,7 +3971,7 @@
         "Rinse the Rice until water runs clear."
       ],
       "cooking": [
-        "Preheat oven to 375\u00b0F (190\u00b0C).",
+        "Preheat oven to 375°F (190°C).",
         "Cook the Rice until just slightly underdone (it will continue cooking in the oven).",
         "In a large skillet, brown the Ground Beef over medium-high heat, breaking it up into small pieces.",
         "Add the diced Onion and cook for 4-5 minutes until softened.",
@@ -4443,17 +4081,7 @@
         "category": "produce"
       }
     ],
-    "instructions": [
-      "Cut chicken into bite-sized pieces.",
-      "Toss chicken with cornstarch.",
-      "Mix orange juice, soy sauce, sugar, vinegar, and zest for sauce.",
-      "Cook rice according to package directions.",
-      "Deep fry chicken until golden and crispy.",
-      "Heat sauce in a wok with garlic until thickened.",
-      "Toss chicken in sauce until coated.",
-      "Serve over rice with green onions."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Cut the Chicken Breast into 3cm bite-sized pieces.",
         "Place the Cornstarch in a bowl and toss the chicken pieces until evenly coated.",
@@ -4465,7 +4093,7 @@
       ],
       "cooking": [
         "Start the Rice: combine with water, bring to boil, reduce heat to low, cover and cook for 15-18 minutes.",
-        "Heat the Vegetable Oil in a deep pot or wok to 350\u00b0F (175\u00b0C). Use a thermometer for accuracy.",
+        "Heat the Vegetable Oil in a deep pot or wok to 350°F (175°C). Use a thermometer for accuracy.",
         "Working in batches to avoid crowding, carefully add the cornstarch-coated Chicken pieces to the hot oil.",
         "Fry for 4-5 minutes until golden brown, crispy, and cooked through. Drain on a paper towel-lined plate.",
         "Drain all but 1 tablespoon of oil from the wok. Heat over medium-high.",
@@ -4558,17 +4186,7 @@
         "category": "dairy"
       }
     ],
-    "instructions": [
-      "Mix breadcrumbs with rosemary, garlic, and olive oil.",
-      "Sear lamb chops for 2 minutes per side.",
-      "Brush with mustard and press herb crust on top.",
-      "Roast at 400\u00b0F (200\u00b0C) for 10-12 minutes for medium.",
-      "Boil potatoes and mash with butter.",
-      "Steam green beans until tender.",
-      "Rest lamb for 5 minutes.",
-      "Serve with mash and green beans."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Remove the Lamb Chops from the refrigerator 30 minutes before cooking to bring to room temperature.",
         "Strip the fresh Rosemary leaves and finely chop them.",
@@ -4578,13 +4196,13 @@
         "Peel and quarter the Potatoes."
       ],
       "cooking": [
-        "Preheat oven to 400\u00b0F (200\u00b0C).",
+        "Preheat oven to 400°F (200°C).",
         "Put the Potatoes in a pot of salted water. Bring to boil and cook for 15-20 minutes until fork-tender.",
         "Season the Lamb Chops generously with salt and pepper.",
         "Heat the remaining Olive Oil in an oven-safe skillet over high heat until smoking.",
         "Sear the lamb chops for 2 minutes on each side until well browned.",
         "Remove from heat. Brush the top of each chop with Dijon Mustard, then press the herb-breadcrumb mixture firmly onto the mustard to create a crust.",
-        "Transfer the skillet to the oven and roast for 10-12 minutes for medium-rare (internal temp 135\u00b0F/57\u00b0C).",
+        "Transfer the skillet to the oven and roast for 10-12 minutes for medium-rare (internal temp 135°F/57°C).",
         "Steam or blanch the Green Beans for 3-4 minutes until bright green and tender-crisp.",
         "Drain the Potatoes and mash with the Butter and a splash of cream. Season with salt and pepper."
       ],
@@ -4688,17 +4306,7 @@
         "category": "spices"
       }
     ],
-    "instructions": [
-      "Poach chicken in stock, then shred.",
-      "Dice carrots, celery, and onion.",
-      "Make roux with butter and flour.",
-      "Add stock and cream, cook until thickened.",
-      "Add vegetables and cook for 5 minutes.",
-      "Fold in chicken and thyme, season to taste.",
-      "Pour into baking dish, top with pastry.",
-      "Bake at 400\u00b0F (200\u00b0C) for 25-30 minutes until golden."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Cut the Chicken Breast into 3cm chunks.",
         "Dice the Carrots into 1cm cubes. Slice the Celery. Dice the Onion.",
@@ -4707,7 +4315,7 @@
       ],
       "cooking": [
         "Bring the Chicken Stock to a simmer. Add the Chicken Breast chunks and poach for 12-15 minutes until cooked through. Remove chicken and shred with two forks. Reserve the stock.",
-        "Preheat oven to 400\u00b0F (200\u00b0C).",
+        "Preheat oven to 400°F (200°C).",
         "In a large pot, melt the Butter over medium heat. Add the diced Onion and cook for 4-5 minutes until softened.",
         "Add the diced Carrots and sliced Celery. Cook for 5 minutes until slightly softened.",
         "Sprinkle the Flour over the vegetables and stir to coat. Cook for 1 minute to remove the raw flour taste.",
@@ -4808,17 +4416,7 @@
         "category": "produce"
       }
     ],
-    "instructions": [
-      "Brown ground beef with diced onion.",
-      "Add cumin, chili powder, salt, and a splash of water.",
-      "Simmer until liquid evaporates.",
-      "Warm taco shells according to package.",
-      "Shred lettuce, dice tomatoes, grate cheese.",
-      "Fill shells with beef.",
-      "Top with lettuce, tomato, cheese, sour cream, and salsa.",
-      "Serve immediately."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Finely dice the Onion.",
         "Shred the Lettuce into thin strips.",
@@ -4831,7 +4429,7 @@
         "Drain excess fat, leaving about 1 tablespoon in the pan.",
         "Add the Cumin, Chili Powder, 1/2 teaspoon salt, and 1/4 cup water.",
         "Stir to combine and let simmer for 3-4 minutes until the liquid evaporates and the spices coat the meat.",
-        "Warm the Taco Shells according to package directions - typically 3-4 minutes in a 350\u00b0F oven or briefly in a dry skillet."
+        "Warm the Taco Shells according to package directions - typically 3-4 minutes in a 350°F oven or briefly in a dry skillet."
       ],
       "serving": [
         "Set up a taco bar: place the seasoned beef in a serving dish alongside bowls of shredded Lettuce, diced Tomato, grated Cheddar Cheese, Sour Cream, and Salsa.",
@@ -4843,7 +4441,7 @@
         "Don't skip the water - it helps the spices bloom and creates a more flavorful, saucier meat.",
         "Warming the taco shells makes them more pliable and less likely to crack.",
         "For softer tacos, wrap flour tortillas in damp paper towels and microwave for 30 seconds.",
-        "For extra kick, add a diced jalape\u00f1o to the meat while cooking."
+        "For extra kick, add a diced jalapeño to the meat while cooking."
       ]
     }
   },
@@ -4932,17 +4530,7 @@
         "category": "produce"
       }
     ],
-    "instructions": [
-      "Roast pork belly at 400\u00b0F (200\u00b0C) for 30 minutes, then slice.",
-      "Soft-boil eggs for 6 minutes, then peel.",
-      "Simmer stock with garlic, ginger, soy sauce, and miso.",
-      "Cook noodles according to package directions.",
-      "Divide noodles among bowls.",
-      "Ladle hot broth over noodles.",
-      "Top with pork, halved eggs, corn, green onions, and nori.",
-      "Serve immediately."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Score the Pork Belly skin in a crosshatch pattern for crispy crackling.",
         "Mince the Garlic and grate the fresh Ginger.",
@@ -4950,7 +4538,7 @@
         "Drain the Corn if using canned."
       ],
       "cooking": [
-        "Preheat oven to 400\u00b0F (200\u00b0C). Season the Pork Belly with salt and roast for 30-35 minutes until the skin is crispy and the meat is cooked through. Let rest, then slice into 1cm pieces.",
+        "Preheat oven to 400°F (200°C). Season the Pork Belly with salt and roast for 30-35 minutes until the skin is crispy and the meat is cooked through. Let rest, then slice into 1cm pieces.",
         "Prepare the soft-boiled Eggs: Bring water to a boil, gently lower in the eggs, cook for exactly 6 minutes for jammy yolks. Transfer to ice water immediately, then peel.",
         "Make the broth: In a large pot, combine the Chicken Stock, minced Garlic, grated Ginger, Soy Sauce, and white parts of the Green Onions. Bring to a simmer.",
         "Whisk the Miso Paste with a ladleful of hot broth until smooth, then stir back into the pot. Keep warm over low heat - don't boil the miso.",
@@ -5043,17 +4631,7 @@
         "category": "spices"
       }
     ],
-    "instructions": [
-      "Season chicken with Italian seasoning and grill until cooked.",
-      "Cook fettuccine according to package directions.",
-      "Melt butter in a large pan, saut\u00e9 garlic.",
-      "Add cream and bring to a simmer.",
-      "Stir in parmesan until melted and smooth.",
-      "Toss pasta in sauce.",
-      "Slice chicken and place on top.",
-      "Garnish with parsley and black pepper."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Butterfly the Chicken Breast and pound to even thickness.",
         "Season with Italian Seasoning, salt, and pepper.",
@@ -5064,7 +4642,7 @@
       "cooking": [
         "Bring a large pot of salted water to boil. Cook the Fettuccine until al dente. Reserve 1 cup pasta water before draining.",
         "While pasta cooks, heat a grill pan or skillet over medium-high heat.",
-        "Grill the seasoned Chicken Breast for 5-6 minutes per side until charred and cooked through (internal temp 165\u00b0F/74\u00b0C). Let rest for 5 minutes.",
+        "Grill the seasoned Chicken Breast for 5-6 minutes per side until charred and cooked through (internal temp 165°F/74°C). Let rest for 5 minutes.",
         "In a large saucepan, melt the Butter over medium heat.",
         "Add the minced Garlic and cook for 30 seconds until fragrant - don't let it brown.",
         "Pour in the Heavy Cream and bring to a gentle simmer. Cook for 3-4 minutes until slightly reduced.",
@@ -5172,17 +4750,7 @@
         "category": "spices"
       }
     ],
-    "instructions": [
-      "Cook rice according to package directions.",
-      "Julienne carrots and zucchini, saut\u00e9 separately with sesame oil.",
-      "Blanch spinach and bean sprouts, season with sesame oil.",
-      "Slice and stir-fry beef with soy sauce.",
-      "Fry eggs sunny-side up.",
-      "Arrange rice in bowls, top with vegetables and beef.",
-      "Place egg on top and add gochujang.",
-      "Mix everything together before eating."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Rinse the Rice until water runs clear.",
         "Slice the Beef Sirloin into thin strips and marinate briefly with a splash of Soy Sauce and Sesame Oil.",
@@ -5191,8 +4759,8 @@
       ],
       "cooking": [
         "Cook the Rice: combine with water, bring to boil, reduce heat to low, cover and cook for 15-18 minutes. Keep warm.",
-        "Prepare each vegetable separately (this is traditional): Saut\u00e9 the julienned Carrots in a little Sesame Oil with a pinch of salt for 2 minutes until slightly softened. Set aside.",
-        "Saut\u00e9 the julienned Zucchini the same way for 2 minutes. Set aside.",
+        "Prepare each vegetable separately (this is traditional): Sauté the julienned Carrots in a little Sesame Oil with a pinch of salt for 2 minutes until slightly softened. Set aside.",
+        "Sauté the julienned Zucchini the same way for 2 minutes. Set aside.",
         "Blanch the Spinach in boiling water for 30 seconds, then squeeze out all water. Season with Sesame Oil and salt.",
         "Blanch the Bean Sprouts for 1 minute, drain, and season the same way.",
         "Stir-fry the marinated Beef Sirloin over high heat for 2-3 minutes until just cooked. Set aside.",
@@ -5285,17 +4853,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Slice eggplant into rounds, salt and let drain for 30 minutes.",
-      "Set up breading: flour, beaten eggs, breadcrumbs with parmesan.",
-      "Bread eggplant slices.",
-      "Pan-fry until golden on both sides.",
-      "Spread some marinara in a baking dish.",
-      "Layer eggplant, marinara, and mozzarella.",
-      "Repeat layers and top with cheese.",
-      "Bake at 375\u00b0F (190\u00b0C) for 30 minutes until bubbly."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Slice the Eggplant into 1cm rounds.",
         "Salt the eggplant slices generously and let them sit in a colander for 30 minutes - this draws out moisture and bitterness. Pat completely dry.",
@@ -5304,7 +4862,7 @@
         "Tear the fresh Basil into pieces."
       ],
       "cooking": [
-        "Preheat oven to 375\u00b0F (190\u00b0C).",
+        "Preheat oven to 375°F (190°C).",
         "Dredge each dried Eggplant slice in Flour (shake off excess), dip in Eggs, then press into the Breadcrumb-parmesan mixture, coating both sides.",
         "Heat the Olive Oil in a large skillet over medium-high heat.",
         "Pan-fry the breaded eggplant in batches for 2-3 minutes per side until golden brown. Add more oil as needed. Drain on paper towels.",
@@ -5412,17 +4970,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Cube chicken and toss with cornstarch.",
-      "Mix soy sauce, vinegar, and hoisin for sauce.",
-      "Cook rice according to package directions.",
-      "Toast peanuts in a dry wok, set aside.",
-      "Stir-fry chicken until cooked, set aside.",
-      "Fry chilies until fragrant.",
-      "Add garlic and ginger, then return chicken.",
-      "Add sauce and peanuts, toss with green onions."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Cut the Chicken Breast into 2cm cubes.",
         "Toss the chicken with the Cornstarch until evenly coated.",
@@ -5519,17 +5067,7 @@
         "category": "produce"
       }
     ],
-    "instructions": [
-      "Cut a pocket in each chicken breast.",
-      "Season inside and out with garlic powder, salt, and pepper.",
-      "Stuff with mozzarella slices, tomato, and basil.",
-      "Secure with toothpicks if needed.",
-      "Sear chicken in olive oil for 4 minutes per side.",
-      "Bake at 375\u00b0F (190\u00b0C) for 15 minutes until cooked through.",
-      "Rest for 5 minutes.",
-      "Serve over greens with balsamic glaze drizzled on top."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Pat the Chicken Breast dry and lay flat on a cutting board.",
         "Using a sharp knife, cut a horizontal pocket into each breast, being careful not to cut all the way through.",
@@ -5539,14 +5077,14 @@
         "Wash and dry the Mixed Greens."
       ],
       "cooking": [
-        "Preheat oven to 375\u00b0F (190\u00b0C).",
+        "Preheat oven to 375°F (190°C).",
         "Season the inside of each chicken pocket with Garlic Powder, salt, and pepper.",
         "Layer the filling inside each pocket: start with Fresh Mozzarella slices, then Roma Tomatoes, then Fresh Basil leaves. Don't overstuff.",
         "Secure the opening with 1-2 toothpicks if needed to prevent the filling from escaping.",
         "Season the outside of the chicken with more salt and pepper.",
         "Heat the Olive Oil in an oven-safe skillet over medium-high heat.",
         "Sear the stuffed Chicken Breast for 4 minutes per side until golden brown.",
-        "Transfer the skillet to the oven and bake for 15-18 minutes until the chicken is cooked through (internal temp 165\u00b0F/74\u00b0C).",
+        "Transfer the skillet to the oven and bake for 15-18 minutes until the chicken is cooked through (internal temp 165°F/74°C).",
         "Let the chicken rest for 5 minutes before removing the toothpicks."
       ],
       "serving": [
@@ -5642,17 +5180,7 @@
         "category": "produce"
       }
     ],
-    "instructions": [
-      "Slice beef into thin strips.",
-      "Cook noodles according to package directions.",
-      "Brown beef in batches, set aside.",
-      "Saut\u00e9 mushrooms and onion in butter.",
-      "Add garlic and cook briefly.",
-      "Pour in stock and mustard, simmer for 5 minutes.",
-      "Stir in sour cream and return beef.",
-      "Serve over noodles with parsley."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Slice the Beef Sirloin against the grain into thin 5mm strips.",
         "Slice the Mushrooms into thick slices.",
@@ -5779,15 +5307,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Cook ground pork with onion, bell pepper, and spices.",
-      "Grate both cheeses and mix together.",
-      "Place tortilla in a dry pan, add cheese and pork filling.",
-      "Fold tortilla in half and cook until golden on both sides.",
-      "Repeat with remaining tortillas.",
-      "Cut into wedges and serve with sour cream and salsa."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Finely dice the Onion and Bell Pepper.",
         "Grate the Cheddar Cheese and Monterey Jack, then mix together.",
@@ -5904,15 +5424,7 @@
         "category": "produce"
       }
     ],
-    "instructions": [
-      "Cook gnocchi according to package, then pan-fry until golden.",
-      "Brown ground beef with onion and garlic.",
-      "Add oregano, tomatoes, and olives.",
-      "Toss in gnocchi and spinach.",
-      "Top with crumbled feta and lemon juice.",
-      "Serve immediately."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Halve the Cherry Tomatoes.",
         "Roughly chop the Kalamata Olives.",
@@ -6031,15 +5543,7 @@
         "category": "spices"
       }
     ],
-    "instructions": [
-      "Roast cubed butternut squash until tender.",
-      "Fry sage leaves in butter until crispy.",
-      "Saut\u00e9 onion and garlic in the sage butter.",
-      "Toast orzo, then add wine and stock gradually.",
-      "Stir until creamy, fold in squash and parmesan.",
-      "Top with crispy sage and serve."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Peel the Butternut Squash and cut into 2cm cubes.",
         "Finely dice the Onion. Mince the Garlic.",
@@ -6048,7 +5552,7 @@
       ],
       "cooking": [
         "Heat the Vegetable Stock in a saucepan and keep warm over low heat.",
-        "Preheat oven to 400\u00b0F (200\u00b0C). Toss the Butternut Squash cubes with the Olive Oil, salt, and pepper. Roast for 25-30 minutes until tender and caramelized at the edges.",
+        "Preheat oven to 400°F (200°C). Toss the Butternut Squash cubes with the Olive Oil, salt, and pepper. Roast for 25-30 minutes until tender and caramelized at the edges.",
         "While squash roasts, make crispy sage: melt half the Butter in a large, deep skillet over medium heat. Add the Fresh Sage leaves and fry for 1-2 minutes until crispy and the butter is lightly browned. Transfer sage to a paper towel, leaving the butter in the pan.",
         "Add the diced Onion to the sage butter and cook for 4-5 minutes until softened.",
         "Add the minced Garlic and cook for 30 seconds until fragrant.",
@@ -6163,16 +5667,7 @@
         "category": "produce"
       }
     ],
-    "instructions": [
-      "Cook macaroni until al dente.",
-      "Fry bacon until crispy, set aside.",
-      "Make roux with butter and flour.",
-      "Gradually whisk in milk to make b\u00e9chamel.",
-      "Stir in cheeses until melted and smooth.",
-      "Fold in pasta and most of the bacon.",
-      "Top with remaining bacon and serve."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Cut the Bacon into 1cm pieces.",
         "Grate all three cheeses: Sharp Cheddar, Gruyere Cheese, and Parmesan Cheese. Keep them separate or mix together.",
@@ -6316,15 +5811,7 @@
         "category": "spices"
       }
     ],
-    "instructions": [
-      "Cook udon noodles according to package, drain and toss with oil.",
-      "Make sauce by combining honey, soy sauce, and oyster sauce.",
-      "Stir-fry mushrooms, cabbage, and carrots with ginger and garlic.",
-      "Cook shaved beef in butter until just done.",
-      "Combine noodles, vegetables, spinach, and sauce.",
-      "Garnish with green onions and sesame seeds."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Drain the Shaved Beef and pat very dry with paper towels - this is crucial for good browning.",
         "Thinly slice the Mushrooms.",
@@ -6450,17 +5937,9 @@
         "category": "produce"
       }
     ],
-    "instructions": [
-      "Brown ground beef with onion, garlic, and spices.",
-      "Stir in cream cheese until melted and creamy.",
-      "Warm tortillas to make them pliable.",
-      "Fill tortillas with beef mixture and cheese, roll tightly.",
-      "Brush with oil and bake until crispy.",
-      "Serve with salsa and sour cream."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
-        "Preheat oven to 425\u00b0F (220\u00b0C). Line a baking sheet with parchment paper.",
+        "Preheat oven to 425°F (220°C). Line a baking sheet with parchment paper.",
         "Finely dice the Onion. Mince the Garlic.",
         "Grate the Cheddar Cheese.",
         "Soften the Cream Cheese by leaving it at room temperature.",
@@ -6487,7 +5966,7 @@
         "The cream cheese is the secret - it makes the filling creamy and helps bind everything together.",
         "Warming the tortillas is essential - cold tortillas will crack when rolled.",
         "Roll them tight! Loose taquitos will unroll during baking.",
-        "For air fryer: cook at 400\u00b0F for 8-10 minutes, flipping halfway through."
+        "For air fryer: cook at 400°F for 8-10 minutes, flipping halfway through."
       ]
     }
   },
@@ -6583,15 +6062,7 @@
         "category": "produce"
       }
     ],
-    "instructions": [
-      "Caramelize onions slowly in butter until deep golden.",
-      "Sear beef strips, set aside.",
-      "Saut\u00e9 mushrooms until golden.",
-      "Deglaze with white wine, add stock and cream.",
-      "Cook noodles and toss with sauce and beef.",
-      "Top with melted gruyere and serve."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Slice the Onions into thin half-moons.",
         "Slice the Mushrooms thickly.",
@@ -6604,7 +6075,7 @@
         "Melt half the Butter in a large, deep skillet or Dutch oven over medium heat.",
         "Add the sliced Onions and a pinch of salt. Cook, stirring occasionally, for 25-30 minutes until deeply caramelized and jammy. Don't rush this step - low and slow is key.",
         "Push onions to the side. Increase heat to high and add the Beef Sirloin strips. Sear for 2 minutes until browned. Transfer beef and onions to a plate.",
-        "Add the remaining Butter. Saut\u00e9 the Mushrooms for 5-6 minutes until golden brown.",
+        "Add the remaining Butter. Sauté the Mushrooms for 5-6 minutes until golden brown.",
         "Add the minced Garlic and Thyme. Cook for 30 seconds until fragrant.",
         "Pour in the White Wine, scraping up any browned bits from the bottom. Let it reduce by half, about 2 minutes.",
         "Add the Beef Stock and simmer for 5 minutes until slightly reduced.",
@@ -6725,15 +6196,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Grill or pan-fry chicken until cooked through.",
-      "Shred cabbage and julienne carrots.",
-      "Make dressing with sesame oil, vinegar, soy sauce, honey, and ginger.",
-      "Toss greens with vegetables and dressing.",
-      "Slice chicken and arrange on top.",
-      "Garnish with sesame seeds and wonton strips."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Pound the Chicken Breast to even thickness for even cooking.",
         "Finely shred the Red Cabbage.",
@@ -6745,7 +6208,7 @@
       "cooking": [
         "Season the Chicken Breast with salt and pepper.",
         "Heat a grill pan or skillet over medium-high heat.",
-        "Cook the chicken for 5-6 minutes per side until charred and cooked through (internal temp 165\u00b0F/74\u00b0C).",
+        "Cook the chicken for 5-6 minutes per side until charred and cooked through (internal temp 165°F/74°C).",
         "Let the chicken rest for 5 minutes, then slice into strips.",
         "If the Edamame is frozen, blanch in boiling water for 2-3 minutes, then drain and cool."
       ],
@@ -6842,15 +6305,7 @@
         "category": "pantry"
       }
     ],
-    "instructions": [
-      "Toast pecans until fragrant.",
-      "Hull and slice strawberries.",
-      "Thinly slice red onion.",
-      "Make dressing with oil, vinegar, honey, mustard, and poppy seeds.",
-      "Toss spinach with dressing.",
-      "Top with strawberries, goat cheese, pecans, and onion."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Wash and thoroughly dry the Baby Spinach - wet leaves will make the salad soggy.",
         "Hull the Strawberries and slice into quarters or halves depending on size.",
@@ -6969,16 +6424,7 @@
         "category": "produce"
       }
     ],
-    "instructions": [
-      "Grill chicken and slice.",
-      "Cook bacon until crispy and crumble.",
-      "Hard-boil eggs and quarter.",
-      "Dice avocado and halve tomatoes.",
-      "Make red wine vinaigrette.",
-      "Arrange all ingredients in rows over lettuce.",
-      "Drizzle with dressing and serve."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
         "Season the Chicken Breast with salt and pepper.",
         "Chop the Romaine Lettuce into bite-sized pieces.",
@@ -7072,45 +6518,35 @@
         "category": "spices"
       }
     ],
-    "instructions": [
-      "In a bowl, whisk together the eggs and half the grated parmesan. Season with black pepper. Set aside.",
-      "Bring a large pot of salted water to a boil.",
-      "Cut bacon into small lardons and cook in a cold pan over medium heat until crispy. Add sliced onion, cook until softened, then add garlic and cook 30 seconds. Remove from heat.",
-      "Cook spaghetti until al dente. Reserve 1 cup of pasta water before draining.",
-      "Add the hot drained pasta to the bacon pan and toss to coat in the rendered fat.",
-      "Off the heat, pour the egg and cheese mixture over the pasta, tossing constantly.",
-      "Add pasta water a splash at a time, tossing vigorously, until the sauce is silky and coats every strand.",
-      "Serve immediately, topped with the remaining parmesan and a generous crack of black pepper."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
-        "Remove the Eggs from the refrigerator 30 minutes before cooking \u2014 room-temperature eggs blend more smoothly into a creamy sauce.",
-        "In a small bowl, whisk together the Eggs and half the grated Parmesan Cheese. Season generously with Black Pepper. Set aside \u2014 this is your sauce.",
+        "Remove the Eggs from the refrigerator 30 minutes before cooking — room-temperature eggs blend more smoothly into a creamy sauce.",
+        "In a small bowl, whisk together the Eggs and half the grated Parmesan Cheese. Season generously with Black Pepper. Set aside — this is your sauce.",
         "Cut the Bacon into small lardons (short matchstick pieces) for maximum crispiness.",
         "Slice the Onion thinly.",
         "Mince the Garlic finely.",
-        "Finely grate the remaining Parmesan Cheese \u2014 freshly grated melts far better than pre-shredded."
+        "Finely grate the remaining Parmesan Cheese — freshly grated melts far better than pre-shredded."
       ],
       "cooking": [
         "Bring a large pot of generously salted water to a rolling boil.",
-        "Add the Spaghetti and cook until al dente \u2014 about 1 minute less than the package directions indicate.",
+        "Add the Spaghetti and cook until al dente — about 1 minute less than the package directions indicate.",
         "While the pasta cooks, place the Bacon lardons in a cold, dry skillet and set over medium heat. Render slowly for 6-8 minutes until the fat has released and the bacon is crispy and golden.",
         "Add the sliced Onion to the bacon pan and cook for 3-4 minutes until softened and lightly golden.",
         "Add the minced Garlic, stir for 30 seconds until fragrant, then remove the pan from the heat.",
         "Just before draining, reserve at least 1 cup of the starchy pasta water.",
         "Drain the Spaghetti and immediately transfer it to the bacon pan. Toss vigorously to coat every strand in the rendered fat.",
-        "Working quickly with the pan off the heat, pour the egg-cheese sauce over the pasta, tossing constantly. The residual heat cooks the eggs gently into a silky, creamy sauce \u2014 never a scramble.",
+        "Working quickly with the pan off the heat, pour the egg-cheese sauce over the pasta, tossing constantly. The residual heat cooks the eggs gently into a silky, creamy sauce — never a scramble.",
         "Add the reserved pasta water a small splash at a time, tossing continuously, until the sauce is fluid, glossy, and clings to the pasta. You will likely use 1/4 to 1/2 cup."
       ],
       "serving": [
         "Using tongs, twist the carbonara into a nest in the center of warm, deep bowls for an elegant presentation.",
         "Top each bowl with the remaining grated Parmesan Cheese.",
-        "Finish with a very generous crack of fresh Black Pepper \u2014 carbonara is meant to be boldly peppery.",
+        "Finish with a very generous crack of fresh Black Pepper — carbonara is meant to be boldly peppery.",
         "Serve immediately, as the sauce thickens and tightens as it cools."
       ],
       "tips": [
         "The golden rule of carbonara: no cream, ever. The creaminess comes entirely from the emulsification of eggs, cheese, fat, and starchy pasta water.",
-        "Heat is the enemy \u2014 always remove the pan from the burner before adding the egg mixture, and keep tossing to prevent scrambling.",
+        "Heat is the enemy — always remove the pan from the burner before adding the egg mixture, and keep tossing to prevent scrambling.",
         "Use the pasta water generously. The dissolved starch acts as an emulsifier that keeps the sauce silky and stops it from breaking.",
         "Authentic Roman carbonara uses Guanciale (cured pork cheek) and Pecorino Romano. Bacon and Parmesan are excellent and widely available substitutes."
       ]
@@ -7208,19 +6644,9 @@
         "category": "spices"
       }
     ],
-    "instructions": [
-      "Thinly slice the beef sirloin against the grain. Toss with 1 tbsp soy sauce and black pepper.",
-      "Heat a wok or large skillet over the highest heat until smoking. Sear the beef for 1-2 minutes per side until caramelized. Set aside.",
-      "Add butter to the wok. Once foaming, add minced garlic and the white parts of the green onions. Cook 1-2 minutes until golden.",
-      "Add carrots and peas. Stir-fry for 2 minutes.",
-      "Push the vegetables aside and scramble the eggs in the center until just set.",
-      "Add the day-old rice, breaking up any clumps. Stir-fry on high heat for 3-4 minutes until the rice is hot and slightly toasted.",
-      "Pour in the remaining soy sauce and oyster sauce. Toss everything to coat evenly.",
-      "Return the beef to the wok, drizzle with sesame oil, and toss once more. Garnish with sliced green onions and serve immediately."
-    ],
-    "enhancedInstructions": {
+    "instructions": {
       "preparation": [
-        "If cooking rice fresh, spread it on a sheet tray and refrigerate uncovered for at least 1 hour. Cold, dry Day-old Rice is essential \u2014 freshly cooked rice is too wet and will make the dish mushy.",
+        "If cooking rice fresh, spread it on a sheet tray and refrigerate uncovered for at least 1 hour. Cold, dry Day-old Rice is essential — freshly cooked rice is too wet and will make the dish mushy.",
         "Thinly slice the Beef Sirloin against the grain into 3mm strips. Toss with 1 tbsp Soy Sauce and the Black Pepper. Set aside to marinate for 10 minutes.",
         "Finely mince all the Garlic cloves.",
         "Finely dice the Carrots into small, even cubes for quick, uniform cooking.",
@@ -7228,11 +6654,11 @@
         "In a small bowl, stir together the remaining Soy Sauce and the Oyster Sauce. Set aside."
       ],
       "cooking": [
-        "Heat a wok or large cast-iron skillet over the highest possible heat until it is visibly smoking. This intense heat creates 'wok hei' \u2014 the lightly charred, smoky depth that defines great fried rice.",
+        "Heat a wok or large cast-iron skillet over the highest possible heat until it is visibly smoking. This intense heat creates 'wok hei' — the lightly charred, smoky depth that defines great fried rice.",
         "Add a thin layer of oil, then add the marinated Beef Sirloin strips in a single, uncrowded layer. Sear without stirring for 1-2 minutes until deeply caramelized underneath. Flip and cook 30-45 seconds more. The beef should still be slightly pink inside. Transfer to a plate and set aside.",
-        "Reduce heat slightly to medium-high. Add the Butter and let it foam and begin to turn golden. Add the minced Garlic and the white parts of the Green Onions. Stir constantly for 1-2 minutes until the garlic is deeply golden and fragrant \u2014 watch carefully to prevent burning.",
+        "Reduce heat slightly to medium-high. Add the Butter and let it foam and begin to turn golden. Add the minced Garlic and the white parts of the Green Onions. Stir constantly for 1-2 minutes until the garlic is deeply golden and fragrant — watch carefully to prevent burning.",
         "Add the diced Carrots and Peas to the wok. Stir-fry for 2 minutes until the carrots are just tender.",
-        "Push all the vegetables to the edges of the wok. Crack the Eggs into the center and scramble briskly with a spatula until just barely set \u2014 they should still look slightly glossy.",
+        "Push all the vegetables to the edges of the wok. Crack the Eggs into the center and scramble briskly with a spatula until just barely set — they should still look slightly glossy.",
         "Add the Day-old Rice to the wok, breaking up any clumps with your spatula. Toss everything together and stir-fry on high heat for 3-4 minutes, pressing the rice against the hot surface to toast it and develop slight crispiness in spots.",
         "Pour the soy and oyster sauce mixture over the rice. Toss continuously for 1 minute until every grain is evenly coated and glossy.",
         "Return the seared Beef Sirloin and any resting juices to the wok. Drizzle the Sesame Oil over everything. Toss once more to combine thoroughly."
@@ -7240,13 +6666,13 @@
       "serving": [
         "Transfer the fried rice to a large serving platter or individual bowls.",
         "Scatter the thinly sliced green parts of the Green Onions generously over the top.",
-        "Serve immediately \u2014 fried rice is best eaten straight from the wok while the texture is at its peak."
+        "Serve immediately — fried rice is best eaten straight from the wok while the texture is at its peak."
       ],
       "tips": [
-        "Day-old rice is not optional \u2014 it is the single most important factor for non-sticky, perfectly textured fried rice.",
+        "Day-old rice is not optional — it is the single most important factor for non-sticky, perfectly textured fried rice.",
         "Maximum heat is the second rule. If your wok isn't smoking, the rice will steam instead of fry. Cook in batches if your burner isn't powerful enough.",
-        "Sear the beef in a single uncrowded layer \u2014 piling it up traps steam and prevents the crust from forming.",
-        "The garlic butter is the secret weapon. Let it go a shade darker than you think is safe \u2014 that deep golden garlic is what makes this recipe irresistible."
+        "Sear the beef in a single uncrowded layer — piling it up traps steam and prevents the crust from forming.",
+        "The garlic butter is the secret weapon. Let it go a shade darker than you think is safe — that deep golden garlic is what makes this recipe irresistible."
       ]
     }
   }
