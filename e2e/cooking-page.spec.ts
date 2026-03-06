@@ -170,20 +170,16 @@ test.describe('Cooking Page', () => {
     await expect(page.getByRole('heading', { name: 'Spaghetti Bolognese' })).toBeVisible()
   })
 
-  test('displays instruction sections', async ({ page }) => {
+  test('displays instruction steps', async ({ page }) => {
     const spaghettiCard = page.locator('.recipe-card').filter({ hasText: 'Spaghetti Bolognese' })
     await spaghettiCard.getByRole('checkbox').click()
-
     await page.getByRole('link', { name: 'Cooking' }).click()
-
     await page.locator('.recipe-instruction-card__header').click()
-
-    const instructionPhases = page.locator('.instruction-phase')
-    await expect(instructionPhases.first()).toBeVisible()
 
     const instructionSteps = page.locator('.instruction-step')
     const stepCount = await instructionSteps.count()
     expect(stepCount).toBeGreaterThan(0)
+    await expect(instructionSteps.first()).toBeVisible()
   })
 
   test('cooking page badge updates with selection count', async ({ page }) => {

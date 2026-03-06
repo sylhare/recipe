@@ -107,26 +107,6 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
     return <>{parts.length > 0 ? parts : text}</>
   }
 
-  const renderInstructionPhase = (title: string, icon: string, steps: string[]) => {
-    if (!steps || steps.length === 0) return null
-
-    return (
-      <div className="instruction-phase">
-        <h4 className="instruction-phase__title">
-          <span className="instruction-phase__icon">{icon}</span>
-          {title}
-        </h4>
-        <ol className="instruction-phase__steps">
-          {steps.map((step, index) => (
-            <li key={index} className="instruction-step">
-              {highlightIngredients(step)}
-            </li>
-          ))}
-        </ol>
-      </div>
-    )
-  }
-
   const renderTips = (tips: string[]) => {
     if (!tips || tips.length === 0) return null
 
@@ -224,9 +204,13 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
           </div>
 
           <div className="recipe-instruction-card__instructions">
-            {renderInstructionPhase('Preparation', '🔪', recipe.instructions.preparation)}
-            {renderInstructionPhase('Cooking', '🍳', recipe.instructions.cooking)}
-            {renderInstructionPhase('Serving', '🍽️', recipe.instructions.serving)}
+            <ol className="instruction-phase__steps">
+              {recipe.instructions.steps.map((step, index) => (
+                <li key={index} className="instruction-step">
+                  {highlightIngredients(step)}
+                </li>
+              ))}
+            </ol>
             {renderTips(recipe.instructions.tips || [])}
           </div>
         </div>

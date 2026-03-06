@@ -1,9 +1,7 @@
 import type { Ingredient } from './Ingredient'
 
 export interface EnhancedInstructions {
-  preparation: string[]
-  cooking: string[]
-  serving: string[]
+  steps: string[]
   tips?: string[]
 }
 
