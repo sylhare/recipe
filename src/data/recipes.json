@@ -6519,5 +6519,173 @@
         "The garlic butter is the secret weapon. Let it go a shade darker than you think is safe — that deep golden garlic is what makes this recipe irresistible."
       ]
     }
+  },
+  {
+    "id": "galette-bretonne",
+    "name": "Galette Bretonne",
+    "description": "Traditional Breton buckwheat crêpe filled with ham, cheese, and egg",
+    "imageUrl": "/images/recipes/galette-bretonne.png",
+    "defaultServings": 4,
+    "ingredients": [
+      {
+        "id": "galette-bretonne-1",
+        "name": "Buckwheat Flour",
+        "quantity": 250,
+        "unit": "g",
+        "category": "pantry"
+      },
+      {
+        "id": "galette-bretonne-2",
+        "name": "Water",
+        "quantity": 500,
+        "unit": "ml",
+        "category": "pantry"
+      },
+      {
+        "id": "galette-bretonne-3",
+        "name": "Eggs",
+        "quantity": 5,
+        "unit": "piece",
+        "category": "produce"
+      },
+      {
+        "id": "galette-bretonne-4",
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "galette-bretonne-5",
+        "name": "Butter",
+        "quantity": 50,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "galette-bretonne-6",
+        "name": "Ham",
+        "quantity": 200,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "galette-bretonne-7",
+        "name": "Gruyere Cheese",
+        "quantity": 150,
+        "unit": "g",
+        "category": "dairy"
+      }
+    ],
+    "instructions": {
+      "steps": [
+        "Combine the Buckwheat Flour and Salt in a large mixing bowl and make a well in the center.",
+        "Crack one of the Eggs into the well and begin incorporating the flour from the edges.",
+        "Gradually pour in the Water while whisking continuously until the batter is smooth and lump-free.",
+        "Melt 30g of the Butter and whisk it into the batter.",
+        "Cover and refrigerate the batter for at least 1 hour — or ideally overnight — to allow the buckwheat to fully hydrate.",
+        "Remove the batter from the refrigerator and whisk to recombine; if it is too thick, stir in a splash of cold water until it coats the back of a spoon.",
+        "Slice the Ham into thin strips, grate the Gruyere Cheese, and crack the remaining Eggs one by one into individual small bowls.",
+        "Heat a crêpe pan or flat skillet over medium-high heat for 2 minutes until very hot.",
+        "Brush the pan with a thin layer of the remaining Butter.",
+        "Pour approximately 80ml of batter into the center and immediately tilt the pan in a circular motion to spread it into a thin, even round about 30cm in diameter.",
+        "Cook over medium heat for 2-3 minutes until the edges look dry and slightly crispy and the underside is golden brown.",
+        "Flip the galette and cook for 30-45 seconds on the second side.",
+        "Scatter a portion of grated Gruyere Cheese over the center, lay a strip of Ham on top, then slide one of the cracked Eggs into the center.",
+        "Fold the four sides of the galette inward to form a square, leaving the egg yolk visible in the center.",
+        "Cover the pan and cook over medium-low heat for 2-3 minutes until the egg white is just set but the yolk remains runny.",
+        "Slide the galette onto a warm plate and serve immediately.",
+        "Repeat for the remaining galettes, brushing the pan with Butter between each one."
+      ],
+      "tips": [
+        "Resting the batter is non-negotiable — buckwheat flour needs time to fully hydrate, and a rested batter spreads more evenly and produces crispier edges.",
+        "Authentic Breton galettes use pure buckwheat flour and no wheat; if buckwheat is hard to find, a blend of 80% buckwheat and 20% wheat flour makes a more forgiving batter.",
+        "Galettes freeze beautifully — stack them between sheets of parchment paper, wrap well, and freeze for up to 2 months; reheat directly in a hot dry pan for 1-2 minutes per side.",
+        "For the full Breton experience, serve with a chilled bowl of brut Breton cider and follow with sweet crêpes for dessert."
+      ]
+    }
+  },
+  {
+    "id": "crepe-bretonne",
+    "name": "Crêpe Bretonne",
+    "description": "Classic Breton sweet crêpe made with salted butter and vanilla",
+    "imageUrl": "/images/recipes/crepe-bretonne.png",
+    "defaultServings": 4,
+    "ingredients": [
+      {
+        "id": "crepe-bretonne-1",
+        "name": "Wheat Flour",
+        "quantity": 250,
+        "unit": "g",
+        "category": "pantry"
+      },
+      {
+        "id": "crepe-bretonne-2",
+        "name": "Whole Milk",
+        "quantity": 500,
+        "unit": "ml",
+        "category": "dairy"
+      },
+      {
+        "id": "crepe-bretonne-3",
+        "name": "Eggs",
+        "quantity": 3,
+        "unit": "piece",
+        "category": "produce"
+      },
+      {
+        "id": "crepe-bretonne-4",
+        "name": "Sugar",
+        "quantity": 2,
+        "unit": "tbsp",
+        "category": "pantry"
+      },
+      {
+        "id": "crepe-bretonne-5",
+        "name": "Salted Butter",
+        "quantity": 60,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "crepe-bretonne-6",
+        "name": "Vanilla Extract",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "crepe-bretonne-7",
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "pinch",
+        "category": "spices"
+      }
+    ],
+    "instructions": {
+      "steps": [
+        "Sift the Wheat Flour and Salt into a large mixing bowl and make a well in the center.",
+        "Add the Eggs and Sugar to the well and whisk from the center outward, gradually incorporating the flour.",
+        "Slowly pour in the Whole Milk while whisking continuously until the batter is completely smooth and free of lumps.",
+        "Melt 40g of the Salted Butter, let it cool slightly, then whisk it into the batter along with the Vanilla Extract.",
+        "Cover and rest the batter at room temperature for 30 minutes — this relaxes the gluten for more tender crêpes.",
+        "After resting, whisk the batter once more; it should be the consistency of thin cream — add a splash of milk if needed.",
+        "Heat a crêpe pan or non-stick skillet over medium-high heat for 1-2 minutes until hot.",
+        "Rub the remaining Salted Butter onto the pan using a folded paper towel.",
+        "Pour approximately 60ml of batter into the center and immediately tilt the pan in a circular motion to spread it thinly and evenly.",
+        "Cook over medium heat for 1-2 minutes until the edges curl slightly and the underside is lightly golden.",
+        "Flip with a thin spatula and cook the second side for 30-45 seconds until pale golden.",
+        "Slide the crêpe onto a warm plate and cover loosely with a clean kitchen towel to keep warm and moist.",
+        "Repeat with the remaining batter, stacking crêpes on top of each other — the stack stays warm and the crêpes stay supple.",
+        "Spread each warm crêpe generously with softened Salted Butter, sprinkle with Sugar, fold into quarters, and serve immediately.",
+        "For a classic Breton presentation, arrange the folded crêpes on a platter with a small bowl of extra melted Salted Butter on the side."
+      ],
+      "tips": [
+        "Resting the batter is essential — a rested batter produces thinner, more tender crêpes that roll and fold without tearing.",
+        "In Brittany, salted butter (beurre salé or beurre demi-sel) is the defining ingredient — never substitute unsalted butter, as that sweet-salty balance is the soul of the Breton crêpe.",
+        "Crêpes keep well: stack on a plate, cover with plastic wrap, and refrigerate for up to 3 days, or freeze for up to 2 months with a sheet of parchment between each one.",
+        "For crêpe au caramel au beurre salé, drizzle warm salted caramel over the crêpe, fold in quarters, and finish with a knob of salted butter for an iconic Breton dessert."
+      ]
+    }
   }
 ]
