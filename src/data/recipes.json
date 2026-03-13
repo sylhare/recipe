@@ -6522,8 +6522,8 @@
   },
   {
     "id": "galette-bretonne",
-    "name": "Galette Bretonne",
-    "description": "Traditional Breton buckwheat crêpe filled with ham, cheese, and egg",
+    "name": "Galette de Sarrasin",
+    "description": "Traditional Breton buckwheat galette filled with ham, cheese, and egg",
     "imageUrl": "/images/recipes/galette-bretonne.png",
     "defaultServings": 4,
     "ingredients": [
