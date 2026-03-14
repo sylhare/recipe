@@ -26,9 +26,14 @@ const mockRecipe: Recipe = {
     { id: 'ing-3', name: 'eggs', quantity: 3, unit: 'piece', category: 'dairy' },
   ],
   instructions: {
-    preparation: ['Preheat oven to 350°F.', 'Measure out all flour and sugar.'],
-    cooking: ['Mix ingredients in a bowl.', 'Pour batter into pan.'],
-    serving: ['Let cool for 10 minutes.', 'Serve with fresh fruit.'],
+    steps: [
+      'Preheat oven to 350°F.',
+      'Measure out all flour and sugar.',
+      'Mix ingredients in a bowl.',
+      'Pour batter into pan.',
+      'Let cool for 10 minutes.',
+      'Serve with fresh fruit.',
+    ],
     tips: ['Use room temperature eggs for best results.', 'Sift the flour for fluffier texture.'],
   },
 }
@@ -145,36 +150,14 @@ describe('RecipeInstructionCard', () => {
   })
 
   describe('instructions', () => {
-    it('renders Preparation section with icon', async () => {
+    it('renders all steps in a numbered list', async () => {
       render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
 
       const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
       await userEvent.click(header!)
 
-      expect(screen.getByText('Preparation')).toBeInTheDocument()
-      expect(screen.getByText('🔪')).toBeInTheDocument()
       expect(screen.getByText(/Preheat oven/)).toBeInTheDocument()
-    })
-
-    it('renders Cooking section with icon', async () => {
-      render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
-
-      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
-      await userEvent.click(header!)
-
-      expect(screen.getByText('Cooking')).toBeInTheDocument()
-      expect(screen.getByText('🍳')).toBeInTheDocument()
       expect(screen.getByText(/Mix ingredients/)).toBeInTheDocument()
-    })
-
-    it('renders Serving section with icon', async () => {
-      render(<RecipeInstructionCard recipe={mockRecipe} servings={4} />)
-
-      const header = screen.getByText('Test Recipe').closest('.recipe-instruction-card__header')
-      await userEvent.click(header!)
-
-      expect(screen.getByText('Serving')).toBeInTheDocument()
-      expect(screen.getByText('🍽️')).toBeInTheDocument()
       expect(screen.getByText(/Let cool for/)).toBeInTheDocument()
     })
 
