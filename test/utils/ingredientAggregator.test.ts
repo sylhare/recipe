@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest'
+import { describe, it, expect, vi } from 'vitest'
 import { aggregateIngredients, groupByCategory, formatQuantity, convertToMl } from '../../src/utils/ingredientAggregator'
 import type { Recipe, RecipeSelection } from '../../src/types'
 
@@ -159,6 +159,29 @@ describe('ingredientAggregator', () => {
     it('does not convert piece', () => {
       const result = convertToMl(3, 'piece')
       expect(result).toEqual({ quantity: 3, unit: 'piece' })
+    })
+  })
+
+  describe('nameResolver callback', () => {
+    it('uses nameResolver when provided', () => {
+      const selections: RecipeSelection[] = [{ recipeId: 'recipe-1', servings: 4 }]
+      const nameResolver = vi.fn((recipeId: string, ingredientId: string) => {
+        if (recipeId === 'recipe-1' && ingredientId === '1') return 'Pâtes'
+        return ''
+      })
+
+      const result = aggregateIngredients(mockRecipes, selections, nameResolver)
+
+      expect(nameResolver).toHaveBeenCalled()
+      const pasta = result.find(i => i.ingredientName === 'Pâtes')
+      expect(pasta).toBeDefined()
+    })
+
+    it('uses ingredient.name when nameResolver is not provided', () => {
+      const selections: RecipeSelection[] = [{ recipeId: 'recipe-1', servings: 4 }]
+      const result = aggregateIngredients(mockRecipes, selections)
+
+      expect(result.find(i => i.ingredientName === 'Pasta')).toBeDefined()
     })
   })
 

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { RecipeList, RecipeFilters } from '../../components/recipe'
 import { useRecipeContext } from '../../context/RecipeContext'
 import { filterRecipes, searchRecipes, type DishType, type ProteinType } from '../../utils/recipeFilters'
@@ -6,6 +7,7 @@ import './index.css'
 
 export default function HomePage() {
   const { recipes } = useRecipeContext()
+  const { t } = useTranslation()
   const [dishTypeFilter, setDishTypeFilter] = useState<DishType | 'all'>('all')
   const [proteinTypeFilter, setProteinTypeFilter] = useState<ProteinType | 'all'>('all')
   const [searchQuery, setSearchQuery] = useState('')
@@ -16,8 +18,8 @@ export default function HomePage() {
   return (
     <div className="home-page">
       <div className="home-page__header">
-        <h1>Choose Your Recipes</h1>
-        <p>Select recipes to add ingredients to your shopping list</p>
+        <h1>{t('home.title')}</h1>
+        <p>{t('home.subtitle')}</p>
       </div>
       <RecipeFilters
         dishTypeFilter={dishTypeFilter}

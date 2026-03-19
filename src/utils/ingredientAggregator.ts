@@ -35,7 +35,8 @@ function parseAggregationKey(key: string): AggregationKey {
 
 export function aggregateIngredients(
   recipes: Recipe[],
-  selections: RecipeSelection[]
+  selections: RecipeSelection[],
+  nameResolver?: (recipeId: string, ingredientId: string) => string
 ): ShoppingListItem[] {
   const aggregated = new Map<string, {
     totalQuantity: number
@@ -50,6 +51,9 @@ export function aggregateIngredients(
     if (!recipe) continue
 
     for (const ingredient of recipe.ingredients) {
+      const resolvedName = nameResolver
+        ? nameResolver(recipe.id, ingredient.id)
+        : ingredient.name
       const key = createAggregationKey(ingredient.name, ingredient.unit, ingredient.category)
       const scaledQuantity = scaleQuantity(
         ingredient.quantity,
@@ -66,7 +70,7 @@ export function aggregateIngredients(
       } else {
         aggregated.set(key, {
           totalQuantity: convertedQuantity,
-          displayName: ingredient.name,
+          displayName: resolvedName,
           unit: convertedUnit,
           category: ingredient.category,
           sourceRecipes: new Set([recipe.id]),

@@ -1,10 +1,17 @@
 import { Link, useLocation } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { useRecipeContext } from '../../context/RecipeContext'
 import './Header.css'
 
 export function Header() {
   const location = useLocation()
   const { selections } = useRecipeContext()
+  const { t, i18n } = useTranslation()
+
+  const handleLanguageChange = (lang: string) => {
+    i18n.changeLanguage(lang)
+    localStorage.setItem('language', lang)
+  }
 
   return (
     <header className="header">
@@ -17,13 +24,13 @@ export function Header() {
             to="/"
             className={`header__link ${location.pathname === '/' ? 'header__link--active' : ''}`}
           >
-            Recipes
+            {t('nav.recipes')}
           </Link>
           <Link
             to="/cooking"
             className={`header__link ${location.pathname === '/cooking' ? 'header__link--active' : ''}`}
           >
-            Cooking
+            {t('nav.cooking')}
             {selections.length > 0 && (
               <span className="header__badge">{selections.length}</span>
             )}
@@ -32,9 +39,26 @@ export function Header() {
             to="/shopping-list"
             className={`header__link ${location.pathname === '/shopping-list' ? 'header__link--active' : ''}`}
           >
-            Shopping List
+            {t('nav.shoppingList')}
           </Link>
         </nav>
+        <div className="header__lang-switcher">
+          <button
+            className={`header__lang-btn ${i18n.language === 'en' ? 'header__lang-btn--active' : ''}`}
+            onClick={() => handleLanguageChange('en')}
+            aria-label="Switch to English"
+          >
+            {t('language.en')}
+          </button>
+          <span className="header__lang-sep" aria-hidden="true">|</span>
+          <button
+            className={`header__lang-btn ${i18n.language === 'fr' ? 'header__lang-btn--active' : ''}`}
+            onClick={() => handleLanguageChange('fr')}
+            aria-label="Switch to French"
+          >
+            {t('language.fr')}
+          </button>
+        </div>
       </div>
     </header>
   )

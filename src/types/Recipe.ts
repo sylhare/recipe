@@ -5,6 +5,13 @@ export interface EnhancedInstructions {
   tips?: string[]
 }
 
+export interface RecipeTranslation {
+  name: string
+  description: string
+  ingredientNames: Record<string, string>
+  instructions: EnhancedInstructions
+}
+
 export interface Recipe {
   id: string
   name: string
@@ -13,6 +20,7 @@ export interface Recipe {
   defaultServings: number
   ingredients: Ingredient[]
   instructions: EnhancedInstructions
+  translations?: Record<string, RecipeTranslation>
 }
 
 export interface RecipeSelection {

@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "recipes": "Recipes",
+    "cooking": "Cooking",
+    "shoppingList": "Shopping List"
+  },
+  "home": {
+    "title": "Choose Your Recipes",
+    "subtitle": "Select recipes to add ingredients to your shopping list",
+    "search": {
+      "label": "Search",
+      "placeholder": "Search by name or ingredient…"
+    },
+    "filters": {
+      "dishLabel": "Dish Type",
+      "proteinLabel": "Protein",
+      "allDishes": "All Dishes",
+      "allProteins": "All Proteins",
+      "clearFilters": "Clear Filters",
+      "showing": "Showing {{count}} of {{total}} recipes",
+      "total": "{{count}} recipes",
+      "dish": {
+        "salad": "Salads",
+        "pasta": "Pasta",
+        "rice": "Rice Dishes",
+        "noodles": "Noodles",
+        "soup": "Soups & Stews",
+        "tacos": "Tacos & Mexican",
+        "sandwich": "Sandwiches & Wraps",
+        "bowl": "Bowls",
+        "other": "Other"
+      },
+      "protein": {
+        "beef": "Beef",
+        "chicken": "Chicken",
+        "pork": "Pork",
+        "lamb": "Lamb",
+        "fish": "Fish",
+        "seafood": "Seafood",
+        "vegetarian": "Vegetarian",
+        "mixed": "Mixed"
+      }
+    }
+  },
+  "cooking": {
+    "title": "Cooking Instructions",
+    "noRecipes": "No recipes selected",
+    "noRecipesHint": "Select some recipes from the Recipes tab to see cooking instructions here.",
+    "recipesSelected_one": "1 recipe selected",
+    "recipesSelected_other": "{{count}} recipes selected",
+    "ingredients": "Ingredients",
+    "instructions": "Instructions",
+    "tips": "Pro Tips",
+    "servings": "Servings"
+  },
+  "shopping": {
+    "title": "Shopping List",
+    "subtitle": "Check off items as you shop",
+    "empty": {
+      "line1": "No items in your shopping list.",
+      "line2": "Select some recipes to get started."
+    },
+    "counter": "{{checked}} of {{total}} items checked",
+    "clearAll": "Clear All",
+    "addMore": "Add More Recipes",
+    "categories": {
+      "produce": "Produce",
+      "meat": "Meat",
+      "dairy": "Dairy",
+      "pantry": "Pantry",
+      "spices": "Spices"
+    }
+  },
+  "common": {
+    "servings": "servings"
+  },
+  "language": {
+    "en": "EN",
+    "fr": "FR"
+  }
+}

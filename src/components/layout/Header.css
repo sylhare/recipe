@@ -66,6 +66,38 @@
   text-align: center;
 }
 
+.header__lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.header__lang-sep {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 0.875rem;
+}
+
+.header__lang-btn {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.25rem 0.375rem;
+  border-radius: 4px;
+  transition: color 0.15s ease;
+  letter-spacing: 0.05em;
+}
+
+.header__lang-btn:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.header__lang-btn--active {
+  color: #646cff;
+}
+
 @media (prefers-color-scheme: light) {
   .header {
     background-color: white;
@@ -78,5 +110,17 @@
 
   .header__link:hover {
     color: black;
+  }
+
+  .header__lang-sep {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .header__lang-btn {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .header__lang-btn:hover {
+    color: rgba(0, 0, 0, 0.9);
   }
 }

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { useRecipeContext } from '../context/RecipeContext'
 import { RecipeInstructionCard } from '../components/cooking/RecipeInstructionCard'
 import { Button, ConfirmDialog } from '../components/common'
@@ -7,6 +8,7 @@ import './CookingPage.css'
 export default function CookingPage() {
   const [showClearConfirm, setShowClearConfirm] = useState(false)
   const { recipes, selections, clearAll } = useRecipeContext()
+  const { t } = useTranslation()
 
   const selectedRecipes = selections
     .map(sel => {
@@ -19,8 +21,8 @@ export default function CookingPage() {
     return (
       <div className="cooking-page">
         <div className="cooking-page__empty">
-          <h2>No recipes selected</h2>
-          <p>Select some recipes from the Recipes tab to see cooking instructions here.</p>
+          <h2>{t('cooking.noRecipes')}</h2>
+          <p>{t('cooking.noRecipesHint')}</p>
         </div>
       </div>
     )
@@ -30,13 +32,13 @@ export default function CookingPage() {
     <div className="cooking-page">
       <header className="cooking-page__header">
         <div className="cooking-page__header-content">
-          <h1>Cooking Instructions</h1>
+          <h1>{t('cooking.title')}</h1>
           <p className="cooking-page__subtitle">
-            {selectedRecipes.length} recipe{selectedRecipes.length !== 1 ? 's' : ''} selected
+            {t('cooking.recipesSelected', { count: selectedRecipes.length })}
           </p>
         </div>
         <Button variant="danger" onClick={() => setShowClearConfirm(true)}>
-          Clear All
+          {t('shopping.clearAll')}
         </Button>
       </header>
       <div className="cooking-page__list">

@@ -1,9 +1,10 @@
-import { createContext, useContext, useMemo, type ReactNode } from 'react'
+import { createContext, useContext, useMemo, useCallback, type ReactNode } from 'react'
 import type { ShoppingListItem, IngredientCategory } from '../types'
 import { useLocalStorage } from '../hooks/useLocalStorage'
 import { STORAGE_KEYS } from '../utils/storage'
 import { aggregateIngredients, groupByCategory } from '../utils/ingredientAggregator'
 import { useRecipeContext } from './RecipeContext'
+import { useRecipeLocale } from '../hooks/useRecipeLocale'
 
 interface ShoppingListContextValue {
   items: ShoppingListItem[]
@@ -21,10 +22,17 @@ const ShoppingListContext = createContext<ShoppingListContextValue | null>(null)
 export function ShoppingListProvider({ children }: { children: ReactNode }) {
   const { recipes, selections, clearAll: clearRecipeSelections } = useRecipeContext()
   const [checkedIds, setCheckedIds] = useLocalStorage<string[]>(STORAGE_KEYS.CHECKED_ITEMS, [])
+  const { getIngredientName } = useRecipeLocale()
+
+  const nameResolver = useCallback((recipeId: string, ingredientId: string): string => {
+    const recipe = recipes.find(r => r.id === recipeId)
+    if (!recipe) return ingredientId
+    return getIngredientName(recipe, ingredientId)
+  }, [recipes, getIngredientName])
 
   const items = useMemo(() => {
-    return aggregateIngredients(recipes, selections)
-  }, [recipes, selections])
+    return aggregateIngredients(recipes, selections, nameResolver)
+  }, [recipes, selections, nameResolver])
 
   const groupedItems = useMemo(() => {
     return groupByCategory(items)

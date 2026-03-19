@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "recipes": "Recettes",
+    "cooking": "Cuisine",
+    "shoppingList": "Liste de courses"
+  },
+  "home": {
+    "title": "Choisissez vos recettes",
+    "subtitle": "Sélectionnez des recettes pour ajouter des ingrédients à votre liste de courses",
+    "search": {
+      "label": "Rechercher",
+      "placeholder": "Rechercher par nom ou ingrédient…"
+    },
+    "filters": {
+      "dishLabel": "Type de plat",
+      "proteinLabel": "Protéine",
+      "allDishes": "Tous les plats",
+      "allProteins": "Toutes les protéines",
+      "clearFilters": "Effacer les filtres",
+      "showing": "Affichage de {{count}} sur {{total}} recettes",
+      "total": "{{count}} recettes",
+      "dish": {
+        "salad": "Salades",
+        "pasta": "Pâtes",
+        "rice": "Plats de riz",
+        "noodles": "Nouilles",
+        "soup": "Soupes & Ragoûts",
+        "tacos": "Tacos & Mexicain",
+        "sandwich": "Sandwichs & Wraps",
+        "bowl": "Bols",
+        "other": "Autre"
+      },
+      "protein": {
+        "beef": "Bœuf",
+        "chicken": "Poulet",
+        "pork": "Porc",
+        "lamb": "Agneau",
+        "fish": "Poisson",
+        "seafood": "Fruits de mer",
+        "vegetarian": "Végétarien",
+        "mixed": "Mixte"
+      }
+    }
+  },
+  "cooking": {
+    "title": "Instructions de cuisine",
+    "noRecipes": "Aucune recette sélectionnée",
+    "noRecipesHint": "Sélectionnez des recettes dans l'onglet Recettes pour voir les instructions ici.",
+    "recipesSelected_one": "1 recette sélectionnée",
+    "recipesSelected_other": "{{count}} recettes sélectionnées",
+    "ingredients": "Ingrédients",
+    "instructions": "Instructions",
+    "tips": "Conseils",
+    "servings": "Portions"
+  },
+  "shopping": {
+    "title": "Liste de courses",
+    "subtitle": "Cochez les articles au fur et à mesure",
+    "empty": {
+      "line1": "Aucun article dans votre liste de courses.",
+      "line2": "Sélectionnez des recettes pour commencer."
+    },
+    "counter": "{{checked}} sur {{total}} articles cochés",
+    "clearAll": "Tout effacer",
+    "addMore": "Ajouter des recettes",
+    "categories": {
+      "produce": "Fruits & légumes",
+      "meat": "Viandes",
+      "dairy": "Produits laitiers",
+      "pantry": "Épicerie",
+      "spices": "Épices"
+    }
+  },
+  "common": {
+    "servings": "portions"
+  },
+  "language": {
+    "en": "EN",
+    "fr": "FR"
+  }
+}
