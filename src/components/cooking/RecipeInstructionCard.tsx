@@ -39,15 +39,14 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
   const { deselectRecipe, updateServings } = useRecipeContext()
   const [imageError, setImageError] = useState(false)
   const { t } = useTranslation()
-  const { getTranslation, getIngredientName } = useRecipeLocale()
+  const { getTranslation } = useRecipeLocale()
 
   const translation = getTranslation(recipe)
   const scaleFactor = servings / recipe.defaultServings
 
   const mergedIngredients = useMemo(
-    () => mergeIngredients(recipe.ingredients, id => getIngredientName(recipe, id)),
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    [recipe]
+    () => mergeIngredients(recipe.ingredients, id => translation.ingredientNames[id] ?? id),
+    [recipe.ingredients, translation.ingredientNames]
   )
 
   const scaleQuantity = (quantity: number): string => {
@@ -62,8 +61,8 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
     // Sort ingredients by translated name length (longest first) to avoid partial matches
     const sortedIngredients = [...recipe.ingredients].sort(
       (a, b) => {
-        const nameA = getIngredientName(recipe, a.id)
-        const nameB = getIngredientName(recipe, b.id)
+        const nameA = translation.ingredientNames[a.id] ?? a.id
+        const nameB = translation.ingredientNames[b.id] ?? b.id
         return nameB.length - nameA.length
       }
     )
@@ -72,7 +71,7 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
     const mentions: { start: number; end: number; ingredient: typeof recipe.ingredients[0] }[] = []
 
     for (const ingredient of sortedIngredients) {
-      const translatedName = getIngredientName(recipe, ingredient.id)
+      const translatedName = translation.ingredientNames[ingredient.id] ?? ingredient.id
       const regex = new RegExp(`\\b${translatedName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'gi')
       let match
       while ((match = regex.exec(text)) !== null) {
@@ -207,7 +206,7 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
                   <span className="ingredients-list__quantity">
                     {scaleQuantity(ingredient.mergedQuantity)} {ingredient.unit}
                   </span>
-                  <span className="ingredients-list__name">{getIngredientName(recipe, ingredient.id)}</span>
+                  <span className="ingredients-list__name">{translation.ingredientNames[ingredient.id] ?? ingredient.id}</span>
                 </li>
               ))}
             </ul>

@@ -13,10 +13,12 @@ export default function HomePage() {
   const [proteinTypeFilter, setProteinTypeFilter] = useState<ProteinType | 'all'>('all')
   const [searchQuery, setSearchQuery] = useState('')
 
-  const enTranslations: Record<string, RecipeTranslation> = i18n.getResourceBundle('en', 'recipes') ?? {}
+  const translations: Record<string, RecipeTranslation> =
+    i18n.getResourceBundle(i18n.language, 'recipes') ??
+    i18n.getResourceBundle('en', 'recipes') ?? {}
 
-  const filteredRecipes = filterRecipes(recipes, dishTypeFilter, proteinTypeFilter, enTranslations)
-  const displayedRecipes = searchRecipes(filteredRecipes, searchQuery, enTranslations)
+  const filteredRecipes = filterRecipes(recipes, dishTypeFilter, proteinTypeFilter, translations)
+  const displayedRecipes = searchRecipes(filteredRecipes, searchQuery, translations)
 
   return (
     <div className="home-page">
