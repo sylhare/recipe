@@ -61,7 +61,7 @@ describe('quantityScaler', () => {
       expect(scaled[0].name).toEqual('Flour')
       expect(scaled[0].unit).toEqual('g')
       expect(scaled[0].category).toEqual('pantry')
-      expect(scaled[0].quantity).toEqual(200) // Original unchanged
+      expect(scaled[0].quantity).toEqual(200)
     })
 
     it('returns empty array for empty ingredients', () => {

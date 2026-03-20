@@ -57,8 +57,7 @@ describe('NumberInput', () => {
     render(<NumberInput value={4} onChange={handleChange} />)
 
     const input = screen.getByRole('spinbutton')
-    // fireEvent simulates typing - value gets parsed and validated
-    await userEvent.tripleClick(input) // Select all
+    await userEvent.tripleClick(input)
     await userEvent.keyboard('8')
     expect(handleChange).toHaveBeenCalledWith(8)
   })

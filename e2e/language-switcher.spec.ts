@@ -13,8 +13,6 @@ test.describe('Language Switcher', () => {
     await expect(page.getByRole('link', { name: 'Shopping List' })).toBeVisible()
 
     await expect(page.getByRole('heading', { name: 'Choose Your Recipes' })).toBeVisible()
-
-    // Spaghetti Bolognese should show English name
     await expect(page.getByRole('heading', { name: 'Spaghetti Bolognese' })).toBeVisible()
   })
 
@@ -31,32 +29,26 @@ test.describe('Language Switcher', () => {
   test('recipe names and descriptions switch to French for translated recipes', async ({ page }) => {
     await page.getByRole('button', { name: 'Switch to FR' }).click()
 
-    // Spaghetti Bolognese has FR translation
     await expect(page.getByRole('heading', { name: 'Spaghetti Bolognaise' })).toBeVisible()
     await expect(page.getByText('Pâtes italiennes classiques avec une riche sauce à la viande')).toBeVisible()
 
-    // Galette and Crêpe are also translated
     await expect(page.getByRole('heading', { name: 'Galette de Sarrasin' })).toBeVisible()
     await expect(page.getByRole('heading', { name: 'Crêpe Bretonne' })).toBeVisible()
   })
 
   test('ingredient names in shopping list switch to French', async ({ page }) => {
-    // Select Spaghetti Bolognese
     const spaghettiCard = page.locator('.recipe-card').filter({ hasText: 'Spaghetti Bolognese' })
     await spaghettiCard.getByRole('checkbox').click()
 
     await page.getByRole('button', { name: 'Switch to FR' }).click()
 
-    // Navigate to shopping list
     await page.getByRole('link', { name: 'Liste de courses' }).click()
     await expect(page.getByRole('heading', { name: 'Liste de courses' })).toBeVisible()
 
-    // Ingredient names should be in French
     await expect(page.getByText(/Bœuf haché/)).toBeVisible()
     await expect(page.getByText(/Oignon/)).toBeVisible()
     await expect(page.getByText(/Parmesan/)).toBeVisible()
 
-    // Category labels should be in French
     await expect(page.getByText('Viandes')).toBeVisible()
     await expect(page.getByText('Épicerie')).toBeVisible()
   })
@@ -67,7 +59,6 @@ test.describe('Language Switcher', () => {
 
     await page.reload()
 
-    // Language should still be French
     await expect(page.getByRole('link', { name: 'Recettes' })).toBeVisible()
     await expect(page.getByRole('heading', { name: 'Choisissez vos recettes' })).toBeVisible()
   })

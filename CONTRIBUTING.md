@@ -39,6 +39,7 @@ npm run test:e2e:ui
 #### Testing Guidelines
 
 - **Always use `toEqual` instead of `toBe`** for assertions. `toBe` uses `Object.is` (strict reference equality), which can produce misleading failures for values that are logically equal. `toEqual` performs deep equality and works correctly for primitives, objects, and arrays.
+- **No inline `//` comments in test or e2e files.** Test intent should be expressed through descriptive test names and assertion messages, not prose comments interspersed with code.
 
 ### Linting
 
