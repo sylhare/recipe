@@ -51,7 +51,13 @@
     "ingredients": "Ingredients",
     "instructions": "Instructions",
     "tips": "Pro Tips",
-    "servings": "Servings"
+    "servings": "Servings",
+    "removeRecipe": "Remove Recipe",
+    "removeRecipeConfirm": "Are you sure you want to remove \"{{name}}\" from your cooking list?",
+    "removeConfirmLabel": "Yes, Remove",
+    "clearAllTitle": "Clear All Recipes",
+    "clearAllConfirm": "Are you sure you want to remove all recipes from your cooking list?",
+    "clearAllConfirmLabel": "Yes, Clear All"
   },
   "shopping": {
     "title": "Shopping List",

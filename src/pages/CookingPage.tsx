@@ -53,9 +53,9 @@ export default function CookingPage() {
       <ConfirmDialog
         open={showClearConfirm}
         onOpenChange={setShowClearConfirm}
-        title="Clear All Recipes"
-        description="Are you sure you want to remove all recipes from your cooking list?"
-        confirmLabel="Yes, Clear All"
+        title={t('cooking.clearAllTitle')}
+        description={t('cooking.clearAllConfirm')}
+        confirmLabel={t('cooking.clearAllConfirmLabel')}
         onConfirm={clearAll}
       />
     </div>

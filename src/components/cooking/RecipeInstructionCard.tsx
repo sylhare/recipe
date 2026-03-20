@@ -179,9 +179,9 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
       <ConfirmDialog
         open={showRemoveConfirm}
         onOpenChange={setShowRemoveConfirm}
-        title="Remove Recipe"
-        description={`Are you sure you want to remove "${translation.name}" from your cooking list?`}
-        confirmLabel="Yes, Remove"
+        title={t('cooking.removeRecipe')}
+        description={t('cooking.removeRecipeConfirm', { name: translation.name })}
+        confirmLabel={t('cooking.removeConfirmLabel')}
         onConfirm={() => deselectRecipe(recipe.id)}
       />
 

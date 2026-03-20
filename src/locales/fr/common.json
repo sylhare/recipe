@@ -51,7 +51,13 @@
     "ingredients": "Ingrédients",
     "instructions": "Instructions",
     "tips": "Conseils",
-    "servings": "Portions"
+    "servings": "Portions",
+    "removeRecipe": "Supprimer la recette",
+    "removeRecipeConfirm": "Êtes-vous sûr de vouloir supprimer «\u00a0{{name}}\u00a0» de votre liste de cuisine\u00a0?",
+    "removeConfirmLabel": "Oui, supprimer",
+    "clearAllTitle": "Supprimer toutes les recettes",
+    "clearAllConfirm": "Êtes-vous sûr de vouloir supprimer toutes les recettes de votre liste de cuisine\u00a0?",
+    "clearAllConfirmLabel": "Oui, tout supprimer"
   },
   "shopping": {
     "title": "Liste de courses",
