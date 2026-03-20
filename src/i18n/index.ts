@@ -1,6 +1,7 @@
 import i18next from 'i18next'
 import { initReactI18next } from 'react-i18next'
 
+import { STORAGE_KEYS } from '../utils/storage'
 import enCommon from '../locales/en/common.json'
 import frCommon from '../locales/fr/common.json'
 import enRecipes from '../locales/en/recipes.json'
@@ -10,7 +11,7 @@ export const SUPPORTED_LANGUAGES = ['en', 'fr']
 
 function detectLanguage(): string {
   if (typeof localStorage !== 'undefined') {
-    const saved = localStorage.getItem('language')
+    const saved = localStorage.getItem(STORAGE_KEYS.LANGUAGE)
     if (saved && SUPPORTED_LANGUAGES.includes(saved)) return saved
   }
   if (typeof navigator !== 'undefined') {

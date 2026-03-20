@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useRecipeContext } from '../../context/RecipeContext'
 import { SUPPORTED_LANGUAGES } from '../../i18n'
+import { STORAGE_KEYS } from '../../utils/storage'
 import './Header.css'
 
 export function Header() {
@@ -12,7 +13,7 @@ export function Header() {
 
   const handleLanguageChange = (lang: string) => {
     i18n.changeLanguage(lang)
-    localStorage.setItem('language', lang)
+    localStorage.setItem(STORAGE_KEYS.LANGUAGE, lang)
   }
 
   return (
