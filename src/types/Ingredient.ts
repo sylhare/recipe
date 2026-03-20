@@ -4,7 +4,6 @@ export type IngredientCategory = 'produce' | 'meat' | 'dairy' | 'pantry' | 'spic
 
 export interface Ingredient {
   id: string
-  name: string
   quantity: number
   unit: Unit
   category: IngredientCategory

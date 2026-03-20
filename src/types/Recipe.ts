@@ -14,13 +14,9 @@ export interface RecipeTranslation {
 
 export interface Recipe {
   id: string
-  name: string
-  description: string
   imageUrl: string
   defaultServings: number
   ingredients: Ingredient[]
-  instructions: EnhancedInstructions
-  translations?: Record<string, RecipeTranslation>
 }
 
 export interface RecipeSelection {

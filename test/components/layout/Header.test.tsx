@@ -57,7 +57,7 @@ describe('Header', () => {
 
       await userEvent.click(screen.getByRole('button', { name: 'Switch to French' }))
 
-      expect(i18next.language).toBe('fr')
+      expect(i18next.language).toEqual('fr')
     })
 
     it('nav labels update to French after clicking FR', async () => {
@@ -74,7 +74,7 @@ describe('Header', () => {
 
       await userEvent.click(screen.getByRole('button', { name: 'Switch to French' }))
 
-      expect(localStorage.getItem('language')).toBe('fr')
+      expect(localStorage.getItem('language')).toEqual('fr')
     })
 
     it('switches back to English when EN button is clicked', async () => {
@@ -83,7 +83,7 @@ describe('Header', () => {
       await userEvent.click(screen.getByRole('button', { name: 'Switch to French' }))
       await userEvent.click(screen.getByRole('button', { name: 'Switch to English' }))
 
-      expect(i18next.language).toBe('en')
+      expect(i18next.language).toEqual('en')
       expect(screen.getByRole('link', { name: 'Recipes' })).toBeInTheDocument()
     })
   })

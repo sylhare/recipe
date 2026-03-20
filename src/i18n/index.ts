@@ -3,6 +3,8 @@ import { initReactI18next } from 'react-i18next'
 
 import enCommon from '../locales/en/common.json'
 import frCommon from '../locales/fr/common.json'
+import enRecipes from '../locales/en/recipes.json'
+import frRecipes from '../locales/fr/recipes.json'
 
 const savedLanguage = typeof localStorage !== 'undefined'
   ? (localStorage.getItem('language') ?? 'en')
@@ -13,11 +15,11 @@ i18next
   .init({
     lng: savedLanguage,
     fallbackLng: 'en',
-    ns: ['common'],
+    ns: ['common', 'recipes'],
     defaultNS: 'common',
     resources: {
-      en: { common: enCommon },
-      fr: { common: frCommon },
+      en: { common: enCommon, recipes: enRecipes },
+      fr: { common: frCommon, recipes: frRecipes },
     },
     interpolation: {
       escapeValue: false,

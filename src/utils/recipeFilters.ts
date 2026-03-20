@@ -1,4 +1,4 @@
-import type { Recipe, IngredientCategory } from '../types'
+import type { Recipe, RecipeTranslation, IngredientCategory } from '../types'
 
 export type DishType = 'salad' | 'pasta' | 'rice' | 'noodles' | 'soup' | 'tacos' | 'sandwich' | 'bowl' | 'other'
 export type ProteinType = 'beef' | 'chicken' | 'pork' | 'lamb' | 'fish' | 'seafood' | 'vegetarian' | 'mixed'
@@ -26,8 +26,8 @@ const PROTEIN_KEYWORDS: Record<ProteinType, string[]> = {
   mixed: [],
 }
 
-export function getDishType(recipe: Recipe): DishType {
-  const searchText = `${recipe.name} ${recipe.description}`.toLowerCase()
+export function getDishType(_recipe: Recipe, translation: RecipeTranslation): DishType {
+  const searchText = `${translation.name} ${translation.description}`.toLowerCase()
 
   for (const [type, keywords] of Object.entries(DISH_TYPE_KEYWORDS)) {
     if (type === 'other') continue
@@ -39,9 +39,9 @@ export function getDishType(recipe: Recipe): DishType {
   return 'other'
 }
 
-export function getProteinType(recipe: Recipe): ProteinType {
-  const nameAndDesc = `${recipe.name} ${recipe.description}`.toLowerCase()
-  const ingredientNames = recipe.ingredients.map(i => i.name.toLowerCase()).join(' ')
+export function getProteinType(_recipe: Recipe, translation: RecipeTranslation): ProteinType {
+  const nameAndDesc = `${translation.name} ${translation.description}`.toLowerCase()
+  const ingredientNames = Object.values(translation.ingredientNames).join(' ').toLowerCase()
   const searchText = `${nameAndDesc} ${ingredientNames}`
 
   const foundProteins: ProteinType[] = []
@@ -53,28 +53,25 @@ export function getProteinType(recipe: Recipe): ProteinType {
     }
   }
 
-  if (foundProteins.length === 0) {
-    return 'vegetarian'
-  }
-  if (foundProteins.length === 1) {
-    return foundProteins[0]
-  }
-  // If multiple proteins found, check if it's just beef variations or truly mixed
+  if (foundProteins.length === 0) return 'vegetarian'
+  if (foundProteins.length === 1) return foundProteins[0]
+
   const meatProteins = foundProteins.filter(p => !['vegetarian', 'seafood', 'fish'].includes(p))
-  if (meatProteins.length <= 1) {
-    return foundProteins[0]
-  }
+  if (meatProteins.length <= 1) return foundProteins[0]
   return 'mixed'
 }
 
 export function filterRecipes(
   recipes: Recipe[],
   dishTypeFilter: DishType | 'all',
-  proteinTypeFilter: ProteinType | 'all'
+  proteinTypeFilter: ProteinType | 'all',
+  translations: Record<string, RecipeTranslation>
 ): Recipe[] {
   return recipes.filter(recipe => {
-    const matchesDishType = dishTypeFilter === 'all' || getDishType(recipe) === dishTypeFilter
-    const matchesProteinType = proteinTypeFilter === 'all' || getProteinType(recipe) === proteinTypeFilter
+    const t = translations[recipe.id]
+    if (!t) return true
+    const matchesDishType = dishTypeFilter === 'all' || getDishType(recipe, t) === dishTypeFilter
+    const matchesProteinType = proteinTypeFilter === 'all' || getProteinType(recipe, t) === proteinTypeFilter
     return matchesDishType && matchesProteinType
   })
 }
@@ -99,7 +96,11 @@ const CATEGORY_KEYWORDS: Record<IngredientCategory, string[]> = {
   pantry: ['pantry'],
 }
 
-export function searchRecipes(recipes: Recipe[], query: string): Recipe[] {
+export function searchRecipes(
+  recipes: Recipe[],
+  query: string,
+  translations: Record<string, RecipeTranslation>
+): Recipe[] {
   const trimmed = query.trim()
   if (!trimmed) return recipes
 
@@ -109,30 +110,27 @@ export function searchRecipes(recipes: Recipe[], query: string): Recipe[] {
   type Scored = { recipe: Recipe; titleScore: number; ingredientScore: number }
 
   const scored: Scored[] = recipes.map(recipe => {
-    const titleLower = recipe.name.toLowerCase()
+    const t = translations[recipe.id]
+    const titleLower = t?.name.toLowerCase() ?? recipe.id
 
     const titleScore = words.filter(w => titleLower.includes(w)).length
 
     const ingredientScore = words.filter(w => {
       const category = (Object.entries(CATEGORY_KEYWORDS) as [IngredientCategory, string[]][])
         .find(([, synonyms]) => synonyms.includes(w))?.[0]
-      return recipe.ingredients.some(ing =>
-        ing.name.toLowerCase().includes(w) ||
-        (category !== undefined && ing.category === category)
-      )
+      return recipe.ingredients.some(ing => {
+        const ingName = t?.ingredientNames[ing.id]?.toLowerCase() ?? ''
+        return ingName.includes(w) || (category !== undefined && ing.category === category)
+      })
     }).length
 
     return { recipe, titleScore, ingredientScore }
   })
 
-  const matches = scored.filter(s => s.titleScore > 0 || s.ingredientScore > 0)
-
-  matches.sort((a, b) => {
-    if (a.titleScore !== b.titleScore) return b.titleScore - a.titleScore
-    return b.ingredientScore - a.ingredientScore
-  })
-
-  return matches.map(s => s.recipe)
+  return scored
+    .filter(s => s.titleScore > 0 || s.ingredientScore > 0)
+    .sort((a, b) => b.titleScore !== a.titleScore ? b.titleScore - a.titleScore : b.ingredientScore - a.ingredientScore)
+    .map(s => s.recipe)
 }
 
 export const PROTEIN_TYPE_LABELS: Record<ProteinType, string> = {

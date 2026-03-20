@@ -16,11 +16,11 @@ interface MergedIngredient extends Ingredient {
   mergedQuantity: number
 }
 
-function mergeIngredients(ingredients: Ingredient[]): MergedIngredient[] {
+function mergeIngredients(ingredients: Ingredient[], getName: (id: string) => string): MergedIngredient[] {
   const merged = new Map<string, MergedIngredient>()
 
   for (const ingredient of ingredients) {
-    const key = `${ingredient.name.toLowerCase()}|${ingredient.unit}`
+    const key = `${getName(ingredient.id).toLowerCase()}|${ingredient.unit}`
     const existing = merged.get(key)
 
     if (existing) {
@@ -45,8 +45,9 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
   const scaleFactor = servings / recipe.defaultServings
 
   const mergedIngredients = useMemo(
-    () => mergeIngredients(recipe.ingredients),
-    [recipe.ingredients]
+    () => mergeIngredients(recipe.ingredients, id => getIngredientName(recipe, id)),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [recipe]
   )
 
   const scaleQuantity = (quantity: number): string => {

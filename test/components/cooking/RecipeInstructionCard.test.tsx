@@ -1,6 +1,7 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
 import { render, screen, fireEvent } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
+import i18next from 'i18next'
 import { RecipeInstructionCard } from '../../../src/components/cooking/RecipeInstructionCard'
 import type { Recipe } from '../../../src/types'
 
@@ -16,31 +17,56 @@ vi.mock('../../../src/context/RecipeContext', () => ({
 
 const mockRecipe: Recipe = {
   id: 'test-recipe',
-  name: 'Test Recipe',
-  description: 'A delicious test recipe',
   imageUrl: '/test-image.png',
   defaultServings: 4,
   ingredients: [
-    { id: 'ing-1', name: 'flour', quantity: 2, unit: 'cup', category: 'pantry' },
-    { id: 'ing-2', name: 'sugar', quantity: 1, unit: 'cup', category: 'pantry' },
-    { id: 'ing-3', name: 'eggs', quantity: 3, unit: 'piece', category: 'dairy' },
+    { id: 'ing-1', quantity: 2, unit: 'cup', category: 'pantry' },
+    { id: 'ing-2', quantity: 1, unit: 'cup', category: 'pantry' },
+    { id: 'ing-3', quantity: 3, unit: 'piece', category: 'dairy' },
   ],
-  instructions: {
-    steps: [
-      'Preheat oven to 350°F.',
-      'Measure out all flour and sugar.',
-      'Mix ingredients in a bowl.',
-      'Pour batter into pan.',
-      'Let cool for 10 minutes.',
-      'Serve with fresh fruit.',
-    ],
-    tips: ['Use room temperature eggs for best results.', 'Sift the flour for fluffier texture.'],
+}
+
+const TEST_TRANSLATIONS = {
+  'test-recipe': {
+    name: 'Test Recipe',
+    description: 'A delicious test recipe',
+    ingredientNames: { 'ing-1': 'flour', 'ing-2': 'sugar', 'ing-3': 'eggs' },
+    instructions: {
+      steps: [
+        'Preheat oven to 350°F.',
+        'Measure out all flour and sugar.',
+        'Mix ingredients in a bowl.',
+        'Pour batter into pan.',
+        'Let cool for 10 minutes.',
+        'Serve with fresh fruit.',
+      ],
+      tips: ['Use room temperature eggs for best results.', 'Sift the flour for fluffier texture.'],
+    },
+  },
+  'duplicate-recipe': {
+    name: 'Test Recipe',
+    description: 'A delicious test recipe',
+    ingredientNames: { 'ing-1': 'flour', 'ing-2': 'flour', 'ing-3': 'sugar' },
+    instructions: { steps: [], tips: [] },
+  },
+  'different-units': {
+    name: 'Test Recipe',
+    description: '',
+    ingredientNames: { 'ing-1': 'olive oil', 'ing-2': 'olive oil' },
+    instructions: { steps: [], tips: [] },
+  },
+  'mixed-case': {
+    name: 'Test Recipe',
+    description: '',
+    ingredientNames: { 'ing-1': 'Flour', 'ing-2': 'flour' },
+    instructions: { steps: [], tips: [] },
   },
 }
 
 describe('RecipeInstructionCard', () => {
   beforeEach(() => {
     vi.clearAllMocks()
+    i18next.addResourceBundle('en', 'recipes', TEST_TRANSLATIONS, true, true)
   })
 
   describe('rendering', () => {
@@ -274,9 +300,9 @@ describe('RecipeInstructionCard', () => {
       ...mockRecipe,
       id: 'duplicate-recipe',
       ingredients: [
-        { id: 'ing-1', name: 'flour', quantity: 2, unit: 'cup', category: 'pantry' },
-        { id: 'ing-2', name: 'flour', quantity: 1, unit: 'cup', category: 'pantry' },
-        { id: 'ing-3', name: 'sugar', quantity: 1, unit: 'cup', category: 'pantry' },
+        { id: 'ing-1', quantity: 2, unit: 'cup', category: 'pantry' },
+        { id: 'ing-2', quantity: 1, unit: 'cup', category: 'pantry' },
+        { id: 'ing-3', quantity: 1, unit: 'cup', category: 'pantry' },
       ],
     }
 
@@ -287,7 +313,7 @@ describe('RecipeInstructionCard', () => {
       await userEvent.click(header!)
 
       const ingredientItems = document.querySelectorAll('.ingredients-list__item')
-      expect(ingredientItems.length).toBe(2)
+      expect(ingredientItems.length).toEqual(2)
 
       expect(screen.getByText('3 cup')).toBeInTheDocument()
       expect(screen.getByText('1 cup')).toBeInTheDocument()
@@ -298,8 +324,8 @@ describe('RecipeInstructionCard', () => {
         ...mockRecipe,
         id: 'different-units',
         ingredients: [
-          { id: 'ing-1', name: 'olive oil', quantity: 2, unit: 'tbsp', category: 'pantry' },
-          { id: 'ing-2', name: 'olive oil', quantity: 1, unit: 'cup', category: 'pantry' },
+          { id: 'ing-1', quantity: 2, unit: 'tbsp', category: 'pantry' },
+          { id: 'ing-2', quantity: 1, unit: 'cup', category: 'pantry' },
         ],
       }
 
@@ -309,7 +335,7 @@ describe('RecipeInstructionCard', () => {
       await userEvent.click(header!)
 
       const ingredientItems = document.querySelectorAll('.ingredients-list__item')
-      expect(ingredientItems.length).toBe(2)
+      expect(ingredientItems.length).toEqual(2)
     })
 
     it('merges ingredients case-insensitively', async () => {
@@ -317,8 +343,8 @@ describe('RecipeInstructionCard', () => {
         ...mockRecipe,
         id: 'mixed-case',
         ingredients: [
-          { id: 'ing-1', name: 'Flour', quantity: 2, unit: 'cup', category: 'pantry' },
-          { id: 'ing-2', name: 'flour', quantity: 1, unit: 'cup', category: 'pantry' },
+          { id: 'ing-1', quantity: 2, unit: 'cup', category: 'pantry' },
+          { id: 'ing-2', quantity: 1, unit: 'cup', category: 'pantry' },
         ],
       }
 
@@ -328,7 +354,7 @@ describe('RecipeInstructionCard', () => {
       await userEvent.click(header!)
 
       const ingredientItems = document.querySelectorAll('.ingredients-list__item')
-      expect(ingredientItems.length).toBe(1)
+      expect(ingredientItems.length).toEqual(1)
       expect(screen.getByText('3 cup')).toBeInTheDocument()
     })
 
