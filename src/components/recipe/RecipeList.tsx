@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import type { Recipe } from '../../types'
 import { useRecipeContext } from '../../context/RecipeContext'
 import { RecipeCard } from './RecipeCard'
@@ -8,6 +9,7 @@ interface RecipeListProps {
 }
 
 export function RecipeList({ recipes: filteredRecipes }: RecipeListProps) {
+  const { t } = useTranslation()
   const {
     recipes: allRecipes,
     selectRecipe,
@@ -23,8 +25,8 @@ export function RecipeList({ recipes: filteredRecipes }: RecipeListProps) {
     <div className="recipe-list">
       {recipes.length === 0 ? (
         <div className="recipe-list__empty">
-          <p>No recipes match your filters.</p>
-          <p>Try adjusting your filter criteria.</p>
+          <p>{t('home.noFilterMatch')}</p>
+          <p>{t('home.noFilterMatchHint')}</p>
         </div>
       ) : (
         recipes.map(recipe => (

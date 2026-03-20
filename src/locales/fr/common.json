@@ -7,6 +7,10 @@
   "home": {
     "title": "Choisissez vos recettes",
     "subtitle": "Sélectionnez des recettes pour ajouter des ingrédients à votre liste de courses",
+    "addToShoppingList": "Ajouter à la liste de courses",
+    "clearSearch": "Effacer la recherche",
+    "noFilterMatch": "Aucune recette ne correspond à vos filtres.",
+    "noFilterMatchHint": "Essayez d'ajuster vos critères de filtre.",
     "search": {
       "label": "Rechercher",
       "placeholder": "Rechercher par nom ou ingrédient…"
@@ -57,7 +61,9 @@
     "removeConfirmLabel": "Oui, supprimer",
     "clearAllTitle": "Supprimer toutes les recettes",
     "clearAllConfirm": "Êtes-vous sûr de vouloir supprimer toutes les recettes de votre liste de cuisine\u00a0?",
-    "clearAllConfirmLabel": "Oui, tout supprimer"
+    "clearAllConfirmLabel": "Oui, tout supprimer",
+    "expand": "Développer",
+    "collapse": "Réduire"
   },
   "shopping": {
     "title": "Liste de courses",
@@ -68,6 +74,9 @@
     },
     "counter": "{{checked}} sur {{total}} articles cochés",
     "clearAll": "Tout effacer",
+    "clearAllTitle": "Vider la liste de courses",
+    "clearAllConfirm": "Cela supprimera toutes les recettes sélectionnées et les articles cochés. Êtes-vous sûr de vouloir continuer\u00a0?",
+    "clearAllConfirmLabel": "Oui, tout supprimer",
     "addMore": "Ajouter des recettes",
     "categories": {
       "produce": "Fruits & légumes",
@@ -78,7 +87,11 @@
     }
   },
   "common": {
-    "servings": "portions"
+    "servings": "portions",
+    "cancel": "Annuler",
+    "yes": "Oui",
+    "decrease": "Diminuer",
+    "increase": "Augmenter"
   },
   "language": {
     "en": "EN",

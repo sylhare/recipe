@@ -19,7 +19,7 @@ test.describe('Recipe App Happy Path', () => {
     await expect(spaghettiCard.getByRole('checkbox')).toHaveAttribute('data-state', 'checked')
 
     // Servings input should appear
-    await expect(spaghettiCard.getByLabel('Servings:')).toBeVisible()
+    await expect(spaghettiCard.getByLabel('Servings')).toBeVisible()
     await expect(spaghettiCard.getByRole('spinbutton')).toHaveValue('4')
 
     // 3. Adjust servings to 8

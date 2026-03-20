@@ -160,7 +160,7 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
           <button
             className="recipe-instruction-card__expand"
             onClick={() => setIsExpanded(!isExpanded)}
-            aria-label={isExpanded ? 'Collapse' : 'Expand'}
+            aria-label={isExpanded ? t('cooking.collapse') : t('cooking.expand')}
           >
             <span className={`recipe-instruction-card__chevron ${isExpanded ? 'recipe-instruction-card__chevron--expanded' : ''}`}>
               ›
@@ -169,7 +169,7 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
           <button
             className="recipe-instruction-card__remove"
             onClick={() => setShowRemoveConfirm(true)}
-            title="Remove recipe"
+            title={t('cooking.removeRecipe')}
           >
             ✕
           </button>

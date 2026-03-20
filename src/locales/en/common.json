@@ -7,6 +7,10 @@
   "home": {
     "title": "Choose Your Recipes",
     "subtitle": "Select recipes to add ingredients to your shopping list",
+    "addToShoppingList": "Add to shopping list",
+    "clearSearch": "Clear search",
+    "noFilterMatch": "No recipes match your filters.",
+    "noFilterMatchHint": "Try adjusting your filter criteria.",
     "search": {
       "label": "Search",
       "placeholder": "Search by name or ingredient…"
@@ -57,7 +61,9 @@
     "removeConfirmLabel": "Yes, Remove",
     "clearAllTitle": "Clear All Recipes",
     "clearAllConfirm": "Are you sure you want to remove all recipes from your cooking list?",
-    "clearAllConfirmLabel": "Yes, Clear All"
+    "clearAllConfirmLabel": "Yes, Clear All",
+    "expand": "Expand",
+    "collapse": "Collapse"
   },
   "shopping": {
     "title": "Shopping List",
@@ -68,6 +74,9 @@
     },
     "counter": "{{checked}} of {{total}} items checked",
     "clearAll": "Clear All",
+    "clearAllTitle": "Clear Shopping List",
+    "clearAllConfirm": "This will remove all selected recipes and checked items. Are you sure you want to continue?",
+    "clearAllConfirmLabel": "Yes, Clear All",
     "addMore": "Add More Recipes",
     "categories": {
       "produce": "Produce",
@@ -78,7 +87,11 @@
     }
   },
   "common": {
-    "servings": "servings"
+    "servings": "servings",
+    "cancel": "Cancel",
+    "yes": "Yes",
+    "decrease": "Decrease",
+    "increase": "Increase"
   },
   "language": {
     "en": "EN",

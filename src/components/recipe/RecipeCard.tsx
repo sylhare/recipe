@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import type { Recipe } from '../../types'
 import { useRecipeLocale } from '../../hooks/useRecipeLocale'
 import { Card } from '../common/Card'
@@ -24,6 +25,7 @@ export function RecipeCard({
   onServingsChange,
 }: RecipeCardProps) {
   const [imageError, setImageError] = useState(false)
+  const { t } = useTranslation()
   const { getTranslation } = useRecipeLocale()
   const translation = getTranslation(recipe)
 
@@ -60,14 +62,14 @@ export function RecipeCard({
             id={`recipe-${recipe.id}`}
             checked={isSelected}
             onChange={handleCheckChange}
-            label="Add to shopping list"
+            label={t('home.addToShoppingList')}
           />
           {isSelected && servings !== undefined && (
             <NumberInput
               id={`servings-${recipe.id}`}
               value={servings}
               onChange={onServingsChange}
-              label="Servings:"
+              label={t('cooking.servings')}
               min={1}
               max={20}
             />

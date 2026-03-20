@@ -28,7 +28,7 @@ export function RecipeSearch({ searchQuery, onSearchChange }: RecipeSearchProps)
             className="recipe-search__clear"
             onClick={() => onSearchChange('')}
             type="button"
-            aria-label="Clear search"
+            aria-label={t('home.clearSearch')}
           >
             ✕
           </button>

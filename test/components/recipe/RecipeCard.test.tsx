@@ -78,11 +78,11 @@ describe('RecipeCard', () => {
   it('shows servings input only when selected', () => {
     const { rerender } = render(<RecipeCard {...defaultProps} />)
 
-    expect(screen.queryByLabelText('Servings:')).not.toBeInTheDocument()
+    expect(screen.queryByLabelText('Servings')).not.toBeInTheDocument()
 
     rerender(<RecipeCard {...defaultProps} isSelected={true} servings={4} />)
 
-    expect(screen.getByLabelText('Servings:')).toBeInTheDocument()
+    expect(screen.getByLabelText('Servings')).toBeInTheDocument()
   })
 
   it('calls onServingsChange when servings is updated', async () => {

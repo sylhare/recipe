@@ -89,7 +89,7 @@ describe('RecipeInstructionCard', () => {
 
       const removeButton = screen.getByRole('button', { name: '✕' })
       expect(removeButton).toBeInTheDocument()
-      expect(removeButton).toHaveAttribute('title', 'Remove recipe')
+      expect(removeButton).toHaveAttribute('title', 'Remove Recipe')
     })
 
     it('renders expand button with Expand label when collapsed', () => {
