@@ -41,21 +41,21 @@ describe('Header', () => {
     it('renders EN and FR buttons', () => {
       renderHeader()
 
-      expect(screen.getByRole('button', { name: 'Switch to English' })).toBeInTheDocument()
-      expect(screen.getByRole('button', { name: 'Switch to French' })).toBeInTheDocument()
+      expect(screen.getByRole('button', { name: 'Switch to EN' })).toBeInTheDocument()
+      expect(screen.getByRole('button', { name: 'Switch to FR' })).toBeInTheDocument()
     })
 
     it('EN button has active class by default', () => {
       renderHeader()
 
-      const enBtn = screen.getByRole('button', { name: 'Switch to English' })
+      const enBtn = screen.getByRole('button', { name: 'Switch to EN' })
       expect(enBtn).toHaveClass('header__lang-btn--active')
     })
 
     it('calls i18n.changeLanguage with fr when FR button is clicked', async () => {
       renderHeader()
 
-      await userEvent.click(screen.getByRole('button', { name: 'Switch to French' }))
+      await userEvent.click(screen.getByRole('button', { name: 'Switch to FR' }))
 
       expect(i18next.language).toEqual('fr')
     })
@@ -63,7 +63,7 @@ describe('Header', () => {
     it('nav labels update to French after clicking FR', async () => {
       renderHeader()
 
-      await userEvent.click(screen.getByRole('button', { name: 'Switch to French' }))
+      await userEvent.click(screen.getByRole('button', { name: 'Switch to FR' }))
 
       expect(screen.getByRole('link', { name: 'Recettes' })).toBeInTheDocument()
       expect(screen.getByRole('link', { name: 'Liste de courses' })).toBeInTheDocument()
@@ -72,7 +72,7 @@ describe('Header', () => {
     it('persists language choice to localStorage', async () => {
       renderHeader()
 
-      await userEvent.click(screen.getByRole('button', { name: 'Switch to French' }))
+      await userEvent.click(screen.getByRole('button', { name: 'Switch to FR' }))
 
       expect(localStorage.getItem('language')).toEqual('fr')
     })
@@ -80,8 +80,8 @@ describe('Header', () => {
     it('switches back to English when EN button is clicked', async () => {
       renderHeader()
 
-      await userEvent.click(screen.getByRole('button', { name: 'Switch to French' }))
-      await userEvent.click(screen.getByRole('button', { name: 'Switch to English' }))
+      await userEvent.click(screen.getByRole('button', { name: 'Switch to FR' }))
+      await userEvent.click(screen.getByRole('button', { name: 'Switch to EN' }))
 
       expect(i18next.language).toEqual('en')
       expect(screen.getByRole('link', { name: 'Recipes' })).toBeInTheDocument()

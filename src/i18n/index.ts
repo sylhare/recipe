@@ -6,14 +6,24 @@ import frCommon from '../locales/fr/common.json'
 import enRecipes from '../locales/en/recipes.json'
 import frRecipes from '../locales/fr/recipes.json'
 
-const savedLanguage = typeof localStorage !== 'undefined'
-  ? (localStorage.getItem('language') ?? 'en')
-  : 'en'
+export const SUPPORTED_LANGUAGES = ['en', 'fr']
+
+function detectLanguage(): string {
+  if (typeof localStorage !== 'undefined') {
+    const saved = localStorage.getItem('language')
+    if (saved && SUPPORTED_LANGUAGES.includes(saved)) return saved
+  }
+  if (typeof navigator !== 'undefined') {
+    const browserLang = navigator.language.split('-')[0]
+    if (SUPPORTED_LANGUAGES.includes(browserLang)) return browserLang
+  }
+  return 'en'
+}
 
 i18next
   .use(initReactI18next)
   .init({
-    lng: savedLanguage,
+    lng: detectLanguage(),
     fallbackLng: 'en',
     ns: ['common', 'recipes'],
     defaultNS: 'common',

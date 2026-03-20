@@ -1,6 +1,8 @@
+import { Fragment } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useRecipeContext } from '../../context/RecipeContext'
+import { SUPPORTED_LANGUAGES } from '../../i18n'
 import './Header.css'
 
 export function Header() {
@@ -43,21 +45,18 @@ export function Header() {
           </Link>
         </nav>
         <div className="header__lang-switcher">
-          <button
-            className={`header__lang-btn ${i18n.language === 'en' ? 'header__lang-btn--active' : ''}`}
-            onClick={() => handleLanguageChange('en')}
-            aria-label="Switch to English"
-          >
-            {t('language.en')}
-          </button>
-          <span className="header__lang-sep" aria-hidden="true">|</span>
-          <button
-            className={`header__lang-btn ${i18n.language === 'fr' ? 'header__lang-btn--active' : ''}`}
-            onClick={() => handleLanguageChange('fr')}
-            aria-label="Switch to French"
-          >
-            {t('language.fr')}
-          </button>
+          {SUPPORTED_LANGUAGES.map((lang, i) => (
+            <Fragment key={lang}>
+              {i > 0 && <span className="header__lang-sep" aria-hidden="true">|</span>}
+              <button
+                className={`header__lang-btn ${i18n.language === lang ? 'header__lang-btn--active' : ''}`}
+                onClick={() => handleLanguageChange(lang)}
+                aria-label={`Switch to ${lang.toUpperCase()}`}
+              >
+                {t(`language.${lang}`)}
+              </button>
+            </Fragment>
+          ))}
         </div>
       </div>
     </header>
