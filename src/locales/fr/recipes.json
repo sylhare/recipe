@@ -1,0 +1,2734 @@
+{
+  "spaghetti-bolognese": {
+    "name": "Spaghetti Bolognaise",
+    "description": "Pâtes italiennes classiques avec une riche sauce à la viande",
+    "ingredientNames": {
+      "sb-1": "Spaghetti",
+      "sb-2": "Bœuf haché",
+      "sb-3": "Oignon",
+      "sb-4": "Ail",
+      "sb-5": "Tomates en conserve",
+      "sb-6": "Concentré de tomate",
+      "sb-7": "Huile d'olive",
+      "sb-8": "Sel",
+      "sb-9": "Poivre noir",
+      "sb-10": "Parmesan"
+    },
+    "instructions": {
+      "steps": [
+        "Porter une grande casserole d'eau généreusement salée à ébullition pour les Spaghetti.",
+        "Couper finement l'Oignon en petits dés pour une cuisson uniforme.",
+        "Hacher l'Ail finement — plus la coupe est fine, plus le goût sera prononcé.",
+        "Chauffer l'Huile d'olive dans une grande poêle à feu moyen-vif jusqu'à ce qu'elle frémisse.",
+        "Ajouter l'Oignon émincé et faire revenir 4 à 5 minutes jusqu'à ce qu'il soit tendre et translucide.",
+        "Ajouter l'Ail haché et cuire 30 à 60 secondes jusqu'à ce qu'il soit parfumé — attention à ne pas le brûler.",
+        "Ajouter le Bœuf haché en l'émiettant à l'aide d'une cuillère en bois. Assaisonner de Sel et de Poivre noir.",
+        "Cuire 6 à 8 minutes jusqu'à ce que la viande soit bien dorée.",
+        "Incorporer le Concentré de tomate et cuire 2 minutes en enrobant la viande — cela intensifie la saveur.",
+        "Verser les Tomates en conserve en les écrasant avec la cuillère.",
+        "Réduire le feu et laisser mijoter à découvert 25 à 30 minutes en remuant de temps en temps.",
+        "Pendant que la sauce mijote, cuire les Spaghetti selon les indications du paquet jusqu'à ce qu'ils soient al dente.",
+        "Réserver 1 tasse d'eau de cuisson, puis égoutter les Spaghetti.",
+        "Râper le Parmesan et réserver pour le service.",
+        "Si la sauce est trop épaisse, ajouter un peu d'eau de cuisson pour obtenir la consistance souhaitée.",
+        "Mélanger les Spaghetti égouttés directement dans la sauce pour bien les enrober.",
+        "Répartir dans des assiettes chaudes et garnir généreusement de Parmesan râpé.",
+        "Terminer avec un tour de moulin à Poivre noir et servir immédiatement."
+      ],
+      "tips": [
+        "Conserver l'eau de cuisson avant d'égoutter — l'eau féculente aide la sauce à adhérer aux pâtes et apporte de la rondeur.",
+        "Ne pas surcharger la poêle lors de la coloration — procéder en plusieurs fois si besoin pour une meilleure caramélisation.",
+        "Pour plus de profondeur, ajouter un filet de vin rouge après avoir coloré la viande et le laisser réduire avant d'ajouter les tomates.",
+        "Des feuilles de basilic frais constituent une garniture belle et savoureuse si vous en avez sous la main."
+      ]
+    }
+  },
+  "chicken-curry": {
+    "name": "Curry de Poulet",
+    "description": "Curry de poulet à l'indienne, onctueux et parfumé",
+    "ingredientNames": {
+      "cc-1": "Blanc de Poulet",
+      "cc-2": "Oignon",
+      "cc-3": "Ail",
+      "cc-4": "Gingembre",
+      "cc-5": "Lait de Coco",
+      "cc-6": "Poudre de Curry",
+      "cc-7": "Cumin",
+      "cc-8": "Curcuma",
+      "cc-9": "Huile Végétale",
+      "cc-10": "Sel",
+      "cc-11": "Riz"
+    },
+    "instructions": {
+      "steps": [
+        "Rincer le Riz à l'eau froide jusqu'à ce que l'eau soit claire.",
+        "Le mettre dans une casserole avec 450 ml d'eau, porter à ébullition, puis réduire le feu au minimum, couvrir et laisser cuire 15 à 18 minutes.",
+        "Pendant la cuisson du riz, tailler le Blanc de Poulet en cubes de 2 cm, les éponger avec du papier absorbant pour favoriser la coloration.",
+        "Émincer finement l'Oignon.",
+        "Hacher l'Ail.",
+        "Râper le Gingembre frais.",
+        "Mélanger la Poudre de Curry, le Cumin et le Curcuma dans un petit bol.",
+        "Faire chauffer l'Huile Végétale dans une grande poêle à feu vif jusqu'à ce qu'elle frémisse.",
+        "Ajouter l'Oignon émincé et faire revenir 6 à 8 minutes jusqu'à ce qu'il soit doré et caramélisé.",
+        "Ajouter l'Ail haché et le Gingembre râpé, mélanger sans cesse pendant 30 à 60 secondes jusqu'à ce que le tout soit bien parfumé.",
+        "Incorporer la Poudre de Curry, le Cumin et le Curcuma. Faire revenir 30 secondes pour torréfier les épices et libérer leurs huiles essentielles.",
+        "Disposer les morceaux de Blanc de Poulet en une seule couche. Les laisser saisir sans remuer pendant 2 minutes, puis mélanger et cuire jusqu'à ce qu'ils ne soient plus roses, soit environ 3 à 4 minutes au total.",
+        "Bien agiter la boîte de Lait de Coco avant de l'incorporer à la poêle. Mélanger et porter à légère ébullition.",
+        "Réduire le feu et laisser mijoter à découvert 18 à 20 minutes en remuant de temps en temps, jusqu'à ce que le Poulet soit cuit et la sauce bien épaisse.",
+        "Rectifier l'assaisonnement en Sel.",
+        "Égrener le Riz à la fourchette et répartir dans les bols de service.",
+        "Napper généreusement de curry.",
+        "Garnir de coriandre fraîche si désiré et servir aussitôt."
+      ],
+      "tips": [
+        "Pour un curry plus riche, utiliser du Lait de Coco entier plutôt que la version allégée.",
+        "Faire revenir les épices dans l'huile avant d'ajouter le liquide libère leurs huiles essentielles et intensifie le parfum du curry.",
+        "Pour un plat plus épicé, ajouter un piment frais émincé ou une pincée de piment de Cayenne avec les épices.",
+        "Ce curry est encore meilleur le lendemain, une fois les saveurs bien mêlées."
+      ]
+    }
+  },
+  "caesar-salad": {
+    "name": "Salade César",
+    "description": "Salade romaine croquante avec sauce César et croûtons maison",
+    "ingredientNames": {
+      "cs-1": "Laitue Romaine",
+      "cs-2": "Parmesan",
+      "cs-3": "Pain",
+      "cs-4": "Huile d'Olive",
+      "cs-5": "Ail",
+      "cs-6": "Jus de Citron",
+      "cs-7": "Mayonnaise",
+      "cs-8": "Moutarde de Dijon",
+      "cs-9": "Sel",
+      "cs-10": "Poivre Noir"
+    },
+    "instructions": {
+      "steps": [
+        "Préchauffer le four à 190 °C.",
+        "Hacher finement l'Ail — la moitié pour les croûtons, l'autre moitié pour la sauce.",
+        "Couper le Pain en cubes de 2 cm.",
+        "Mélanger les cubes de pain avec la moitié de l'Huile d'Olive et la moitié de l'Ail haché jusqu'à ce qu'ils soient bien enrobés.",
+        "Étaler les croûtons en une couche sur une plaque de cuisson.",
+        "Enfourner 10 à 12 minutes, en retournant à mi-cuisson, jusqu'à ce qu'ils soient dorés et croustillants. Laisser tiédir légèrement.",
+        "Pendant la cuisson des croûtons, laver soigneusement les feuilles de Laitue Romaine et les sécher complètement dans une essoreuse à salade ou avec du papier absorbant.",
+        "Préparer la sauce : fouetter ensemble la Mayonnaise, le reste de l'Huile d'Olive, le Jus de Citron, la Moutarde de Dijon, l'Ail haché restant, le Sel et le Poivre Noir jusqu'à obtention d'une texture lisse et homogène.",
+        "À l'aide d'un économe, tailler de fines copeaux de Parmesan.",
+        "Déchirer ou couper la Laitue Romaine en morceaux et les placer dans un grand saladier.",
+        "Arroser de sauce et mélanger délicatement mais soigneusement pour bien enrober chaque feuille.",
+        "Ajouter les croûtons encore chauds et mélanger brièvement.",
+        "Parsemer de copeaux de Parmesan et terminer par un tour de moulin à Poivre Noir.",
+        "Servir aussitôt."
+      ],
+      "tips": [
+        "Une laitue bien séchée est indispensable — la sauce accroche sur les feuilles sèches mais glisse sur les feuilles humides.",
+        "Pour plus de saveur, frotter le saladier avec une gousse d'Ail coupée en deux avant d'y mettre la laitue.",
+        "N'ajouter les croûtons qu'au dernier moment pour qu'ils restent croustillants.",
+        "Pour une version plus authentique, incorporer quelques filets d'anchois dans la sauce et les mixer jusqu'à obtention d'un mélange lisse."
+      ]
+    }
+  },
+  "miso-honey-salmon": {
+    "name": "Saumon Glacé Miso-Miel",
+    "description": "Pavés de saumon tendres nappés d'un glaçage sucré-salé au miso",
+    "ingredientNames": {
+      "mhs-1": "Pavé de Saumon",
+      "mhs-2": "Pâte de Miso Blanc",
+      "mhs-3": "Miel",
+      "mhs-4": "Sauce Soja",
+      "mhs-5": "Vinaigre de Riz",
+      "mhs-6": "Ail",
+      "mhs-7": "Gingembre",
+      "mhs-8": "Huile de Sésame",
+      "mhs-9": "Oignons Verts",
+      "mhs-10": "Graines de Sésame",
+      "mhs-11": "Riz"
+    },
+    "instructions": {
+      "steps": [
+        "Sortir le Pavé de Saumon du réfrigérateur 20 minutes avant la cuisson pour qu'il soit à température ambiante.",
+        "Rincer le Riz à l'eau froide jusqu'à ce que l'eau soit claire.",
+        "Le mettre dans une casserole avec 300 ml d'eau, porter à ébullition, réduire le feu au minimum, couvrir et laisser cuire 15 à 18 minutes.",
+        "Préchauffer le four à 200 °C.",
+        "Tapisser une plaque de cuisson de papier sulfurisé.",
+        "Hacher l'Ail.",
+        "Râper le Gingembre frais.",
+        "Émincer finement les Oignons Verts en biais, en séparant les parties blanches et vertes.",
+        "Préparer le glaçage : fouetter ensemble la Pâte de Miso Blanc, le Miel, la Sauce Soja, le Vinaigre de Riz, l'Ail haché, le Gingembre râpé et l'Huile de Sésame jusqu'à obtention d'une préparation lisse.",
+        "Éponger soigneusement le Pavé de Saumon avec du papier absorbant.",
+        "Le déposer côté peau sur la plaque préparée.",
+        "Réserver la moitié du glaçage, puis badigeonner généreusement le dessus et les côtés du saumon avec le reste.",
+        "Enfourner 12 à 15 minutes, jusqu'à ce que le saumon soit juste cuit et se détache facilement à la fourchette.",
+        "Passer le four en mode gril. Badigeonner le saumon avec le glaçage réservé et faire gratiner 1 à 2 minutes en surveillant attentivement, jusqu'à ce que le glaçage soit caramélisé et légèrement doré.",
+        "Égrener le Riz cuit et répartir dans les bols de service.",
+        "Poser le Pavé de Saumon glacé par-dessus.",
+        "Parsemer généreusement de Graines de Sésame et d'Oignons Verts émincés. Servir aussitôt."
+      ],
+      "tips": [
+        "Ne pas négliger l'étape de remise à température — un poisson froid cuit de façon inégale et peut se dessécher en surface avant d'être cuit à cœur.",
+        "Surveiller le gril de près ! Le miel contenu dans le glaçage peut passer de parfaitement caramélisé à brûlé en quelques secondes.",
+        "Pour encore plus d'umami, ajouter un trait de mirin dans le glaçage si vous en avez.",
+        "Ce glaçage se marie tout aussi bien avec des cuisses de poulet ou un filet de porc."
+      ]
+    }
+  },
+  "korean-beef-bowls": {
+    "name": "Bols de Bœuf à la Coréenne",
+    "description": "Bœuf haché rapide et savoureux avec une sauce coréenne sucrée-épicée",
+    "ingredientNames": {
+      "kbb-1": "Bœuf Haché",
+      "kbb-2": "Sauce Soja",
+      "kbb-3": "Sucre Roux",
+      "kbb-4": "Huile de Sésame",
+      "kbb-5": "Ail",
+      "kbb-6": "Gingembre",
+      "kbb-7": "Gochujang",
+      "kbb-8": "Riz",
+      "kbb-9": "Oignons Verts",
+      "kbb-10": "Concombre",
+      "kbb-11": "Graines de Sésame",
+      "kbb-12": "Huile Végétale"
+    },
+    "instructions": {
+      "steps": [
+        "Rincer le Riz à l'eau froide jusqu'à ce que l'eau soit claire.",
+        "Le mettre dans une casserole avec de l'eau, porter à ébullition, réduire le feu au minimum, couvrir et laisser cuire 15 à 18 minutes.",
+        "Pendant la cuisson du riz, hacher finement l'Ail.",
+        "Râper le Gingembre frais.",
+        "Fouetter ensemble la Sauce Soja, le Sucre Roux, l'Huile de Sésame, l'Ail haché, le Gingembre râpé et le Gochujang jusqu'à ce que le sucre soit dissous.",
+        "Émincer les Oignons Verts en gardant les parties blanches et vertes séparées.",
+        "Couper le Concombre en fines rondelles.",
+        "Faire chauffer l'Huile Végétale dans une grande poêle à feu vif jusqu'à ce qu'elle frémisse.",
+        "Ajouter le Bœuf Haché en une couche uniforme. Le laisser saisir sans remuer pendant 2 minutes pour une meilleure coloration.",
+        "Émietter la viande avec une cuillère en bois et poursuivre la cuisson 4 à 5 minutes jusqu'à ce qu'elle ne soit plus rose.",
+        "Éliminer l'excès de gras si nécessaire, en laissant environ 1 cuillère à soupe dans la poêle.",
+        "Verser la sauce préparée sur la viande et bien mélanger pour enrober chaque morceau.",
+        "Laisser la sauce réduire et épaissir 3 à 4 minutes jusqu'à ce qu'elle nappe la viande.",
+        "Égrener le Riz à la fourchette et répartir dans les bols.",
+        "Napper de bœuf coréen en sauce.",
+        "Disposer le Concombre émincé à côté.",
+        "Parsemer d'Oignons Verts et de Graines de Sésame. Servir aussitôt."
+      ],
+      "tips": [
+        "Ne pas remuer la viande immédiatement — la laisser saisir développe une meilleure saveur et une texture plus agréable.",
+        "Le Gochujang peut varier en intensité selon les marques ; goûter la sauce et ajuster selon vos préférences.",
+        "Pour une touche d'authenticité, servir avec un œuf au plat — le jaune coulant forme une sauce exceptionnelle.",
+        "Ajouter un filet d'Huile de Sésame juste avant de servir pour parfumer davantage le plat."
+      ]
+    }
+  },
+  "coconut-shrimp": {
+    "name": "Crevettes à la Noix de Coco et Salsa Mangue",
+    "description": "Crevettes croustillantes enrobées de noix de coco avec une salsa tropicale à la mangue",
+    "ingredientNames": {
+      "csh-1": "Grosses Crevettes",
+      "csh-2": "Noix de Coco Râpée",
+      "csh-3": "Farine",
+      "csh-4": "Œufs",
+      "csh-5": "Mangue",
+      "csh-6": "Oignon Rouge",
+      "csh-7": "Coriandre",
+      "csh-8": "Citron Vert",
+      "csh-9": "Jalapeño",
+      "csh-10": "Huile Végétale",
+      "csh-11": "Sel",
+      "csh-12": "Poivre Noir"
+    },
+    "instructions": {
+      "steps": [
+        "Tailler la Mangue en cubes de 1 cm.",
+        "Émincer finement l'Oignon Rouge et le Jalapeño en retirant les graines pour atténuer le piquant.",
+        "Hacher grossièrement la Coriandre et presser le Citron Vert.",
+        "Mélanger la mangue, l'oignon rouge, le jalapeño, la coriandre et le jus de citron vert dans un bol avec une pincée de Sel. Réfrigérer pendant la préparation des crevettes.",
+        "Décortiquer et déveiner les Grosses Crevettes si ce n'est pas déjà fait, en laissant la queue. Les éponger soigneusement avec du papier absorbant.",
+        "Préparer une station de panure : la Farine assaisonnée de Sel et de Poivre Noir dans le bol 1, les Œufs battus dans le bol 2, la Noix de Coco Râpée dans le bol 3.",
+        "Paner les crevettes : les tenir par la queue, les enfariner (en secouant l'excès), les tremper dans les Œufs (laisser égoutter), puis les presser fermement dans la Noix de Coco Râpée. Les déposer sur une grille sans les superposer.",
+        "Faire chauffer l'Huile Végétale dans une casserole à fond épais à 175 °C.",
+        "Faire frire les crevettes par petites fournées de 4 à 5 pièces pendant 2 à 3 minutes, en les retournant une fois, jusqu'à ce qu'elles soient bien dorées et cuites. Ne pas surcharger la casserole.",
+        "Déposer sur du papier absorbant et assaisonner aussitôt d'une légère pincée de Sel.",
+        "Dresser les crevettes croustillantes à la noix de coco sur un plat de service.",
+        "Présenter la salsa mangue dans un bol à côté.",
+        "Garnir de Coriandre supplémentaire et de quartiers de Citron Vert. Servir aussitôt."
+      ],
+      "tips": [
+        "Le secret de crevettes croustillantes : des crevettes bien sèches et une huile bien chaude — des crevettes humides ramolliraient la panure.",
+        "Sans thermomètre, tester l'huile en y jetant un petit morceau de noix de coco — elle doit grésiller immédiatement.",
+        "Pour encore plus de croquant, ajouter de la chapelure panko au mélange de noix de coco.",
+        "La salsa peut être préparée jusqu'à 4 heures à l'avance et conservée au réfrigérateur — les saveurs se développeront davantage."
+      ]
+    }
+  },
+  "chicken-tikka-masala": {
+    "name": "Poulet Tikka Masala",
+    "description": "Poulet tendre mijoté dans une sauce tomate crémeuse et épicée",
+    "ingredientNames": {
+      "ctm-1": "Blanc de Poulet",
+      "ctm-2": "Yaourt",
+      "ctm-3": "Crème Liquide",
+      "ctm-4": "Tomates Concassées",
+      "ctm-5": "Oignon",
+      "ctm-6": "Ail",
+      "ctm-7": "Gingembre",
+      "ctm-8": "Garam Masala",
+      "ctm-9": "Cumin",
+      "ctm-10": "Paprika",
+      "ctm-11": "Beurre",
+      "ctm-12": "Riz"
+    },
+    "instructions": {
+      "steps": [
+        "Tailler le Blanc de Poulet en morceaux de 3 cm.",
+        "Mélanger la moitié du Garam Masala, la moitié du Cumin et la moitié du Paprika avec le Yaourt dans un bol.",
+        "Ajouter le poulet, bien mélanger pour l'enrober et laisser mariner au moins 30 minutes.",
+        "Rincer le Riz jusqu'à ce que l'eau soit claire.",
+        "Pendant la marinade du poulet, mettre le riz dans une casserole avec de l'eau, porter à ébullition, réduire le feu au minimum, couvrir et cuire 15 à 18 minutes.",
+        "Émincer finement l'Oignon.",
+        "Hacher l'Ail.",
+        "Râper le Gingembre frais.",
+        "Faire fondre le Beurre dans une grande poêle profonde à feu vif jusqu'à ce qu'il mousse.",
+        "Retirer le Blanc de Poulet de la marinade et le faire cuire par fournées 3 à 4 minutes de chaque côté jusqu'à ce qu'il soit bien coloré et caramélisé — ne pas surcharger. Réserver.",
+        "Dans la même poêle, faire revenir l'Oignon 5 à 6 minutes jusqu'à ce qu'il soit fondant et doré.",
+        "Ajouter l'Ail haché, le Gingembre râpé et le restant de Garam Masala, de Cumin et de Paprika. Mélanger 1 minute jusqu'à ce que le tout soit bien parfumé.",
+        "Verser les Tomates Concassées en les écrasant. Laisser réduire 15 minutes jusqu'à ce que la sauce soit bien épaisse.",
+        "Réduire le feu et incorporer la Crème Liquide. Laisser mijoter doucement 2 minutes.",
+        "Remettre le Poulet saisi dans la sauce. Laisser mijoter encore 8 à 10 minutes jusqu'à ce qu'il soit bien cuit et la sauce riche et onctueuse.",
+        "Goûter et rectifier l'assaisonnement en sel.",
+        "Égrener le Riz et répartir dans des bols.",
+        "Napper de Poulet Tikka Masala et garnir de coriandre fraîche. Servir aussitôt."
+      ],
+      "tips": [
+        "La marinade au Yaourt attendrit le poulet et permet aux épices de bien pénétrer.",
+        "Les marques de coloration sur le poulet apportent une saveur incomparable — ne pas sauter cette étape.",
+        "Pour une sauce encore plus riche, ajouter une cuillère à soupe de Beurre en fin de cuisson et mélanger jusqu'à ce qu'il soit fondu.",
+        "Ce plat est encore meilleur le lendemain, une fois les saveurs bien fondues."
+      ]
+    }
+  },
+  "beef-fajita-bowls": {
+    "name": "Bols de Fajitas au Bœuf",
+    "description": "Lanières de bœuf grillées avec poivrons et oignons, servies sur du riz",
+    "ingredientNames": {
+      "bfb-1": "Bœuf dans l'Aloyau",
+      "bfb-2": "Poivron",
+      "bfb-3": "Oignon",
+      "bfb-4": "Citron Vert",
+      "bfb-5": "Cumin",
+      "bfb-6": "Piment en Poudre",
+      "bfb-7": "Ail",
+      "bfb-8": "Riz",
+      "bfb-9": "Crème Fraîche Épaisse",
+      "bfb-10": "Coriandre",
+      "bfb-11": "Huile Végétale"
+    },
+    "instructions": {
+      "steps": [
+        "Rincer le Riz jusqu'à ce que l'eau soit claire.",
+        "Le mettre dans une casserole avec de l'eau, porter à ébullition, réduire le feu au minimum, couvrir et cuire 15 à 18 minutes.",
+        "Émincer le Bœuf dans l'Aloyau contre le grain en lanières fines de 5 mm.",
+        "Mélanger le Cumin, le Piment en Poudre, du sel et du poivre, puis enrober les lanières de bœuf de ce mélange d'épices.",
+        "Émincer les Poivrons en fines lanières.",
+        "Émincer l'Oignon en demi-rondelles fines.",
+        "Hacher l'Ail.",
+        "Presser le Citron Vert et hacher grossièrement la Coriandre.",
+        "Faire chauffer une grande poêle en fonte avec l'Huile Végétale à feu très vif jusqu'à ce qu'elle fume légèrement.",
+        "Travailler par fournées pour éviter l'entassement : saisir les lanières de Bœuf dans l'Aloyau assaisonnées 1 à 2 minutes de chaque côté jusqu'à ce qu'elles soient bien colorées. Réserver dans une assiette.",
+        "Dans la même poêle bien chaude, ajouter les Poivrons et l'Oignon. Les laisser colorer sans remuer 1 à 2 minutes, puis mélanger et cuire encore 3 à 4 minutes jusqu'à ce qu'ils soient tendres et bien dorés.",
+        "Ajouter l'Ail haché et cuire 30 secondes jusqu'à ce qu'il soit parfumé.",
+        "Remettre le bœuf dans la poêle, presser le Citron Vert sur le tout et mélanger. Poursuivre la cuisson 1 minute.",
+        "Égrener le Riz et répartir dans les bols.",
+        "Garnir de bœuf et de poivrons façon fajitas.",
+        "Déposer une bonne cuillerée de Crème Fraîche Épaisse.",
+        "Parsemer de Coriandre fraîche et servir avec des quartiers de citron vert supplémentaires."
+      ],
+      "tips": [
+        "Une poêle très chaude est indispensable pour obtenir cette belle coloration typique des fajitas — ne pas craindre la fumée.",
+        "Couper le bœuf contre le grain est essentiel pour des bouchées tendres.",
+        "Pour plus de saveur, ajouter un trait de tequila ou de bière lorsque le bœuf revient dans la poêle.",
+        "Préchauffer brièvement les bols au four avant de servir pour une présentation digne d'un restaurant."
+      ]
+    }
+  },
+  "teriyaki-chicken": {
+    "name": "Poulet Teriyaki",
+    "description": "Cuisses de poulet glacées à la sauce teriyaki maison",
+    "ingredientNames": {
+      "tc-1": "Cuisses de Poulet",
+      "tc-2": "Sauce Soja",
+      "tc-3": "Mirin",
+      "tc-4": "Sucre Roux",
+      "tc-5": "Ail",
+      "tc-6": "Gingembre",
+      "tc-7": "Riz",
+      "tc-8": "Brocoli",
+      "tc-9": "Graines de Sésame",
+      "tc-10": "Oignons Verts"
+    },
+    "instructions": {
+      "steps": [
+        "Sortir les Cuisses de Poulet du réfrigérateur 20 minutes avant la cuisson.",
+        "Les éponger avec du papier absorbant et inciser légèrement la peau pour un meilleur croustillant.",
+        "Rincer le Riz jusqu'à ce que l'eau soit claire. Le mettre dans une casserole avec de l'eau, porter à ébullition, réduire le feu au minimum, couvrir et cuire 15 à 18 minutes.",
+        "Hacher l'Ail et râper le Gingembre frais.",
+        "Fouetter ensemble la Sauce Soja, le Mirin, le Sucre Roux, l'Ail haché et le Gingembre râpé jusqu'à ce que le sucre soit dissous.",
+        "Tailler le Brocoli en petits bouquets.",
+        "Émincer finement les Oignons Verts en biais.",
+        "Déposer les Cuisses de Poulet côté peau dans une poêle froide, puis allumer le feu à feu moyen. Cuire sans bouger pendant 8 à 10 minutes jusqu'à ce que la peau soit bien dorée et croustillante.",
+        "Retourner le poulet et cuire encore 5 à 6 minutes jusqu'à ce qu'il soit cuit à cœur (température interne 74 °C).",
+        "Pendant la fin de cuisson, faire cuire les bouquets de Brocoli à la vapeur 3 à 4 minutes jusqu'à ce qu'ils soient vert vif et tendres mais encore croquants.",
+        "Retirer l'excès de gras de la poêle en laissant environ 1 cuillère à soupe.",
+        "Verser la sauce teriyaki sur le poulet et laisser mijoter 2 à 3 minutes en arrosant régulièrement jusqu'à ce que la sauce soit brillante et nappe bien.",
+        "Tailler les Cuisses de Poulet glacées en tranches.",
+        "Égrener le Riz et répartir dans les bols.",
+        "Disposer le poulet tranché et le Brocoli vapeur sur le riz.",
+        "Arroser du reste de sauce de la poêle.",
+        "Parsemer de Graines de Sésame et d'Oignons Verts émincés."
+      ],
+      "tips": [
+        "Partir d'une poêle froide est le secret d'une peau de poulet croustillante digne d'un restaurant.",
+        "Ne pas bouger le poulet pendant que la peau cuit — laisser le gras fondre tranquillement sans interrompre le processus.",
+        "Si la sauce devient trop épaisse, ajouter un filet d'eau pour la détendre.",
+        "Pour encore plus d'umami, incorporer une cuillère à café d'huile de sésame grillée dans la sauce finale."
+      ]
+    }
+  },
+  "mushroom-risotto": {
+    "name": "Risotto Crémeux aux Champignons",
+    "description": "Risotto à l'italienne, onctueux et riche, garni de champignons sautés",
+    "ingredientNames": {
+      "mr-1": "Riz Arborio",
+      "mr-2": "Champignons Variés",
+      "mr-3": "Bouillon de Volaille",
+      "mr-4": "Vin Blanc",
+      "mr-5": "Oignon",
+      "mr-6": "Ail",
+      "mr-7": "Parmesan",
+      "mr-8": "Beurre",
+      "mr-9": "Huile d'Olive",
+      "mr-10": "Thym"
+    },
+    "instructions": {
+      "steps": [
+        "Émincer les Champignons Variés en morceaux réguliers.",
+        "Émincer finement l'Oignon.",
+        "Hacher l'Ail.",
+        "Râper finement le Parmesan.",
+        "Faire chauffer le Bouillon de Volaille dans une casserole et le maintenir au chaud à feu doux tout au long de la cuisson — l'ajout d'un bouillon froid affecte la texture.",
+        "Faire fondre la moitié du Beurre dans une grande poêle à feu vif. Ajouter les Champignons Variés et les faire sauter 5 à 6 minutes jusqu'à ce qu'ils soient bien dorés. Assaisonner de sel et de Thym. Réserver dans une assiette.",
+        "Dans la même poêle, faire chauffer l'Huile d'Olive avec le Beurre restant à feu moyen. Ajouter l'Oignon émincé et cuire 4 à 5 minutes jusqu'à ce qu'il soit fondant et translucide.",
+        "Ajouter l'Ail haché et cuire 30 secondes jusqu'à ce qu'il soit parfumé.",
+        "Ajouter le Riz Arborio et mélanger 2 minutes jusqu'à ce que les grains soient légèrement translucides sur les bords.",
+        "Verser le Vin Blanc et mélanger jusqu'à absorption complète.",
+        "Ajouter le Bouillon de Volaille chaud une louche à la fois (environ 125 ml), en remuant fréquemment. Attendre que chaque ajout soit presque absorbé avant d'en verser un nouveau. Poursuivre pendant 18 à 20 minutes jusqu'à ce que le riz soit al dente — crémeux en surface avec une légère résistance à la mâche.",
+        "Retirer du feu et incorporer les champignons sautés, le Parmesan râpé et une noix de Beurre.",
+        "Laisser reposer le risotto 1 à 2 minutes.",
+        "Répartir dans des assiettes chaudes, parsemer de Parmesan supplémentaire et d'un tour de moulin à poivre. Servir aussitôt."
+      ],
+      "tips": [
+        "Ne jamais rincer le Riz Arborio — l'amidon est ce qui donne au risotto son onctuosité.",
+        "Maintenir le bouillon chaud — l'ajout d'un liquide froid choque le riz et affecte la texture finale.",
+        "Mélanger n'est pas une obligation constante, mais cela permet d'éviter que le riz n'attache et favorise un dégagement régulier de l'amidon.",
+        "Un risotto réussi doit s'étaler légèrement dans l'assiette, sans former un monticule."
+      ]
+    }
+  },
+  "fish-tacos": {
+    "name": "Tacos de Poisson Croustillant",
+    "description": "Poisson en pâte à la bière avec une salade de chou acidulée dans des tortillas moelleuses",
+    "ingredientNames": {
+      "ft-1": "Filets de Poisson Blanc",
+      "ft-2": "Farine",
+      "ft-3": "Bière",
+      "ft-4": "Chou",
+      "ft-5": "Mayonnaise",
+      "ft-6": "Citron Vert",
+      "ft-7": "Tortillas de Blé",
+      "ft-8": "Chipotle",
+      "ft-9": "Huile Végétale",
+      "ft-10": "Coriandre"
+    },
+    "instructions": {
+      "steps": [
+        "Préparer la salade de chou au chipotle : émincer finement le Chou, le mélanger avec la Mayonnaise, la moitié du jus de Citron Vert et le Chipotle. Assaisonner de sel et réfrigérer — elle se bonifie en reposant.",
+        "Préparer la pâte : fouetter la Farine avec la Bière jusqu'à obtention d'une consistance lisse et crémeuse. Assaisonner d'une pincée de sel.",
+        "Couper les Filets de Poisson Blanc en lanières d'environ 3 cm de large.",
+        "Les éponger soigneusement et assaisonner de sel.",
+        "Faire chauffer l'Huile Végétale dans une casserole à fond épais à 190 °C.",
+        "Pendant que l'huile chauffe, presser le reste du Citron Vert et hacher grossièrement la Coriandre.",
+        "Procéder par fournées : tremper les lanières de poisson dans la pâte (laisser l'excès s'égoutter), puis les plonger délicatement dans l'huile chaude. Faire frire 3 à 4 minutes, en les retournant une fois, jusqu'à ce qu'elles soient dorées et croustillantes. Égoutter sur du papier absorbant et assaisonner aussitôt de sel.",
+        "Faire réchauffer les Tortillas de Blé dans une poêle sèche 30 secondes de chaque côté jusqu'à ce qu'elles soient souples et légèrement colorées.",
+        "Garnir : déposer le poisson croustillant sur chaque tortilla chaude, couvrir de salade de chou au chipotle, parsemer de Coriandre et presser du Citron Vert par-dessus. Servir aussitôt avec des quartiers de citron vert supplémentaires."
+      ],
+      "tips": [
+        "Pour une pâte croustillante, la Bière doit être froide — la conserver au réfrigérateur jusqu'au moment de la mélanger.",
+        "Ne pas surcharger l'huile — faire frire trop de morceaux à la fois fait baisser la température et rend le poisson gras.",
+        "Sans thermomètre, tester l'huile en y déposant une petite goutte de pâte — elle doit grésiller immédiatement et remonter à la surface.",
+        "Pour encore plus de croustillant, ajouter une cuillère à soupe de fécule de maïs dans la pâte."
+      ]
+    }
+  },
+  "pork-stir-fry": {
+    "name": "Sauté de Porc Sucré-Épicé",
+    "description": "Filet de porc tendre avec des légumes dans une sauce collante sucré-épicée",
+    "ingredientNames": {
+      "psf-1": "Filet Mignon de Porc",
+      "psf-2": "Poivron",
+      "psf-3": "Pois Gourmands",
+      "psf-4": "Sauce Soja",
+      "psf-5": "Miel",
+      "psf-6": "Sriracha",
+      "psf-7": "Ail",
+      "psf-8": "Riz",
+      "psf-9": "Huile Végétale",
+      "psf-10": "Fécule de Maïs"
+    },
+    "instructions": {
+      "steps": [
+        "Rincer le Riz jusqu'à ce que l'eau soit claire.",
+        "Le mettre dans une casserole avec de l'eau, porter à ébullition, réduire le feu au minimum, couvrir et cuire 15 à 18 minutes.",
+        "Émincer le Filet Mignon de Porc contre le grain en fines lanières de 5 mm.",
+        "Enrober les lanières de porc de Fécule de Maïs jusqu'à ce qu'elles soient uniformément recouvertes.",
+        "Émincer les Poivrons en fines lanières.",
+        "Équeuter les Pois Gourmands.",
+        "Hacher finement l'Ail.",
+        "Fouetter ensemble la Sauce Soja, le Miel et la Sriracha dans un petit bol.",
+        "Faire chauffer la moitié de l'Huile Végétale dans un wok à feu très vif jusqu'à ce qu'elle fume.",
+        "Ajouter les lanières de Filet Mignon de Porc enrobées de fécule en une couche uniforme. Laisser saisir sans remuer pendant 1 minute, puis faire sauter 2 à 3 minutes jusqu'à ce qu'elles soient dorées et juste cuites. Réserver dans une assiette.",
+        "Verser le reste d'huile dans le wok. Ajouter les Poivrons et faire sauter 1 minute.",
+        "Ajouter les Pois Gourmands et faire sauter encore 1 à 2 minutes jusqu'à ce qu'ils soient tendres mais encore croquants et légèrement colorés.",
+        "Ajouter l'Ail haché et cuire 30 secondes jusqu'à ce qu'il soit parfumé.",
+        "Remettre le porc dans le wok, verser la sauce et mélanger vivement 1 minute jusqu'à ce que la sauce soit brillante et nappe tous les ingrédients.",
+        "Égrener le Riz et répartir dans les bols.",
+        "Napper de sauté de porc.",
+        "Garnir de graines de sésame et d'oignons verts émincés. Servir aussitôt."
+      ],
+      "tips": [
+        "L'enrobage de Fécule de Maïs est essentiel — il crée une barrière protectrice qui garde le porc juteux et permet à la sauce d'adhérer.",
+        "Un wok fumant est indispensable pour un sauté réussi — ne pas avoir peur du feu très vif.",
+        "Travailler par fournées si nécessaire — surcharger le wok fait cuire la viande à la vapeur au lieu de la saisir.",
+        "Ajuster la Sriracha selon vos préférences — commencer avec moins et en rajouter en fin de cuisson si besoin."
+      ]
+    }
+  },
+  "greek-chicken-bowls": {
+    "name": "Bols de Poulet à la Grecque",
+    "description": "Poulet méditerranéen avec concombre, tomates cerises et tzatziki",
+    "ingredientNames": {
+      "gcb-1": "Blanc de Poulet",
+      "gcb-2": "Concombre",
+      "gcb-3": "Tomates Cerises",
+      "gcb-4": "Oignon Rouge",
+      "gcb-5": "Feta",
+      "gcb-6": "Yaourt Grec",
+      "gcb-7": "Citron",
+      "gcb-8": "Origan",
+      "gcb-9": "Riz",
+      "gcb-10": "Huile d'Olive",
+      "gcb-11": "Ail"
+    },
+    "instructions": {
+      "steps": [
+        "Tailler le Blanc de Poulet en morceaux de 3 cm.",
+        "Fouetter ensemble la moitié de l'Huile d'Olive, le jus d'une moitié de Citron, l'Origan et une gousse d'Ail hachée. Ajouter le poulet et laisser mariner au moins 30 minutes.",
+        "Râper la moitié du Concombre et presser l'excès d'humidité. Mélanger avec le Yaourt Grec, le reste de l'Ail haché, le reste du jus de Citron et une pincée de sel. Réfrigérer jusqu'au service.",
+        "Rincer le Riz jusqu'à ce que l'eau soit claire.",
+        "Le mettre dans une casserole avec de l'eau, porter à ébullition, réduire le feu au minimum, couvrir et cuire 15 à 18 minutes.",
+        "Pendant la cuisson du riz, tailler le reste du Concombre en cubes de 1 cm.",
+        "Couper les Tomates Cerises en deux.",
+        "Émincer finement l'Oignon Rouge.",
+        "Émietter la Feta.",
+        "Faire chauffer le reste de l'Huile d'Olive dans une poêle-gril ou une poêle à feu vif.",
+        "Retirer le Blanc de Poulet de la marinade et cuire 5 à 6 minutes de chaque côté jusqu'à ce qu'il soit bien coloré et cuit à cœur (température interne 74 °C).",
+        "Laisser reposer le poulet 5 minutes, puis le tailler en tranches.",
+        "Égrener le Riz et répartir dans les bols.",
+        "Disposer le poulet grillé tranché d'un côté. Ajouter le Concombre coupé en dés, les Tomates Cerises coupées en deux et l'Oignon Rouge émincé en sections.",
+        "Parsemer généreusement de Feta émiettée.",
+        "Déposer une bonne cuillerée de tzatziki.",
+        "Arroser d'Huile d'Olive et saupoudrer d'Origan."
+      ],
+      "tips": [
+        "La marinade au citron et à l'origan est indispensable pour une saveur authentiquement grecque.",
+        "Presser l'excès d'humidité du concombre râpé évite un tzatziki trop liquide.",
+        "Laisser reposer le poulet avant de le trancher pour qu'il reste bien juteux.",
+        "Pour encore plus d'authenticité, ajouter des olives kalamata et une pincée de sumac."
+      ]
+    }
+  },
+  "shrimp-scampi": {
+    "name": "Scampi aux Crevettes à l'Ail",
+    "description": "Crevettes fondantes dans une sauce beurrée à l'ail et au vin blanc",
+    "ingredientNames": {
+      "ss-1": "Grosses Crevettes",
+      "ss-2": "Linguine",
+      "ss-3": "Beurre",
+      "ss-4": "Ail",
+      "ss-5": "Vin Blanc",
+      "ss-6": "Citron",
+      "ss-7": "Piment en Flocons",
+      "ss-8": "Persil",
+      "ss-9": "Huile d'Olive"
+    },
+    "instructions": {
+      "steps": [
+        "Porter une grande casserole d'eau généreusement salée à ébullition pour les Linguine.",
+        "Pendant que l'eau chauffe, décortiquer et déveiner les Grosses Crevettes si ce n'est pas déjà fait.",
+        "Essuyer les crevettes soigneusement avec du papier absorbant.",
+        "Émincer finement l'Ail.",
+        "Zester le Citron, puis le presser en conservant le zeste et le jus séparément.",
+        "Ciseler grossièrement le Persil frais.",
+        "Cuire les Linguine selon les indications du paquet jusqu'à ce qu'elles soient al dente.",
+        "Réserver 1 tasse d'eau de cuisson des pâtes avant d'égoutter.",
+        "Pendant la cuisson des pâtes, faire chauffer l'Huile d'Olive avec la moitié du Beurre dans une grande poêle à feu vif.",
+        "Ajouter les Grosses Crevettes en une seule couche et cuire 1 à 2 minutes de chaque côté jusqu'à ce qu'elles soient rosées et juste cuites. Les transférer immédiatement dans une assiette.",
+        "Réduire le feu à moyen. Ajouter le reste du Beurre dans la poêle.",
+        "Ajouter l'Ail émincé et le Piment en Flocons, en remuant pendant 30 secondes jusqu'à ce que le tout soit parfumé — sans laisser l'ail dorer.",
+        "Verser le Vin Blanc et le jus de Citron. Laisser frémir et réduire de moitié, environ 2 minutes.",
+        "Ajouter les Linguine égouttées dans la poêle et mélanger pour bien enrober. Ajouter des touches d'eau de cuisson réservée au besoin pour obtenir une sauce soyeuse.",
+        "Remettre les crevettes dans la poêle et mélanger délicatement.",
+        "Retirer du feu et incorporer le Persil et le zeste de Citron.",
+        "Répartir dans des assiettes creuses chaudes. Parsemer de Piment en Flocons supplémentaire selon le goût. Servir immédiatement."
+      ],
+      "tips": [
+        "Réservez l'eau de cuisson AVANT d'égoutter — impossible de la récupérer ensuite, et elle est indispensable pour la sauce.",
+        "Ne faites pas trop cuire les crevettes — elles continuent de cuire avec la chaleur résiduelle lorsqu'on les remet dans les pâtes.",
+        "Le vin doit être un vin que vous boiriez — le vin de cuisine bon marché donne un mauvais résultat.",
+        "Une noix de beurre supplémentaire en toute fin apporte cette onctuosité digne d'un restaurant."
+      ]
+    }
+  },
+  "bbq-chicken": {
+    "name": "Poulet Laqué au BBQ",
+    "description": "Cuisses de poulet juteuses nappées d'un glaçage BBQ fumé maison",
+    "ingredientNames": {
+      "bbq-1": "Cuisses de Poulet",
+      "bbq-2": "Ketchup",
+      "bbq-3": "Cassonade",
+      "bbq-4": "Vinaigre de Cidre",
+      "bbq-5": "Sauce Worcestershire",
+      "bbq-6": "Paprika Fumé",
+      "bbq-7": "Ail en Poudre",
+      "bbq-8": "Épis de Maïs",
+      "bbq-9": "Mélange Coleslaw",
+      "bbq-10": "Mayonnaise"
+    },
+    "instructions": {
+      "steps": [
+        "Sortir les Cuisses de Poulet du réfrigérateur 20 minutes avant la cuisson.",
+        "Assaisonner généreusement les deux faces avec du sel et du poivre.",
+        "Préchauffer le four à 200 °C (400 °F).",
+        "Préparer la sauce BBQ : dans une petite casserole, fouetter ensemble le Ketchup, la Cassonade, le Vinaigre de Cidre, la Sauce Worcestershire, le Paprika Fumé et l'Ail en Poudre. Porter à frémissement à feu moyen et cuire 5 minutes jusqu'à légère épaississement. Réserver.",
+        "Disposer les Cuisses de Poulet assaisonnées sur une plaque de cuisson côté peau vers le haut et enfourner 25 minutes.",
+        "Pendant la cuisson du poulet, éplucher les Épis de Maïs et retirer tous les fils.",
+        "Préparer le coleslaw en mélangeant le Mélange Coleslaw avec la Mayonnaise, du sel, du poivre et un trait de Vinaigre de Cidre.",
+        "Au bout de 25 minutes, badigeonner généreusement le poulet de sauce BBQ. Remettre au four 10 minutes supplémentaires jusqu'à ce que le glaçage soit caramélisé et que la température interne atteigne 74 °C (165 °F).",
+        "Faire griller ou bouillir les Épis de Maïs 8 à 10 minutes jusqu'à ce qu'ils soient tendres et légèrement dorés.",
+        "Badigeonner les Cuisses de Poulet d'une nouvelle couche de sauce BBQ encore chaud.",
+        "Servir le poulet laqué avec le maïs, le coleslaw et de la sauce BBQ supplémentaire en accompagnement."
+      ],
+      "tips": [
+        "N'ajoutez pas la sauce BBQ trop tôt — les sucres risquent de brûler avant que le poulet soit cuit.",
+        "Pour un arôme plus fumé, ajouter une cuillère à café de fumée liquide dans la sauce.",
+        "Laisser reposer le maïs 2 minutes après la cuisson, puis le badigeonner de beurre.",
+        "Pour une peau croustillante, passer sous le gril les 2 dernières minutes de cuisson."
+      ]
+    }
+  },
+  "vegetable-pad-thai": {
+    "name": "Pad Thaï Végétarien",
+    "description": "Nouilles thaïlandaises classiques aux légumes et sauce aigre-douce",
+    "ingredientNames": {
+      "vpt-1": "Nouilles de Riz",
+      "vpt-2": "Tofu",
+      "vpt-3": "Germes de Soja",
+      "vpt-4": "Œufs",
+      "vpt-5": "Pâte de Tamarin",
+      "vpt-6": "Sauce de Poisson",
+      "vpt-7": "Cassonade",
+      "vpt-8": "Cacahuètes",
+      "vpt-9": "Oignons Verts",
+      "vpt-10": "Citron Vert",
+      "vpt-11": "Huile Végétale"
+    },
+    "instructions": {
+      "steps": [
+        "Faire tremper les Nouilles de Riz dans de l'eau chaude (non bouillante) pendant 30 minutes jusqu'à ce qu'elles soient souples mais encore légèrement fermes.",
+        "En même temps, presser le Tofu : l'envelopper dans du papier absorbant, poser un objet lourd dessus et laisser égoutter 15 minutes.",
+        "Couper le Tofu pressé en cubes de 2 cm.",
+        "Pendant que les nouilles trempent, émincer les Oignons Verts en séparant les blancs des verts.",
+        "Concasser grossièrement les Cacahuètes.",
+        "Presser le Citron Vert.",
+        "Préparer la sauce pad thaï : fouetter ensemble la Pâte de Tamarin, la Sauce de Poisson et la Cassonade jusqu'à dissolution du sucre.",
+        "Faire chauffer 2 cuillères à soupe d'Huile Végétale dans un wok à feu vif jusqu'à ce qu'elle commence à fumer.",
+        "Ajouter les cubes de Tofu et faire frire sans remuer pendant 2 minutes jusqu'à ce qu'ils soient dorés. Retourner et cuire encore 2 minutes. Transférer dans une assiette.",
+        "Ajouter le reste de l'huile dans le wok. Casser les Œufs, les laisser coaguler 30 secondes, puis les brouiller en gros morceaux. Les pousser sur le côté du wok.",
+        "Ajouter les Nouilles de Riz égouttées et la sauce pad thaï. Mélanger vigoureusement avec des pinces pendant 2 à 3 minutes jusqu'à ce que les nouilles soient bien enrobées et ramollies.",
+        "Ajouter la moitié des Germes de Soja et les parties blanches des Oignons Verts. Mélanger encore une minute.",
+        "Remettre le tofu et mélanger l'ensemble.",
+        "Répartir dans des assiettes.",
+        "Garnir du reste des Germes de Soja frais, des Cacahuètes concassées et des parties vertes émincées des Oignons Verts.",
+        "Servir avec des quartiers de Citron Vert, de la Sauce de Poisson supplémentaire ou des flocons de piment selon le goût."
+      ],
+      "tips": [
+        "Ne faites pas tremper les nouilles trop longtemps — elles doivent rester souples sans être molles. Elles finissent de cuire dans le wok.",
+        "Un wok très chaud est indispensable pour obtenir ce goût authentique de 'wok hei' (l'haleine du wok).",
+        "Ajouter une partie des germes de soja crus à la fin apporte un contraste de texture agréable.",
+        "Pour une version végane, remplacer la Sauce de Poisson par de la sauce soja et omettre les œufs."
+      ]
+    }
+  },
+  "lamb-kofta": {
+    "name": "Kofta d'Agneau, Sauce Yaourt à la Menthe",
+    "description": "Brochettes d'agneau épicées et sauce yaourt fraîche à la menthe",
+    "ingredientNames": {
+      "lk-1": "Agneau Haché",
+      "lk-2": "Oignon",
+      "lk-3": "Ail",
+      "lk-4": "Cumin",
+      "lk-5": "Coriandre",
+      "lk-6": "Yaourt Grec",
+      "lk-7": "Menthe Fraîche",
+      "lk-8": "Pain Pita",
+      "lk-9": "Concombre",
+      "lk-10": "Tomates Cerises"
+    },
+    "instructions": {
+      "steps": [
+        "Si vous utilisez des brochettes en bois, les faire tremper dans l'eau pendant 30 minutes pour éviter qu'elles ne brûlent.",
+        "Râper l'Oignon sur la grosse grille d'une râpe à fromage — cela forme une pâte qui lie la viande.",
+        "Émincer finement l'Ail.",
+        "Ciseler finement la Menthe Fraîche en réservant quelques feuilles entières pour la garniture.",
+        "Dans un grand saladier, mélanger l'Agneau Haché avec l'Oignon râpé, l'Ail émincé, le Cumin, la Coriandre, 1 c. à café de sel et une bonne quantité de poivre. Pétrir soigneusement à la main.",
+        "Préparer le yaourt à la menthe : mélanger le Yaourt Grec avec la majeure partie de la Menthe Fraîche ciselée et une pincée de sel. Réfrigérer jusqu'au moment de servir.",
+        "Couper le Concombre en rondelles.",
+        "Couper les Tomates Cerises en deux.",
+        "Diviser la préparation d'agneau en 8 portions. Mouiller les mains et façonner chaque portion autour d'une brochette en une saucisse ovale d'environ 15 cm.",
+        "Préchauffer un gril ou une poêle-gril à feu moyen-vif.",
+        "Faire griller les kofta 4 à 5 minutes de chaque côté, en les retournant délicatement, jusqu'à ce qu'ils soient bien marqués à l'extérieur et cuits à cœur (température interne 71 °C/160 °F).",
+        "Faire tiédir les Pains Pita sur le gril 30 secondes de chaque côté jusqu'à ce qu'ils soient souples.",
+        "Faire glisser les kofta de leurs brochettes dans les Pains Pita chauds.",
+        "Ajouter les rondelles de Concombre et les Tomates Cerises coupées en deux.",
+        "Napper généreusement de yaourt à la menthe.",
+        "Parsemer des feuilles de Menthe Fraîche réservées. Servir immédiatement."
+      ],
+      "tips": [
+        "Râper l'oignon plutôt que le hacher assure une répartition uniforme et aide à lier la viande.",
+        "Les mains mouillées évitent que la viande ne colle lors du façonnage des kofta.",
+        "N'appuyez pas sur les kofta pendant la cuisson — laissez-les dorer sans les écraser.",
+        "Pour plus de saveur, ajouter une pincée de cannelle ou de sumac à la préparation d'agneau."
+      ]
+    }
+  },
+  "cajun-shrimp-pasta": {
+    "name": "Pâtes Crémeuses aux Crevettes Cajun",
+    "description": "Pâtes crémeuses aux crevettes épicées à la cajun",
+    "ingredientNames": {
+      "csp-1": "Grosses Crevettes",
+      "csp-2": "Penne",
+      "csp-3": "Crème Liquide Entière",
+      "csp-4": "Parmesan",
+      "csp-5": "Assaisonnement Cajun",
+      "csp-6": "Ail",
+      "csp-7": "Poivron",
+      "csp-8": "Beurre",
+      "csp-9": "Persil"
+    },
+    "instructions": {
+      "steps": [
+        "Porter une grande casserole d'eau salée à ébullition pour les pâtes.",
+        "Pendant que l'eau chauffe, décortiquer et déveiner les Grosses Crevettes et les éponger avec du papier absorbant.",
+        "Mélanger les crevettes avec la moitié de l'Assaisonnement Cajun.",
+        "Tailler le Poivron en petits dés.",
+        "Émincer finement l'Ail.",
+        "Râper le Parmesan.",
+        "Ciseler grossièrement le Persil frais.",
+        "Cuire les Penne selon les indications du paquet jusqu'à ce qu'elles soient al dente.",
+        "Réserver 1 tasse d'eau de cuisson avant d'égoutter.",
+        "Pendant la cuisson des pâtes, faire fondre le Beurre dans une grande poêle à feu moyen-vif.",
+        "Ajouter les Grosses Crevettes assaisonnées et cuire 2 à 3 minutes de chaque côté jusqu'à ce qu'elles soient rosées et légèrement caramélisées. Transférer dans une assiette.",
+        "Dans la même poêle, ajouter le Poivron en dés et le reste de l'Assaisonnement Cajun. Cuire 3 à 4 minutes jusqu'à ce que le poivron soit tendre.",
+        "Ajouter l'Ail émincé et cuire 30 secondes jusqu'à ce qu'il soit parfumé.",
+        "Verser la Crème Liquide Entière et porter à frémissement. Cuire 3 à 4 minutes jusqu'à légère épaississement.",
+        "Ajouter les pâtes égouttées et mélanger en ajoutant un peu d'eau de cuisson si la sauce est trop épaisse.",
+        "Incorporer le Parmesan râpé jusqu'à ce qu'il soit fondu.",
+        "Remettre les crevettes dans la poêle et mélanger.",
+        "Répartir dans des assiettes creuses chaudes. Garnir de Persil frais et de Parmesan supplémentaire. Servir immédiatement."
+      ],
+      "tips": [
+        "L'Assaisonnement Cajun varie selon les marques — goûtez avant d'en ajouter davantage, certains sont très piquants.",
+        "Ne faites pas trop cuire les crevettes dans un premier temps — elles finiront de cuire lorsqu'on les remettra dans la sauce.",
+        "L'eau de cuisson amidonnée est indispensable pour une sauce soyeuse qui accroche bien.",
+        "Pour plus de richesse, ajouter un trait de vin blanc lors de la cuisson du poivron."
+      ]
+    }
+  },
+  "honey-garlic-pork": {
+    "name": "Côtelettes de Porc Glacées Miel et Ail",
+    "description": "Côtelettes de porc poêlées avec un glaçage fondant au miel et à l'ail",
+    "ingredientNames": {
+      "hgp-1": "Côtelettes de Porc",
+      "hgp-2": "Miel",
+      "hgp-3": "Sauce Soja",
+      "hgp-4": "Ail",
+      "hgp-5": "Beurre",
+      "hgp-6": "Purée de Pommes de Terre",
+      "hgp-7": "Haricots Verts",
+      "hgp-8": "Huile d'Olive",
+      "hgp-9": "Thym"
+    },
+    "instructions": {
+      "steps": [
+        "Sortir les Côtelettes de Porc du réfrigérateur 20 minutes avant la cuisson pour les amener à température ambiante.",
+        "Si vous préparez une Purée de Pommes de Terre fraîche, éplucher et couper les pommes de terre en quatre, puis les mettre à cuire dans de l'eau salée.",
+        "Éponger soigneusement les Côtelettes de Porc avec du papier absorbant et les assaisonner généreusement de sel et de poivre.",
+        "Émincer finement l'Ail.",
+        "Équeuter les Haricots Verts.",
+        "Faire chauffer l'Huile d'Olive dans une grande poêle à feu moyen-vif jusqu'à frémissement.",
+        "Ajouter les Côtelettes de Porc et faire saisir sans les bouger pendant 4 minutes jusqu'à formation d'une belle croûte dorée. Retourner et cuire encore 4 minutes. Transférer dans une assiette pour laisser reposer.",
+        "Réduire le feu à moyen. Ajouter le Beurre dans la même poêle.",
+        "Ajouter l'Ail émincé et cuire 1 minute jusqu'à ce qu'il soit parfumé et légèrement doré.",
+        "Ajouter le Miel, la Sauce Soja et le Thym. Mélanger et laisser frémir 2 minutes jusqu'à obtention d'un glaçage légèrement épais.",
+        "Remettre les Côtelettes de Porc dans la poêle et les arroser généreusement de glaçage à plusieurs reprises, en cuisant encore 2 minutes pour bien les enrober et terminer la cuisson.",
+        "Cuire les Haricots Verts à la vapeur ou à l'eau bouillante 3 à 4 minutes jusqu'à ce qu'ils soient bien verts et tendres mais croquants.",
+        "Égoutter et écraser les pommes de terre avec du beurre et de la crème jusqu'à obtenir une purée lisse (ou réchauffer la Purée de Pommes de Terre préparée).",
+        "Déposer un lit de Purée de Pommes de Terre dans chaque assiette.",
+        "Placer une Côtelette de Porc glacée dessus en versant le reste du glaçage de la poêle.",
+        "Disposer les Haricots Verts à côté."
+      ],
+      "tips": [
+        "La clé du glaçage est de laisser le miel caraméliser sans brûler — surveillez la chaleur.",
+        "Laisser reposer le porc avant de le remettre dans le glaçage lui permet de conserver son jus.",
+        "Pour des côtelettes plus épaisses, les terminer au four à 200 °C après la saisie.",
+        "Un trait de vinaigre de cidre en fin de cuisson équilibre la douceur et apporte de la vivacité."
+      ]
+    }
+  },
+  "tuscan-chicken": {
+    "name": "Poulet Crémeux à la Toscane",
+    "description": "Poulet nappé d'une sauce crémeuse aux tomates séchées et aux épinards",
+    "ingredientNames": {
+      "tuc-1": "Blanc de Poulet",
+      "tuc-2": "Tomates Séchées",
+      "tuc-3": "Épinards",
+      "tuc-4": "Crème Liquide Entière",
+      "tuc-5": "Parmesan",
+      "tuc-6": "Ail",
+      "tuc-7": "Herbes de l'Italie",
+      "tuc-8": "Huile d'Olive",
+      "tuc-9": "Pâtes"
+    },
+    "instructions": {
+      "steps": [
+        "Porter une grande casserole d'eau salée à ébullition pour les Pâtes.",
+        "Pendant que l'eau chauffe, couper les Blancs de Poulet horizontalement pour obtenir deux escalopes fines.",
+        "Assaisonner les escalopes sur les deux faces avec du sel, du poivre et la moitié des Herbes de l'Italie.",
+        "Couper les Tomates Séchées en lanières.",
+        "Émincer finement l'Ail.",
+        "Râper le Parmesan.",
+        "Cuire les Pâtes selon les indications du paquet jusqu'à ce qu'elles soient al dente.",
+        "Réserver 1 tasse d'eau de cuisson avant d'égoutter.",
+        "Pendant la cuisson des pâtes, faire chauffer l'Huile d'Olive dans une grande poêle à feu moyen-vif.",
+        "Ajouter les escalopes de Blanc de Poulet et cuire 4 à 5 minutes de chaque côté jusqu'à ce qu'elles soient bien dorées et cuites à cœur (température interne 74 °C/165 °F). Transférer dans une assiette et laisser reposer.",
+        "Dans la même poêle, ajouter l'Ail émincé et le reste des Herbes de l'Italie. Cuire 30 secondes jusqu'à ce que le tout soit parfumé.",
+        "Ajouter les Tomates Séchées et cuire 1 minute.",
+        "Verser la Crème Liquide Entière et porter à frémissement doux. Cuire 3 à 4 minutes jusqu'à légère épaississement.",
+        "Ajouter les Épinards par poignées en remuant pour les faire tomber avant d'en ajouter davantage.",
+        "Incorporer le Parmesan râpé jusqu'à ce que la sauce soit lisse et homogène.",
+        "Trancher le poulet reposé et le remettre dans la sauce en l'arrosant du mélange crémeux.",
+        "Répartir les Pâtes égouttées dans les assiettes.",
+        "Disposer le poulet toscan crémeux par-dessus avec généreusement de sauce.",
+        "Garnir de Parmesan supplémentaire et d'un tour de moulin à poivre."
+      ],
+      "tips": [
+        "Ouvrir ou aplatir le poulet assure une cuisson homogène et plus de surface de contact avec la sauce.",
+        "Les Tomates Séchées à l'huile ont plus de saveur que les tomates sèches sans huile.",
+        "La quantité d'épinards peut sembler importante au départ, mais ils réduisent considérablement à la cuisson.",
+        "Un trait de l'huile des Tomates Séchées apporte une profondeur de goût supplémentaire à la sauce."
+      ]
+    }
+  },
+  "beef-bulgogi": {
+    "name": "Bœuf Bulgogi",
+    "description": "Bœuf coréen mariné aux saveurs sucrées-salées",
+    "ingredientNames": {
+      "bb-1": "Entrecôte de Bœuf",
+      "bb-2": "Poire Asiatique",
+      "bb-3": "Sauce Soja",
+      "bb-4": "Huile de Sésame",
+      "bb-5": "Cassonade",
+      "bb-6": "Ail",
+      "bb-7": "Gingembre",
+      "bb-8": "Oignons Verts",
+      "bb-9": "Riz",
+      "bb-10": "Graines de Sésame"
+    },
+    "instructions": {
+      "steps": [
+        "Placer l'Entrecôte de Bœuf au congélateur 30 minutes — cela facilite grandement la découpe en tranches très fines.",
+        "Épépiner et râper la Poire Asiatique.",
+        "Émincer l'Ail et râper le Gingembre frais.",
+        "Émincer finement les Oignons Verts en biais.",
+        "Rincer le Riz jusqu'à ce que l'eau soit claire.",
+        "Trancher l'Entrecôte de Bœuf refroidie contre le grain aussi finement que possible (2 à 3 mm).",
+        "Préparer la marinade : fouetter ensemble la Poire Asiatique râpée, la Sauce Soja, l'Huile de Sésame, la Cassonade, l'Ail émincé et le Gingembre râpé jusqu'à obtenir un mélange homogène.",
+        "Enrober les tranches de bœuf de la marinade.",
+        "Couvrir et réfrigérer au moins 1 heure (toute une nuit pour un résultat optimal).",
+        "Dans une casserole, combiner le Riz avec l'eau, porter à ébullition, réduire le feu à doux, couvrir et cuire 15 à 18 minutes.",
+        "Faire chauffer une grande poêle en fonte ou une poêle-gril à feu très vif jusqu'à ce qu'elle soit bien chaude.",
+        "En travaillant par fournées pour ne pas surcharger la poêle, déposer le bœuf mariné en une seule couche et saisir sans remuer 1 à 2 minutes jusqu'à caramélisation.",
+        "Retourner et cuire encore 1 à 2 minutes.",
+        "Transférer dans une assiette — la chaleur résiduelle finira de cuire les tranches très fines.",
+        "Égrener le Riz et le répartir dans des bols de service.",
+        "Déposer le Bœuf Bulgogi caramélisé par-dessus.",
+        "Parsemer généreusement d'Oignons Verts émincés et de Graines de Sésame.",
+        "Servir avec du kimchi et des feuilles de laitue pour les wraps."
+      ],
+      "tips": [
+        "La Poire Asiatique contient des enzymes qui attendrissent naturellement le bœuf — ne sautez pas cette étape.",
+        "Les tranches ultra-fines sont essentielles — si votre boucher peut les réaliser pour vous, c'est encore mieux.",
+        "Une poêle très chaude est indispensable pour obtenir cet extérieur caramélisé et légèrement grillé.",
+        "Le Bulgogi se mange traditionnellement enroulé dans une feuille de laitue avec du riz et des condiments."
+      ]
+    }
+  },
+  "lemon-herb-chicken": {
+    "name": "Poulet Rôti au Citron et aux Herbes",
+    "description": "Poulet rôti juteux au citron vif et aux herbes fraîches",
+    "ingredientNames": {
+      "lhc-1": "Cuisses de Poulet",
+      "lhc-2": "Citron",
+      "lhc-3": "Romarin",
+      "lhc-4": "Thym",
+      "lhc-5": "Ail",
+      "lhc-6": "Huile d'Olive",
+      "lhc-7": "Pommes de Terre",
+      "lhc-8": "Asperges"
+    },
+    "instructions": {
+      "steps": [
+        "Sortir les Cuisses de Poulet du réfrigérateur 30 minutes avant la cuisson.",
+        "Préchauffer le four à 220 °C (425 °F).",
+        "Zester les deux Citrons, puis les presser.",
+        "Émincer ou couper finement les gousses d'Ail.",
+        "Effeuiller les tiges de Romarin et les ciseler grossièrement.",
+        "Effeuiller le Thym.",
+        "Couper les Pommes de Terre en quartiers de taille uniforme.",
+        "Casser les extrémités ligneuses des Asperges.",
+        "Fouetter ensemble la majeure partie de l'Huile d'Olive, le zeste de Citron, la moitié du jus de Citron, le Romarin, le Thym et l'Ail émincé.",
+        "Saler et poivrer.",
+        "Enduire généreusement les Cuisses de Poulet du mélange aux herbes en faisant pénétrer sous la peau autant que possible.",
+        "Mélanger les Pommes de Terre avec le reste de l'Huile d'Olive, du sel et du poivre.",
+        "Disposer les Pommes de Terre en une seule couche sur une grande plaque de cuisson.",
+        "Glisser les cuisses de poulet entre les pommes de terre.",
+        "Rôtir 35 minutes en arrosant le poulet avec les jus de la plaque à mi-cuisson.",
+        "Ajouter les Asperges autour des bords et les arroser d'un filet d'huile.",
+        "Poursuivre la cuisson 10 minutes jusqu'à ce que la peau du poulet soit croustillante et dorée (température interne 74 °C/165 °F), les Pommes de Terre bien tendres et les Asperges d'un vert vif.",
+        "Laisser reposer les Cuisses de Poulet 5 minutes.",
+        "Disposer dans un plat de service avec les Pommes de Terre rôties et les Asperges.",
+        "Arroser du reste du jus de Citron et des jus de cuisson de la plaque."
+      ],
+      "tips": [
+        "Faire pénétrer le mélange aux herbes sous la peau maintient le poulet incroyablement moelleux.",
+        "Couper les pommes de terre en morceaux de taille égale assure une cuisson uniforme.",
+        "Ne négligez pas le temps de repos — trancher trop tôt laisse s'écouler tous les sucs.",
+        "Conservez les jus de la plaque — ils sont précieux pour le dressage final."
+      ]
+    }
+  },
+  "thai-basil-chicken": {
+    "name": "Poulet au Basilic Thaï",
+    "description": "Sauté de poulet haché parfumé au basilic thaï et aux piments",
+    "ingredientNames": {
+      "tbc-1": "Poulet Haché",
+      "tbc-2": "Basilic Thaï",
+      "tbc-3": "Piments Thaï",
+      "tbc-4": "Ail",
+      "tbc-5": "Sauce Soja",
+      "tbc-6": "Sauce Huître",
+      "tbc-7": "Sauce de Poisson",
+      "tbc-8": "Sucre",
+      "tbc-9": "Riz Jasmin",
+      "tbc-10": "Huile Végétale"
+    },
+    "instructions": {
+      "steps": [
+        "Rincer le Riz Jasmin jusqu'à ce que l'eau soit claire.",
+        "Combiner avec l'eau dans une casserole, porter à ébullition, réduire le feu à doux, couvrir et cuire 12 à 15 minutes.",
+        "Émincer finement les Piments Thaï (retirer les graines pour moins de piquant).",
+        "Hacher grossièrement l'Ail.",
+        "Détacher les feuilles de Basilic Thaï des tiges.",
+        "Mélanger la Sauce Soja, la Sauce Huître, la Sauce de Poisson et le Sucre jusqu'à dissolution de ce dernier.",
+        "Faire chauffer l'Huile Végétale dans un wok à feu très vif jusqu'à ce qu'elle commence à fumer.",
+        "Ajouter les Piments Thaï émincés et l'Ail haché et faire sauter 30 secondes jusqu'à ce que le tout soit parfumé.",
+        "Ajouter le Poulet Haché et le défaire avec une spatule.",
+        "Laisser saisir sans remuer 1 minute pour développer une belle couleur, puis continuer à faire sauter 3 à 4 minutes jusqu'à cuisson complète avec des bords légèrement croustillants.",
+        "Verser le mélange de sauces et mélanger pour bien enrober.",
+        "Laisser frémir 1 à 2 minutes jusqu'à ce que la sauce réduise légèrement et laque le poulet.",
+        "Retirer du feu immédiatement et incorporer les feuilles de Basilic Thaï — elles doivent simplement tomber avec la chaleur résiduelle.",
+        "Répartir le Riz Jasmin moelleux dans les assiettes de service.",
+        "Déposer le poulet au basilic thaï par-dessus.",
+        "Couronner d'un œuf au plat si désiré et servir immédiatement pendant que le basilic est encore vif et parfumé."
+      ],
+      "tips": [
+        "Ne cuisinez pas le basilic — il doit être ajouté hors du feu et juste tombé. La cuisson le noircit et l'amèrit.",
+        "Le basilic sacré thaïlandais (bai gaprao) est traditionnel, mais le basilic thaï doux convient également très bien.",
+        "La sauce doit réduire jusqu'à la consistance d'un enrobage, sans s'accumuler au fond.",
+        "Pour une présentation authentique, servir avec un œuf au plat — le jaune coulant s'intègre à la sauce."
+      ]
+    }
+  },
+  "salmon-teriyaki-bowl": {
+    "name": "Bol de Saumon Teriyaki",
+    "description": "Saumon laqué sur riz avec edamame et gingembre mariné",
+    "ingredientNames": {
+      "stb-1": "Pavé de Saumon",
+      "stb-2": "Sauce Soja",
+      "stb-3": "Mirin",
+      "stb-4": "Miel",
+      "stb-5": "Riz à Sushi",
+      "stb-6": "Edamame",
+      "stb-7": "Gingembre Mariné",
+      "stb-8": "Avocat",
+      "stb-9": "Graines de Sésame",
+      "stb-10": "Nori"
+    },
+    "instructions": {
+      "steps": [
+        "Sortir le Pavé de Saumon du réfrigérateur 20 minutes avant la cuisson.",
+        "Rincer le Riz à Sushi jusqu'à ce que l'eau soit claire.",
+        "Cuire le riz selon les indications du paquet (en général 1 volume de riz pour 1,1 volume d'eau, porter à ébullition, réduire le feu, couvrir 15 minutes, puis laisser reposer 10 minutes hors du feu).",
+        "Préparer la sauce teriyaki : fouetter ensemble la Sauce Soja, le Mirin et le Miel.",
+        "Éponger soigneusement le Pavé de Saumon avec du papier absorbant.",
+        "Couper le Nori en fines lanières avec des ciseaux.",
+        "Cuire l'Edamame dans de l'eau bouillante salée 3 à 4 minutes jusqu'à ce qu'il soit tendre.",
+        "Égoutter et écosser l'edamame si nécessaire.",
+        "Trancher l'Avocat et l'arroser d'un peu de jus de citron ou de citron vert pour éviter l'oxydation.",
+        "Faire chauffer une poêle antiadhésive à feu moyen-vif (pas d'huile nécessaire pour un saumon avec peau).",
+        "Déposer le Pavé de Saumon côté chair vers le bas et saisir 3 minutes jusqu'à formation d'une belle croûte.",
+        "Retourner côté peau vers le bas et cuire encore 3 minutes jusqu'à ce que la peau soit croustillante.",
+        "Verser la sauce teriyaki sur le saumon et laisser frémir et réduire 1 à 2 minutes en arrosant régulièrement le poisson du glaçage.",
+        "Répartir le Riz à Sushi entre les bols.",
+        "Déposer le Pavé de Saumon glacé par-dessus.",
+        "Disposer en sections les tranches d'Avocat, l'Edamame et le Gingembre Mariné autour du bol.",
+        "Parsemer de Graines de Sésame et de lanières de Nori.",
+        "Napper du reste de la sauce teriyaki."
+      ],
+      "tips": [
+        "Un bon riz à sushi doit être légèrement collant sans être pâteux — ne sautez pas l'étape du rinçage.",
+        "Pour une meilleure texture, cuire le saumon à point plutôt que bien cuit — il doit se détacher en flocons tout en restant moelleux.",
+        "Éventer le riz légèrement pendant qu'il refroidit pour obtenir le brillant traditionnel.",
+        "Un filet de mayonnaise sriracha apporte une touche de saveur supplémentaire si vous le souhaitez."
+      ]
+    }
+  },
+  "moroccan-chicken": {
+    "name": "Poulet aux Épices Marocaines",
+    "description": "Poulet mijoté aux citrons confits et aux olives, richement parfumé",
+    "ingredientNames": {
+      "mc-1": "Cuisses de Poulet",
+      "mc-2": "Citrons Confits",
+      "mc-3": "Olives Vertes",
+      "mc-4": "Oignon",
+      "mc-5": "Ail",
+      "mc-6": "Cumin",
+      "mc-7": "Cannelle",
+      "mc-8": "Safran",
+      "mc-9": "Couscous",
+      "mc-10": "Coriandre",
+      "mc-11": "Bouillon de Volaille"
+    },
+    "instructions": {
+      "steps": [
+        "Sortir les Cuisses de Poulet du réfrigérateur 30 minutes avant la cuisson.",
+        "Mélanger le Cumin et la Cannelle avec du sel et du poivre.",
+        "Enduire généreusement le poulet sur toutes les faces du mélange d'épices.",
+        "Faire infuser le Safran dans 2 cuillères à soupe de Bouillon de Volaille tiède.",
+        "Rincer les Citrons Confits, retirer la pulpe et couper l'écorce en fines lamelles.",
+        "Émincer l'Oignon finement.",
+        "Émincer l'Ail.",
+        "Ciseler grossièrement la Coriandre fraîche.",
+        "Faire chauffer de l'huile dans un tajine ou une cocotte à feu moyen-vif.",
+        "Faire dorer les Cuisses de Poulet côté peau vers le bas pendant 4 à 5 minutes jusqu'à coloration dorée.",
+        "Retourner et faire dorer l'autre face.",
+        "Transférer le poulet dans une assiette.",
+        "Faire revenir l'Oignon émincé dans la même cocotte 5 à 6 minutes jusqu'à ce qu'il soit attendri et légèrement doré.",
+        "Ajouter l'Ail émincé et cuire 30 secondes jusqu'à ce qu'il soit parfumé.",
+        "Verser le reste du Bouillon de Volaille et le liquide infusé au Safran.",
+        "Gratter les sucs de cuisson au fond de la cocotte.",
+        "Remettre les Cuisses de Poulet dans la cocotte.",
+        "Ajouter les lamelles de Citrons Confits et les Olives Vertes en les glissant autour du poulet.",
+        "Couvrir et laisser mijoter à feu doux 30 à 35 minutes jusqu'à ce que le poulet soit cuit et tendre.",
+        "Environ 5 minutes avant la fin de cuisson du poulet, verser du bouillon ou de l'eau bouillante sur le Couscous (ratio 1:1) et couvrir.",
+        "Laisser gonfler le couscous 5 minutes, puis l'égrener à la fourchette.",
+        "Étaler le Couscous dans un plat de service.",
+        "Disposer les Cuisses de Poulet avec les Citrons Confits et les Olives Vertes par-dessus.",
+        "Napper généreusement de la sauce parfumée.",
+        "Parsemer de Coriandre fraîche et servir à la bonne franquette, en mode familial."
+      ],
+      "tips": [
+        "Les Citrons Confits sont salés — ne rajoutez pas trop de sel par ailleurs.",
+        "Sans tajine, une cocotte en fonte convient parfaitement et produit le même effet de cuisson braisée.",
+        "Le Safran est précieux mais essentiel pour la saveur marocaine authentique — un peu suffit.",
+        "Ce plat est encore meilleur le lendemain, une fois les saveurs bien mêlées."
+      ]
+    }
+  },
+  "black-bean-tacos": {
+    "name": "Tacos de Haricots Noirs Épicés",
+    "description": "Tacos végétariens généreux aux haricots noirs assaisonnés",
+    "ingredientNames": {
+      "bbt-1": "Haricots Noirs",
+      "bbt-2": "Tortillas de Maïs",
+      "bbt-3": "Avocat",
+      "bbt-4": "Oignon Rouge",
+      "bbt-5": "Citron Vert",
+      "bbt-6": "Cumin",
+      "bbt-7": "Chipotle",
+      "bbt-8": "Coriandre Fraîche",
+      "bbt-9": "Queso Fresco",
+      "bbt-10": "Salsa Verde"
+    },
+    "instructions": {
+      "steps": [
+        "Égoutter et rincer les Haricots Noirs.",
+        "Couper l'Oignon Rouge en petits dés et le placer dans un petit bol avec un filet de jus de Citron Vert pour le faire mariner légèrement — faites-le en premier afin qu'il marine pendant que vous préparez le reste.",
+        "Émietter le Queso Fresco.",
+        "Ciseler grossièrement la Coriandre Fraîche.",
+        "Presser le jus du Citron Vert restant.",
+        "Couper l'Avocat en deux et retirer le noyau.",
+        "Écraser la chair avec le jus de Citron Vert et une pincée de sel en conservant une texture rustique pour un meilleur résultat.",
+        "Déposer la moitié des Haricots Noirs dans un bol et les écraser à la fourchette jusqu'à obtenir une purée grossière mais encore texturée.",
+        "Mélanger les haricots écrasés et les haricots entiers dans une casserole.",
+        "Ajouter le Cumin, le Chipotle, le jus d'un Citron Vert et une pincée de sel.",
+        "Chauffer à feu moyen pendant 5 à 7 minutes en remuant, jusqu'à ce que la préparation soit bien chaude et légèrement épaissie.",
+        "Griller les Tortillas de Maïs : passer chaque tortilla au-dessus d'une flamme à gaz pendant 10 à 15 secondes par côté jusqu'à ce qu'elles soient légèrement carbonisées, ou les chauffer dans une poêle sèche jusqu'à ce qu'elles soient souples et dorées.",
+        "Disposer les tortillas grillées (2 par personne).",
+        "Étaler du guacamole sur chaque tortilla.",
+        "Déposer les Haricots Noirs chauds par-dessus.",
+        "Ajouter l'Oignon Rouge mariné et le Queso Fresco émietté.",
+        "Arroser de Salsa Verde et parsemer de Coriandre Fraîche.",
+        "Servir avec des quartiers de Citron Vert supplémentaires."
+      ],
+      "tips": [
+        "Écraser la moitié des haricots crée une base onctueuse qui maintient mieux les tacos.",
+        "Faire mariner l'oignon dans le jus de citron vert adoucit son piquant et apporte de la fraîcheur.",
+        "Superposer deux tortillas si elles sont fines — cela évite qu'elles se déchirent et renforce le goût de maïs.",
+        "Pour plus de piquant, ajouter davantage de chipotle ou du jalapeño frais aux haricots."
+      ]
+    }
+  },
+  "ginger-beef": {
+    "name": "Bœuf au Gingembre Sauté",
+    "description": "Lanières de bœuf croustillantes au gingembre frais et légumes",
+    "ingredientNames": {
+      "gb-1": "Bavette de Bœuf",
+      "gb-2": "Gingembre Frais",
+      "gb-3": "Ail",
+      "gb-4": "Sauce Soja",
+      "gb-5": "Vinaigre de Riz",
+      "gb-6": "Sucre Roux",
+      "gb-7": "Poivron",
+      "gb-8": "Fécule de Maïs",
+      "gb-9": "Riz",
+      "gb-10": "Huile Végétale"
+    },
+    "instructions": {
+      "steps": [
+        "Rincer le Riz jusqu'à ce que l'eau soit claire.",
+        "Le combiner avec de l'eau dans une casserole, porter à ébullition, réduire le feu, couvrir et cuire 15 à 18 minutes.",
+        "Couper la Bavette de Bœuf perpendiculairement aux fibres en fines lanières de 5 mm.",
+        "Enrober les lanières de bœuf de Fécule de Maïs jusqu'à ce qu'elles soient uniformément recouvertes — c'est le secret du bœuf croustillant.",
+        "Éplucher le Gingembre Frais et le tailler en fine julienne.",
+        "Hacher finement l'Ail.",
+        "Couper les Poivrons en fines lanières.",
+        "Mélanger la Sauce Soja, le Vinaigre de Riz et le Sucre Roux jusqu'à ce que le sucre soit dissous.",
+        "Chauffer la moitié de l'Huile Végétale dans un wok à feu très vif jusqu'à ce qu'elle fume.",
+        "En plusieurs fois pour ne pas surcharger le wok, faire frire les lanières de Bavette de Bœuf enrobées de fécule pendant 2 à 3 minutes jusqu'à ce qu'elles soient croustillantes et dorées.",
+        "Réserver le bœuf dans une assiette.",
+        "Ajouter le reste de l'Huile Végétale dans le wok et faire sauter les Poivrons pendant 2 minutes jusqu'à ce qu'ils soient légèrement colorés mais encore croquants.",
+        "Ajouter le Gingembre Frais en julienne et l'Ail haché, puis faire sauter 30 secondes jusqu'à ce que les arômes se dégagent.",
+        "Remettre le bœuf croustillant dans le wok.",
+        "Verser la sauce et mélanger vigoureusement pendant 1 minute jusqu'à ce que la sauce enrobe tout et devienne légèrement collante.",
+        "Égrener le Riz et le répartir dans des assiettes ou des bols.",
+        "Déposer le bœuf au gingembre et les poivrons sur le riz.",
+        "Garnir d'oignons verts émincés et de graines de sésame, puis servir aussitôt pendant que le bœuf est encore croustillant."
+      ],
+      "tips": [
+        "L'enrobage de fécule de maïs doit être uniforme — secouer l'excédent pour un résultat plus croustillant.",
+        "Un wok extrêmement chaud est indispensable — le bœuf doit grésiller dès le contact.",
+        "Ne pas négliger le gingembre — c'est la vedette de ce plat. Le gingembre frais est obligatoire.",
+        "Servir immédiatement — l'enrobage croustillant ramollit s'il repose trop longtemps."
+      ]
+    }
+  },
+  "chicken-parmesan": {
+    "name": "Poulet Parmesan Croustillant",
+    "description": "Escalopes de poulet panées, sauce marinara et fromage fondu",
+    "ingredientNames": {
+      "cp-1": "Blanc de Poulet",
+      "cp-2": "Chapelure",
+      "cp-3": "Parmesan",
+      "cp-4": "Mozzarella",
+      "cp-5": "Sauce Marinara",
+      "cp-6": "Œufs",
+      "cp-7": "Farine",
+      "cp-8": "Spaghetti",
+      "cp-9": "Basilic",
+      "cp-10": "Huile d'Olive"
+    },
+    "instructions": {
+      "steps": [
+        "Porter une grande casserole d'eau généreusement salée à ébullition vive pour les Spaghetti.",
+        "Ouvrir le Blanc de Poulet en portefeuille et l'aplatir à 1 cm d'épaisseur entre deux feuilles de film alimentaire.",
+        "Assaisonner la Farine de sel et de poivre dans un bol creux.",
+        "Battre les Œufs dans un deuxième bol.",
+        "Mélanger la Chapelure avec la moitié du Parmesan râpé dans un troisième bol.",
+        "Trancher la Mozzarella et râper le reste du Parmesan.",
+        "Passer chaque escalope de Blanc de Poulet dans la Farine (secouer l'excédent), la tremper dans les Œufs, puis l'appuyer fermement dans la Chapelure des deux côtés.",
+        "Chauffer l'Huile d'Olive dans une grande poêle allant au four à feu moyen-vif.",
+        "Faire dorer les escalopes panées 3 à 4 minutes par côté jusqu'à ce qu'elles soient bien croustillantes.",
+        "Déposer sur une assiette recouverte de papier absorbant.",
+        "Cuire les Spaghetti dans l'eau bouillante jusqu'à ce qu'ils soient al dente.",
+        "Préchauffer le gril du four.",
+        "Verser la Sauce Marinara dans un plat à gratin.",
+        "Poser les escalopes frites sur la sauce.",
+        "Napper chaque morceau de Sauce Marinara supplémentaire, puis disposer la Mozzarella et le reste du Parmesan râpé.",
+        "Passer sous le gril 2 à 3 minutes jusqu'à ce que le fromage soit gratiné, doré et légèrement coloré par endroits.",
+        "Répartir les Spaghetti dans les assiettes et napper de Sauce Marinara.",
+        "Poser une escalope de poulet parmesan sur chaque portion.",
+        "Garnir de Basilic frais et de Parmesan supplémentaire, servir aussitôt pendant que le fromage est encore fondant."
+      ],
+      "tips": [
+        "Aplatir le poulet permet une cuisson uniforme et évite que l'extérieur brûle avant que l'intérieur soit cuit.",
+        "L'ordre de la panure (farine-œuf-chapelure) est important — la farine aide l'œuf à adhérer, l'œuf aide la chapelure à tenir.",
+        "Ne pas déplacer le poulet pendant que le premier côté dore — une belle croûte nécessite un contact continu avec la poêle.",
+        "Pour une panure encore plus croustillante, incorporer du parmesan râpé directement dans la chapelure."
+      ]
+    }
+  },
+  "coconut-curry-soup": {
+    "name": "Soupe Curry Coco",
+    "description": "Soupe thaïe réconfortante aux légumes et nouilles de riz",
+    "ingredientNames": {
+      "ccs-1": "Lait de Coco",
+      "ccs-2": "Bouillon de Légumes",
+      "ccs-3": "Pâte de Curry Rouge",
+      "ccs-4": "Nouilles de Riz",
+      "ccs-5": "Tofu",
+      "ccs-6": "Champignons",
+      "ccs-7": "Bok Choy",
+      "ccs-8": "Citron Vert",
+      "ccs-9": "Coriandre Fraîche",
+      "ccs-10": "Sauce Nuoc-Mâm"
+    },
+    "instructions": {
+      "steps": [
+        "Envelopper le Tofu dans du papier absorbant, poser un objet lourd dessus et laisser égoutter 15 minutes.",
+        "Faire tremper les Nouilles de Riz dans de l'eau tiède pendant 20 minutes jusqu'à ce qu'elles soient souples mais pas entièrement cuites.",
+        "Couper les Champignons en fines lamelles.",
+        "Parer le Bok Choy et le couper en quatre dans la longueur.",
+        "Presser le jus du Citron Vert.",
+        "Ciseler grossièrement la Coriandre Fraîche.",
+        "Couper le Tofu pressé en cubes de 2 cm.",
+        "Chauffer de l'huile dans une grande casserole à feu moyen-vif.",
+        "Faire dorer les cubes de Tofu 2 à 3 minutes par côté jusqu'à ce qu'ils soient bien colorés.",
+        "Réserver le tofu dans une assiette.",
+        "Ajouter la Pâte de Curry Rouge dans la même casserole et faire revenir 1 minute jusqu'à ce qu'elle soit parfumée et que sa couleur s'intensifie.",
+        "Verser le Lait de Coco et le Bouillon de Légumes en mélangeant bien.",
+        "Porter à frémissement.",
+        "Ajouter les Champignons et cuire 5 minutes jusqu'à ce qu'ils soient tendres.",
+        "Égoutter les Nouilles de Riz et les ajouter dans la casserole avec le Bok Choy.",
+        "Laisser mijoter 3 à 4 minutes jusqu'à ce que les nouilles soient cuites et le bok choy tendre mais encore bien vert.",
+        "Assaisonner avec la Sauce Nuoc-Mâm et le jus de Citron Vert selon votre goût.",
+        "Servir dans des bols profonds en veillant à répartir les nouilles, les légumes et le bouillon.",
+        "Garnir des cubes de Tofu dorés, de Coriandre Fraîche et de quartiers de citron vert supplémentaires.",
+        "Ajouter des flocons de piment ou de la sriracha pour relever selon votre convenance."
+      ],
+      "tips": [
+        "Presser le tofu élimine l'excès d'humidité pour un meilleur dorage et une texture plus agréable.",
+        "Ne pas cuire entièrement les nouilles de riz avant de les ajouter — elles termineront leur cuisson dans le bouillon chaud.",
+        "Doser soigneusement la sauce nuoc-mâm à votre goût — elle est très concentrée.",
+        "Pour une version végane, remplacer la sauce nuoc-mâm par de la sauce soja."
+      ]
+    }
+  },
+  "mediterranean-bowl": {
+    "name": "Bowl Méditerranéen aux Céréales",
+    "description": "Bowl de quinoa avec houmous, falafels et légumes frais",
+    "ingredientNames": {
+      "mgb-1": "Quinoa",
+      "mgb-2": "Falafels",
+      "mgb-3": "Houmous",
+      "mgb-4": "Concombre",
+      "mgb-5": "Tomates Cerises",
+      "mgb-6": "Oignon Rouge",
+      "mgb-7": "Feta",
+      "mgb-8": "Olives Kalamata",
+      "mgb-9": "Citron",
+      "mgb-10": "Huile d'Olive"
+    },
+    "instructions": {
+      "steps": [
+        "Rincer le Quinoa sous l'eau froide.",
+        "Le combiner avec de l'eau (ratio 1:2), porter à ébullition, réduire le feu, couvrir et laisser mijoter 15 minutes jusqu'à ce qu'il soit bien gonflé.",
+        "Laisser reposer 5 minutes à couvert.",
+        "Préparer les Falafels : si vous les faites cuire au four, préchauffer à 190°C et enfourner 15 minutes ; si vous les faites frire, chauffer l'huile et faire dorer jusqu'à coloration.",
+        "Couper le Concombre en cubes d'1 cm.",
+        "Couper les Tomates Cerises en deux.",
+        "Émincer finement l'Oignon Rouge.",
+        "Émietter la Feta.",
+        "Presser le jus du Citron.",
+        "Préparer la vinaigrette : fouetter l'Huile d'Olive, le jus de Citron, le sel et le poivre.",
+        "Répartir le Quinoa cuit dans des bols.",
+        "Ajouter 3 Falafels par bol.",
+        "Disposer en sections le Concombre, les Tomates Cerises, l'Oignon Rouge et les Olives Kalamata.",
+        "Déposer une généreuse cuillerée de Houmous dans chaque bol.",
+        "Émietter la Feta par-dessus.",
+        "Arroser de vinaigrette au citron et à l'huile d'olive.",
+        "Servir avec du pain pita tiède si désiré."
+      ],
+      "tips": [
+        "Rincer le quinoa est indispensable — son revêtement naturel peut lui donner un goût amer ou savonneux.",
+        "Le falafel au four est plus léger, mais la friture donne une croûte plus croustillante.",
+        "Laisser les convives mélanger eux-mêmes à table — le houmous se transforme en partie de la sauce.",
+        "Ajouter une pincée de zaatar ou de sumac pour des saveurs authentiquement orientales."
+      ]
+    }
+  },
+  "sesame-crusted-tuna": {
+    "name": "Thon en Croûte de Sésame",
+    "description": "Thon ahi saisi avec croûte de sésame et aïoli au wasabi",
+    "ingredientNames": {
+      "sct-1": "Pavés de Thon Ahi",
+      "sct-2": "Graines de Sésame",
+      "sct-3": "Sauce Soja",
+      "sct-4": "Pâte de Wasabi",
+      "sct-5": "Mayonnaise",
+      "sct-6": "Mélange de Jeunes Pousses",
+      "sct-7": "Huile de Sésame",
+      "sct-8": "Vinaigre de Riz",
+      "sct-9": "Gingembre"
+    },
+    "instructions": {
+      "steps": [
+        "Sortir les Pavés de Thon Ahi du réfrigérateur 20 minutes avant la cuisson — un poisson à température ambiante saisit mieux.",
+        "Râper le Gingembre frais.",
+        "Préparer l'aïoli au wasabi en mélangeant la Mayonnaise avec la Pâte de Wasabi jusqu'à obtenir une préparation lisse — commencer avec peu de wasabi et ajuster selon votre goût.",
+        "Fouetter ensemble la Sauce Soja, le Vinaigre de Riz et le Gingembre râpé pour réaliser la vinaigrette.",
+        "Enrober le Mélange de Jeunes Pousses de vinaigrette et le répartir dans les assiettes.",
+        "Sécher soigneusement les Pavés de Thon Ahi avec du papier absorbant.",
+        "Étaler les Graines de Sésame dans une assiette et presser fermement le thon dedans sur toutes les faces jusqu'à ce qu'il soit entièrement recouvert.",
+        "Chauffer l'Huile de Sésame dans une poêle épaisse à feu très vif jusqu'à ce qu'elle fume — c'est indispensable pour une bonne croûte.",
+        "Déposer délicatement le thon dans la poêle et saisir exactement 30 à 45 secondes par côté pour une cuisson saignante (l'intérieur doit rester rouge).",
+        "Retirer immédiatement sur une planche à découper.",
+        "Trancher le thon saisi perpendiculairement aux fibres en tranches d'1 cm — l'intérieur doit être joliment rouge.",
+        "Disposer les tranches de thon en éventail sur les jeunes pousses.",
+        "Napper d'aïoli au wasabi et servir immédiatement."
+      ],
+      "tips": [
+        "Un thon de qualité sashimi est indispensable puisqu'il est servi saignant.",
+        "La poêle doit être fumante — une poêle insuffisamment chaude cuira le thon à cœur avant d'obtenir une bonne croûte.",
+        "Utiliser un minuteur — même 10 secondes de trop peuvent surcuire le thon saignant.",
+        "Pour plus de croquant, faire griller brièvement les graines de sésame à sec avant d'en enrober le thon."
+      ]
+    }
+  },
+  "butter-chicken": {
+    "name": "Poulet Makhani",
+    "description": "Poulet indien riche et crémeux en sauce tomate-beurre",
+    "ingredientNames": {
+      "bc-1": "Cuisses de Poulet",
+      "bc-2": "Beurre",
+      "bc-3": "Crème Liquide",
+      "bc-4": "Purée de Tomates",
+      "bc-5": "Oignon",
+      "bc-6": "Ail",
+      "bc-7": "Garam Masala",
+      "bc-8": "Piment du Cachemire",
+      "bc-9": "Riz Basmati",
+      "bc-10": "Pain Naan",
+      "bc-11": "Coriandre Fraîche"
+    },
+    "instructions": {
+      "steps": [
+        "Rincer le Riz Basmati jusqu'à ce que l'eau soit claire.",
+        "Le combiner avec de l'eau (ratio 1:1,5), porter à ébullition, réduire le feu à doux, couvrir et cuire 15 minutes.",
+        "Laisser reposer à couvert.",
+        "Couper les Cuisses de Poulet en morceaux de 3 cm.",
+        "Mélanger 1 c. à café de Garam Masala avec une pincée de Piment du Cachemire et en enrober le poulet.",
+        "Couper finement l'Oignon en dés.",
+        "Hacher finement l'Ail.",
+        "Ciseler grossièrement la Coriandre Fraîche.",
+        "Chauffer la moitié du Beurre dans une grande sauteuse à fond épais à feu moyen-vif.",
+        "Ajouter les Cuisses de Poulet assaisonnées et les faire dorer 3 à 4 minutes par côté jusqu'à ce qu'elles soient bien colorées et légèrement caramélisées.",
+        "Réserver le poulet dans une assiette.",
+        "Ajouter le reste du Beurre dans la même sauteuse et faire revenir l'Oignon 6 à 8 minutes jusqu'à ce qu'il soit profondément doré et caramélisé.",
+        "Ajouter l'Ail haché et cuire 30 secondes jusqu'à ce que les arômes se dégagent.",
+        "Verser la Purée de Tomates avec le reste du Garam Masala et du Piment du Cachemire.",
+        "Laisser mijoter 15 minutes en remuant de temps en temps.",
+        "Incorporer la Crème Liquide et laisser mijoter 2 à 3 minutes jusqu'à ce que la sauce soit riche et veloutée.",
+        "Remettre le poulet dans la sauce et laisser mijoter 8 à 10 minutes jusqu'à ce qu'il soit bien cuit et que les saveurs se marient.",
+        "Réchauffer le Pain Naan dans une poêle sèche ou sous le gril.",
+        "Égrener le Riz Basmati et le répartir dans les assiettes.",
+        "Napper de butter chicken crémeux.",
+        "Garnir de Coriandre Fraîche et servir avec le Pain Naan chaud."
+      ],
+      "tips": [
+        "Le piment du Cachemire apporte de la couleur sans chaleur intense — le paprika est un bon substitut si nécessaire.",
+        "Le beurre est essentiel — ne pas le remplacer par de l'huile, c'est lui qui rend ce plat riche et gourmand.",
+        "Laisser mijoter la sauce tomate avant d'ajouter la crème développe une saveur plus profonde.",
+        "Pour une richesse de type restaurant, ajouter une cuillerée à soupe de beurre supplémentaire en fin de cuisson."
+      ]
+    }
+  },
+  "pesto-pasta": {
+    "name": "Pâtes Crémeuses au Pesto",
+    "description": "Pâtes au pesto de basilic frais et tomates cerises",
+    "ingredientNames": {
+      "pp-1": "Penne",
+      "pp-2": "Basilic Frais",
+      "pp-3": "Pignons de Pin",
+      "pp-4": "Parmesan",
+      "pp-5": "Ail",
+      "pp-6": "Huile d'Olive",
+      "pp-7": "Tomates Cerises",
+      "pp-8": "Crème Liquide",
+      "pp-9": "Citron"
+    },
+    "instructions": {
+      "steps": [
+        "Porter une grande casserole d'eau généreusement salée à ébullition vive pour les Penne.",
+        "Laver et bien sécher les feuilles de Basilic Frais (le basilic mouillé noircit dans le pesto).",
+        "Éplucher les gousses d'Ail.",
+        "Râper le Parmesan.",
+        "Couper les Tomates Cerises en deux.",
+        "Presser le jus du Citron.",
+        "Faire griller les Pignons de Pin à sec dans une poêle à feu moyen pendant 2 à 3 minutes en remuant sans cesse jusqu'à ce qu'ils soient dorés.",
+        "Laisser les pignons refroidir.",
+        "Dans un robot culinaire, mixer les Pignons de Pin refroidis et l'Ail par impulsions jusqu'à obtenir une consistance grossière.",
+        "Ajouter le Basilic Frais et mixer brièvement par impulsions.",
+        "Robot en marche, verser l'Huile d'Olive en filet jusqu'à obtenir une texture lisse mais encore légèrement granuleuse.",
+        "Incorporer la majeure partie du Parmesan en pulsant, puis assaisonner de sel et poivre.",
+        "Cuire les Penne dans l'eau bouillante jusqu'à ce qu'elles soient al dente.",
+        "Réserver 1 tasse d'eau de cuisson avant d'égoutter.",
+        "Mélanger les pâtes chaudes avec le pesto et la Crème Liquide dans un grand saladier ou dans la casserole encore chaude.",
+        "Mélanger vigoureusement en ajoutant progressivement l'eau de cuisson pour obtenir une sauce crémeuse et enrobante.",
+        "Incorporer les Tomates Cerises et un filet de jus de Citron.",
+        "Répartir dans des bols chauds.",
+        "Garnir de Parmesan supplémentaire râpé et de feuilles de basilic entières.",
+        "Arroser d'un filet d'Huile d'Olive et servir immédiatement."
+      ],
+      "tips": [
+        "Ne pas mixer le pesto trop longtemps — une certaine texture le rend plus intéressant.",
+        "Ajouter la crème au pesto frais le rend plus enrobant et plus gourmand.",
+        "Le jus de citron avive les saveurs et empêche le basilic de s'oxyder.",
+        "Ne jamais chauffer le pesto trop longtemps — il peut devenir amer et perdre sa belle couleur verte."
+      ]
+    }
+  },
+  "chicken-shawarma": {
+    "name": "Wraps de Poulet Shawarma",
+    "description": "Poulet épicé avec sauce à l'ail dans un pita chaud",
+    "ingredientNames": {
+      "csw-1": "Cuisses de Poulet",
+      "csw-2": "Cumin",
+      "csw-3": "Coriandre",
+      "csw-4": "Paprika",
+      "csw-5": "Curcuma",
+      "csw-6": "Yaourt Grec",
+      "csw-7": "Ail",
+      "csw-8": "Pain Pita",
+      "csw-9": "Navets Marinés",
+      "csw-10": "Tomate",
+      "csw-11": "Laitue"
+    },
+    "instructions": {
+      "steps": [
+        "Couper les Cuisses de Poulet en lanières de 2 cm.",
+        "Mélanger le Cumin, la Coriandre, le Paprika et le Curcuma avec 2 cuillerées à soupe d'huile d'olive, du sel et du poivre.",
+        "Enrober généreusement le poulet du mélange d'épices et réfrigérer au moins 1 heure (une nuit entière est encore mieux).",
+        "Hacher finement l'Ail (la moitié pour la sauce).",
+        "Trancher la Tomate.",
+        "Émincer la Laitue.",
+        "Préparer la sauce à l'ail : dans un robot culinaire, mixer la moitié de l'Ail avec une pincée de sel jusqu'à obtenir une pâte.",
+        "Incorporer l'huile très lentement en alternant avec du jus de citron jusqu'à obtenir une sauce épaisse et crémeuse.",
+        "Incorporer le Yaourt Grec.",
+        "Chauffer une poêle-gril ou une poêle à feu très vif.",
+        "Cuire les Cuisses de Poulet marinées 5 à 6 minutes par côté jusqu'à ce qu'elles soient bien marquées et cuites à cœur (température interne de 74°C).",
+        "Laisser reposer le poulet 5 minutes, puis le couper en lanières.",
+        "Réchauffer le Pain Pita sur la grille ou dans une poêle sèche jusqu'à ce qu'il soit souple.",
+        "Disposer les pains pitas chauds et y étaler généreusement la sauce à l'ail.",
+        "Garnir de Laitue émincée et de Tomate tranchée.",
+        "Déposer les lanières de Poulet par-dessus.",
+        "Ajouter les Navets Marinés pour la couleur et l'acidité.",
+        "Arroser d'un filet de sauce à l'ail supplémentaire, plier en wrap et servir immédiatement."
+      ],
+      "tips": [
+        "Plus la marinade est longue, plus le poulet sera savoureux et tendre.",
+        "Le toum traditionnel (sauce à l'ail) est à base d'ail et d'huile uniquement — le yaourt le rend plus simple à préparer et plus léger.",
+        "La coloration au feu vif est importante pour un goût authentique de shawarma — ne pas craindre une chaleur intense.",
+        "Les navets marinés sont traditionnels et apportent une belle couleur rose ainsi qu'une acidité essentielle."
+      ]
+    }
+  },
+  "shrimp-fried-rice": {
+    "name": "Riz Sauté aux Crevettes",
+    "description": "Riz sauté à la chinoise avec crevettes et légumes",
+    "ingredientNames": {
+      "sfr-1": "Grosses Crevettes",
+      "sfr-2": "Riz de la Veille",
+      "sfr-3": "Œufs",
+      "sfr-4": "Petits Pois",
+      "sfr-5": "Carottes",
+      "sfr-6": "Oignons Verts",
+      "sfr-7": "Sauce Soja",
+      "sfr-8": "Huile de Sésame",
+      "sfr-9": "Ail",
+      "sfr-10": "Huile Végétale"
+    },
+    "instructions": {
+      "steps": [
+        "Décortiquer et dévéiner les Grosses Crevettes si nécessaire, puis les sécher soigneusement avec du papier absorbant.",
+        "Égrainer le Riz de la Veille en séparant les grains — il doit être froid et sec pour un résultat optimal.",
+        "Couper les Carottes en petits cubes de 5 mm.",
+        "Émincer finement les Oignons Verts en séparant les blancs des verts.",
+        "Hacher finement l'Ail.",
+        "Battre légèrement les Œufs.",
+        "Préparer et disposer tous les ingrédients à portée de main avant de chauffer le wok.",
+        "Chauffer un wok à feu très vif jusqu'à ce qu'il fume.",
+        "Ajouter 1 cuillerée à soupe d'Huile Végétale, verser les Œufs battus, laisser prendre 30 secondes puis brouiller en gros morceaux.",
+        "Réserver les œufs brouillés dans une assiette.",
+        "Ajouter une autre cuillerée d'huile et faire sauter les Grosses Crevettes 2 à 3 minutes jusqu'à ce qu'elles soient roses et bien formées.",
+        "Réserver les crevettes dans l'assiette avec les œufs.",
+        "Ajouter le reste de l'huile et faire sauter les Carottes en dés pendant 2 minutes jusqu'à ce qu'elles soient légèrement tendres.",
+        "Ajouter les Petits Pois et les blancs des Oignons Verts, puis sauter 1 minute.",
+        "Ajouter le Riz de la Veille froid en séparant les grains, et l'appuyer contre le wok chaud pour le faire légèrement griller.",
+        "Pousser le riz sur le côté et ajouter l'Ail haché sur la partie du wok sans riz.",
+        "Cuire l'ail 20 secondes jusqu'à ce qu'il soit parfumé, puis le mélanger au riz.",
+        "Verser la Sauce Soja sur les bords du wok et mélanger le tout.",
+        "Remettre les œufs brouillés et les crevettes, puis mélanger.",
+        "Arroser d'Huile de Sésame.",
+        "Répartir dans les assiettes et parsemer des parties vertes des Oignons Verts.",
+        "Servir immédiatement."
+      ],
+      "tips": [
+        "Le riz de la veille est indispensable — le riz frais est trop humide et deviendra pâteux. Si nécessaire, étaler du riz frais sur une plaque et réfrigérer à découvert une nuit.",
+        "Le wok doit rester très chaud tout au long de la cuisson — c'est ce qui donne la saveur fumée du « wok hei ».",
+        "Verser la sauce soja sur les bords du wok lui permet de caraméliser avant de toucher le riz.",
+        "Ne pas remuer constamment — laisser le riz en contact avec le wok chaud crée des parties croustillantes."
+      ]
+    }
+  },
+  "stuffed-peppers": {
+    "name": "Poivrons Farcis",
+    "description": "Poivrons garnis de bœuf haché assaisonné et de riz",
+    "ingredientNames": {
+      "sp-1": "Poivron",
+      "sp-2": "Bœuf Haché",
+      "sp-3": "Riz",
+      "sp-4": "Tomates Concassées",
+      "sp-5": "Oignon",
+      "sp-6": "Ail",
+      "sp-7": "Herbes de l'Italie",
+      "sp-8": "Mozzarella",
+      "sp-9": "Persil"
+    },
+    "instructions": {
+      "steps": [
+        "Préchauffer le four à 190°C.",
+        "Rincer le Riz et commencer sa cuisson en le laissant légèrement al dente — il finira de cuire au four.",
+        "Couper le chapeau des Poivrons et retirer les graines et les membranes.",
+        "Couper finement l'Oignon en dés.",
+        "Hacher finement l'Ail.",
+        "Râper ou émincer la Mozzarella.",
+        "Ciseler grossièrement le Persil frais.",
+        "Dans une grande poêle, faire revenir le Bœuf Haché à feu moyen-vif en l'émiettant en petits morceaux.",
+        "Ajouter l'Oignon en dés et cuire 4 à 5 minutes jusqu'à ce qu'il soit fondant.",
+        "Ajouter l'Ail haché et les Herbes de l'Italie, puis cuire 30 secondes jusqu'à ce que les arômes se dégagent.",
+        "Incorporer la moitié des Tomates Concassées et le Riz partiellement cuit.",
+        "Assaisonner de sel et de poivre.",
+        "Disposer les Poivrons évidés debout dans un plat à gratin.",
+        "Garnir chaque poivron du mélange bœuf-riz en tassant légèrement.",
+        "Verser les Tomates Concassées restantes autour des poivrons.",
+        "Couvrir de papier aluminium et enfourner 40 minutes jusqu'à ce que les poivrons soient tendres.",
+        "Retirer le papier aluminium, couvrir chaque poivron de Mozzarella généreusement et enfourner à nouveau sans couvrir 10 minutes jusqu'à ce que le fromage soit fondu et gratiné.",
+        "Déposer délicatement chaque poivron farci dans une assiette.",
+        "Napper de sauce tomate récupérée dans le plat de cuisson.",
+        "Garnir de Persil frais et servir avec du pain croustillant."
+      ],
+      "tips": [
+        "Si les poivrons ne tiennent pas debout, couper une fine tranche sur le fond (sans faire de trou).",
+        "Cuire le riz al dente au départ — il absorbe l'humidité des tomates pendant la cuisson au four.",
+        "La sauce tomate autour des poivrons les maintient moelleux et constitue une sauce d'accompagnement tout intégrée.",
+        "Pour une présentation colorée, utiliser un assortiment de poivrons rouges, jaunes et oranges."
+      ]
+    }
+  },
+  "orange-chicken": {
+    "name": "Poulet à l'Orange Croustillant",
+    "description": "Morceaux de poulet frits croustillants en sauce à l'orange acidulée",
+    "ingredientNames": {
+      "oc-1": "Blanc de Poulet",
+      "oc-2": "Jus d'Orange",
+      "oc-3": "Sauce Soja",
+      "oc-4": "Sucre Roux",
+      "oc-5": "Vinaigre de Riz",
+      "oc-6": "Zeste d'Orange",
+      "oc-7": "Fécule de Maïs",
+      "oc-8": "Ail",
+      "oc-9": "Riz",
+      "oc-10": "Huile Végétale",
+      "oc-11": "Oignons Verts"
+    },
+    "instructions": {
+      "steps": [
+        "Rincer le Riz jusqu'à ce que l'eau soit claire.",
+        "Le combiner avec de l'eau dans une casserole, porter à ébullition, réduire le feu à doux, couvrir et cuire 15 à 18 minutes.",
+        "Couper le Blanc de Poulet en morceaux de 3 cm et les enrober de Fécule de Maïs jusqu'à ce qu'ils soient uniformément recouverts.",
+        "Prélever le zeste de l'orange, puis en presser le jus.",
+        "Hacher finement l'Ail.",
+        "Émincer finement les Oignons Verts.",
+        "Préparer la sauce à l'orange : fouetter ensemble le Jus d'Orange, le Zeste d'Orange, la Sauce Soja, le Sucre Roux et le Vinaigre de Riz jusqu'à ce que le sucre soit dissous.",
+        "Chauffer l'Huile Végétale dans une casserole profonde ou un wok à 175°C.",
+        "En plusieurs fois pour ne pas surcharger, faire frire délicatement les morceaux de Poulet enrobés de fécule 4 à 5 minutes jusqu'à ce qu'ils soient dorés, croustillants et bien cuits.",
+        "Égoutter sur une assiette recouverte de papier absorbant.",
+        "Vider l'huile du wok en n'en laissant qu'1 cuillerée à soupe, puis chauffer à feu moyen-vif.",
+        "Ajouter l'Ail haché et cuire 30 secondes jusqu'à ce qu'il soit parfumé.",
+        "Verser la sauce à l'orange et porter à ébullition.",
+        "Laisser réduire et épaissir 2 à 3 minutes jusqu'à ce qu'elle soit brillante et sirupeuse.",
+        "Ajouter tout le poulet croustillant et mélanger vigoureusement pour bien l'enrober.",
+        "Égrener le Riz et le répartir dans des assiettes ou des bols.",
+        "Déposer le poulet glacé à l'orange par-dessus.",
+        "Parsemer d'Oignons Verts émincés et servir aussitôt pendant que l'enrobage est encore croustillant."
+      ],
+      "tips": [
+        "Le poulet doit être parfaitement sec et uniformément enrobé de fécule de maïs pour un résultat croustillant.",
+        "Ne pas surcharger l'huile — frire en plusieurs fois maintient la température élevée pour un poulet plus croustillant.",
+        "Servir immédiatement — la sauce ramollira l'enrobage croustillant avec le temps.",
+        "Pour plus de punch citrique, ajouter un peu de zeste d'orange frais sur le plat fini."
+      ]
+    }
+  },
+  "lamb-chops": {
+    "name": "Côtelettes d'Agneau en Croûte d'Herbes",
+    "description": "Tendres côtelettes d'agneau avec une croûte de romarin et d'ail",
+    "ingredientNames": {
+      "lc-1": "Côtelettes d'Agneau",
+      "lc-2": "Romarin",
+      "lc-3": "Ail",
+      "lc-4": "Moutarde de Dijon",
+      "lc-5": "Chapelure",
+      "lc-6": "Huile d'Olive",
+      "lc-7": "Haricots Verts",
+      "lc-8": "Pommes de Terre",
+      "lc-9": "Beurre"
+    },
+    "instructions": {
+      "steps": [
+        "Sortir les Côtelettes d'Agneau du réfrigérateur 30 minutes avant la cuisson afin de les amener à température ambiante.",
+        "Préchauffer le four à 200°C.",
+        "Éplucher et couper les Pommes de Terre en quartiers.",
+        "Les plonger dans une casserole d'eau salée, porter à ébullition et cuire 15 à 20 minutes jusqu'à ce qu'elles soient tendres sous la fourchette.",
+        "Effeuiller le Romarin frais et le hacher finement.",
+        "Émincer finement l'Ail.",
+        "Mélanger la Chapelure avec le Romarin haché, l'Ail émincé, 2 cuillères à soupe d'Huile d'Olive, du sel et du poivre.",
+        "Équêter les Haricots Verts.",
+        "Assaisonner généreusement les Côtelettes d'Agneau avec du sel et du poivre.",
+        "Faire chauffer le reste de l'Huile d'Olive dans une poêle allant au four à feu vif jusqu'à ce qu'elle fume.",
+        "Saisir les côtelettes 2 minutes de chaque côté jusqu'à ce qu'elles soient bien dorées.",
+        "Retirer du feu et badigeonner le dessus de chaque côtelette de Moutarde de Dijon.",
+        "Presser fermement le mélange chapelure-herbes sur la moutarde pour former une croûte.",
+        "Enfourner la poêle et rôtir 10 à 12 minutes pour une cuisson à point (température interne 57°C).",
+        "Cuire les Haricots Verts à la vapeur ou à l'eau bouillante 3 à 4 minutes jusqu'à ce qu'ils soient d'un beau vert vif et légèrement croquants.",
+        "Égoutter les Pommes de Terre et les écraser avec le Beurre et un filet de crème.",
+        "Assaisonner la purée avec du sel et du poivre.",
+        "Laisser reposer les Côtelettes d'Agneau 5 minutes — une étape indispensable pour une viande juteuse.",
+        "Répartir la purée de Pommes de Terre crémeuse dans les assiettes.",
+        "Disposer 2 à 3 côtelettes d'agneau par personne.",
+        "Ajouter les Haricots Verts en accompagnement.",
+        "Napper avec le jus de cuisson."
+      ],
+      "tips": [
+        "La viande à température ambiante est essentielle pour une cuisson homogène — une côtelette froide sera trop cuite à l'extérieur et crue à l'intérieur.",
+        "La moutarde permet à la croûte d'adhérer tout en apportant de la saveur sans dominer.",
+        "Ne sautez pas le temps de repos — coupée trop tôt, la viande perdra tous ses jus.",
+        "Pour une cuisson à point parfaite, utilisez un thermomètre à lecture instantanée."
+      ]
+    }
+  },
+  "chicken-pot-pie": {
+    "name": "Tourte au Poulet à l'Ancienne",
+    "description": "Poulet et légumes crémeux sous une pâte feuilletée dorée",
+    "ingredientNames": {
+      "cpp-1": "Blanc de Poulet",
+      "cpp-2": "Pâte Feuilletée",
+      "cpp-3": "Carottes",
+      "cpp-4": "Petits Pois",
+      "cpp-5": "Céleri",
+      "cpp-6": "Oignon",
+      "cpp-7": "Beurre",
+      "cpp-8": "Farine",
+      "cpp-9": "Bouillon de Poulet",
+      "cpp-10": "Crème Épaisse",
+      "cpp-11": "Thym"
+    },
+    "instructions": {
+      "steps": [
+        "Décongeler la Pâte Feuilletée selon les instructions du paquet — commencer par cette étape car elle prend le plus de temps.",
+        "Couper le Blanc de Poulet en morceaux de 3 cm.",
+        "Porter le Bouillon de Poulet à frémissement, y plonger le poulet et pocher 12 à 15 minutes jusqu'à cuisson complète.",
+        "Retirer le poulet et l'effilocher à l'aide de deux fourchettes.",
+        "Réserver le bouillon de pochage.",
+        "Couper les Carottes en dés.",
+        "Émincer le Céleri.",
+        "Couper l'Oignon en dés.",
+        "Effeuiller le Thym.",
+        "Préchauffer le four à 200°C.",
+        "Dans une grande casserole, faire fondre le Beurre à feu moyen.",
+        "Ajouter l'Oignon en dés et cuire 4 à 5 minutes jusqu'à ce qu'il soit translucide.",
+        "Ajouter les Carottes et le Céleri et cuire 5 minutes jusqu'à ce qu'ils soient légèrement tendres.",
+        "Saupoudrer de Farine, mélanger pour bien enrober et cuire 1 minute.",
+        "Verser progressivement le Bouillon de Poulet réservé en fouettant constamment pour éviter les grumeaux.",
+        "Ajouter la Crème Épaisse et le Thym et porter à frémissement.",
+        "Cuire 5 à 7 minutes jusqu'à ce que la sauce nappe une cuillère.",
+        "Incorporer les Petits Pois et le poulet effiloché, puis assaisonner de sel et de poivre.",
+        "Verser la garniture dans un plat à gratin.",
+        "Étaler la Pâte Feuilletée et la déposer sur la garniture en rentrant les bords ou en les soudant contre le plat.",
+        "Inciser quelques fentes pour laisser la vapeur s'échapper.",
+        "Enfourner 25 à 30 minutes jusqu'à ce que la pâte soit bien gonflée et dorée.",
+        "Laisser reposer 10 minutes avant de servir — la garniture sera brûlante."
+      ],
+      "tips": [
+        "Pocher le poulet dans le bouillon le garde moelleux et parfume la sauce.",
+        "Le roux doit cuire une minute avant d'ajouter le liquide pour éviter le goût de farine crue.",
+        "Ne pas oublier les fentes dans la pâte — elles empêchent le dessus de ramollir.",
+        "Badigeonner la pâte d'œuf battu avant d'enfourner pour une croûte encore plus dorée et brillante."
+      ]
+    }
+  },
+  "beef-tacos": {
+    "name": "Tacos au Bœuf à l'Ancienne",
+    "description": "Bœuf haché assaisonné dans des coquilles croustillantes avec des garnitures fraîches",
+    "ingredientNames": {
+      "bt-1": "Bœuf Haché",
+      "bt-2": "Coquilles à Tacos",
+      "bt-3": "Cumin",
+      "bt-4": "Piment en Poudre",
+      "bt-5": "Laitue",
+      "bt-6": "Tomate",
+      "bt-7": "Cheddar",
+      "bt-8": "Crème Aigre",
+      "bt-9": "Salsa",
+      "bt-10": "Oignon"
+    },
+    "instructions": {
+      "steps": [
+        "Émincer finement l'Oignon.",
+        "Ciseler la Laitue en fines lanières.",
+        "Couper la Tomate en petits dés.",
+        "Râper le Cheddar.",
+        "Faire chauffer une grande poêle à feu moyen-vif.",
+        "Ajouter le Bœuf Haché et l'Oignon émincé.",
+        "Cuire 6 à 8 minutes en émiettant la viande en petits morceaux.",
+        "Égoutter l'excès de gras en laissant environ 1 cuillère à soupe.",
+        "Ajouter le Cumin, le Piment en Poudre, 1/2 c. à café de sel et 60 ml d'eau.",
+        "Mélanger et laisser mijoter 3 à 4 minutes jusqu'à ce que le liquide s'évapore et que les épices enrobent bien la viande.",
+        "Réchauffer les Coquilles à Tacos selon les instructions du paquet (3 à 4 minutes dans un four à 180°C ou brièvement dans une poêle sèche).",
+        "Disposer le bœuf assaisonné dans un plat de service avec les garnitures.",
+        "Garnir les tacos en commençant par le bœuf, puis la Laitue ciselée, la Tomate en dés, le Cheddar râpé, la Crème Aigre et la Salsa.",
+        "Servir immédiatement pendant que les coquilles sont encore croustillantes."
+      ],
+      "tips": [
+        "Ne pas sauter l'ajout d'eau — elle permet aux épices de s'épanouir et donne une viande plus savoureuse et plus moelleuse.",
+        "Réchauffer les coquilles à tacos les rend plus souples et évite qu'elles ne se cassent.",
+        "Pour des tacos plus moelleux, envelopper des tortillas de blé dans du papier absorbant humide et les passer 30 secondes au micro-ondes.",
+        "Pour plus de piquant, ajouter un piment jalapeño émincé à la viande en cours de cuisson."
+      ]
+    }
+  },
+  "ramen-bowl": {
+    "name": "Bol de Ramen au Porc",
+    "description": "Bouillon de porc riche avec nouilles, œuf et garnitures",
+    "ingredientNames": {
+      "rb-1": "Poitrine de Porc",
+      "rb-2": "Nouilles Ramen",
+      "rb-3": "Bouillon de Poulet",
+      "rb-4": "Sauce Soja",
+      "rb-5": "Pâte de Miso",
+      "rb-6": "Œufs",
+      "rb-7": "Oignons Verts",
+      "rb-8": "Nori",
+      "rb-9": "Maïs",
+      "rb-10": "Ail",
+      "rb-11": "Gingembre"
+    },
+    "instructions": {
+      "steps": [
+        "Préchauffer le four à 200°C.",
+        "Inciser la peau de la Poitrine de Porc en quadrillage.",
+        "Assaisonner de sel et enfourner immédiatement — compter 30 à 35 minutes de cuisson.",
+        "Émincer l'Ail.",
+        "Râper le Gingembre frais.",
+        "Émincer finement les Oignons Verts en séparant les parties blanches et vertes.",
+        "Égoutter le Maïs.",
+        "Préparer les Œufs mollets : porter de l'eau à ébullition, y plonger délicatement les œufs et cuire exactement 6 minutes pour un jaune coulant.",
+        "Les transférer immédiatement dans de l'eau glacée et les écaler une fois refroidis.",
+        "Préparer le bouillon : réunir le Bouillon de Poulet, l'Ail émincé, le Gingembre râpé, la Sauce Soja et les parties blanches des Oignons Verts dans une grande casserole.",
+        "Porter le bouillon à frémissement.",
+        "Délayer la Pâte de Miso avec une louche de bouillon chaud jusqu'à consistance lisse, puis reverser dans la casserole.",
+        "Maintenir au chaud à feu doux — ne pas faire bouillir le miso.",
+        "Sortir la Poitrine de Porc du four (la peau doit être croustillante et la viande cuite à cœur).",
+        "Laisser reposer la poitrine, puis la trancher en morceaux de 1 cm.",
+        "Cuire les Nouilles Ramen selon les instructions du paquet.",
+        "Les égoutter et les répartir dans des bols profonds.",
+        "Verser généreusement le bouillon miso chaud sur les nouilles.",
+        "Disposer les tranches de Poitrine de Porc d'un côté de chaque bol.",
+        "Couper les Œufs mollets en deux et les placer côté jaune vers le haut.",
+        "Ajouter le Maïs et une feuille de Nori.",
+        "Parsemer des parties vertes des Oignons Verts et servir immédiatement."
+      ],
+      "tips": [
+        "L'œuf de 6 minutes est crucial — 30 secondes de plus et le jaune se solidifie.",
+        "Ne jamais faire bouillir le miso — cela détruit les bonnes bactéries et atténue la saveur.",
+        "Le nori doit être ajouté en dernier et consommé rapidement avant de ramollir.",
+        "Pour encore plus de richesse, arroser d'huile de piment ou ajouter une noix de beurre (le 'secret' de nombreux restaurants de ramen)."
+      ]
+    }
+  },
+  "chicken-alfredo": {
+    "name": "Poulet Alfredo",
+    "description": "Pâtes crémeuses au parmesan avec poulet grillé",
+    "ingredientNames": {
+      "ca-1": "Blanc de Poulet",
+      "ca-2": "Fettuccine",
+      "ca-3": "Crème Épaisse",
+      "ca-4": "Parmesan",
+      "ca-5": "Beurre",
+      "ca-6": "Ail",
+      "ca-7": "Herbes Italiennes",
+      "ca-8": "Persil",
+      "ca-9": "Poivre Noir"
+    },
+    "instructions": {
+      "steps": [
+        "Porter une grande casserole d'eau généreusement salée à ébullition vive pour les Fettuccine.",
+        "Ouvrir le Blanc de Poulet en portefeuille et l'aplatir à épaisseur uniforme.",
+        "Assaisonner avec les Herbes Italiennes, du sel et du poivre.",
+        "Émincer l'Ail.",
+        "Râper le Parmesan.",
+        "Hacher grossièrement le Persil frais.",
+        "Cuire les Fettuccine al dente.",
+        "Réserver 1 tasse d'eau de cuisson avant d'égoutter.",
+        "Pendant la cuisson des pâtes, faire chauffer une poêle-gril ou une poêle à feu moyen-vif.",
+        "Griller le Blanc de Poulet assaisonné 5 à 6 minutes de chaque côté jusqu'à ce qu'il soit bien marqué et cuit à cœur (température interne 74°C).",
+        "Laisser reposer 5 minutes.",
+        "Dans une grande sauteuse, faire fondre le Beurre à feu moyen.",
+        "Ajouter l'Ail émincé et cuire 30 secondes — ne pas le laisser colorer.",
+        "Verser la Crème Épaisse et porter à frémissement doux.",
+        "Cuire 3 à 4 minutes jusqu'à légère réduction.",
+        "Retirer du feu et incorporer la majeure partie du Parmesan râpé jusqu'à obtenir une sauce lisse et fondue.",
+        "Ajouter les Fettuccine égouttées et mélanger pour bien enrober, en ajoutant des touches d'eau de cuisson si nécessaire.",
+        "Assaisonner de Poivre Noir.",
+        "Trancher le Blanc de Poulet reposé en biais.",
+        "Répartir les Fettuccine crémeuses dans les assiettes.",
+        "Disposer les tranches de poulet par-dessus.",
+        "Parsemer du reste de Parmesan et de Persil frais.",
+        "Terminer par un généreux tour de moulin à Poivre Noir."
+      ],
+      "tips": [
+        "Ne pas porter la crème à ébullition vive — un frémissement doux évite qu'elle ne tourne.",
+        "Incorporer le parmesan hors du feu pour une sauce plus lisse — la chaleur excessive peut la rendre granuleuse.",
+        "L'eau de cuisson des pâtes est votre meilleure alliée pour ajuster la consistance de la sauce.",
+        "Cette sauce est riche — ne pas en mettre trop sur les pâtes. La sobriété est de mise."
+      ]
+    }
+  },
+  "bibimbap": {
+    "name": "Bibimbap Coréen",
+    "description": "Bol de riz avec légumes, bœuf et sauce gochujang",
+    "ingredientNames": {
+      "bib-1": "Riz",
+      "bib-2": "Bœuf dans le Filet",
+      "bib-3": "Épinards",
+      "bib-4": "Germes de Soja",
+      "bib-5": "Carottes",
+      "bib-6": "Courgette",
+      "bib-7": "Œufs",
+      "bib-8": "Gochujang",
+      "bib-9": "Huile de Sésame",
+      "bib-10": "Sauce Soja",
+      "bib-11": "Graines de Sésame"
+    },
+    "instructions": {
+      "steps": [
+        "Rincer le Riz jusqu'à ce que l'eau soit claire.",
+        "Le combiner avec de l'eau, porter à ébullition, réduire à feu doux, couvrir et cuire 15 à 18 minutes.",
+        "Maintenir au chaud.",
+        "Émincer le Bœuf dans le Filet en fines lanières.",
+        "Faire mariner le bœuf avec un trait de Sauce Soja et d'Huile de Sésame.",
+        "Tailler les Carottes et la Courgette en fine julienne.",
+        "Laver et sécher les Épinards et les Germes de Soja.",
+        "Faire sauter la julienne de Carottes dans l'Huile de Sésame avec une pincée de sel pendant 2 minutes et réserver.",
+        "Faire sauter la Courgette de la même façon et réserver.",
+        "Blanchir les Épinards 30 secondes dans l'eau bouillante.",
+        "Presser pour éliminer toute l'eau et assaisonner d'Huile de Sésame et de sel.",
+        "Blanchir les Germes de Soja 1 minute.",
+        "Les égoutter et les assaisonner d'Huile de Sésame et de sel.",
+        "Faire sauter le Bœuf dans le Filet mariné à feu vif 2 à 3 minutes jusqu'à juste cuit.",
+        "Réserver le bœuf.",
+        "Faire cuire les Œufs sur le plat en laissant les jaunes coulants.",
+        "Répartir le Riz chaud dans de grands bols.",
+        "Disposer les légumes et le bœuf en sections séparées, en formant une roue colorée.",
+        "Placer un Œuf au centre, côté jaune vers le haut.",
+        "Ajouter une généreuse cuillerée de Gochujang sur le côté.",
+        "Parsemer de Graines de Sésame.",
+        "Servir avec une grande cuillère — les convives mélangent tout avant de manger en cassant le jaune pour créer une sauce."
+      ],
+      "tips": [
+        "Chaque composant est assaisonné et cuit séparément pour préserver des saveurs et des textures bien distinctes.",
+        "Le jaune coulant est indispensable — mélangé au gochujang, il crée une sauce crémeuse.",
+        "Pour plus de croustillant, utiliser un bol en pierre et le chauffer avant d'y mettre le riz — cela forme une croûte de riz dorée appelée 'nurungji'.",
+        "Le mélange fait partie du rituel — encourager un brassage vigoureux pour une bouchée pleine de saveurs à chaque fois."
+      ]
+    }
+  },
+  "eggplant-parmesan": {
+    "name": "Aubergine à la Parmigiana",
+    "description": "Tranches d'aubergine panées, gratinées avec sauce marinara et fromage",
+    "ingredientNames": {
+      "ep-1": "Aubergine",
+      "ep-2": "Chapelure",
+      "ep-3": "Parmesan",
+      "ep-4": "Mozzarella",
+      "ep-5": "Sauce Marinara",
+      "ep-6": "Œufs",
+      "ep-7": "Farine",
+      "ep-8": "Basilic",
+      "ep-9": "Huile d'Olive"
+    },
+    "instructions": {
+      "steps": [
+        "Couper l'Aubergine en rondelles d'1 cm.",
+        "Saler généreusement et laisser dégorger dans une passoire 30 minutes — cela élimine l'excès d'humidité et l'amertume.",
+        "Préchauffer le four à 190°C.",
+        "Préparer la panure : Farine dans le bol 1, Œufs battus dans le bol 2, Chapelure mélangée avec la moitié du Parmesan râpé dans le bol 3.",
+        "Râper ou trancher la Mozzarella.",
+        "Déchirer le Basilic frais.",
+        "Éponger soigneusement les tranches d'aubergine avec du papier absorbant.",
+        "Paner chaque tranche en la passant dans la Farine (secouer l'excès), puis dans les Œufs, puis en la pressant dans le mélange Chapelure-parmesan des deux côtés.",
+        "Faire chauffer l'Huile d'Olive dans une grande poêle à feu moyen-vif.",
+        "Faire frire les tranches panées par fournées 2 à 3 minutes de chaque côté jusqu'à ce qu'elles soient bien dorées, en rajoutant de l'huile si nécessaire.",
+        "Égoutter sur du papier absorbant.",
+        "Étaler une fine couche de Sauce Marinara au fond d'un plat à gratin.",
+        "Disposer la moitié des aubergines frites en les chevauchant légèrement.",
+        "Couvrir avec 1/3 du reste de Sauce Marinara, 1/3 de la Mozzarella et quelques feuilles de Basilic déchiré.",
+        "Répéter avec le reste des aubergines, de la Sauce Marinara, de la Mozzarella et du Basilic, en terminant par le fromage.",
+        "Couvrir de papier aluminium et enfourner 20 minutes.",
+        "Retirer le papier aluminium et cuire encore 10 à 15 minutes jusqu'à ce que ce soit bien gratiné et doré.",
+        "Laisser reposer 10 minutes avant de couper — cela aide à tenir les couches.",
+        "Servir garni de Basilic frais et de Parmesan supplémentaire, avec du pain croustillant."
+      ],
+      "tips": [
+        "Ne pas sauter l'étape du salage — elle est indispensable pour éliminer l'amertume et l'excès d'humidité.",
+        "Bien sécher l'aubergine après le salage — une aubergine humide ne deviendra pas croustillante.",
+        "Laisser reposer le plat avant de le couper pour que les couches se tiennent.",
+        "Pour une version plus légère, badigeonner les tranches panées d'huile et les faire cuire au four plutôt que de les frire."
+      ]
+    }
+  },
+  "kung-pao-chicken": {
+    "name": "Poulet Kung Pao",
+    "description": "Poulet sauté épicé avec cacahuètes et piments",
+    "ingredientNames": {
+      "kpc-1": "Blanc de Poulet",
+      "kpc-2": "Cacahuètes",
+      "kpc-3": "Piments Séchés",
+      "kpc-4": "Sauce Soja",
+      "kpc-5": "Vinaigre de Riz",
+      "kpc-6": "Sauce Hoisin",
+      "kpc-7": "Ail",
+      "kpc-8": "Gingembre",
+      "kpc-9": "Oignons Verts",
+      "kpc-10": "Riz",
+      "kpc-11": "Fécule de Maïs"
+    },
+    "instructions": {
+      "steps": [
+        "Rincer le Riz jusqu'à ce que l'eau soit claire.",
+        "Le combiner avec de l'eau dans une casserole, porter à ébullition, réduire à feu doux, couvrir et cuire 15 à 18 minutes.",
+        "Couper le Blanc de Poulet en cubes de 2 cm et les enrober de Fécule de Maïs.",
+        "Émincer l'Ail et râper le Gingembre frais.",
+        "Couper les Oignons Verts en tronçons de 3 cm en séparant les parties blanches et vertes.",
+        "Ciseler les Piments Séchés en deux en faisant tomber quelques graines.",
+        "Préparer la sauce : fouetter ensemble la Sauce Soja, le Vinaigre de Riz et la Sauce Hoisin.",
+        "Faire torréfier les Cacahuètes à sec dans un wok à feu moyen 2 à 3 minutes jusqu'à ce qu'elles soient parfumées et dorées.",
+        "Réserver les cacahuètes.",
+        "Faire chauffer l'huile dans le wok à feu vif jusqu'à ce qu'elle fume.",
+        "Faire sauter le Blanc de Poulet enrobé de Fécule de Maïs par fournées 3 à 4 minutes jusqu'à ce qu'il soit doré et cuit à cœur.",
+        "Réserver le poulet.",
+        "Ajouter un peu d'huile et faire revenir les Piments Séchés 30 secondes jusqu'à ce qu'ils foncent et embaument — ne pas les brûler.",
+        "Ajouter l'Ail émincé, le Gingembre râpé et les parties blanches des Oignons Verts.",
+        "Faire sauter 30 secondes jusqu'à ce que les arômes se dégagent.",
+        "Remettre le poulet dans le wok et verser la sauce.",
+        "Mélanger vigoureusement pour bien enrober.",
+        "Ajouter les Cacahuètes torréfiées et les parties vertes des Oignons Verts.",
+        "Mélanger jusqu'à ce que tout soit bien nappé et brillant.",
+        "Égrener le Riz et le répartir dans les assiettes.",
+        "Disposer le poulet Kung Pao sur le riz et servir immédiatement."
+      ],
+      "tips": [
+        "Les piments séchés servent principalement à parfumer le plat — ils ne sont pas destinés à être mangés (sauf pour les plus courageux).",
+        "Doser le piquant en retirant plus ou moins de graines des piments.",
+        "Torréfier les cacahuètes est indispensable — des cacahuètes crues n'auront pas la même profondeur de saveur.",
+        "Préparer tous les ingrédients avant de commencer — le kung pao se réalise très rapidement."
+      ]
+    }
+  },
+  "caprese-chicken": {
+    "name": "Poulet Farci à la Caprese",
+    "description": "Blanc de poulet farci de mozzarella, tomate et basilic",
+    "ingredientNames": {
+      "cpc-1": "Blanc de Poulet",
+      "cpc-2": "Mozzarella Fraîche",
+      "cpc-3": "Tomate Roma",
+      "cpc-4": "Basilic Frais",
+      "cpc-5": "Réduction Balsamique",
+      "cpc-6": "Huile d'Olive",
+      "cpc-7": "Ail en Poudre",
+      "cpc-8": "Mesclun"
+    },
+    "instructions": {
+      "steps": [
+        "Préchauffer le four à 190°C.",
+        "Couper la Mozzarella Fraîche en fines rondelles.",
+        "Couper les Tomates Roma en fines rondelles et les éponger avec du papier absorbant.",
+        "Laver et sécher les feuilles de Basilic Frais et le Mesclun.",
+        "Éponger les Blancs de Poulet et les poser à plat.",
+        "À l'aide d'un couteau bien aiguisé, inciser chaque blanc horizontalement pour former une poche, sans couper jusqu'au bout.",
+        "Assaisonner l'intérieur de chaque poche avec l'Ail en Poudre, du sel et du poivre.",
+        "Garnir chaque poche en superposant : Mozzarella Fraîche, puis Tomates Roma, puis Basilic Frais.",
+        "Fermer avec 1 à 2 cure-dents et assaisonner l'extérieur de sel et de poivre.",
+        "Faire chauffer l'Huile d'Olive dans une poêle allant au four à feu moyen-vif.",
+        "Saisir les Blancs de Poulet farcis 4 minutes de chaque côté jusqu'à ce qu'ils soient bien dorés.",
+        "Enfourner la poêle et cuire 15 à 18 minutes jusqu'à ce que le poulet soit cuit à cœur (température interne 74°C).",
+        "Laisser reposer 5 minutes, puis retirer les cure-dents.",
+        "Disposer le Mesclun sur un plat de service ou dans des assiettes individuelles.",
+        "Couper chaque blanc de poulet farci en biais pour révéler la garniture.",
+        "Les disposer sur le mesclun.",
+        "Arroser généreusement de Réduction Balsamique.",
+        "Garnir avec les feuilles de Basilic Frais restantes."
+      ],
+      "tips": [
+        "Éponger les tranches de tomate pour éviter que la farce ne rende trop d'eau.",
+        "Ne pas trop farcir — le poulet doit pouvoir se refermer autour de la garniture.",
+        "Le temps de repos est essentiel — il permet aux jus de se redistribuer et au fromage de se raffermir légèrement pour des tranches plus nettes.",
+        "Si votre réduction balsamique est trop épaisse, la réchauffer brièvement avant de la faire couler."
+      ]
+    }
+  },
+  "beef-stroganoff": {
+    "name": "Bœuf Stroganoff",
+    "description": "Bœuf tendre en sauce crémeuse aux champignons sur nouilles aux œufs",
+    "ingredientNames": {
+      "bs-1": "Bœuf dans le Filet",
+      "bs-2": "Champignons",
+      "bs-3": "Nouilles aux Œufs",
+      "bs-4": "Crème Aigre",
+      "bs-5": "Bouillon de Bœuf",
+      "bs-6": "Oignon",
+      "bs-7": "Ail",
+      "bs-8": "Moutarde de Dijon",
+      "bs-9": "Beurre",
+      "bs-10": "Persil"
+    },
+    "instructions": {
+      "steps": [
+        "Sortir la Crème Aigre du réfrigérateur pour la ramener à température ambiante — cela évite qu'elle ne tourne.",
+        "Porter une grande casserole d'eau salée à ébullition pour les Nouilles aux Œufs.",
+        "Trancher le Bœuf dans le Filet contre le grain en fines lanières de 5 mm et assaisonner de sel et de poivre.",
+        "Émincer les Champignons en tranches épaisses.",
+        "Couper l'Oignon en dés.",
+        "Émincer l'Ail finement.",
+        "Hacher grossièrement le Persil frais.",
+        "Cuire les Nouilles aux Œufs selon les instructions du paquet.",
+        "Les égoutter et les mélanger avec un peu de beurre pour éviter qu'elles ne collent.",
+        "Faire chauffer la moitié du Beurre dans une grande poêle à feu vif jusqu'à ce qu'il fume.",
+        "En travaillant par petites quantités pour ne pas surcharger la poêle, saisir le bœuf 1 à 2 minutes jusqu'à ce qu'il soit doré mais encore rosé à l'intérieur.",
+        "Transférer le bœuf dans une assiette.",
+        "Ajouter le reste du Beurre dans la poêle.",
+        "Réduire à feu moyen-vif, ajouter les Champignons et cuire sans remuer 3 minutes pour une belle coloration.",
+        "Mélanger et cuire encore 3 minutes jusqu'à ce qu'ils soient dorés.",
+        "Ajouter l'Oignon et cuire 4 à 5 minutes jusqu'à ce qu'il soit translucide.",
+        "Ajouter l'Ail et cuire 30 secondes.",
+        "Verser le Bouillon de Bœuf et la Moutarde de Dijon.",
+        "Porter à frémissement et cuire 5 minutes jusqu'à légère réduction.",
+        "Retirer du feu et incorporer la Crème Aigre à température ambiante jusqu'à consistance lisse.",
+        "Remettre le bœuf et son jus rendu, mélanger délicatement — ne pas faire bouillir sous peine de faire tourner la crème aigre.",
+        "Répartir les Nouilles aux Œufs beurrées dans des assiettes chaudes.",
+        "Napper généreusement avec le stroganoff crémeux.",
+        "Parsemer abondamment de Persil frais haché et servir immédiatement."
+      ],
+      "tips": [
+        "Ne pas trop cuire le bœuf — il doit être encore rosé après la saisie, car il finira de cuire dans la sauce.",
+        "La Crème Aigre à température ambiante est indispensable pour éviter qu'elle ne tourne — la sortir du réfrigérateur 30 minutes avant de cuisiner.",
+        "Ne pas faire bouillir la sauce après avoir ajouté la crème aigre — la réchauffer simplement à feu très doux.",
+        "La Moutarde de Dijon apporte de la profondeur sans que le plat ait un goût de moutarde."
+      ]
+    }
+  },
+  "cheesy-pork-quesadillas": {
+    "name": "Quesadillas Croustillantes au Porc et Fromage",
+    "description": "Tortillas croustillantes garnies de porc assaisonné, fromage fondu et poivrons",
+    "ingredientNames": {
+      "cpq-1": "Porc Haché",
+      "cpq-2": "Tortillas de Blé",
+      "cpq-3": "Cheddar",
+      "cpq-4": "Monterey Jack",
+      "cpq-5": "Poivron",
+      "cpq-6": "Oignon",
+      "cpq-7": "Cumin",
+      "cpq-8": "Piment en Poudre",
+      "cpq-9": "Crème Aigre",
+      "cpq-10": "Salsa",
+      "cpq-11": "Coriandre",
+      "cpq-12": "Huile Végétale"
+    },
+    "instructions": {
+      "steps": [
+        "Couper finement l'Oignon et le Poivron en dés.",
+        "Râper le Cheddar et le Monterey Jack, puis les mélanger.",
+        "Hacher grossièrement la Coriandre fraîche.",
+        "Mélanger le Cumin et le Piment en Poudre avec une pincée de sel.",
+        "Faire chauffer l'Huile Végétale dans une grande poêle à feu moyen-vif.",
+        "Ajouter le Porc Haché en l'émiettant en petits morceaux et cuire 4 à 5 minutes jusqu'à ce qu'il commence à dorer.",
+        "Ajouter l'Oignon et le Poivron en dés et cuire 4 à 5 minutes jusqu'à ce que les légumes soient tendres et le porc cuit à cœur.",
+        "Saupoudrer du mélange d'épices et cuire 1 minute supplémentaire.",
+        "Transférer dans un bol.",
+        "Essuyer la poêle et la remettre sur feu moyen.",
+        "Déposer une Tortilla de Blé dans la poêle.",
+        "Répartir une généreuse poignée de fromage mélangé sur une moitié, déposer un peu de farce au porc par-dessus, puis plier en deux.",
+        "Cuire 2 à 3 minutes jusqu'à ce que le dessous soit doré et croustillant.",
+        "Retourner délicatement et cuire encore 2 minutes jusqu'à ce que le fromage soit entièrement fondu.",
+        "Transférer sur une planche à découper et répéter avec le reste des tortillas.",
+        "Couper chaque quesadilla en 3 parts.",
+        "Dresser sur un plat et servir avec la Crème Aigre et la Salsa pour tremper.",
+        "Garnir de Coriandre fraîche."
+      ],
+      "tips": [
+        "Ne pas trop garnir les quesadillas — une farce trop abondante les rend difficiles à retourner et le fromage ne suffira plus à tout tenir.",
+        "Un feu moyen est la clé — trop fort et la tortilla brûle avant que le fromage ne fonde.",
+        "Appuyer légèrement avec une spatule pendant la cuisson pour favoriser la fonte du fromage et lier le tout.",
+        "Pour des quesadillas encore plus croustillantes, badigeonner l'extérieur de la tortilla d'un peu d'huile avant la cuisson."
+      ]
+    }
+  },
+  "greek-beef-gnocchi": {
+    "name": "Poêlée de Gnocchis au Bœuf à la Grecque",
+    "description": "Gnocchis poêlés avec bœuf assaisonné, feta et saveurs méditerranéennes",
+    "ingredientNames": {
+      "gbg-1": "Gnocchis de Pomme de Terre",
+      "gbg-2": "Bœuf Haché",
+      "gbg-3": "Feta",
+      "gbg-4": "Tomates Cerises",
+      "gbg-5": "Épinards",
+      "gbg-6": "Olives Kalamata",
+      "gbg-7": "Ail",
+      "gbg-8": "Origan",
+      "gbg-9": "Huile d'Olive",
+      "gbg-10": "Citron",
+      "gbg-11": "Oignon Rouge"
+    },
+    "instructions": {
+      "steps": [
+        "Porter une grande casserole d'eau salée à ébullition pour les Gnocchis de Pomme de Terre.",
+        "Couper les Tomates Cerises en deux.",
+        "Hacher grossièrement les Olives Kalamata.",
+        "Émincer finement l'Oignon Rouge.",
+        "Émincer l'Ail.",
+        "Émietter la Feta.",
+        "Zester et presser le Citron.",
+        "Cuire les Gnocchis de Pomme de Terre dans l'eau bouillante jusqu'à ce qu'ils remontent à la surface.",
+        "Bien les égoutter.",
+        "Faire chauffer 2 cuillères à soupe d'Huile d'Olive dans une grande poêle à feu moyen-vif.",
+        "Ajouter les gnocchis en une seule couche et cuire sans remuer 3 à 4 minutes jusqu'à ce qu'ils soient dorés et croustillants en dessous.",
+        "Les retourner et cuire encore 2 minutes, puis les transférer dans une assiette.",
+        "Ajouter le reste de l'Huile d'Olive dans la poêle.",
+        "Ajouter le Bœuf Haché et cuire 5 à 6 minutes en l'émiettant jusqu'à ce qu'il soit bien doré.",
+        "Ajouter l'Oignon Rouge émincé et cuire 2 à 3 minutes jusqu'à ce qu'il soit fondant.",
+        "Ajouter l'Ail émincé et l'Origan et cuire 30 secondes jusqu'à ce que les arômes se dégagent.",
+        "Ajouter les Tomates Cerises et les Olives Kalamata et cuire 2 à 3 minutes jusqu'à ce que les tomates ramollissent et rendent leur jus.",
+        "Remettre les gnocchis croustillants dans la poêle.",
+        "Ajouter les Épinards par poignées en mélangeant jusqu'à ce qu'ils soient juste tombés.",
+        "Presser le jus de Citron sur l'ensemble et mélanger.",
+        "Répartir dans les assiettes.",
+        "Émietter généreusement la Feta par-dessus.",
+        "Parsemer de zeste de Citron et arroser d'un filet d'Huile d'Olive.",
+        "Servir immédiatement pendant que les gnocchis sont encore croustillants."
+      ],
+      "tips": [
+        "Ne pas sauter l'étape de la poêlée des gnocchis — elle les transforme de petits coussins moelleux en bouchées dorées et croustillantes.",
+        "Laisser les gnocchis tranquilles dans la poêle pour qu'ils développent une vraie croûte.",
+        "Ajouter les épinards en dernier pour qu'ils tombent juste et restent d'un beau vert vif.",
+        "Le jus de citron en fin de cuisson ravive toutes les saveurs méditerranéennes."
+      ]
+    }
+  },
+  "butternut-squash-orzotto": {
+    "name": "Orzotto au Butternut et à la Sauge",
+    "description": "Orzo crémeux cuisiné à la manière d'un risotto avec du butternut rôti et de la sauge croustillante",
+    "ingredientNames": {
+      "bso-1": "Orzo",
+      "bso-2": "Butternut",
+      "bso-3": "Bouillon de légumes",
+      "bso-4": "Sauge fraîche",
+      "bso-5": "Parmesan",
+      "bso-6": "Beurre",
+      "bso-7": "Oignon",
+      "bso-8": "Ail",
+      "bso-9": "Vin blanc",
+      "bso-10": "Huile d'olive",
+      "bso-11": "Muscade"
+    },
+    "instructions": {
+      "steps": [
+        "Préchauffer le four à 200°C.",
+        "Éplucher le Butternut et le couper en cubes de 2 cm.",
+        "Mélanger avec l'Huile d'olive, du sel et du poivre, puis enfourner immédiatement — il faut 25 à 30 minutes de cuisson.",
+        "Émincer finement l'Oignon.",
+        "Presser ou hacher finement l'Ail.",
+        "Râper finement le Parmesan.",
+        "Effeuiller la Sauge fraîche.",
+        "Chauffer le Bouillon de légumes dans une casserole et le maintenir chaud à feu doux.",
+        "Faire fondre la moitié du Beurre dans une grande poêle profonde à feu moyen.",
+        "Ajouter les feuilles de Sauge fraîche et les faire frire 1 à 2 minutes jusqu'à ce qu'elles soient croustillantes et le beurre légèrement noisette.",
+        "Retirer la sauge sur du papier absorbant en laissant le beurre noisette dans la poêle.",
+        "Ajouter l'Oignon émincé dans le beurre parfumé à la sauge et faire revenir 4 à 5 minutes jusqu'à ce qu'il soit translucide.",
+        "Ajouter l'Ail haché et cuire 30 secondes.",
+        "Verser l'Orzo et remuer 2 minutes jusqu'à ce qu'il soit légèrement toasté et bien enrobé de beurre.",
+        "Déglacer avec le Vin blanc et remuer jusqu'à absorption complète.",
+        "Ajouter le Bouillon de légumes chaud louche par louche, en remuant régulièrement, en attendant que chaque ajout soit presque entièrement absorbé avant d'en verser un nouveau.",
+        "Poursuivre pendant 15 à 18 minutes jusqu'à ce que l'orzo soit al dente et bien crémeux.",
+        "Retirer du feu et incorporer le reste du Beurre, le Parmesan râpé et la Muscade.",
+        "Incorporer délicatement la majeure partie du Butternut rôti en réservant quelques morceaux pour la garniture.",
+        "Répartir dans des assiettes chaudes.",
+        "Déposer les morceaux de Butternut rôti réservés par-dessus.",
+        "Émietter les feuilles de Sauge fraîche croustillantes sur chaque portion.",
+        "Terminer avec du Parmesan supplémentaire et un tour de moulin à poivre."
+      ],
+      "tips": [
+        "Maintenir le bouillon bien chaud — ajouter un liquide froid ralentit la cuisson et nuit à la texture crémeuse.",
+        "L'orzotto est plus indulgent que le risotto — il n'est pas nécessaire de remuer en permanence, juste régulièrement.",
+        "La sauge croustillante change tout — ne sautez pas cette étape.",
+        "Pour une version encore plus gourmande, incorporez un filet de crème avec le parmesan."
+      ]
+    }
+  },
+  "bacon-mac-and-cheese": {
+    "name": "Macaroni au Fromage et Lardons Croustillants",
+    "description": "Le plat réconfortant ultime avec des lardons croustillants et une onctueuse sauce aux trois fromages",
+    "ingredientNames": {
+      "bmc-1": "Macaroni",
+      "bmc-2": "Lardons",
+      "bmc-3": "Cheddar fort",
+      "bmc-4": "Gruyère",
+      "bmc-5": "Parmesan",
+      "bmc-6": "Lait entier",
+      "bmc-7": "Beurre",
+      "bmc-8": "Farine",
+      "bmc-9": "Moutarde de Dijon",
+      "bmc-10": "Ail en poudre",
+      "bmc-11": "Paprika",
+      "bmc-12": "Ciboulette"
+    },
+    "instructions": {
+      "steps": [
+        "Sortir le Lait entier du réfrigérateur pour qu'il revienne à température ambiante — cela permet d'obtenir une sauce plus lisse.",
+        "Porter une grande casserole d'eau salée à ébullition pour cuire les Macaroni.",
+        "Couper les Lardons en morceaux de 1 cm.",
+        "Râper les trois fromages.",
+        "Ciseler finement la Ciboulette fraîche.",
+        "Cuire les Macaroni jusqu'à ce qu'ils soient juste al dente (1 minute de moins que les indications du paquet).",
+        "Égoutter.",
+        "Faire revenir les Lardons à feu moyen pendant 6 à 8 minutes jusqu'à ce qu'ils soient bien croustillants.",
+        "Les transférer sur une assiette recouverte de papier absorbant en laissant la graisse de cuisson dans la poêle.",
+        "Réduire le feu, ajouter le Beurre à la graisse de lardons et laisser fondre.",
+        "Incorporer la Farine au fouet et cuire 1 à 2 minutes jusqu'à ce que le roux soit légèrement doré et sente la noisette.",
+        "Verser progressivement le Lait entier à température ambiante en fouettant constamment.",
+        "Poursuivre pendant 5 à 7 minutes jusqu'à ce que la sauce épaississe et nappe le dos d'une cuillère.",
+        "Retirer du feu et incorporer la Moutarde de Dijon, l'Ail en poudre et une pincée de Paprika.",
+        "Ajouter les fromages râpés en trois fois, en remuant entre chaque ajout jusqu'à obtenir une sauce parfaitement lisse et soyeuse.",
+        "Incorporer les Macaroni cuits et la majeure partie des Lardons croustillants en réservant quelques-uns pour la garniture.",
+        "Répartir dans des bols.",
+        "Garnir des Lardons croustillants réservés, de Ciboulette fraîche et d'une pincée de Paprika.",
+        "Servir immédiatement."
+      ],
+      "tips": [
+        "Cuire les pâtes légèrement en dessous de la cuisson souhaitée — elles continueront de cuire dans la sauce au fromage chaude.",
+        "La chaleur douce est essentielle lors de l'ajout du fromage — une température trop élevée donne une sauce granuleuse au lieu de soyeuse.",
+        "L'association cheddar (saveur), gruyère (fondant) et parmesan (intensité) crée la sauce au fromage ultime.",
+        "Pour une version gratinée, verser dans un plat à gratin, couvrir de chapelure et de fromage supplémentaire, puis passer sous le gril jusqu'à dorure."
+      ]
+    }
+  },
+  "teppanyaki-beef-udon": {
+    "name": "Udon Sauté à la Manière Teppanyaki",
+    "description": "Épaisses nouilles udon sautées avec du bœuf en lamelles, des champignons et des légumes dans une sauce teriyaki au miel et à l'ail",
+    "ingredientNames": {
+      "tbu-1": "Nouilles udon",
+      "tbu-2": "Bœuf en lamelles",
+      "tbu-3": "Champignons",
+      "tbu-4": "Chou",
+      "tbu-5": "Carottes",
+      "tbu-6": "Épinards",
+      "tbu-7": "Oignons verts",
+      "tbu-8": "Miel",
+      "tbu-9": "Sauce soja",
+      "tbu-10": "Sauce huître",
+      "tbu-11": "Ail",
+      "tbu-12": "Gingembre",
+      "tbu-13": "Beurre",
+      "tbu-14": "Huile végétale",
+      "tbu-15": "Graines de sésame"
+    },
+    "instructions": {
+      "steps": [
+        "Porter une grande casserole d'eau salée à ébullition pour les Nouilles udon.",
+        "Égoutter le Bœuf en lamelles et bien l'éponger avec du papier absorbant.",
+        "Émincer finement les Champignons.",
+        "Émincer finement le Chou en lanières.",
+        "Tailler les Carottes en fine julienne.",
+        "Émincer les Oignons verts.",
+        "Hacher l'Ail et râper le Gingembre frais.",
+        "Préparer la sauce : mélanger au fouet le Miel, la Sauce soja et la Sauce huître.",
+        "Cuire les Nouilles udon 1 à 3 minutes jusqu'à ce qu'elles soient tendres mais encore fermes.",
+        "Égoutter, rincer à l'eau chaude et enrober d'un filet d'Huile végétale pour éviter qu'elles ne collent.",
+        "Chauffer une grande poêle antiadhésive ou un wok à feu vif.",
+        "Ajouter 1 cuillère à soupe d'Huile végétale, puis les Champignons, le Chou, les Carottes et le mélange ail-gingembre.",
+        "Saler, poivrer et faire sauter 2 à 4 minutes jusqu'à ce que les légumes soient tendres mais encore croquants.",
+        "Réserver les légumes dans une assiette.",
+        "Remettre la poêle à feu moyen-vif et ajouter le Beurre ; laisser fondre et mousser.",
+        "Ajouter le Bœuf en lamelles en séparant bien les couches et cuire 1 à 3 minutes en remuant souvent jusqu'à ce qu'il soit juste cuit — ne pas trop cuire.",
+        "Ajouter les nouilles udon, les légumes cuits, les Épinards et la sauce dans la poêle.",
+        "Mélanger le tout pendant 1 à 2 minutes jusqu'à ce que les épinards soient tombés et que l'ensemble soit bien lustré.",
+        "Répartir dans de grands bols.",
+        "Parsemer d'Oignons verts émincés.",
+        "Saupoudrer généreusement de Graines de sésame et servir immédiatement."
+      ],
+      "tips": [
+        "Le Bœuf en lamelles cuit très rapidement — préparez tout le reste avant de commencer la cuisson de la viande.",
+        "Bien éponger la viande est essentiel — une viande humide va cuire à la vapeur au lieu de saisir.",
+        "Les Nouilles udon fraîches ou surgelées sont idéales — elles ont la texture moelleuse parfaite.",
+        "Le Beurre apporte une richesse qui rend ce plat unique — ne le remplacez pas par de l'huile."
+      ]
+    }
+  },
+  "crispy-beef-taquitos": {
+    "name": "Taquitos de Bœuf Croustillants",
+    "description": "Tortillas roulées garnies de bœuf épicé et de fromage, cuites au four jusqu'à dorure",
+    "ingredientNames": {
+      "cbt-1": "Bœuf haché",
+      "cbt-2": "Tortillas de blé",
+      "cbt-3": "Cheddar",
+      "cbt-4": "Fromage à la crème",
+      "cbt-5": "Oignon",
+      "cbt-6": "Ail",
+      "cbt-7": "Cumin",
+      "cbt-8": "Piment en poudre",
+      "cbt-9": "Salsa",
+      "cbt-10": "Crème aigre",
+      "cbt-11": "Huile d'olive",
+      "cbt-12": "Coriandre fraîche"
+    },
+    "instructions": {
+      "steps": [
+        "Sortir le Fromage à la crème du réfrigérateur pour le ramollir à température ambiante.",
+        "Préchauffer le four à 220°C et chemiser une plaque de cuisson de papier sulfurisé.",
+        "Émincer finement l'Oignon.",
+        "Hacher finement l'Ail.",
+        "Râper le Cheddar.",
+        "Hacher grossièrement la Coriandre fraîche.",
+        "Chauffer une poêle à feu moyen-vif.",
+        "Ajouter le Bœuf haché et cuire 5 à 6 minutes en l'émiettant jusqu'à ce qu'il soit bien doré.",
+        "Ajouter l'Oignon émincé et cuire 3 à 4 minutes jusqu'à ce qu'il soit translucide.",
+        "Ajouter l'Ail haché, le Cumin et le Piment en poudre, puis cuire 1 minute jusqu'à ce que les épices soient bien parfumées.",
+        "Réduire le feu et incorporer le Fromage à la crème ramolli jusqu'à ce qu'il soit entièrement fondu et que la farce soit crémeuse.",
+        "Saler, poivrer et retirer du feu.",
+        "Réchauffer les Tortillas de blé au micro-ondes pendant 20 secondes (recouvertes d'une feuille de papier absorbant humide) pour les assouplir.",
+        "Déposer 2 à 3 cuillères à soupe de farce au bœuf sur le bord de chaque tortilla.",
+        "Parsemer de Cheddar râpé.",
+        "Rouler chaque tortilla bien serrée et la placer, jointure en dessous, sur la plaque.",
+        "Badigeonner généreusement le dessus d'Huile d'olive.",
+        "Enfourner 15 à 18 minutes jusqu'à ce que les taquitos soient bien dorés et croustillants, en les retournant à mi-cuisson.",
+        "Dresser sur un plat et servir avec la Salsa et la Crème aigre pour tremper.",
+        "Garnir de Coriandre fraîche."
+      ],
+      "tips": [
+        "Le Fromage à la crème est le secret de cette recette — il rend la farce onctueuse et fait tenir l'ensemble.",
+        "Réchauffer les tortillas est indispensable — des tortillas froides se fissureront au moment du roulage.",
+        "Roulez-les bien serré ! Des taquitos mal fermés se dérouleront pendant la cuisson.",
+        "Version friteuse à air : cuire à 200°C pendant 8 à 10 minutes en retournant à mi-cuisson."
+      ]
+    }
+  },
+  "french-onion-beef-noodles": {
+    "name": "Nouilles au Bœuf Façon Soupe à l'Oignon",
+    "description": "Bœuf tendre et nouilles aux œufs dans une riche sauce aux oignons caramélisés, champignons et vin blanc",
+    "ingredientNames": {
+      "fobn-1": "Nouilles aux œufs",
+      "fobn-2": "Rumsteck",
+      "fobn-3": "Oignons",
+      "fobn-4": "Champignons",
+      "fobn-5": "Vin blanc",
+      "fobn-6": "Bouillon de bœuf",
+      "fobn-7": "Gruyère",
+      "fobn-8": "Beurre",
+      "fobn-9": "Ail",
+      "fobn-10": "Thym",
+      "fobn-11": "Crème liquide entière",
+      "fobn-12": "Persil"
+    },
+    "instructions": {
+      "steps": [
+        "Émincer les Oignons en fines demi-lunes.",
+        "Faire fondre la moitié du Beurre dans une grande poêle profonde à feu moyen.",
+        "Ajouter les Oignons avec une pincée de sel et les faire caraméliser pendant 25 à 30 minutes en remuant de temps en temps — le secret est de cuire doucement et longtemps.",
+        "Émincer épaissement les Champignons.",
+        "Trancher le Rumsteck à contre-fil en fines lanières.",
+        "Hacher finement l'Ail.",
+        "Râper le Gruyère.",
+        "Hacher grossièrement le Persil frais.",
+        "Lorsque les oignons sont profondément caramélisés et confits, les pousser sur le côté et monter le feu à vif.",
+        "Ajouter les lanières de Rumsteck et saisir 2 minutes jusqu'à ce qu'elles soient bien dorées.",
+        "Réserver la viande et les oignons dans une assiette.",
+        "Ajouter le reste du Beurre et faire sauter les Champignons 5 à 6 minutes jusqu'à ce qu'ils soient bien dorés.",
+        "Ajouter l'Ail haché et le Thym, puis cuire 30 secondes.",
+        "Déglacer avec le Vin blanc en grattant les sucs de cuisson.",
+        "Laisser réduire de moitié, environ 2 minutes.",
+        "Ajouter le Bouillon de bœuf et laisser mijoter 5 minutes.",
+        "Incorporer la Crème liquide entière et laisser mijoter encore 2 à 3 minutes jusqu'à ce que la sauce nappe la cuillère.",
+        "Cuire les Nouilles aux œufs selon les indications du paquet.",
+        "Bien égoutter.",
+        "Remettre les oignons caramélisés et le bœuf dans la poêle.",
+        "Ajouter les nouilles égouttées et mélanger pour bien les enrober de sauce.",
+        "Couvrir généreusement de Gruyère râpé.",
+        "Pour plus de gourmandise, passer 2 minutes sous le gril jusqu'à ce que le fromage soit bouillonnant et doré.",
+        "Garnir de Persil frais et servir immédiatement."
+      ],
+      "tips": [
+        "La caramélisation des oignons demande du temps — au moins 25 minutes. C'est de là que vient toute la saveur.",
+        "Utilisez un vin que vous boiriez volontiers — un vin que vous ne serviriez pas à table n'a rien à faire dans une sauce.",
+        "Le Gruyère apporte un goût de noisette et fond magnifiquement — ne le remplacez pas par du cheddar.",
+        "Pour une version plus liquide, ajoutez davantage de bouillon de bœuf et servez dans des bols profonds avec du pain croustillant."
+      ]
+    }
+  },
+  "asian-sesame-chicken-salad": {
+    "name": "Salade de Poulet au Sésame à l'Asiatique",
+    "description": "Poulet croustillant sur un lit de légumes croquants avec une vinaigrette au sésame et au gingembre",
+    "ingredientNames": {
+      "ascs-1": "Blanc de poulet",
+      "ascs-2": "Mesclun",
+      "ascs-3": "Chou rouge",
+      "ascs-4": "Carottes",
+      "ascs-5": "Edamame",
+      "ascs-6": "Mandarine",
+      "ascs-7": "Huile de sésame",
+      "ascs-8": "Vinaigre de riz",
+      "ascs-9": "Sauce soja",
+      "ascs-10": "Miel",
+      "ascs-11": "Gingembre",
+      "ascs-12": "Graines de sésame",
+      "ascs-13": "Chips wontons"
+    },
+    "instructions": {
+      "steps": [
+        "Aplatir le Blanc de poulet à épaisseur uniforme et assaisonner de sel et de poivre.",
+        "Émincer finement le Chou rouge.",
+        "Tailler les Carottes en fine julienne.",
+        "Égoutter les segments de Mandarine.",
+        "Râper le Gingembre frais.",
+        "Préparer la vinaigrette au sésame : fouetter ensemble l'Huile de sésame, le Vinaigre de riz, la Sauce soja, le Miel et le Gingembre râpé jusqu'à émulsion.",
+        "Chauffer une poêle-gril ou une poêle à feu moyen-vif.",
+        "Cuire le Blanc de poulet 5 à 6 minutes par face jusqu'à ce qu'il soit bien marqué et cuit à cœur (température interne 74°C).",
+        "Pendant la cuisson du poulet, blanchir l'Edamame dans de l'eau bouillante pendant 2 à 3 minutes.",
+        "Égoutter et refroidir l'edamame.",
+        "Laisser reposer le poulet 5 minutes, puis le trancher en lanières.",
+        "Dans un grand saladier, mélanger le Mesclun, le Chou rouge émincé, la julienne de Carottes et l'Edamame.",
+        "Arroser de la majeure partie de la vinaigrette et mélanger délicatement.",
+        "Répartir dans les assiettes.",
+        "Disposer les lanières de poulet par-dessus.",
+        "Parsemer de Mandarine et de Chips wontons croustillantes.",
+        "Saupoudrer généreusement de Graines de sésame.",
+        "Napper du reste de vinaigrette."
+      ],
+      "tips": [
+        "Laisser reposer le poulet avant de le trancher pour qu'il reste bien juteux.",
+        "Ajouter les Chips wontons juste avant de servir pour qu'elles restent croustillantes.",
+        "Pour la préparation à l'avance, conserver la vinaigrette séparément jusqu'au moment de manger.",
+        "Remplacer le poulet par du tofu croustillant pour une version végétarienne."
+      ]
+    }
+  },
+  "spinach-strawberry-salad": {
+    "name": "Salade d'Épinards aux Fraises",
+    "description": "Épinards frais avec des fraises sucrées, des noix de pécan et une vinaigrette acidulée aux graines de pavot",
+    "ingredientNames": {
+      "sss-1": "Pousses d'épinards",
+      "sss-2": "Fraises",
+      "sss-3": "Fromage de chèvre",
+      "sss-4": "Noix de pécan",
+      "sss-5": "Oignon rouge",
+      "sss-6": "Huile d'olive",
+      "sss-7": "Vinaigre balsamique",
+      "sss-8": "Miel",
+      "sss-9": "Graines de pavot",
+      "sss-10": "Moutarde de Dijon"
+    },
+    "instructions": {
+      "steps": [
+        "Torréfier les Noix de pécan à sec dans une poêle à feu moyen pendant 3 à 4 minutes en remuant régulièrement jusqu'à ce qu'elles soient parfumées et légèrement dorées.",
+        "Laisser refroidir, puis hacher grossièrement.",
+        "Préparer la vinaigrette aux graines de pavot : mélanger l'Huile d'olive, le Vinaigre balsamique, le Miel, la Moutarde de Dijon et les Graines de pavot dans un bocal ou un bol, puis agiter ou fouetter jusqu'à émulsion.",
+        "Saler et poivrer.",
+        "Laver et bien essorer les Pousses d'épinards — des feuilles humides rendraient la salade détrempée.",
+        "Équeuter les Fraises et les couper en quartiers.",
+        "Émincer finement l'Oignon rouge.",
+        "Émietter le Fromage de chèvre.",
+        "Placer les Pousses d'épinards dans un grand saladier ou dans des assiettes individuelles.",
+        "Arroser de la majeure partie de la vinaigrette et mélanger délicatement.",
+        "Disposer les Fraises en quartiers, l'Oignon rouge émincé et les Noix de pécan torréfiées sur les épinards.",
+        "Émietter le Fromage de chèvre par-dessus.",
+        "Napper du reste de vinaigrette et servir immédiatement."
+      ],
+      "tips": [
+        "Le secret de cette salade réside dans le contraste — fruits sucrés, fromage acidulé, noix croquantes.",
+        "Torréfier les noix de pécan au dernier moment — des noix déjà torréfiées du commerce n'auront pas le même parfum.",
+        "Hors saison, remplacer les fraises par des framboises ou des mûres fraîches.",
+        "Ajouter du poulet grillé pour en faire un repas complet."
+      ]
+    }
+  },
+  "classic-cobb-salad": {
+    "name": "Salade Cobb Classique",
+    "description": "Rangées de poulet, lardons, œufs, avocat et bleu disposées sur un lit de salade croquante",
+    "ingredientNames": {
+      "ccs-1": "Blanc de poulet",
+      "ccs-2": "Laitue romaine",
+      "ccs-3": "Lardons",
+      "ccs-4": "Œufs",
+      "ccs-5": "Avocat",
+      "ccs-6": "Tomates cerises",
+      "ccs-7": "Bleu",
+      "ccs-8": "Vinaigre de vin rouge",
+      "ccs-9": "Huile d'olive",
+      "ccs-10": "Moutarde de Dijon",
+      "ccs-11": "Ail",
+      "ccs-12": "Ciboulette"
+    },
+    "instructions": {
+      "steps": [
+        "Plonger les Œufs dans une casserole d'eau froide, porter à ébullition, couvrir et retirer du feu.",
+        "Laisser reposer 10 minutes, puis transférer dans de l'eau glacée — commencer par les œufs car ils demandent le plus de temps passif.",
+        "Assaisonner le Blanc de poulet de sel et de poivre.",
+        "Couper la Laitue romaine en morceaux de la taille d'une bouchée.",
+        "Couper les Tomates cerises en deux.",
+        "Émietter le Bleu.",
+        "Hacher finement l'Ail.",
+        "Ciseler finement la Ciboulette.",
+        "Préparer la vinaigrette : fouetter ensemble le Vinaigre de vin rouge, l'Huile d'olive, la Moutarde de Dijon, l'Ail haché, du sel et du poivre jusqu'à émulsion.",
+        "Couper l'Avocat en dés et l'arroser d'un filet de jus de citron pour éviter qu'il ne noircisse.",
+        "Écaler et couper en quartiers les Œufs durs refroidis.",
+        "Cuire les Lardons dans une poêle à feu moyen pendant 6 à 8 minutes jusqu'à ce qu'ils soient croustillants.",
+        "Égoutter, puis émietter ou hacher les lardons.",
+        "Dans la même poêle à feu moyen-vif, cuire le Blanc de poulet 5 à 6 minutes par face jusqu'à cuisson complète.",
+        "Laisser reposer 5 minutes, puis trancher.",
+        "Étaler la Laitue romaine hachée sur un grand plat.",
+        "Disposer toutes les garnitures en rangées bien distinctes : poulet tranché, Lardons émiettés, Œufs en quartiers, Avocat en dés, Tomates cerises coupées en deux et Bleu émietté.",
+        "Parsemer de Ciboulette fraîche.",
+        "Arroser de vinaigrette ou la servir à part.",
+        "Mélanger à table."
+      ],
+      "tips": [
+        "La présentation est essentielle — disposer les ingrédients en rangées bien nettes pour le look Cobb classique.",
+        "Utiliser la graisse des lardons pour cuire le poulet afin d'en intensifier la saveur.",
+        "Si vous n'aimez pas le bleu, le remplacer par de la féta ou du fromage de chèvre.",
+        "Cette salade est un repas à part entière — ne lésinez pas sur les garnitures protéinées."
+      ]
+    }
+  },
+  "carbonara-pasta": {
+    "name": "Spaghetti à la Carbonara",
+    "description": "La grande classique romaine : des pâtes enrobées d'une sauce soyeuse aux œufs et au parmesan, avec des lardons croustillants et une généreuse touche de poivre noir",
+    "ingredientNames": {
+      "cp-1": "Spaghetti",
+      "cp-2": "Lardons",
+      "cp-3": "Œufs",
+      "cp-4": "Parmesan",
+      "cp-5": "Ail",
+      "cp-6": "Oignon",
+      "cp-7": "Poivre noir",
+      "cp-8": "Sel"
+    },
+    "instructions": {
+      "steps": [
+        "Sortir les Œufs du réfrigérateur 30 minutes avant la cuisson — des œufs à température ambiante s'incorporent plus facilement et donnent une sauce plus crémeuse.",
+        "Porter une grande casserole d'eau généreusement salée à ébullition franche.",
+        "Fouetter les Œufs avec la moitié du Parmesan râpé et assaisonner très généreusement de Poivre noir — c'est votre sauce.",
+        "Couper les Lardons en petits morceaux.",
+        "Émincer finement l'Oignon.",
+        "Hacher finement l'Ail.",
+        "Râper le reste du Parmesan.",
+        "Plonger les Spaghetti dans l'eau bouillante et cuire al dente — environ 1 minute de moins que les indications du paquet.",
+        "Pendant la cuisson des pâtes, mettre les Lardons dans une poêle froide et sèche et allumer à feu moyen.",
+        "Faire fondre doucement la graisse pendant 6 à 8 minutes jusqu'à ce que les lardons soient croustillants et dorés.",
+        "Ajouter l'Oignon émincé et cuire 3 à 4 minutes jusqu'à ce qu'il soit translucide.",
+        "Ajouter l'Ail haché, remuer 30 secondes, puis retirer la poêle du feu.",
+        "Réserver au moins 25 cl d'eau de cuisson bien amidonnée.",
+        "Égoutter les Spaghetti et les transvaser immédiatement dans la poêle avec les lardons.",
+        "Mélanger vigoureusement pour enrober chaque spaghetti de graisse.",
+        "Hors du feu, verser rapidement la sauce œufs-fromage sur les pâtes en remuant sans arrêt.",
+        "La chaleur résiduelle cuit les œufs en douceur et crée une sauce soyeuse et crémeuse — surtout, pas d'œufs brouillés.",
+        "Ajouter l'eau de cuisson réservée, une petite quantité à la fois, en remuant continuellement, jusqu'à obtenir une sauce fluide, brillante et bien accrochée aux pâtes.",
+        "Dresser la carbonara en nids dans des bols chauds et profonds.",
+        "Couvrir du reste du Parmesan et d'un très généreux tour de moulin à Poivre noir.",
+        "Servir immédiatement — la sauce se resserre en refroidissant."
+      ],
+      "tips": [
+        "La règle d'or de la carbonara : pas de crème, jamais. Le crémeux vient uniquement de l'émulsion entre les œufs, le fromage, la graisse et l'eau de cuisson amidonnée.",
+        "La chaleur est l'ennemi — retirer toujours la poêle du feu avant d'ajouter le mélange aux œufs, et continuer à remuer pour éviter la coagulation.",
+        "Utiliser généreusement l'eau de cuisson. L'amidon qu'elle contient est l'émulsifiant naturel qui maintient la sauce soyeuse et l'empêche de se casser.",
+        "La carbonara romaine authentique se prépare avec de la guanciale (joue de porc séchée) et du Pecorino Romano. Les Lardons et le Parmesan sont d'excellents substituts, faciles à trouver."
+      ]
+    }
+  },
+  "garlic-butter-beef-fried-rice": {
+    "name": "Riz Sauté au Bœuf et au Beurre à l'Ail",
+    "description": "Riz sauté au wok à feu vif avec des lanières de rumsteck saisi, un beurre à l'ail doré et un glaçage umami intense",
+    "ingredientNames": {
+      "gbfr-1": "Riz de la veille",
+      "gbfr-2": "Rumsteck",
+      "gbfr-3": "Beurre",
+      "gbfr-4": "Ail",
+      "gbfr-5": "Œufs",
+      "gbfr-6": "Sauce soja",
+      "gbfr-7": "Sauce huître",
+      "gbfr-8": "Huile de sésame",
+      "gbfr-9": "Oignons verts",
+      "gbfr-10": "Carottes",
+      "gbfr-11": "Petits pois",
+      "gbfr-12": "Poivre noir"
+    },
+    "instructions": {
+      "steps": [
+        "Si vous faites cuire le riz à la minute, l'étaler sur une plaque et le réfrigérer à découvert pendant au moins 1 heure — le Riz de la veille froid et sec est indispensable, car le riz fraîchement cuit est trop humide.",
+        "Trancher finement le Rumsteck à contre-fil en lanières de 3 mm.",
+        "Mélanger avec 1 cuillère à soupe de Sauce soja et du Poivre noir et laisser mariner 10 minutes.",
+        "Hacher finement tout l'Ail.",
+        "Tailler les Carottes en fine brunoise.",
+        "Émincer les parties blanches des Oignons verts en rondelles de 1 cm et les parties vertes en biais très fin.",
+        "Mélanger dans un bol le reste de la Sauce soja et la Sauce huître.",
+        "Chauffer un wok ou une grande poêle en fonte à feu maximum jusqu'à ce qu'elle fume visiblement.",
+        "Verser une fine couche d'huile et déposer le Rumsteck mariné en une seule couche sans surcharger.",
+        "Saisir sans toucher pendant 1 à 2 minutes jusqu'à ce que la viande soit profondément caramélisée en dessous.",
+        "Retourner et cuire 30 à 45 secondes supplémentaires — le bœuf doit rester légèrement rosé à cœur.",
+        "Réserver dans une assiette.",
+        "Réduire à feu moyen-vif et ajouter le Beurre en laissant mousser et dorer.",
+        "Ajouter l'Ail haché et les parties blanches des Oignons verts.",
+        "Remuer constamment pendant 1 à 2 minutes jusqu'à ce que l'ail soit bien doré — surveiller attentivement pour éviter qu'il ne brûle.",
+        "Ajouter les Carottes en brunoise et les Petits pois et faire sauter 2 minutes jusqu'à ce que les carottes soient tout juste tendres.",
+        "Pousser les légumes sur les bords et casser les Œufs au centre.",
+        "Brouiller rapidement jusqu'à ce qu'ils soient juste pris.",
+        "Ajouter le Riz de la veille en cassant les éventuels grumeaux et faire sauter à feu vif pendant 3 à 4 minutes en pressant le riz contre la surface chaude pour le faire griller.",
+        "Verser le mélange sauce soja-sauce huître sur le riz.",
+        "Mélanger continuellement pendant 1 minute jusqu'à ce que chaque grain soit bien enrobé et brillant.",
+        "Remettre le Rumsteck saisi et ses jus de repos.",
+        "Arroser d'Huile de sésame et mélanger.",
+        "Verser sur un plat de service ou dans des bols individuels.",
+        "Parsemer généreusement des parties vertes des Oignons verts finement émincées.",
+        "Servir immédiatement — le riz sauté se déguste directement sorti du wok."
+      ],
+      "tips": [
+        "Le Riz de la veille n'est pas une option — c'est le facteur le plus déterminant pour obtenir un riz sauté non collant et parfaitement texturé.",
+        "La chaleur maximale est la deuxième règle absolue. Si votre wok ne fume pas, le riz va cuire à la vapeur au lieu de frire. Cuire en plusieurs fois si votre feu n'est pas assez puissant.",
+        "Saisir le bœuf en une seule couche sans surcharger — entasser la viande emprisonne la vapeur et empêche la formation d'une belle croûte.",
+        "Le beurre à l'ail est l'arme secrète. Laissez-le prendre une couleur un peu plus foncée que vous n'oseriez normalement — c'est cet ail doré intense qui rend cette recette irrésistible."
+      ]
+    }
+  },
+  "galette-bretonne": {
+    "name": "Galette de Sarrasin",
+    "description": "Galette bretonne traditionnelle au sarrasin, garnie de jambon, fromage et œuf",
+    "ingredientNames": {
+      "galette-bretonne-1": "Farine de sarrasin",
+      "galette-bretonne-2": "Eau",
+      "galette-bretonne-3": "Œufs",
+      "galette-bretonne-4": "Sel",
+      "galette-bretonne-5": "Beurre",
+      "galette-bretonne-6": "Jambon",
+      "galette-bretonne-7": "Fromage Gruyère"
+    },
+    "instructions": {
+      "steps": [
+        "Mélanger la Farine de sarrasin et le Sel dans un grand bol et creuser un puits au centre.",
+        "Casser un des Œufs dans le puits et commencer à incorporer la farine depuis les bords.",
+        "Verser progressivement l'Eau en fouettant sans cesse jusqu'à obtenir une pâte lisse et sans grumeaux.",
+        "Faire fondre 30g de Beurre et l'incorporer à la pâte en fouettant.",
+        "Couvrir et réfrigérer la pâte au moins 1 heure — idéalement toute une nuit — pour que le sarrasin s'hydrate pleinement.",
+        "Sortir la pâte du réfrigérateur et fouetter pour la remettre en consistance ; si elle est trop épaisse, ajouter un peu d'eau froide jusqu'à ce qu'elle nappe le dos d'une cuillère.",
+        "Couper le Jambon en fines lamelles, râper le Fromage Gruyère et casser les Œufs restants un par un dans de petits bols individuels.",
+        "Chauffer une poêle à crêpes ou une poêle plate à feu moyen-vif pendant 2 minutes jusqu'à ce qu'elle soit très chaude.",
+        "Badigeonner la poêle d'une fine couche de Beurre restant.",
+        "Verser environ 80 ml de pâte au centre et incliner immédiatement la poêle en mouvement circulaire pour étaler en un rond fin et régulier d'environ 30 cm de diamètre.",
+        "Cuire à feu moyen 2 à 3 minutes jusqu'à ce que les bords semblent secs et légèrement croustillants et que le dessous soit doré.",
+        "Retourner la galette et cuire 30 à 45 secondes sur le second côté.",
+        "Parsemer une portion de Fromage Gruyère râpé au centre, déposer une lamelle de Jambon par-dessus, puis glisser un des Œufs cassés au centre.",
+        "Rabattre les quatre côtés de la galette vers l'intérieur pour former un carré, en laissant le jaune d'œuf visible au centre.",
+        "Couvrir la poêle et cuire à feu moyen-doux 2 à 3 minutes jusqu'à ce que le blanc soit pris mais que le jaune reste coulant.",
+        "Faire glisser la galette dans une assiette chaude et servir immédiatement.",
+        "Répéter l'opération pour les galettes restantes, en badigeonnant la poêle de Beurre entre chaque."
+      ],
+      "tips": [
+        "Le repos de la pâte est indispensable — la farine de sarrasin a besoin de temps pour s'hydrater pleinement, et une pâte reposée s'étale plus uniformément et donne des bords plus croustillants.",
+        "Les galettes bretonnes authentiques utilisent uniquement de la farine de sarrasin et sans blé ; si le sarrasin est difficile à trouver, un mélange de 80% de sarrasin et 20% de farine de blé donne une pâte plus facile à travailler.",
+        "Les galettes se congèlent très bien — les empiler en intercalant des feuilles de papier sulfurisé, bien emballer et congeler jusqu'à 2 mois ; réchauffer directement dans une poêle chaude à sec 1 à 2 minutes par côté.",
+        "Pour la vraie expérience bretonne, servir avec un bol de cidre breton brut bien frais et terminer par des crêpes sucrées."
+      ]
+    }
+  },
+  "crepe-bretonne": {
+    "name": "Crêpe Bretonne",
+    "description": "Crêpe sucrée bretonne classique au beurre salé et à la vanille",
+    "ingredientNames": {
+      "crepe-bretonne-1": "Farine de blé",
+      "crepe-bretonne-2": "Lait entier",
+      "crepe-bretonne-3": "Œufs",
+      "crepe-bretonne-4": "Sucre",
+      "crepe-bretonne-5": "Beurre salé",
+      "crepe-bretonne-6": "Extrait de vanille",
+      "crepe-bretonne-7": "Sel"
+    },
+    "instructions": {
+      "steps": [
+        "Tamiser la Farine de blé et le Sel dans un grand bol et creuser un puits au centre.",
+        "Ajouter les Œufs et le Sucre dans le puits et fouetter du centre vers l'extérieur en incorporant progressivement la farine.",
+        "Verser lentement le Lait entier en fouettant continuellement jusqu'à obtenir une pâte parfaitement lisse et sans grumeaux.",
+        "Faire fondre 40g de Beurre salé, le laisser refroidir légèrement, puis l'incorporer à la pâte avec l'Extrait de vanille.",
+        "Couvrir et laisser reposer la pâte à température ambiante pendant 30 minutes — cela détend le gluten pour des crêpes plus tendres.",
+        "Après le repos, fouetter à nouveau la pâte ; elle doit avoir la consistance d'une crème liquide — ajouter un peu de lait si nécessaire.",
+        "Chauffer une poêle à crêpes ou une poêle anti-adhésive à feu moyen-vif pendant 1 à 2 minutes jusqu'à ce qu'elle soit chaude.",
+        "Frotter le Beurre salé restant sur la poêle à l'aide d'un papier absorbant plié.",
+        "Verser environ 60 ml de pâte au centre et incliner immédiatement la poêle en mouvement circulaire pour l'étaler finement et uniformément.",
+        "Cuire à feu moyen 1 à 2 minutes jusqu'à ce que les bords se retroussent légèrement et que le dessous soit légèrement doré.",
+        "Retourner à l'aide d'une spatule fine et cuire le second côté 30 à 45 secondes jusqu'à ce qu'il soit légèrement doré.",
+        "Faire glisser la crêpe dans une assiette chaude et couvrir lâchement d'un torchon propre pour la garder chaude et souple.",
+        "Répéter avec le reste de la pâte en empilant les crêpes — la pile reste chaude et les crêpes restent souples.",
+        "Étaler généreusement du Beurre salé ramolli sur chaque crêpe chaude, saupoudrer de Sucre, plier en quatre et servir immédiatement.",
+        "Pour une présentation bretonne classique, disposer les crêpes pliées sur un plat avec un petit bol de Beurre salé fondu supplémentaire à côté."
+      ],
+      "tips": [
+        "Le repos de la pâte est essentiel — une pâte reposée donne des crêpes plus fines et plus tendres qui roulent et se plient sans se déchirer.",
+        "En Bretagne, le beurre salé (beurre salé ou beurre demi-sel) est l'ingrédient signature — ne jamais le remplacer par du beurre doux, car cet équilibre sucré-salé est l'âme de la crêpe bretonne.",
+        "Les crêpes se conservent bien : empiler dans une assiette, couvrir d'un film alimentaire et réfrigérer jusqu'à 3 jours, ou congeler jusqu'à 2 mois avec une feuille de papier sulfurisé entre chaque.",
+        "Pour une crêpe au caramel au beurre salé, napper de caramel au beurre salé chaud, plier en quatre et terminer avec une noix de beurre salé pour un dessert breton iconique."
+      ]
+    }
+  }
+}

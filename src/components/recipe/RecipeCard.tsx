@@ -1,5 +1,7 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import type { Recipe } from '../../types'
+import { useRecipeLocale } from '../../hooks/useRecipeLocale'
 import { Card } from '../common/Card'
 import { Checkbox } from '../common/Checkbox'
 import { NumberInput } from '../common/NumberInput'
@@ -23,6 +25,9 @@ export function RecipeCard({
   onServingsChange,
 }: RecipeCardProps) {
   const [imageError, setImageError] = useState(false)
+  const { t } = useTranslation()
+  const { getTranslation } = useRecipeLocale()
+  const translation = getTranslation(recipe)
 
   const handleCheckChange = (checked: boolean) => {
     if (checked) {
@@ -37,12 +42,12 @@ export function RecipeCard({
       <div className="recipe-card__image-container">
         {imageError ? (
           <div className="recipe-card__image-placeholder">
-            <span>{recipe.name[0]}</span>
+            <span>{translation.name[0]}</span>
           </div>
         ) : (
           <img
             src={`${import.meta.env.BASE_URL}${recipe.imageUrl.replace(/^\//, '')}`}
-            alt={recipe.name}
+            alt={translation.name}
             className="recipe-card__image"
             loading="lazy"
             onError={() => setImageError(true)}
@@ -50,21 +55,21 @@ export function RecipeCard({
         )}
       </div>
       <div className="recipe-card__content">
-        <h3 className="recipe-card__title">{recipe.name}</h3>
-        <p className="recipe-card__description">{recipe.description}</p>
+        <h3 className="recipe-card__title">{translation.name}</h3>
+        <p className="recipe-card__description">{translation.description}</p>
         <div className="recipe-card__footer">
           <Checkbox
             id={`recipe-${recipe.id}`}
             checked={isSelected}
             onChange={handleCheckChange}
-            label="Add to shopping list"
+            label={t('home.addToShoppingList')}
           />
           {isSelected && servings !== undefined && (
             <NumberInput
               id={`servings-${recipe.id}`}
               value={servings}
               onChange={onServingsChange}
-              label="Servings:"
+              label={t('cooking.servings')}
               min={1}
               max={20}
             />

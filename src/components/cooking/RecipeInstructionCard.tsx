@@ -1,6 +1,8 @@
 import { useState, useMemo, type ReactNode } from 'react'
+import { useTranslation } from 'react-i18next'
 import type { Recipe, Ingredient } from '../../types'
 import { useRecipeContext } from '../../context/RecipeContext'
+import { useRecipeLocale } from '../../hooks/useRecipeLocale'
 import { formatQuantity } from '../../utils'
 import { ConfirmDialog, NumberInput } from '../common'
 import './RecipeInstructionCard.css'
@@ -14,11 +16,11 @@ interface MergedIngredient extends Ingredient {
   mergedQuantity: number
 }
 
-function mergeIngredients(ingredients: Ingredient[]): MergedIngredient[] {
+function mergeIngredients(ingredients: Ingredient[], getName: (id: string) => string): MergedIngredient[] {
   const merged = new Map<string, MergedIngredient>()
 
   for (const ingredient of ingredients) {
-    const key = `${ingredient.name.toLowerCase()}|${ingredient.unit}`
+    const key = `${getName(ingredient.id).toLowerCase()}|${ingredient.unit}`
     const existing = merged.get(key)
 
     if (existing) {
@@ -36,12 +38,15 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
   const [showRemoveConfirm, setShowRemoveConfirm] = useState(false)
   const { deselectRecipe, updateServings } = useRecipeContext()
   const [imageError, setImageError] = useState(false)
+  const { t } = useTranslation()
+  const { getTranslation } = useRecipeLocale()
 
+  const translation = getTranslation(recipe)
   const scaleFactor = servings / recipe.defaultServings
 
   const mergedIngredients = useMemo(
-    () => mergeIngredients(recipe.ingredients),
-    [recipe.ingredients]
+    () => mergeIngredients(recipe.ingredients, id => translation.ingredientNames[id] ?? id),
+    [recipe.ingredients, translation.ingredientNames]
   )
 
   const scaleQuantity = (quantity: number): string => {
@@ -53,19 +58,23 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
     const parts: ReactNode[] = []
     let lastIndex = 0
 
-    // Sort ingredients by name length (longest first) to avoid partial matches
+    // Sort ingredients by translated name length (longest first) to avoid partial matches
     const sortedIngredients = [...recipe.ingredients].sort(
-      (a, b) => b.name.length - a.name.length
+      (a, b) => {
+        const nameA = translation.ingredientNames[a.id] ?? a.id
+        const nameB = translation.ingredientNames[b.id] ?? b.id
+        return nameB.length - nameA.length
+      }
     )
 
     // Find all ingredient mentions and their positions
     const mentions: { start: number; end: number; ingredient: typeof recipe.ingredients[0] }[] = []
 
     for (const ingredient of sortedIngredients) {
-      const regex = new RegExp(`\\b${ingredient.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'gi')
+      const translatedName = translation.ingredientNames[ingredient.id] ?? ingredient.id
+      const regex = new RegExp(`\\b${translatedName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'gi')
       let match
       while ((match = regex.exec(text)) !== null) {
-        // Check if this position overlaps with existing mentions
         const overlaps = mentions.some(
           m => (match!.index >= m.start && match!.index < m.end) ||
                (match!.index + match![0].length > m.start && match!.index + match![0].length <= m.end)
@@ -114,7 +123,7 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
       <div className="instruction-tips">
         <h4 className="instruction-tips__title">
           <span className="instruction-tips__icon">💡</span>
-          Pro Tips
+          {t('cooking.tips')}
         </h4>
         <ul className="instruction-tips__list">
           {tips.map((tip, index) => (
@@ -132,7 +141,7 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
           {!imageError ? (
             <img
               src={`${import.meta.env.BASE_URL}${recipe.imageUrl.replace(/^\//, '')}`}
-              alt={recipe.name}
+              alt={translation.name}
               className="recipe-instruction-card__image"
               loading="lazy"
               onError={() => setImageError(true)}
@@ -144,14 +153,14 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
           )}
         </div>
         <div className="recipe-instruction-card__info">
-          <h3 className="recipe-instruction-card__title">{recipe.name}</h3>
-          <p className="recipe-instruction-card__description">{recipe.description}</p>
+          <h3 className="recipe-instruction-card__title">{translation.name}</h3>
+          <p className="recipe-instruction-card__description">{translation.description}</p>
         </div>
         <div className="recipe-instruction-card__actions" onClick={e => e.stopPropagation()}>
           <button
             className="recipe-instruction-card__expand"
             onClick={() => setIsExpanded(!isExpanded)}
-            aria-label={isExpanded ? 'Collapse' : 'Expand'}
+            aria-label={isExpanded ? t('cooking.collapse') : t('cooking.expand')}
           >
             <span className={`recipe-instruction-card__chevron ${isExpanded ? 'recipe-instruction-card__chevron--expanded' : ''}`}>
               ›
@@ -160,7 +169,7 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
           <button
             className="recipe-instruction-card__remove"
             onClick={() => setShowRemoveConfirm(true)}
-            title="Remove recipe"
+            title={t('cooking.removeRecipe')}
           >
             ✕
           </button>
@@ -170,9 +179,9 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
       <ConfirmDialog
         open={showRemoveConfirm}
         onOpenChange={setShowRemoveConfirm}
-        title="Remove Recipe"
-        description={`Are you sure you want to remove "${recipe.name}" from your cooking list?`}
-        confirmLabel="Yes, Remove"
+        title={t('cooking.removeRecipe')}
+        description={t('cooking.removeRecipeConfirm', { name: translation.name })}
+        confirmLabel={t('cooking.removeConfirmLabel')}
         onConfirm={() => deselectRecipe(recipe.id)}
       />
 
@@ -181,7 +190,7 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
           <div className="recipe-instruction-card__servings">
             <NumberInput
               id={`servings-${recipe.id}`}
-              label="Servings"
+              label={t('cooking.servings')}
               value={servings}
               onChange={v => updateServings(recipe.id, v)}
               min={1}
@@ -190,14 +199,14 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
           </div>
 
           <div className="recipe-instruction-card__ingredients">
-            <h4>Ingredients</h4>
+            <h4>{t('cooking.ingredients')}</h4>
             <ul className="ingredients-list">
               {mergedIngredients.map(ingredient => (
                 <li key={ingredient.id} className="ingredients-list__item">
                   <span className="ingredients-list__quantity">
                     {scaleQuantity(ingredient.mergedQuantity)} {ingredient.unit}
                   </span>
-                  <span className="ingredients-list__name">{ingredient.name}</span>
+                  <span className="ingredients-list__name">{translation.ingredientNames[ingredient.id] ?? ingredient.id}</span>
                 </li>
               ))}
             </ul>
@@ -205,13 +214,13 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
 
           <div className="recipe-instruction-card__instructions">
             <ol className="instruction-phase__steps">
-              {recipe.instructions.steps.map((step, index) => (
+              {translation.instructions.steps.map((step, index) => (
                 <li key={index} className="instruction-step">
                   {highlightIngredients(step)}
                 </li>
               ))}
             </ol>
-            {renderTips(recipe.instructions.tips || [])}
+            {renderTips(translation.instructions.tips || [])}
           </div>
         </div>
       )}

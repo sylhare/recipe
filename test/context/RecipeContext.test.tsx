@@ -84,7 +84,7 @@ describe('recipeReducer', () => {
         servings: 8,
       })
 
-      expect(result.selections[0].servings).toBe(8)
+      expect(result.selections[0].servings).toEqual(8)
     })
 
     it('does not modify other selections', () => {
@@ -102,7 +102,7 @@ describe('recipeReducer', () => {
         servings: 8,
       })
 
-      expect(result.selections[1].servings).toBe(2)
+      expect(result.selections[1].servings).toEqual(2)
     })
   })
 

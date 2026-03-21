@@ -1,4 +1,5 @@
 import type { InputHTMLAttributes } from 'react'
+import { useTranslation } from 'react-i18next'
 import './NumberInput.css'
 
 interface NumberInputProps extends Omit<InputHTMLAttributes<HTMLInputElement>, 'type' | 'onChange'> {
@@ -18,6 +19,8 @@ export function NumberInput({
   id,
   ...props
 }: NumberInputProps) {
+  const { t } = useTranslation()
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newValue = parseInt(e.target.value, 10)
     if (!isNaN(newValue) && newValue >= min && newValue <= max) {
@@ -50,7 +53,7 @@ export function NumberInput({
           className="number-input-button"
           onClick={handleDecrement}
           disabled={value <= min}
-          aria-label="Decrease"
+          aria-label={t('common.decrease')}
         >
           −
         </button>
@@ -69,7 +72,7 @@ export function NumberInput({
           className="number-input-button"
           onClick={handleIncrement}
           disabled={value >= max}
-          aria-label="Increase"
+          aria-label={t('common.increase')}
         >
           +
         </button>

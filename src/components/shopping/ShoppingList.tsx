@@ -1,27 +1,21 @@
 import * as Accordion from '@radix-ui/react-accordion'
+import { useTranslation } from 'react-i18next'
 import { useShoppingListContext } from '../../context/ShoppingListContext'
 import { ShoppingListItem } from './ShoppingListItem'
 import type { IngredientCategory } from '../../types'
 import './ShoppingList.css'
 
-const CATEGORY_LABELS: Record<IngredientCategory, string> = {
-  produce: 'Produce',
-  meat: 'Meat',
-  dairy: 'Dairy',
-  pantry: 'Pantry',
-  spices: 'Spices',
-}
-
 const CATEGORY_ORDER: IngredientCategory[] = ['produce', 'meat', 'dairy', 'pantry', 'spices']
 
 export function ShoppingList() {
   const { groupedItems, checkedItems, toggleItem, totalItems, checkedCount } = useShoppingListContext()
+  const { t } = useTranslation()
 
   if (totalItems === 0) {
     return (
       <div className="shopping-list-empty">
-        <p>No items in your shopping list.</p>
-        <p>Select some recipes to get started.</p>
+        <p>{t('shopping.empty.line1')}</p>
+        <p>{t('shopping.empty.line2')}</p>
       </div>
     )
   }
@@ -32,7 +26,7 @@ export function ShoppingList() {
     <div className="shopping-list">
       <div className="shopping-list__header">
         <span className="shopping-list__count">
-          {checkedCount} of {totalItems} items checked
+          {t('shopping.counter', { checked: checkedCount, total: totalItems })}
         </span>
       </div>
       <Accordion.Root type="multiple" defaultValue={categories} className="shopping-list__accordion">
@@ -44,7 +38,7 @@ export function ShoppingList() {
             <Accordion.Item key={category} value={category} className="shopping-list__category">
               <Accordion.Header className="shopping-list__category-header">
                 <Accordion.Trigger className="shopping-list__category-trigger">
-                  <span>{CATEGORY_LABELS[category]}</span>
+                  <span>{t(`shopping.categories.${category}`)}</span>
                   <span className="shopping-list__category-count">({items.length})</span>
                   <span className="shopping-list__chevron" aria-hidden>
                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none">

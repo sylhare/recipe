@@ -8,8 +8,8 @@ describe('storage utilities', () => {
 
   describe('STORAGE_KEYS', () => {
     it('has correct key values', () => {
-      expect(STORAGE_KEYS.RECIPE_SELECTIONS).toBe('recipe-selections')
-      expect(STORAGE_KEYS.CHECKED_ITEMS).toBe('checked-items')
+      expect(STORAGE_KEYS.RECIPE_SELECTIONS).toEqual('recipe-selections')
+      expect(STORAGE_KEYS.CHECKED_ITEMS).toEqual('checked-items')
     })
   })
 
@@ -28,14 +28,14 @@ describe('storage utilities', () => {
     it('returns default value when JSON parse fails', () => {
       localStorage.setItem('bad-json', 'not valid json')
       const result = getFromStorage('bad-json', 'default')
-      expect(result).toBe('default')
+      expect(result).toEqual('default')
     })
   })
 
   describe('setToStorage', () => {
     it('saves value to localStorage', () => {
       setToStorage('test-key', { value: 123 })
-      expect(localStorage.getItem('test-key')).toBe('{"value":123}')
+      expect(localStorage.getItem('test-key')).toEqual('{"value":123}')
     })
 
     it('handles storage errors gracefully', () => {

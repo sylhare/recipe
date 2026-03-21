@@ -1,6 +1,7 @@
 export const STORAGE_KEYS = {
   RECIPE_SELECTIONS: 'recipe-selections',
   CHECKED_ITEMS: 'checked-items',
+  LANGUAGE: 'language',
 } as const
 
 export function getFromStorage<T>(key: string, defaultValue: T): T {

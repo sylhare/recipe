@@ -9,13 +9,13 @@ describe('useLocalStorage', () => {
 
   it('returns initial value when localStorage is empty', () => {
     const { result } = renderHook(() => useLocalStorage('test-key', 'initial'))
-    expect(result.current[0]).toBe('initial')
+    expect(result.current[0]).toEqual('initial')
   })
 
   it('returns stored value when it exists in localStorage', () => {
     localStorage.setItem('test-key', JSON.stringify('stored'))
     const { result } = renderHook(() => useLocalStorage('test-key', 'initial'))
-    expect(result.current[0]).toBe('stored')
+    expect(result.current[0]).toEqual('stored')
   })
 
   it('updates value and saves to localStorage', () => {
@@ -25,8 +25,8 @@ describe('useLocalStorage', () => {
       result.current[1]('updated')
     })
 
-    expect(result.current[0]).toBe('updated')
-    expect(localStorage.getItem('test-key')).toBe('"updated"')
+    expect(result.current[0]).toEqual('updated')
+    expect(localStorage.getItem('test-key')).toEqual('"updated"')
   })
 
   it('supports function updates', () => {
@@ -36,7 +36,7 @@ describe('useLocalStorage', () => {
       result.current[1](prev => prev + 1)
     })
 
-    expect(result.current[0]).toBe(1)
+    expect(result.current[0]).toEqual(1)
   })
 
   it('works with object values', () => {

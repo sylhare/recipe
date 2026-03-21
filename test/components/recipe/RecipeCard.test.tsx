@@ -1,18 +1,27 @@
-import { describe, it, expect, vi } from 'vitest'
+import { describe, it, expect, vi, beforeEach } from 'vitest'
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
+import i18next from 'i18next'
 import { RecipeCard } from '../../../src/components/recipe/RecipeCard'
 import type { Recipe } from '../../../src/types'
 
 const mockRecipe: Recipe = {
   id: 'test-recipe',
-  name: 'Test Recipe',
-  description: 'A delicious test recipe',
   imageUrl: '/test-image.png',
   defaultServings: 4,
   ingredients: [],
-  instructions: { preparation: [], cooking: [], serving: [] },
 }
+
+beforeEach(() => {
+  i18next.addResourceBundle('en', 'recipes', {
+    'test-recipe': {
+      name: 'Test Recipe',
+      description: 'A delicious test recipe',
+      ingredientNames: {},
+      instructions: { steps: [] },
+    },
+  }, true, true)
+})
 
 describe('RecipeCard', () => {
   const defaultProps = {
@@ -69,11 +78,11 @@ describe('RecipeCard', () => {
   it('shows servings input only when selected', () => {
     const { rerender } = render(<RecipeCard {...defaultProps} />)
 
-    expect(screen.queryByLabelText('Servings:')).not.toBeInTheDocument()
+    expect(screen.queryByLabelText('Servings')).not.toBeInTheDocument()
 
     rerender(<RecipeCard {...defaultProps} isSelected={true} servings={4} />)
 
-    expect(screen.getByLabelText('Servings:')).toBeInTheDocument()
+    expect(screen.getByLabelText('Servings')).toBeInTheDocument()
   })
 
   it('calls onServingsChange when servings is updated', async () => {

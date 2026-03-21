@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import type { DishType, ProteinType } from '../../utils/recipeFilters'
 import { DISH_TYPE_LABELS, PROTEIN_TYPE_LABELS } from '../../utils/recipeFilters'
 import { RecipeSearch } from './RecipeSearch'
@@ -24,6 +25,7 @@ export function RecipeFilters({
   resultCount,
   totalCount,
 }: RecipeFiltersProps) {
+  const { t } = useTranslation()
   const dishTypes = Object.keys(DISH_TYPE_LABELS) as DishType[]
   const proteinTypes = Object.keys(PROTEIN_TYPE_LABELS) as ProteinType[]
 
@@ -42,7 +44,7 @@ export function RecipeFilters({
       <div className="recipe-filters__controls">
         <div className="recipe-filters__group">
           <label htmlFor="dish-type-filter" className="recipe-filters__label">
-            Dish Type
+            {t('home.filters.dishLabel')}
           </label>
           <select
             id="dish-type-filter"
@@ -50,10 +52,10 @@ export function RecipeFilters({
             value={dishTypeFilter}
             onChange={e => onDishTypeChange(e.target.value as DishType | 'all')}
           >
-            <option value="all">All Dishes</option>
+            <option value="all">{t('home.filters.allDishes')}</option>
             {dishTypes.map(type => (
               <option key={type} value={type}>
-                {DISH_TYPE_LABELS[type]}
+                {t(`home.filters.dish.${type}`)}
               </option>
             ))}
           </select>
@@ -61,7 +63,7 @@ export function RecipeFilters({
 
         <div className="recipe-filters__group">
           <label htmlFor="protein-type-filter" className="recipe-filters__label">
-            Protein
+            {t('home.filters.proteinLabel')}
           </label>
           <select
             id="protein-type-filter"
@@ -69,10 +71,10 @@ export function RecipeFilters({
             value={proteinTypeFilter}
             onChange={e => onProteinTypeChange(e.target.value as ProteinType | 'all')}
           >
-            <option value="all">All Proteins</option>
+            <option value="all">{t('home.filters.allProteins')}</option>
             {proteinTypes.map(type => (
               <option key={type} value={type}>
-                {PROTEIN_TYPE_LABELS[type]}
+                {t(`home.filters.protein.${type}`)}
               </option>
             ))}
           </select>
@@ -84,7 +86,7 @@ export function RecipeFilters({
             onClick={handleClearFilters}
             type="button"
           >
-            Clear Filters
+            {t('home.filters.clearFilters')}
           </button>
         )}
       </div>
@@ -92,8 +94,8 @@ export function RecipeFilters({
       <div className="recipe-filters__results">
         <span>
           {hasActiveFilters
-            ? `Showing ${resultCount} of ${totalCount} recipes`
-            : `${totalCount} recipes`}
+            ? t('home.filters.showing', { count: resultCount, total: totalCount })
+            : t('home.filters.total', { count: totalCount })}
         </span>
       </div>
     </div>
