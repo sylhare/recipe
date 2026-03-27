@@ -1,8 +1,9 @@
-import { useEffect } from 'react'
+import { useEffect, useId, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import type { Recipe } from '../../types'
 import { useRecipeLocale } from '../../hooks/useRecipeLocale'
 import { formatQuantity } from '../../utils'
+import { TipsBlock } from '../cooking/TipsBlock'
 import '../cooking/RecipeInstructionCard.css'
 import './RecipeDetailModal.css'
 
@@ -15,14 +16,17 @@ export function RecipeDetailModal({ recipe, onClose }: RecipeDetailModalProps) {
   const { t } = useTranslation()
   const { getTranslation } = useRecipeLocale()
   const translation = getTranslation(recipe)
+  const titleId = useId()
+  const onCloseRef = useRef(onClose)
+  onCloseRef.current = onClose
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onClose()
+      if (e.key === 'Escape') onCloseRef.current()
     }
     document.addEventListener('keydown', handleKeyDown)
     return () => document.removeEventListener('keydown', handleKeyDown)
-  }, [onClose])
+  }, [])
 
   const handleOverlayClick = (e: React.MouseEvent) => {
     if (e.target === e.currentTarget) onClose()
@@ -30,9 +34,9 @@ export function RecipeDetailModal({ recipe, onClose }: RecipeDetailModalProps) {
 
   return (
     <div className="recipe-detail-modal-overlay" onClick={handleOverlayClick}>
-      <div className="recipe-detail-modal" role="dialog" aria-modal="true" aria-labelledby="recipe-detail-title">
+      <div className="recipe-detail-modal" role="dialog" aria-modal="true" aria-labelledby={titleId}>
         <div className="recipe-detail-modal__header">
-          <h2 id="recipe-detail-title" className="recipe-detail-modal__title">{translation.name}</h2>
+          <h2 id={titleId} className="recipe-detail-modal__title">{translation.name}</h2>
           <button className="recipe-detail-modal__close" onClick={onClose} aria-label={t('common.close')}>✕</button>
         </div>
         <div className="recipe-detail-modal__body">
@@ -61,19 +65,7 @@ export function RecipeDetailModal({ recipe, onClose }: RecipeDetailModalProps) {
             </ol>
           </section>
 
-          {(translation.instructions.tips?.length ?? 0) > 0 && (
-            <div className="instruction-tips">
-              <h4 className="instruction-tips__title">
-                <span className="instruction-tips__icon">💡</span>
-                {t('cooking.tips')}
-              </h4>
-              <ul className="instruction-tips__list">
-                {translation.instructions.tips!.map((tip, index) => (
-                  <li key={index}>{tip}</li>
-                ))}
-              </ul>
-            </div>
-          )}
+          <TipsBlock tips={translation.instructions.tips} />
         </div>
       </div>
     </div>
