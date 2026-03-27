@@ -42,7 +42,7 @@ export function RecipeCard({
   return (
     <>
       <Card selected={isSelected} className="recipe-card">
-        <div className="recipe-card__image-container">
+        <div className="recipe-card__image-container" onClick={() => setShowDetail(true)} role="button" aria-label={translation.name}>
           {imageError ? (
             <div className="recipe-card__image-placeholder">
               <span>{translation.name[0]}</span>

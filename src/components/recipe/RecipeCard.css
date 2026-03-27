@@ -11,6 +11,7 @@
   border-radius: 8px;
   margin-bottom: 1rem;
   background-color: #1a1a1a;
+  cursor: pointer;
 }
 
 .recipe-card__image {

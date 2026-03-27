@@ -47,6 +47,14 @@ test.describe('Recipe Detail Modal', () => {
     await expect(page.getByRole('dialog')).not.toBeVisible()
   })
 
+  test('clicking recipe image opens detail modal', async ({ page }) => {
+    const spaghettiCard = page.locator('.recipe-card').filter({ hasText: 'Spaghetti Bolognese' })
+    await spaghettiCard.locator('.recipe-card__image-container').click()
+
+    await expect(page.getByRole('dialog')).toBeVisible()
+    await expect(page.getByRole('dialog').getByRole('heading', { name: 'Spaghetti Bolognese' })).toBeVisible()
+  })
+
   test('modal does not affect recipe selection state', async ({ page }) => {
     const spaghettiCard = page.locator('.recipe-card').filter({ hasText: 'Spaghetti Bolognese' })
     await spaghettiCard.getByRole('button', { name: 'Spaghetti Bolognese' }).click()
