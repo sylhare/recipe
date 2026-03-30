@@ -59,7 +59,7 @@ export function RecipeCard({
         </div>
         <div className="recipe-card__content">
           <h3 className="recipe-card__title">
-            <button className="recipe-card__title-button" onClick={() => setShowDetail(true)}>
+            <button className="recipe-card__title-button" data-testid="recipe-title-button" onClick={() => setShowDetail(true)}>
               {translation.name}
             </button>
           </h3>
