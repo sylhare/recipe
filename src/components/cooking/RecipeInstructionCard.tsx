@@ -5,6 +5,7 @@ import { useRecipeContext } from '../../context/RecipeContext'
 import { useRecipeLocale } from '../../hooks/useRecipeLocale'
 import { formatQuantity } from '../../utils'
 import { ConfirmDialog, NumberInput } from '../common'
+import { TipsBlock } from './TipsBlock'
 import './RecipeInstructionCard.css'
 
 interface RecipeInstructionCardProps {
@@ -116,24 +117,6 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
     return <>{parts.length > 0 ? parts : text}</>
   }
 
-  const renderTips = (tips: string[]) => {
-    if (!tips || tips.length === 0) return null
-
-    return (
-      <div className="instruction-tips">
-        <h4 className="instruction-tips__title">
-          <span className="instruction-tips__icon">💡</span>
-          {t('cooking.tips')}
-        </h4>
-        <ul className="instruction-tips__list">
-          {tips.map((tip, index) => (
-            <li key={index}>{tip}</li>
-          ))}
-        </ul>
-      </div>
-    )
-  }
-
   return (
     <div className={`recipe-instruction-card ${isExpanded ? 'recipe-instruction-card--expanded' : ''}`}>
       <div className="recipe-instruction-card__header" onClick={() => setIsExpanded(!isExpanded)}>
@@ -220,7 +203,7 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
                 </li>
               ))}
             </ol>
-            {renderTips(translation.instructions.tips || [])}
+            <TipsBlock tips={translation.instructions.tips} />
           </div>
         </div>
       )}

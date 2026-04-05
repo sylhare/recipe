@@ -5,6 +5,7 @@ import { useRecipeLocale } from '../../hooks/useRecipeLocale'
 import { Card } from '../common/Card'
 import { Checkbox } from '../common/Checkbox'
 import { NumberInput } from '../common/NumberInput'
+import { RecipeDetailModal } from './RecipeDetailModal'
 import './RecipeCard.css'
 
 interface RecipeCardProps {
@@ -25,6 +26,7 @@ export function RecipeCard({
   onServingsChange,
 }: RecipeCardProps) {
   const [imageError, setImageError] = useState(false)
+  const [showDetail, setShowDetail] = useState(false)
   const { t } = useTranslation()
   const { getTranslation } = useRecipeLocale()
   const translation = getTranslation(recipe)
@@ -38,44 +40,51 @@ export function RecipeCard({
   }
 
   return (
-    <Card selected={isSelected} className="recipe-card">
-      <div className="recipe-card__image-container">
-        {imageError ? (
-          <div className="recipe-card__image-placeholder">
-            <span>{translation.name[0]}</span>
-          </div>
-        ) : (
-          <img
-            src={`${import.meta.env.BASE_URL}${recipe.imageUrl.replace(/^\//, '')}`}
-            alt={translation.name}
-            className="recipe-card__image"
-            loading="lazy"
-            onError={() => setImageError(true)}
-          />
-        )}
-      </div>
-      <div className="recipe-card__content">
-        <h3 className="recipe-card__title">{translation.name}</h3>
-        <p className="recipe-card__description">{translation.description}</p>
-        <div className="recipe-card__footer">
-          <Checkbox
-            id={`recipe-${recipe.id}`}
-            checked={isSelected}
-            onChange={handleCheckChange}
-            label={t('home.addToShoppingList')}
-          />
-          {isSelected && servings !== undefined && (
-            <NumberInput
-              id={`servings-${recipe.id}`}
-              value={servings}
-              onChange={onServingsChange}
-              label={t('cooking.servings')}
-              min={1}
-              max={20}
+    <>
+      <Card selected={isSelected} className="recipe-card">
+        <div className="recipe-card__image-container" onClick={() => setShowDetail(true)} role="button" aria-label={translation.name}>
+          {imageError ? (
+            <div className="recipe-card__image-placeholder">
+              <span>{translation.name[0]}</span>
+            </div>
+          ) : (
+            <img
+              src={`${import.meta.env.BASE_URL}${recipe.imageUrl.replace(/^\//, '')}`}
+              alt={translation.name}
+              className="recipe-card__image"
+              loading="lazy"
+              onError={() => setImageError(true)}
             />
           )}
         </div>
-      </div>
-    </Card>
+        <div className="recipe-card__content">
+          <h3 className="recipe-card__title">
+            <button className="recipe-card__title-button" data-testid="recipe-title-button" onClick={() => setShowDetail(true)}>
+              {translation.name}
+            </button>
+          </h3>
+          <p className="recipe-card__description">{translation.description}</p>
+          <div className="recipe-card__footer">
+            <Checkbox
+              id={`recipe-${recipe.id}`}
+              checked={isSelected}
+              onChange={handleCheckChange}
+              label={t('home.addToShoppingList')}
+            />
+            {isSelected && servings !== undefined && (
+              <NumberInput
+                id={`servings-${recipe.id}`}
+                value={servings}
+                onChange={onServingsChange}
+                label={t('cooking.servings')}
+                min={1}
+                max={20}
+              />
+            )}
+          </div>
+        </div>
+      </Card>
+      {showDetail && <RecipeDetailModal recipe={recipe} onClose={() => setShowDetail(false)} />}
+    </>
   )
 }
