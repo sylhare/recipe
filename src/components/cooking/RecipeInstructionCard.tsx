@@ -1,9 +1,9 @@
-import { useState, useMemo, type ReactNode } from 'react'
+import { useState, useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import type { Recipe, Ingredient } from '../../types'
 import { useRecipeContext } from '../../context/RecipeContext'
 import { useRecipeLocale } from '../../hooks/useRecipeLocale'
-import { formatQuantity } from '../../utils'
+import { formatQuantity, highlightIngredients } from '../../utils'
 import { ConfirmDialog, NumberInput } from '../common'
 import { TipsBlock } from './TipsBlock'
 import './RecipeInstructionCard.css'
@@ -55,67 +55,12 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
     return formatQuantity(scaled)
   }
 
-  const highlightIngredients = (text: string): ReactNode => {
-    const parts: ReactNode[] = []
-    let lastIndex = 0
-
-    // Sort ingredients by translated name length (longest first) to avoid partial matches
-    const sortedIngredients = [...recipe.ingredients].sort(
-      (a, b) => {
-        const nameA = translation.ingredientNames[a.id] ?? a.id
-        const nameB = translation.ingredientNames[b.id] ?? b.id
-        return nameB.length - nameA.length
-      }
-    )
-
-    // Find all ingredient mentions and their positions
-    const mentions: { start: number; end: number; ingredient: typeof recipe.ingredients[0] }[] = []
-
-    for (const ingredient of sortedIngredients) {
-      const translatedName = translation.ingredientNames[ingredient.id] ?? ingredient.id
-      const regex = new RegExp(`\\b${translatedName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'gi')
-      let match
-      while ((match = regex.exec(text)) !== null) {
-        const overlaps = mentions.some(
-          m => (match!.index >= m.start && match!.index < m.end) ||
-               (match!.index + match![0].length > m.start && match!.index + match![0].length <= m.end)
-        )
-        if (!overlaps) {
-          mentions.push({
-            start: match.index,
-            end: match.index + match[0].length,
-            ingredient
-          })
-        }
-      }
-    }
-
-    // Sort mentions by position
-    mentions.sort((a, b) => a.start - b.start)
-
-    // Build result with highlighted ingredients
-    for (const mention of mentions) {
-      if (mention.start > lastIndex) {
-        parts.push(text.slice(lastIndex, mention.start))
-      }
-      const scaledQty = scaleQuantity(mention.ingredient.quantity)
-      parts.push(
-        <strong key={`${mention.ingredient.id}-${mention.start}`} className="ingredient-highlight">
-          {text.slice(mention.start, mention.end)}
-          <span className="ingredient-quantity">
-            ({scaledQty} {mention.ingredient.unit})
-          </span>
-        </strong>
-      )
-      lastIndex = mention.end
-    }
-
-    if (lastIndex < text.length) {
-      parts.push(text.slice(lastIndex))
-    }
-
-    return <>{parts.length > 0 ? parts : text}</>
-  }
+  const highlightStep = (text: string) =>
+    highlightIngredients(text, {
+      ingredients: recipe.ingredients,
+      translation,
+      formatQuantity: (ingredient) => `${scaleQuantity(ingredient.quantity)} ${ingredient.unit}`,
+    })
 
   return (
     <div className={`recipe-instruction-card ${isExpanded ? 'recipe-instruction-card--expanded' : ''}`}>
@@ -199,7 +144,7 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
             <ol className="instruction-phase__steps">
               {translation.instructions.steps.map((step, index) => (
                 <li key={index} className="instruction-step">
-                  {highlightIngredients(step)}
+                  {highlightStep(step)}
                 </li>
               ))}
             </ol>

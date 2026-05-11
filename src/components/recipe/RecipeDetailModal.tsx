@@ -2,7 +2,7 @@ import { useEffect, useId, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import type { Recipe } from '../../types'
 import { useRecipeLocale } from '../../hooks/useRecipeLocale'
-import { formatQuantity } from '../../utils'
+import { formatQuantity, highlightIngredients } from '../../utils'
 import { TipsBlock } from '../cooking/TipsBlock'
 import '../cooking/RecipeInstructionCard.css'
 import './RecipeDetailModal.css'
@@ -60,7 +60,9 @@ export function RecipeDetailModal({ recipe, onClose }: RecipeDetailModalProps) {
             <h3 className="recipe-detail-modal__section-title">{t('cooking.instructions')}</h3>
             <ol className="instruction-phase__steps">
               {translation.instructions.steps.map((step, index) => (
-                <li key={index} className="instruction-step">{step}</li>
+                <li key={index} className="instruction-step">
+                  {highlightIngredients(step, { ingredients: recipe.ingredients, translation })}
+                </li>
               ))}
             </ol>
           </section>
