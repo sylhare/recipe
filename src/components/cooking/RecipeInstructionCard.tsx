@@ -3,8 +3,8 @@ import { useTranslation } from 'react-i18next'
 import type { Recipe, Ingredient } from '../../types'
 import { useRecipeContext } from '../../context/RecipeContext'
 import { useRecipeLocale } from '../../hooks/useRecipeLocale'
-import { formatQuantity, highlightIngredients } from '../../utils'
-import { ConfirmDialog, NumberInput } from '../common'
+import { formatQuantity } from '../../utils'
+import { ConfirmDialog, NumberInput, IngredientsList, InstructionSteps } from '../common'
 import { TipsBlock } from './TipsBlock'
 import './RecipeInstructionCard.css'
 
@@ -55,12 +55,15 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
     return formatQuantity(scaled)
   }
 
-  const highlightStep = (text: string) =>
-    highlightIngredients(text, {
-      ingredients: recipe.ingredients,
-      translation,
-      formatQuantity: (ingredient) => `${scaleQuantity(ingredient.quantity)} ${ingredient.unit}`,
-    })
+  const ingredientItems = mergedIngredients.map(ingredient => ({
+    id: ingredient.id,
+    quantity: scaleQuantity(ingredient.mergedQuantity),
+    unit: ingredient.unit,
+    name: translation.ingredientNames[ingredient.id] ?? ingredient.id,
+  }))
+
+  const formatIngredientQuantity = (ingredient: Ingredient) =>
+    `${scaleQuantity(ingredient.quantity)} ${ingredient.unit}`
 
   return (
     <div className={`recipe-instruction-card ${isExpanded ? 'recipe-instruction-card--expanded' : ''}`}>
@@ -128,26 +131,16 @@ export function RecipeInstructionCard({ recipe, servings }: RecipeInstructionCar
 
           <div className="recipe-instruction-card__ingredients">
             <h4>{t('cooking.ingredients')}</h4>
-            <ul className="ingredients-list">
-              {mergedIngredients.map(ingredient => (
-                <li key={ingredient.id} className="ingredients-list__item">
-                  <span className="ingredients-list__quantity">
-                    {scaleQuantity(ingredient.mergedQuantity)} {ingredient.unit}
-                  </span>
-                  <span className="ingredients-list__name">{translation.ingredientNames[ingredient.id] ?? ingredient.id}</span>
-                </li>
-              ))}
-            </ul>
+            <IngredientsList items={ingredientItems} />
           </div>
 
           <div className="recipe-instruction-card__instructions">
-            <ol className="instruction-phase__steps">
-              {translation.instructions.steps.map((step, index) => (
-                <li key={index} className="instruction-step">
-                  {highlightStep(step)}
-                </li>
-              ))}
-            </ol>
+            <InstructionSteps
+              steps={translation.instructions.steps}
+              ingredients={recipe.ingredients}
+              translation={translation}
+              formatQuantity={formatIngredientQuantity}
+            />
             <TipsBlock tips={translation.instructions.tips} />
           </div>
         </div>
