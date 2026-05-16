@@ -11,3 +11,4 @@ export {
   type ProteinType,
 } from './recipeFilters'
 export { getIngredientImageUrl } from './ingredientImage'
+export { highlightIngredients } from './highlightIngredients'
