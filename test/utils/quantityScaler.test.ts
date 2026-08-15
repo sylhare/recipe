@@ -101,6 +101,24 @@ describe('quantityScaler', () => {
       })
     })
 
+    describe('standalone tolerance ranges', () => {
+      it('converts unrounded 1/3 (0.3333) to ⅓', () => {
+        expect(formatQuantity(1 / 3)).toEqual('⅓')
+      })
+
+      it('converts unrounded 2/3 (0.6667) to ⅔', () => {
+        expect(formatQuantity(2 / 3)).toEqual('⅔')
+      })
+
+      it('converts 0.24 to ¼ (within tolerance)', () => {
+        expect(formatQuantity(0.24)).toEqual('¼')
+      })
+
+      it('converts 0.51 to ½ (within tolerance)', () => {
+        expect(formatQuantity(0.51)).toEqual('½')
+      })
+    })
+
     describe('mixed numbers', () => {
       it('converts 1.25 to 1¼', () => {
         expect(formatQuantity(1.25)).toEqual('1¼')
